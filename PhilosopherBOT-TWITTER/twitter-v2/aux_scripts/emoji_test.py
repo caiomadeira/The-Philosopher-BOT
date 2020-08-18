@@ -1,0 +1,3 @@
+# EMOJI_TESTE
+
+print("\U0001F605")

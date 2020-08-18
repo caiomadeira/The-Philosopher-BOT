@@ -1,0 +1,9 @@
+tweepy~=3.8.0
+pillow~=7.2.0
+schedule~=0.6.0
+regex
+pip~=19.2.3
+api~=0.0.7
+setuptools~=41.2.0
+django-emoji~=2.2.2
+art~=4.7
