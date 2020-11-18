@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <title>Philosopher BOT</title>
+    <link rel="shortcut icon" href="./img/philobot.png">
+</head>
+<style>
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Medium.ttf');
+}
+
+*{
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #333;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+                              /* width: 100vw <= view-width: 100% da largura daquilo que você vê;
+                              /* height: 100vh <= view-height: 100% da altura daquilo que você vê; */
+.container{
+  display: grid;
+  grid-template-columns: 40% 30% 30%; /* 2 colunas */
+  grid-template-rows: 8vh 92vh; /* 3 linhas, 20vh => header, 70vh => main e aside, 10 vh => footer. */
+  grid-template-areas:"h h h" /* header */
+                      "m a c" /* main e aside */
+}
+
+header{
+  grid-area: h;
+  background-color: #2e8b57;
+  color: #3e3e3e;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+main{
+    background-color: #1c7948;
+  grid-area: m; /* main */
+}
+
+aside{
+    background-color: #1c7948;
+  grid-area: a; /* aside */
+}
+
+article{
+    background-color: #1c7948;
+    grid-area: c;
+}
+
+footer{
+    background-color: #2e8b57;
+  grid-area: f; /* footer */
+}
+
+p {
+    text-align: initial;
+    height: 678px;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    color: white;
+    grid-column: 1;
+    grid-row: 2;
+    align-self: end;
+    overflow: auto;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+h2{
+    margin-bottom: -20px;
+    margin-left: 20px;
+    text-align: initial;
+    font-size: 1.5rem;
+}
+
+span{
+    font-size: 1rem;
+    text-align: initial;
+    font-size: 0.8rem;
+}
+
+textarea{
+    height: 100px;
+    width: 650px;
+    resize: none;
+}
+
+.submit{
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.submit:hover{
+    color: #1c7948;
+    cursor: pointer;
+}
+
+.log-txt{
+    display: none;
+}
+
+.sub{
+    font-size: 1rem;
+}
+
+.sublogt2,
+.sublogt{
+    font-size: 1rem;
+}
+
+.subttd{
+    font-size: 1rem;
+}
+
+.nome{
+    font-size: 25px;
+}
+
+.fa-discord,
+.fa-twitter,
+.fa-github{
+    padding: 15px;
+    font-size: 45px;
+    color: #000;
+}
+
+.fa-discord{
+    color: #7289da;    
+}
+
+.fa-twitter{
+    color: #00acee;
+}
+
+.logo1{
+    height: auto;
+    max-width: 60px;
+}
+
+.logo{
+    height: auto;
+    max-width: 200px;
+    margin-left: -20px;
+}
+
+.sublog{
+    height: 300px;
+    width: 90%;
+}
+
+.sublogdisc{
+    height: 300px;
+    width: 90%;
+}
+
+.subloginfo2,
+.subloginfo{
+    height: 300px;
+    width: 90%;
+}
+
+.disc{
+    height: 294px;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+@media (max-width: 600px){
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 8vh 39vh 53vh;
+    grid-template-areas:"h h"
+                      "m m"
+                      "c c"
+  }
+
+    article{
+      margin-top: -50px;
+    }
+
+  .logo{
+    display: none;
+
+    }
+
+  .logo1{
+      margin-top: 4px;
+      margin-left: 10px;
+  }
+
+    .fa-discord,
+    .fa-twitter,
+    .fa-github{
+        font-size: 45px;
+        color: #000;
+        margin-top: -6px;
+    }
+
+    .fa-twitter{
+        color: #00acee;
+    }
+
+    .fa-discord{
+        color: #7289da;    
+    }
+
+    .subttd{
+        display: none;
+    } 
+
+    .sublog{
+        display: none;
+    }
+
+    .sublogdisc{
+        display: none;
+    }
+
+    .log{
+        height: 60%;
+        margin-left: 10px;
+    }
+
+    .subloginfo2,
+    .subloginfo{
+        height: 50%;
+        margin-left: 10px;
+    }
+  
+}
+
+@media (max-width: 320px){
+    .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 8vh 39vh 53vh;
+    grid-template-areas:"h h"
+                      "m m"
+                      "c c"
+  }
+
+    article{
+      margin-top: -30px;
+    }
+
+  .logo{
+    display: none;
+
+    }
+
+  .logo1{
+      margin-top: 4px;
+      margin-left: 10px;
+  }
+
+    .fa-discord,
+    .fa-twitter,
+    .fa-github{
+        font-size: 45px;
+        color: #000;
+        margin-top: -6px;
+    }
+
+    .fa-twitter{
+        color: #00acee;
+    }
+
+    .fa-discord{
+        color: #7289da;    
+    }
+
+    .subttd{
+        display: none;
+    } 
+
+    .sublog{
+        display: none;
+    }
+
+    .sublogdisc{
+        display: none;
+    }
+
+    .log{
+        height: 50%;
+        margin-left: 10px;
+    }
+
+    .subloginfo{
+        height: 20%;
+    }
+
+    .subloginfo2{
+        display: none;
+    }
+
+    .sublogt2{
+        display: none;
+    }
+}
+
+</style>
+<body>
+
+	<!-- para mais estudos grid layout: https://www.origamid.com/projetos/css-grid-layout-guia-completo/-->
+	<!-- para mais estudos flex box: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceitos_Basicos_do_Flexbox-->
+    <div class="container">
+	  <header>
+        <div>
+            <a href="index.html"><img  class="logo1" src="./img/philobot.png" alt=""></a>
+            <a href="index.html"><img  class="logo" src="./img/philologo.png" alt=""></a>
+        </div>
+        <div>
+            <a href="https://twitter.com/bot_philosopher"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/CaioMadeira/Philosopher-Bot/"><i class="fab fa-github"></i></a>
+            <a href="https://discord.com/api/oauth2/authorize?client_id=713284813582368850&permissions=0&scope=bot"><i class="fab fa-discord"></i></a>
+        </div>
+      </header>
+	  <main>
+        <h2 class='sublogt'>LOG de Updates!</h2>
+        <p class="log">
+            <span class='chat-output'></span>
+        </p>
+        <br>
+        <form name="usuarioForm" action="formulario" method="post" id='logTxt' class="log-txt">
+            <textarea type="text" name="log" placeholder="log..."></textarea>
+            <br>
+            <input class="submit" type="submit" id="send-message">
+        </form>
+      </main>
+      <aside>
+        <h2 class='subttd'>Twitter</h2>
+          <p class='sublog'>
+            <a class="twitter-timeline" href="https://twitter.com/bot_philosopher?ref_src=twsrc%5Etfw">Tweets by bot_philosopher</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </p>
+          <div>
+            <h2 class='subttd'>PhiloBot no Discord!</h2>
+            <p class='sublogdisc'>
+                <a href="https://discord.com/api/oauth2/authorize?client_id=713284813582368850&permissions=0&scope=bot"><img class='disc' src="./img/discord-logo-800x450.png" alt=""></i></a>
+            </p>
+          </div>
+      </aside>
+      <article>
+        <h2 class='sublogt'>Como usar</h2>
+        <div>
+            <p class='subloginfo'>No Twitter:<br>
+                <span>
+                    • #PhiloBot + texto que você quiser<br>
+                    <br> 
+                    No Discord:
+                    <br>
+                    • #PhiloBot + texto que você quiser
+                </span>
+            </p>
+        </div>
+        <div>
+            <h2 class='sublogt2'>Desenvolvedores</h2>
+            <p class='subloginfo2'><br>
+                <span>
+                    • Criador e Dev.: Caio Madeira (@sudomadeira)<br>
+                    <br>
+                    • Dev Suporte: Rodrigo Carmo (@rodrigoblock4)<br>
+                    <br>
+                    • Dev. do site: Tiago Linhares (@Tiago_Linharess)<br>
+                </span>
+            </p>
+        </div>
+      </article>
+  </div>
+
+
+</body>
+<script>
+    document.usuarioForm.onsubmit = async e => {
+            e.preventDefault()
+
+            const form = e.target
+            const data = new FormData(form)
+            data.append('ajax', true)
+
+            const options = {
+                method: form.method,
+                body: new URLSearchParams(data)
+            }
+
+            const resultado = document.getElementById('resultado')
+
+            try{
+                const resp = await fetch(form.action, options)
+                const json = await resp.json()
+                console.log(resp)
+                resultado.innerHTML = JSON.stringify(json)
+            } catch (e){
+                // console.log(e)
+                // resultado.innerHTML = e
+            }
+        }
+</script>
+</html>

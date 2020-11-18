@@ -1,0 +1,118 @@
+@font-face {
+  font-family: BIT-WONDER;
+  src: url(BIT-WONDER.ttf);
+}
+
+
+body{
+
+	background: #000000;
+
+}
+
+header {
+
+	text-align: center;
+	align-content: center;
+	padding: 30px;
+
+}
+
+nav {
+
+	position: center;
+
+}
+
+nav li {
+
+	display: inline-block;
+	padding: 30px;
+}
+
+nav a {
+
+	text-transform: uppercase;
+	color: lime;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: BIT-WONDER;
+
+
+}
+
+nav a:hover {
+
+	color: green;
+
+
+}
+
+
+#logo {
+
+	width: 60%;
+	display: inline-block;
+
+
+}
+.principal{
+
+	background: #000000;
+
+}
+
+h1 {
+
+	text-align: center;
+	color: lime;
+
+}
+
+p {
+
+	text-align: center;
+	color: lime;
+
+}
+
+ul {
+
+	color: lime;
+}
+
+#frase {
+
+	font-size: 30px;
+
+}
+
+.corpo_texto {
+
+	background: #000000;
+
+
+}
+
+
+
+#update-box {
+
+	padding-left: 710px;
+	margin: 0 auto;
+
+}
+
+footer {
+
+	padding-top: 118px;
+}
+
+.foot{
+
+	font-size: 14px;
+	color: green;
+	text-align: center;
+
+}

@@ -1,0 +1,73 @@
+Historico de log twitter
+
+
+------ UPDATE 1.0 -> maio 2020----------------------
+
+• Key gerada e adicionada ao script
+• Ao todo são 10 personagens
+• Script de posting e hashtag lançado
+• Sobre criado e inicio de posts na conta (3 de jun de 2020)
+• Bot hospedado no Heroku
+
+
+
+------ UPDATE 1.1 ----------------------
+
+• Adicionado tempo para postagens com schedule (O fluxo de post inicial é de 30 em 30 minutos)
+• Adicionado novos personagens
+
+------ UPDATE 1.2 -> 18 de junho de 2020 ----------------------
+
+• Adicionado novos personagens
+• intervalo de posts definido pra 2h
+• resolvido temporariamente o problema do host
+
+
+------ UPDATE 1.3 ----------------------
+
+• Feito o replace da hashtag
+• Remoção de links
+
+------ UPDATE 1.4 ----------------------
+
+• Novos personagens adicionados
+
+
+------ UPDATE 1.5 -> 30 de junho de 2020 ---------------------- 
+
+• Full Text implementado, agora é possivel usar 480 caracteres
+
+• na reply, o username não aparece 
+
+• Novas versões e variações da hashtag adicionadas ao replace
+
+• Novos personagens adicionados (Total de 79)
+
+
+------ UPDATE 2.0 -> 31 de julho de 2020 ----------------------
+
+•̶ ̶Mensagem de erro em caso de string vazia
+•̶ ̶Log interno melhorado. Agora salvando em .txt
+̶•̶  Introduzida adaptação do texto
+•̶  Host local criado
+̶•̶ ̶Webiste criado (v1.0)
+̶•̶ Código refatorado
+• Script de Status do Bot (versão 1.0) <---
+• Novos personagens e variações dos personagens existentes (pelo menos 1 pra cada)
+• Postagem do LOG no site
+• Postagem da lista de filosofos presentes no Bot(Usar o pastbin)
+• Dar um git no repositorio do Bot e criar um README.MD bem explicado
+• Mensagem de erro reformulada
+
+
+------------- FUTUROS UPDATES -----------------------------------------------------------------------------
+• Dar um git no repositorio do Bot e criar um README.MD bem explicado
+• Atualizar design do template
+• Criar lista para adicionar todas as pessoas que usarem a # em uma fila e o bot for executando elas 1 a 1
+• Criar mecanismo que impede o usuário de citar a #Philobot muitas vezes seguidas, fazendo com que ele espere X segundos antes de citar novamente
+• Orientação a objetos (REFATORAÇÃO GRANDE)
+• Interpolação com JavaScript
+• Emojis tratado
+• Leitura de imagens e conversão pra texto
+• NOVA FEATURE: Novo script que permite as pessoas criarem a própria citação com o próprio filosofo. Ex #PhiloMaker + imagem + Texto + [Crie o nome do seu filosofo].
+Decidir sintaxe depois

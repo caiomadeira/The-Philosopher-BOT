@@ -1,0 +1,13 @@
+30-10-20 19:53:18 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-10-30 19:53:18)
+30-10-20 19:53:18 - ------------------------
+30-10-20 19:53:21 - TWEET SELECIONADO:
+30-10-20 19:53:21 - ['Participarei, logo mais, de debate on line sobre o movimento anticorrupção na América Latina, promovido pelo Stigler Center da University of Chicago. ']
+30-10-20 19:53:21 - Analisando Texto...
+30-10-20 19:53:32 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/99GrPoyOFr
+30-10-20 19:53:32 - > DAILY POST ENVIADO! <
+30-10-20 19:53:32 - ===================================================
+30-10-20 19:53:37 - Running job Every 5 seconds do PostDiario() (last run: 2020-10-30 19:53:32, next run: 2020-10-30 19:53:37)
+30-10-20 19:53:37 - ------------------------
+30-10-20 19:53:40 - TWEET SELECIONADO:
+30-10-20 19:53:40 - ['sure grandma ']
+30-10-20 19:53:40 - Analisando Texto...
