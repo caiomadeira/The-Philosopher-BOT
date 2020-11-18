@@ -1,6 +1,0 @@
-tweepy
-pillow
-textwrap
-schedule
-request
-regex
