@@ -1,0 +1,329 @@
+17-11-20 09:08:27 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:08:27)
+17-11-20 09:08:27 - ------------------------
+17-11-20 09:08:29 - TWEET SELECIONADO:
+17-11-20 09:08:29 - ['Guardinhas de bairro são tipo: parado bandido ou eu faço barulhinho com a minha sirene de mentira']
+17-11-20 09:08:29 - Analisando Texto...
+17-11-20 09:08:36 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/kbyNm12vBh
+17-11-20 09:08:36 - > DAILY POST ENVIADO! <
+17-11-20 09:08:36 - ===================================================
+17-11-20 09:08:41 - Running job Every 5 seconds do PostDiario() (last run: 2020-11-17 09:08:36, next run: 2020-11-17 09:08:41)
+17-11-20 09:08:41 - ------------------------
+17-11-20 09:11:35 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:11:35)
+17-11-20 09:11:35 - ------------------------
+17-11-20 09:11:37 - TWEET SELECIONADO:
+17-11-20 09:11:37 - ['Gente é pra brilhar! #CNNnaseleições ']
+17-11-20 09:11:37 - Analisando Texto...
+17-11-20 09:11:44 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:11:44)
+17-11-20 09:11:44 - ------------------------
+17-11-20 09:11:47 - TWEET SELECIONADO:
+17-11-20 09:11:47 - ['Boa  noite  Ednaldo Pereira ']
+17-11-20 09:11:47 - Analisando Texto...
+17-11-20 09:11:53 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:11:53)
+17-11-20 09:11:54 - ------------------------
+17-11-20 09:11:56 - TWEET SELECIONADO:
+17-11-20 09:11:56 - ['tento dormir o máximo possível pq estar acordado sempre suja muita louça e sou eu mesma q lavo depois']
+17-11-20 09:11:56 - Analisando Texto...
+17-11-20 09:12:03 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:12:03)
+17-11-20 09:12:03 - ------------------------
+17-11-20 09:12:06 - TWEET SELECIONADO:
+17-11-20 09:12:06 - ['eu nao sei flertar  das 5 pessoas q eu converso  2 vira amigo 2 começa a namorar 1 desaparece do nada']
+17-11-20 09:12:06 - Analisando Texto...
+17-11-20 09:12:13 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:12:13)
+17-11-20 09:12:13 - ------------------------
+17-11-20 09:12:15 - TWEET SELECIONADO:
+17-11-20 09:12:15 - ['Chegou a hora dos "Cristãos Patriotas" declararem o voto ao Boulos. Esses canalhas bolsopetistas não cansam de rastejar como vermes... Vermes esmagados pelas botas do centrão.']
+17-11-20 09:12:15 - Analisando Texto...
+17-11-20 09:12:21 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:12:21)
+17-11-20 09:12:21 - ------------------------
+17-11-20 09:12:24 - TWEET SELECIONADO:
+17-11-20 09:12:24 - ['É muito filme pra escolher ']
+17-11-20 09:12:24 - Analisando Texto...
+17-11-20 09:12:31 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:12:31)
+17-11-20 09:12:31 - ------------------------
+17-11-20 09:12:33 - TWEET SELECIONADO:
+17-11-20 09:12:33 - ['Parabéns a todos os candidatos do NOVO que representaram os princípios e valores do partido, com visão de longo prazo, sem pegar atalhos e abrir mão da coerência para conseguir votos!   São esses representantes que precisamos para construir uma instituição inovadora na política.']
+17-11-20 09:12:33 - Analisando Texto...
+17-11-20 09:12:40 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:12:40)
+17-11-20 09:12:40 - ------------------------
+17-11-20 09:12:43 - TWEET SELECIONADO:
+17-11-20 09:12:43 - Analisando Texto...
+17-11-20 09:12:51 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:12:51)
+17-11-20 09:12:51 - ------------------------
+17-11-20 09:12:54 - TWEET SELECIONADO:
+17-11-20 09:12:54 - ['Vcs têm noção que até agora não acabaram de contar os votos nos EUA?  A gente teve um problema grave na apuração e, mesmo assim, apuramos 100% dos votos dos brasileiros em menos de 24 horas.  O sistema americano é uma vergonha. ']
+17-11-20 09:12:54 - Analisando Texto...
+17-11-20 09:13:01 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:13:01)
+17-11-20 09:13:01 - ------------------------
+17-11-20 09:13:04 - TWEET SELECIONADO:
+17-11-20 09:13:04 - ['É muito filme pra escolher ']
+17-11-20 09:13:04 - Analisando Texto...
+17-11-20 09:13:12 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:13:12)
+17-11-20 09:13:12 - ------------------------
+17-11-20 09:13:14 - TWEET SELECIONADO:
+17-11-20 09:13:14 - ['querido diário   as coisas saiu um pouco do controle, to entendendo mais nada']
+17-11-20 09:13:14 - Analisando Texto...
+17-11-20 09:13:22 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:13:22)
+17-11-20 09:13:22 - ------------------------
+17-11-20 09:13:24 - TWEET SELECIONADO:
+17-11-20 09:13:24 - ['Não acredito, nem um pingo, no patriotismo de quem não respeita a língua pátria.']
+17-11-20 09:13:24 - Analisando Texto...
+17-11-20 09:13:32 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:13:32)
+17-11-20 09:13:32 - ------------------------
+17-11-20 09:13:35 - TWEET SELECIONADO:
+17-11-20 09:13:35 - ['assim hoje: ']
+17-11-20 09:13:35 - Analisando Texto...
+17-11-20 09:13:42 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:13:42)
+17-11-20 09:13:42 - ------------------------
+17-11-20 09:13:52 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:13:52)
+17-11-20 09:13:52 - ------------------------
+17-11-20 09:13:55 - TWEET SELECIONADO:
+17-11-20 09:13:55 - ['1. R$31.7 milhões para prorrogar o uso de mais de 600 leitos específicos para o covid-19 em 11 estados;  2. R$439 milhões para ampliar prazo de funcionamento de 3.395 centros de enfrentamento do vírus  3. R$2,2 bilhões investidos na habilitação de mais de 15,6 mil leitos de UTIs']
+17-11-20 09:13:55 - Analisando Texto...
+17-11-20 09:14:02 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:14:02)
+17-11-20 09:14:02 - ------------------------
+17-11-20 09:14:05 - TWEET SELECIONADO:
+17-11-20 09:14:05 - ['O cara é grande! Painel: Não me chateei com Lula e vou entrar de cabeça na campanha de Boulos, diz Tatto ']
+17-11-20 09:14:05 - Analisando Texto...
+17-11-20 09:14:13 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:14:13)
+17-11-20 09:14:13 - ------------------------
+17-11-20 09:14:16 - TWEET SELECIONADO:
+17-11-20 09:14:16 - ['Chegou a hora dos "Cristãos Patriotas" declararem o voto ao Boulos. Esses canalhas bolsopetistas não cansam de rastejar como vermes... Vermes esmagados pelas botas do centrão.']
+17-11-20 09:14:16 - Analisando Texto...
+17-11-20 09:14:23 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:14:23)
+17-11-20 09:14:23 - ------------------------
+17-11-20 09:14:26 - TWEET SELECIONADO:
+17-11-20 09:14:26 - ['EU.. Sou. JESUS.. CRISTO.. Roger']
+17-11-20 09:14:26 - Analisando Texto...
+17-11-20 09:16:34 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:16:34)
+17-11-20 09:16:34 - ------------------------
+17-11-20 09:16:37 - TWEET SELECIONADO:
+17-11-20 09:16:37 - ['O pior tipo de político é o que acha que deve "cuidar das pessoas" ']
+17-11-20 09:16:37 - Analisando Texto...
+17-11-20 09:16:44 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/CM33IjU7re
+17-11-20 09:16:44 - > DAILY POST ENVIADO! <
+17-11-20 09:16:44 - ===================================================
+17-11-20 09:16:49 - Running job Every 5 seconds do PostDiario() (last run: 2020-11-17 09:16:44, next run: 2020-11-17 09:16:49)
+17-11-20 09:16:49 - ------------------------
+17-11-20 09:16:52 - TWEET SELECIONADO:
+17-11-20 09:16:52 - ['Os advogados de Lula, Cristiano Zanin  e Valeska Teixeira Martins, lançam a edição do seu livro sobre Lawfare em Portugal. E  lembram que sem Sergio Moro Bolsonaro não seria presidente. #EquipeLula   ']
+17-11-20 09:16:52 - Analisando Texto...
+17-11-20 09:16:57 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/NNh9QpgBzZ
+17-11-20 09:16:57 - > DAILY POST ENVIADO! <
+17-11-20 09:16:57 - ===================================================
+17-11-20 09:17:04 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:17:04)
+17-11-20 09:17:04 - ------------------------
+17-11-20 09:17:07 - TWEET SELECIONADO:
+17-11-20 09:17:07 - ['varrendo a calçada do twitter']
+17-11-20 09:17:07 - Analisando Texto...
+17-11-20 09:17:14 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:17:14)
+17-11-20 09:17:14 - ------------------------
+17-11-20 09:17:16 - TWEET SELECIONADO:
+17-11-20 09:17:16 - ['']
+17-11-20 09:17:16 - Analisando Texto...
+17-11-20 09:17:24 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/qzzsbtXGyk
+17-11-20 09:17:24 - > DAILY POST ENVIADO! <
+17-11-20 09:17:24 - ===================================================
+17-11-20 09:18:26 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:18:26)
+17-11-20 09:18:26 - ------------------------
+17-11-20 09:18:28 - TWEET SELECIONADO:
+17-11-20 09:18:28 - ['bom dia esquisitos']
+17-11-20 09:18:28 - Analisando Texto...
+17-11-20 09:18:35 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/xeBHJVN8xi
+17-11-20 09:18:35 - > DAILY POST ENVIADO! <
+17-11-20 09:18:35 - ===================================================
+17-11-20 09:18:40 - Running job Every 5 seconds do PostDiario() (last run: 2020-11-17 09:18:35, next run: 2020-11-17 09:18:40)
+17-11-20 09:18:40 - ------------------------
+17-11-20 09:18:43 - TWEET SELECIONADO:
+17-11-20 09:18:43 - ['']
+17-11-20 09:18:43 - Analisando Texto...
+17-11-20 09:18:50 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/qzzsbtXGyk
+17-11-20 09:18:50 - > DAILY POST ENVIADO! <
+17-11-20 09:18:50 - ===================================================
+17-11-20 09:18:55 - Running job Every 5 seconds do PostDiario() (last run: 2020-11-17 09:18:50, next run: 2020-11-17 09:18:55)
+17-11-20 09:18:55 - ------------------------
+17-11-20 09:19:23 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:19:23)
+17-11-20 09:19:23 - ------------------------
+17-11-20 09:19:26 - TWEET SELECIONADO:
+17-11-20 09:19:26 - ['Parabéns a todos os candidatos do NOVO que representaram os princípios e valores do partido, com visão de longo prazo, sem pegar atalhos e abrir mão da coerência para conseguir votos!   São esses representantes que precisamos para construir uma instituição inovadora na política.']
+17-11-20 09:19:26 - Analisando Texto...
+17-11-20 09:19:51 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:19:51)
+17-11-20 09:19:51 - ------------------------
+17-11-20 09:20:18 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:20:18)
+17-11-20 09:20:18 - ------------------------
+17-11-20 09:20:21 - TWEET SELECIONADO:
+17-11-20 09:20:21 - ['O pior tipo de político é o que acha que deve "cuidar das pessoas" ']
+17-11-20 09:20:21 - Analisando Texto...
+17-11-20 09:20:29 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/CM33IjU7re
+17-11-20 09:20:29 - > DAILY POST ENVIADO! <
+17-11-20 09:20:29 - ===================================================
+17-11-20 09:20:34 - Running job Every 5 seconds do PostDiario() (last run: 2020-11-17 09:20:29, next run: 2020-11-17 09:20:34)
+17-11-20 09:20:34 - ------------------------
+17-11-20 09:20:36 - TWEET SELECIONADO:
+17-11-20 09:20:36 - ['Às vezes o mal estar é irremediável, pois a pessoa que nos incomoda e queremos expulsar somos nós mesmos.']
+17-11-20 09:20:36 - Analisando Texto...
+17-11-20 09:20:49 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:20:49)
+17-11-20 09:20:49 - ------------------------
+17-11-20 09:20:52 - TWEET SELECIONADO:
+17-11-20 09:20:52 - ['OUXE KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK ']
+17-11-20 09:20:52 - Analisando Texto...
+17-11-20 09:20:59 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:20:59)
+17-11-20 09:20:59 - ------------------------
+17-11-20 09:21:02 - TWEET SELECIONADO:
+17-11-20 09:21:02 - ['Sempre que a História convoca o brasileiro para ser um herói, ele descobre que é apenas um político.']
+17-11-20 09:21:02 - Analisando Texto...
+17-11-20 09:21:10 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:21:10)
+17-11-20 09:21:10 - ------------------------
+17-11-20 09:21:13 - TWEET SELECIONADO:
+17-11-20 09:21:13 - ['Às vezes o mal estar é irremediável, pois a pessoa que nos incomoda e queremos expulsar somos nós mesmos.']
+17-11-20 09:21:13 - Analisando Texto...
+17-11-20 09:21:19 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:21:19)
+17-11-20 09:21:19 - ------------------------
+17-11-20 09:21:22 - TWEET SELECIONADO:
+17-11-20 09:21:22 - ['Sou assim, sincero e verdadeiro. Como vou fazer promessa para 200 bilhões de brasileiros e cumprir depois cacete?']
+17-11-20 09:21:22 - Analisando Texto...
+17-11-20 09:21:29 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:21:29)
+17-11-20 09:21:29 - ------------------------
+17-11-20 09:21:32 - TWEET SELECIONADO:
+17-11-20 09:21:32 - Analisando Texto...
+17-11-20 09:21:39 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/BzTFqpyK5c
+17-11-20 09:21:39 - > DAILY POST ENVIADO! <
+17-11-20 09:21:39 - ===================================================
+17-11-20 09:21:49 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:21:49)
+17-11-20 09:21:49 - ------------------------
+17-11-20 09:21:52 - TWEET SELECIONADO:
+17-11-20 09:21:52 - ['querido diário   as coisas saiu um pouco do controle, to entendendo mais nada']
+17-11-20 09:21:52 - Analisando Texto...
+17-11-20 09:22:02 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:22:02)
+17-11-20 09:22:02 - ------------------------
+17-11-20 09:22:05 - TWEET SELECIONADO:
+17-11-20 09:22:05 - ['Eu vou fazer uma máquina do tempo']
+17-11-20 09:22:05 - Analisando Texto...
+17-11-20 09:22:12 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:22:12)
+17-11-20 09:22:12 - ------------------------
+17-11-20 09:23:00 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:23:00)
+17-11-20 09:23:00 - ------------------------
+17-11-20 09:23:01 - TWEET SELECIONADO:
+17-11-20 09:23:01 - []
+17-11-20 09:23:01 - Analisando Texto...
+17-11-20 09:23:56 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:23:56)
+17-11-20 09:23:56 - ------------------------
+17-11-20 09:23:58 - TWEET SELECIONADO:
+17-11-20 09:23:58 - ['OUXE KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK ']
+17-11-20 09:23:58 - Analisando Texto...
+17-11-20 09:24:05 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:24:05)
+17-11-20 09:24:05 - ------------------------
+17-11-20 09:24:08 - TWEET SELECIONADO:
+17-11-20 09:24:08 - ['Vcs têm noção que até agora não acabaram de contar os votos nos EUA?  A gente teve um problema grave na apuração e, mesmo assim, apuramos 100% dos votos dos brasileiros em menos de 24 horas.  O sistema americano é uma vergonha. ']
+17-11-20 09:24:08 - Analisando Texto...
+17-11-20 09:24:15 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:24:15)
+17-11-20 09:24:15 - ------------------------
+17-11-20 09:24:18 - TWEET SELECIONADO:
+17-11-20 09:24:18 - ['imagina ser triste a ponto de ser fã da disney']
+17-11-20 09:24:18 - Analisando Texto...
+17-11-20 09:24:25 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:24:25)
+17-11-20 09:24:25 - ------------------------
+17-11-20 09:24:28 - TWEET SELECIONADO:
+17-11-20 09:24:28 - ['1. R$31.7 milhões para prorrogar o uso de mais de 600 leitos específicos para o covid-19 em 11 estados;  2. R$439 milhões para ampliar prazo de funcionamento de 3.395 centros de enfrentamento do vírus  3. R$2,2 bilhões investidos na habilitação de mais de 15,6 mil leitos de UTIs']
+17-11-20 09:24:28 - Analisando Texto...
+17-11-20 09:24:34 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:24:34)
+17-11-20 09:24:34 - ------------------------
+17-11-20 09:24:37 - TWEET SELECIONADO:
+17-11-20 09:24:37 - ['OUXE KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK ']
+17-11-20 09:24:37 - Analisando Texto...
+17-11-20 09:24:44 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:24:44)
+17-11-20 09:24:44 - ------------------------
+17-11-20 09:24:46 - TWEET SELECIONADO:
+17-11-20 09:24:46 - ['sabe aqueles dias que você so quer ficar trancada no quarto escuro deitada na cama em posição fetal??? entao...']
+17-11-20 09:24:46 - Analisando Texto...
+17-11-20 09:24:53 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:24:53)
+17-11-20 09:24:53 - ------------------------
+17-11-20 09:24:56 - TWEET SELECIONADO:
+17-11-20 09:24:56 - ['como se nao bastasse a smartfit querendo me cobrar 60 reais lembrei que o jack de this is us voltou la pra pegar o cachorro da guria que saco cara']
+17-11-20 09:24:56 - Analisando Texto...
+17-11-20 09:25:04 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:25:04)
+17-11-20 09:25:04 - ------------------------
+17-11-20 09:25:06 - TWEET SELECIONADO:
+17-11-20 09:25:06 - ['varrendo a calçada do twitter']
+17-11-20 09:25:06 - Analisando Texto...
+17-11-20 09:25:13 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:25:13)
+17-11-20 09:25:13 - ------------------------
+17-11-20 09:25:16 - TWEET SELECIONADO:
+17-11-20 09:25:16 - ['bom dia ']
+17-11-20 09:25:16 - Analisando Texto...
+17-11-20 09:25:23 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:25:23)
+17-11-20 09:25:23 - ------------------------
+17-11-20 09:25:26 - TWEET SELECIONADO:
+17-11-20 09:25:26 - ['nao consigo ler ']
+17-11-20 09:25:26 - Analisando Texto...
+17-11-20 09:25:33 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:25:33)
+17-11-20 09:25:33 - ------------------------
+17-11-20 09:25:36 - TWEET SELECIONADO:
+17-11-20 09:25:36 - ['nao consigo ler ']
+17-11-20 09:25:36 - Analisando Texto...
+17-11-20 09:25:43 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:25:43)
+17-11-20 09:25:43 - ------------------------
+17-11-20 09:25:46 - TWEET SELECIONADO:
+17-11-20 09:25:46 - ['bom dia ']
+17-11-20 09:25:46 - Analisando Texto...
+17-11-20 09:25:53 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:25:53)
+17-11-20 09:25:53 - ------------------------
+17-11-20 09:25:56 - TWEET SELECIONADO:
+17-11-20 09:25:56 - ['']
+17-11-20 09:25:56 - Analisando Texto...
+17-11-20 09:26:04 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/qzzsbtXGyk
+17-11-20 09:26:04 - > DAILY POST ENVIADO! <
+17-11-20 09:26:04 - ===================================================
+17-11-20 09:26:09 - Running job Every 5 seconds do PostDiario() (last run: 2020-11-17 09:26:04, next run: 2020-11-17 09:26:09)
+17-11-20 09:26:09 - ------------------------
+17-11-20 09:26:58 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:26:58)
+17-11-20 09:26:58 - ------------------------
+17-11-20 09:26:58 - TWEET SELECIONADO:
+17-11-20 09:26:58 - []
+17-11-20 09:26:58 - Analisando Texto...
+17-11-20 09:27:36 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:27:36)
+17-11-20 09:27:36 - ------------------------
+17-11-20 09:27:39 - TWEET SELECIONADO:
+17-11-20 09:27:39 - ['Rapaziadinha Grande Parte da Vida Eh Apenas Esperar !! Tenhamos Paciencia !']
+17-11-20 09:27:39 - Analisando Texto...
+17-11-20 09:27:46 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:27:46)
+17-11-20 09:27:46 - ------------------------
+17-11-20 09:27:49 - TWEET SELECIONADO:
+17-11-20 09:27:49 - ['Maia é o queridinho da imprensa, que repete a falácia de que o governo não tem projetos. Tarcísio responde... ']
+17-11-20 09:27:49 - Analisando Texto...
+17-11-20 09:27:56 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:27:56)
+17-11-20 09:27:56 - ------------------------
+17-11-20 09:27:59 - TWEET SELECIONADO:
+17-11-20 09:27:59 - ['Pelo amor de deus eu dormi umas 3-4 hoje e ta dificil voltar ao sono']
+17-11-20 09:27:59 - Analisando Texto...
+17-11-20 09:28:06 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:28:06)
+17-11-20 09:28:06 - ------------------------
+17-11-20 09:28:12 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:28:12)
+17-11-20 09:28:12 - ------------------------
+17-11-20 09:28:15 - TWEET SELECIONADO:
+17-11-20 09:28:15 - ['Às vezes o mal estar é irremediável, pois a pessoa que nos incomoda e queremos expulsar somos nós mesmos.']
+17-11-20 09:28:15 - Analisando Texto...
+17-11-20 09:28:22 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:28:22)
+17-11-20 09:28:22 - ------------------------
+17-11-20 09:28:25 - TWEET SELECIONADO:
+17-11-20 09:28:25 - ['É GALERA FIZ O EXAME E NÃO TEVE JEITO EU FUI DIAGNOSTICADO COM O ROLONAVIRUS']
+17-11-20 09:28:25 - Analisando Texto...
+17-11-20 09:28:32 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:28:32)
+17-11-20 09:28:32 - ------------------------
+17-11-20 09:28:35 - TWEET SELECIONADO:
+17-11-20 09:28:35 - ['']
+17-11-20 09:28:35 - Analisando Texto...
+17-11-20 09:28:42 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/CWPdyeraDU
+17-11-20 09:28:42 - > DAILY POST ENVIADO! <
+17-11-20 09:28:42 - ===================================================
+17-11-20 09:28:47 - Running job Every 5 seconds do PostDiario() (last run: 2020-11-17 09:28:42, next run: 2020-11-17 09:28:47)
+17-11-20 09:28:47 - ------------------------
+17-11-20 09:30:19 - Running job Every 5 seconds do PostDiario() (last run: [never], next run: 2020-11-17 09:30:19)
+17-11-20 09:30:19 - ------------------------
+17-11-20 09:30:21 - TWEET SELECIONADO:
+17-11-20 09:30:21 - ['']
+17-11-20 09:30:21 - Analisando Texto...
+17-11-20 09:30:25 - String vazia detectada!
+17-11-20 09:30:25 - Retornando aos tweets novamente...
+17-11-20 09:30:25 - ----------------------
+17-11-20 09:30:30 - Running job Every 5 seconds do PostDiario() (last run: 2020-11-17 09:30:25, next run: 2020-11-17 09:30:30)
+17-11-20 09:30:30 - ------------------------
