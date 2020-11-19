@@ -1,0 +1,25 @@
+search = "#PhiloBot" and '#philobot'
+numero = 1
+
+img = Image.open('templates/template1.png')
+fonte = ImageFont.truetype("font/kenyan.ttf", 60)
+escrever = ImageDraw.Draw(img)
+escrever.text(xy=(100, 180), text=textwrap.fill(tweet, 45), fill=(255, 255, 255), font=fonte)
+randomfilo = random.choice(filosofo)
+img.paste(randomfilo, (20, 10), randomfilo)
+img.save('cit.png')
+
+
+for tweet in tweepy.Cursor(api.search, search).items(numero):
+    try:
+        if tweet.text == ('#PhiloBot' or '#philobot'):
+            tweet = api.get_status.text
+            #print("nome do usuario: @" + tweet.user.screen_name)
+            print(tweet)
+            api.update_with_media('cit.png')
+            print("tweet enviado corretamente")
+            time.sleep(30)
+    except tweepy.TweepError as e:
+        print(e.reason)
+    except StopIteration:
+        break

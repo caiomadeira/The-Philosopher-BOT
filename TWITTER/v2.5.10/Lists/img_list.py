@@ -11,12 +11,13 @@ Avaliable on Discord too!
 
 """
 from PIL import Image
+from config import PATH_IMG
 import os
 
-path = r"C:\Users\caiom\Google Drive\Philosopher_BOT_PROJECT\APPS\PhiloBot-TWITTER\Philobot-Post-TWITTER\Img"
-#os.path.join(path, filename)
+path = PATH_IMG
+# os.path.join(path, filename)
 
-filosofo = [
+philosopher = [
 
     Image.open(os.path.join(path, 'adamsmith.png')),
     Image.open(os.path.join(path, 'alanturing.png')),
@@ -119,3 +120,5 @@ filosofo = [
     Image.open(os.path.join(path, 'mcpoze.png'))
 
 ]
+
+# print(philosopher)
