@@ -1,0 +1,31 @@
+24-11-20 08:29:28 - 
+CONTA ESCOLHIDA
+24-11-20 08:29:28 - --------------------------------------
+24-11-20 08:29:28 - INICIANDO HASHTAG NA CONTA TESTE
+24-11-20 08:29:30 - Escutando tweets de #Testephilo....
+24-11-20 08:30:35 - POSTS DEFINIDOS PARA A CADA 5 SEGUNDOS EM 'config.py'
+
+24-11-20 08:30:41 - Running job Every 5 seconds do posting() (last run: [never], next run: 2020-11-24 08:30:41)
+24-11-20 08:30:42 - --------------------------------------
+24-11-20 08:30:42 - INICIANDO POSTAGEM NA CONTA TESTE
+24-11-20 08:30:42 - Versão: 2.5.10
+24-11-20 08:30:44 - ------------------------
+24-11-20 08:30:46 - TWEET SELECIONADO:
+24-11-20 08:30:46 - ['PERGUNTOU   PERGUNTARAM DO LULA PRO BOULOS  E O LULA BOULOS']
+24-11-20 08:30:46 - Analisando Texto...
+24-11-20 08:34:22 - POSTS DEFINIDOS PARA A CADA 5 SEGUNDOS EM 'config.py'
+
+24-11-20 08:34:28 - Running job Every 5 seconds do posting() (last run: [never], next run: 2020-11-24 08:34:28)
+24-11-20 08:34:28 - --------------------------------------
+24-11-20 08:34:28 - INICIANDO POSTAGEM NA CONTA TESTE
+24-11-20 08:34:28 - Versão: 2.5.10
+24-11-20 08:34:30 - ------------------------
+24-11-20 08:34:33 - TWEET SELECIONADO:
+24-11-20 08:34:36 - Analisando Texto...
+24-11-20 08:34:43 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/OMnjvosGjs
+24-11-20 08:34:43 - > DAILY POST ENVIADO! <
+24-11-20 08:34:43 - ===================================================
+24-11-20 08:34:48 - Running job Every 5 seconds do posting() (last run: 2020-11-24 08:34:43, next run: 2020-11-24 08:34:48)
+24-11-20 08:34:48 - --------------------------------------
+24-11-20 08:34:48 - INICIANDO POSTAGEM NA CONTA TESTE
+24-11-20 08:34:48 - Versão: 2.5.10

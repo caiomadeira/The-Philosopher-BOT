@@ -1,0 +1,127 @@
+22-11-20 06:49:15 - POSTS DEFINIDOS PARA A CADA 5 SEGUNDOS EM 'config.py'
+
+22-11-20 06:49:21 - Running job Every 5 seconds do posting() (last run: [never], next run: 2020-11-22 06:49:21)
+22-11-20 06:49:21 - --------------------------------------
+22-11-20 06:49:21 - INICIANDO POSTAGEM NA CONTA TESTE
+22-11-20 06:49:21 - Versão: 2.5.10
+22-11-20 06:49:23 - ------------------------
+22-11-20 06:49:45 - POSTS DEFINIDOS PARA A CADA 5 SEGUNDOS EM 'config.py'
+
+22-11-20 06:49:51 - Running job Every 5 seconds do posting() (last run: [never], next run: 2020-11-22 06:49:51)
+22-11-20 06:49:51 - --------------------------------------
+22-11-20 06:49:51 - INICIANDO POSTAGEM NA CONTA TESTE
+22-11-20 06:49:51 - Versão: 2.5.10
+22-11-20 06:49:53 - ------------------------
+22-11-20 06:49:56 - TWEET SELECIONADO:
+22-11-20 06:49:56 - ['O Teto de Gastos existe para que gestores públicos priorizem o essencial e cortem gastos desnecessários. O seu fim levará a mais gastos do Estado, aumento da inflação e dos juros.   Devemos fazer a coisa certa: reformas e ajuste nas contas públicas.  ']
+22-11-20 06:49:56 - Analisando Texto...
+22-11-20 06:50:03 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/5eTLDgMIku
+22-11-20 06:50:03 - > DAILY POST ENVIADO! <
+22-11-20 06:50:03 - ===================================================
+22-11-20 06:50:08 - Running job Every 5 seconds do posting() (last run: 2020-11-22 06:50:03, next run: 2020-11-22 06:50:08)
+22-11-20 06:50:08 - --------------------------------------
+22-11-20 06:50:08 - INICIANDO POSTAGEM NA CONTA TESTE
+22-11-20 06:50:08 - Versão: 2.5.10
+22-11-20 06:50:10 - ------------------------
+22-11-20 06:50:13 - TWEET SELECIONADO:
+22-11-20 06:50:13 - Analisando Texto...
+22-11-20 06:50:20 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/dOkdIfjrNb
+22-11-20 06:50:20 - > DAILY POST ENVIADO! <
+22-11-20 06:50:20 - ===================================================
+22-11-20 07:11:27 - 
+CONTA ESCOLHIDA
+22-11-20 07:11:27 - --------------------------------------
+22-11-20 07:11:27 - INICIANDO HASHTAG NA CONTA TESTE
+22-11-20 07:11:29 - Escutando tweets de #Testephilo....
+22-11-20 07:12:07 - ========== NOVO TWEET ENCONTRADO ===========
+22-11-20 07:12:07 - Tweet ID: 1330454024743694342
+22-11-20 07:12:07 - Tweet USERNAME: TestePhiloBot
+22-11-20 07:12:07 - Aguardando o próximo tweet
+22-11-20 07:12:07 - --------------------------------------------
+
+22-11-20 07:12:27 - ----------------------------------------
+22-11-20 07:12:27 - _\|/_ STARTING PHILOENGINE _\|/_ 
+22-11-20 07:12:27 - ----------------------------------------
+22-11-20 07:12:27 - TAMANHO FILA: 1
+22-11-20 07:12:27 - Motor atuando: 1330454024743694342
+22-11-20 07:12:28 - STATUS CONVERTIDO: #testephilo teste 1
+22-11-20 07:12:28 - STATUS TRATADO: #testephilo teste 1
+22-11-20 07:12:35 - Enviado corretamente!
+22-11-20 07:12:35 - =================================================================================
+22-11-20 07:12:35 - Finalizado, enviando: 1330454024743694342
+22-11-20 07:12:35 - Itens restantes: 0
+22-11-20 07:12:35 - --------------------------------------------------------
+22-11-20 07:12:35 - Lista tratada com sucesso.
+22-11-20 07:12:35 - Voltando a ouvir tweets...
+22-11-20 07:12:35 - ----------------------------------------
+22-11-20 07:12:35 - _\|/_ TURNING OFF PHILOENGINE _\|/_ 
+22-11-20 07:12:35 - ----------------------------------------
+22-11-20 07:12:35 - ========== NOVO TWEET ENCONTRADO ===========
+22-11-20 07:12:35 - Tweet ID: 1330454028292120579
+22-11-20 07:12:35 - Tweet USERNAME: TestePhiloBot
+22-11-20 07:12:35 - Aguardando o próximo tweet
+22-11-20 07:12:35 - --------------------------------------------
+
+22-11-20 07:12:55 - ----------------------------------------
+22-11-20 07:12:55 - _\|/_ STARTING PHILOENGINE _\|/_ 
+22-11-20 07:12:55 - ----------------------------------------
+22-11-20 07:12:55 - TAMANHO FILA: 1
+22-11-20 07:12:55 - Motor atuando: 1330454028292120579
+22-11-20 07:12:56 - STATUS CONVERTIDO: #testephilo teste 2
+22-11-20 07:12:56 - STATUS TRATADO: #testephilo teste 2
+22-11-20 07:13:05 - Enviado corretamente!
+22-11-20 07:13:05 - =================================================================================
+22-11-20 07:13:05 - Finalizado, enviando: 1330454028292120579
+22-11-20 07:13:05 - Itens restantes: 0
+22-11-20 07:13:05 - --------------------------------------------------------
+22-11-20 07:13:05 - Lista tratada com sucesso.
+22-11-20 07:13:05 - Voltando a ouvir tweets...
+22-11-20 07:13:05 - ----------------------------------------
+22-11-20 07:13:05 - _\|/_ TURNING OFF PHILOENGINE _\|/_ 
+22-11-20 07:13:05 - ----------------------------------------
+22-11-20 07:13:05 - ========== NOVO TWEET ENCONTRADO ===========
+22-11-20 07:13:05 - Tweet ID: 1330454034990440451
+22-11-20 07:13:05 - Tweet USERNAME: TestePhiloBot
+22-11-20 07:13:05 - Aguardando o próximo tweet
+22-11-20 07:13:05 - --------------------------------------------
+
+22-11-20 07:13:25 - ----------------------------------------
+22-11-20 07:13:25 - _\|/_ STARTING PHILOENGINE _\|/_ 
+22-11-20 07:13:25 - ----------------------------------------
+22-11-20 07:13:25 - TAMANHO FILA: 1
+22-11-20 07:13:25 - Motor atuando: 1330454034990440451
+22-11-20 07:13:25 - STATUS CONVERTIDO: #testephilo teste 3
+22-11-20 07:13:25 - STATUS TRATADO: #testephilo teste 3
+22-11-20 07:13:32 - Enviado corretamente!
+22-11-20 07:13:32 - =================================================================================
+22-11-20 07:13:32 - Finalizado, enviando: 1330454034990440451
+22-11-20 07:13:32 - Itens restantes: 0
+22-11-20 07:13:32 - --------------------------------------------------------
+22-11-20 07:13:32 - Lista tratada com sucesso.
+22-11-20 07:13:32 - Voltando a ouvir tweets...
+22-11-20 07:13:32 - ----------------------------------------
+22-11-20 07:13:32 - _\|/_ TURNING OFF PHILOENGINE _\|/_ 
+22-11-20 07:13:32 - ----------------------------------------
+22-11-20 07:13:32 - ========== NOVO TWEET ENCONTRADO ===========
+22-11-20 07:13:32 - Tweet ID: 1330454038060691456
+22-11-20 07:13:32 - Tweet USERNAME: TestePhiloBot
+22-11-20 07:13:32 - Aguardando o próximo tweet
+22-11-20 07:13:32 - --------------------------------------------
+
+22-11-20 07:13:52 - ----------------------------------------
+22-11-20 07:13:52 - _\|/_ STARTING PHILOENGINE _\|/_ 
+22-11-20 07:13:52 - ----------------------------------------
+22-11-20 07:13:52 - TAMANHO FILA: 1
+22-11-20 07:13:52 - Motor atuando: 1330454038060691456
+22-11-20 07:13:53 - STATUS CONVERTIDO: #testephilo teste 4
+22-11-20 07:13:53 - STATUS TRATADO: #testephilo teste 4
+22-11-20 07:14:01 - Enviado corretamente!
+22-11-20 07:14:01 - =================================================================================
+22-11-20 07:14:01 - Finalizado, enviando: 1330454038060691456
+22-11-20 07:14:01 - Itens restantes: 0
+22-11-20 07:14:01 - --------------------------------------------------------
+22-11-20 07:14:01 - Lista tratada com sucesso.
+22-11-20 07:14:01 - Voltando a ouvir tweets...
+22-11-20 07:14:01 - ----------------------------------------
+22-11-20 07:14:01 - _\|/_ TURNING OFF PHILOENGINE _\|/_ 
+22-11-20 07:14:01 - ----------------------------------------
