@@ -1,5 +1,0 @@
-tweepy
-pillow
-schedule
-request
-regex
