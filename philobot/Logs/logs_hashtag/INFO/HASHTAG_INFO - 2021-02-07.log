@@ -1,0 +1,456 @@
+2021-02-07 21:58:30,473 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 21:58:30,473 - HASHTAG --> Tweet ID: 1358580911177097219
+2021-02-07 21:58:30,473 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-02-07 21:58:30,473 - HASHTAG --> Adicionado na fila
+2021-02-07 21:58:30,473 - HASHTAG --> =======================================================
+
+2021-02-07 21:58:35,481 - PHILOMAKER --> ----------------------------------------
+2021-02-07 21:58:35,481 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 21:58:35,481 - PHILOMAKER --> ----------------------------------------
+2021-02-07 21:58:35,483 - PHILOMAKER --> ID Coletado: 1358580911177097219
+2021-02-07 21:58:35,812 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker efefef @Flamengo https://t.co/qAoZey36oi
+2021-02-07 21:58:35,812 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker efefef  https://t.co/qAoZey36oi
+2021-02-07 21:58:37,818 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 21:58:37,818 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 21:58:39,820 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 21:58:39,860 - PHILOMAKER --> [ETAPA 6] Nome do filósofo coletado: - Flamengo
+2021-02-07 21:58:39,860 - PHILOMAKER --> [ETAPA 7] Coletando URL da imagem: http://pbs.twimg.com/media/EtqmHrmXAAcMZY2.jpg
+2021-02-07 21:58:40,074 - PHILOMAKER --> [ETAPA 5] Verificando aspas...
+2021-02-07 21:58:40,074 - PHILOMAKER --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-02-07 21:58:40,949 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 21:58:43,954 - PHILOMAKER --> Finalizado, ID tratado: 1358580911177097219
+2021-02-07 21:58:43,954 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 21:58:43,954 - PHILOMAKER --> TWEET TRATADO COM SUCESSO
+2021-02-07 21:58:43,954 - PHILOMAKER --> Imagem removida
+2021-02-07 21:58:43,954 - PHILOMAKER --> Finalizado, ID tratado: 1358580911177097219
+2021-02-07 21:58:43,954 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 21:58:43,954 - PHILOMAKER --> TWEET TRATADO COM SUCESSO
+2021-02-07 21:58:43,954 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 21:58:43,954 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 21:58:57,203 - PHILOMAKER --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 21:58:57,204 - PHILOMAKER --> Tweet ID: 1358581023056007168
+2021-02-07 21:58:57,204 - PHILOMAKER --> Tweet USERNAME: TestePhiloBot
+2021-02-07 21:58:57,204 - PHILOMAKER --> Adicionado na fila
+2021-02-07 21:58:57,204 - PHILOMAKER --> =======================================================
+
+2021-02-07 21:59:02,218 - PHILOMAKER --> ----------------------------------------
+2021-02-07 21:59:02,218 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 21:59:02,218 - PHILOMAKER --> ----------------------------------------
+2021-02-07 21:59:02,218 - PHILOMAKER --> ID Coletado: 1358581023056007168
+2021-02-07 21:59:02,470 - PHILOMAKER --> [ETAPA 1] Status coletado: RT @TestePhiloBot: #testemaker efefef @Flamengo https://t.co/qAoZey36oi
+2021-02-07 21:59:02,470 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: RT  #testemaker efefef  https://t.co/qAoZey36oi
+2021-02-07 21:59:04,489 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 21:59:04,489 - PHILOMAKER --> RETWEET ENCONTRADO, IGNORANDO... - USER: TestePhiloBot
+2021-02-07 21:59:04,489 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 21:59:06,502 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 21:59:06,541 - PHILOMAKER --> [ETAPA 6] Nome do filósofo coletado: - TestePhilo
+2021-02-07 21:59:06,541 - PHILOMAKER --> [ETAPA 7] Coletando URL da imagem: http://pbs.twimg.com/media/EtqmHrmXAAcMZY2.jpg
+2021-02-07 21:59:06,595 - PHILOMAKER --> [ETAPA 5] Verificando aspas...
+2021-02-07 21:59:06,595 - PHILOMAKER --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-02-07 22:00:25,728 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:00:25,729 - HASHTAG --> Tweet ID: 1358581395522740227
+2021-02-07 22:00:25,729 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:00:25,729 - HASHTAG --> Adicionado na fila
+2021-02-07 22:00:25,729 - HASHTAG --> =======================================================
+
+2021-02-07 22:00:30,742 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:00:30,742 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:00:30,742 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:00:30,742 - PHILOMAKER --> ID Coletado: 1358581395522740227
+2021-02-07 22:00:31,043 - PHILOMAKER --> [ETAPA 1] Status coletado: RT @TestePhiloBot: #testemaker erererer @Flamengo https://t.co/h0jYpFbDU2
+2021-02-07 22:00:31,043 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: RT  #testemaker erererer  https://t.co/h0jYpFbDU2
+2021-02-07 22:00:33,054 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:00:33,054 - PHILOMAKER --> RETWEET ENCONTRADO, IGNORANDO... - USER: TestePhiloBot
+2021-02-07 22:00:33,054 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:00:33,054 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:00:33,054 - PHILOMAKER --> ERRO: FALHA AO VERIFICAR SE É RETWEET
+2021-02-07 22:00:33,054 - PHILOMAKER --> name 'HashtagClass' is not defined
+2021-02-07 22:06:28,481 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:06:28,481 - HASHTAG --> Tweet ID: 1358582916088008711
+2021-02-07 22:06:28,481 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:06:28,481 - HASHTAG --> Adicionado na fila
+2021-02-07 22:06:28,481 - HASHTAG --> =======================================================
+
+2021-02-07 22:06:33,497 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:06:33,497 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:06:33,497 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:06:33,497 - PHILOMAKER --> ID Coletado: 1358582916088008711
+2021-02-07 22:06:33,798 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker kekekeke @Flamengo https://t.co/jhtcFbJ3aJ
+2021-02-07 22:06:33,798 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker kekekeke  https://t.co/jhtcFbJ3aJ
+2021-02-07 22:06:35,817 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:06:35,817 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:06:37,826 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 22:06:37,866 - PHILOMAKER --> [ETAPA 6] Nome do filósofo coletado: - Flamengo
+2021-02-07 22:06:37,866 - PHILOMAKER --> [ETAPA 7] Coletando URL da imagem: http://pbs.twimg.com/media/Etqn9PzWQAQtMMJ.jpg
+2021-02-07 22:06:39,016 - PHILOMAKER --> [ETAPA 5] Verificando aspas...
+2021-02-07 22:06:39,017 - PHILOMAKER --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-02-07 22:06:39,863 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 22:06:42,865 - PHILOMAKER --> Finalizado, ID tratado: 1358582916088008711
+2021-02-07 22:06:42,865 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 22:06:42,865 - PHILOMAKER --> TWEET TRATADO COM SUCESSO
+2021-02-07 22:06:42,865 - PHILOMAKER --> Imagem removida
+2021-02-07 22:06:42,865 - PHILOMAKER --> Finalizado, ID tratado: 1358582916088008711
+2021-02-07 22:06:42,865 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 22:06:42,865 - PHILOMAKER --> TWEET TRATADO COM SUCESSO
+2021-02-07 22:06:42,865 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:06:42,865 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:06:53,378 - PHILOMAKER --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:06:53,379 - PHILOMAKER --> Tweet ID: 1358583019423023106
+2021-02-07 22:06:53,379 - PHILOMAKER --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:06:53,379 - PHILOMAKER --> Adicionado na fila
+2021-02-07 22:06:53,379 - PHILOMAKER --> =======================================================
+
+2021-02-07 22:06:58,395 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:06:58,395 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:06:58,395 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:06:58,395 - PHILOMAKER --> ID Coletado: 1358583019423023106
+2021-02-07 22:06:58,693 - PHILOMAKER --> [ETAPA 1] Status coletado: RT @TestePhiloBot: #testemaker kkkk @JesusLuz1 https://t.co/NyBAodaYSK
+2021-02-07 22:06:58,693 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: RT  #testemaker kkkk  https://t.co/NyBAodaYSK
+2021-02-07 22:07:00,709 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:07:00,709 - PHILOMAKER --> RETWEET ENCONTRADO, IGNORANDO... - USER: TestePhiloBot
+2021-02-07 22:07:00,709 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:07:00,709 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:19:39,023 - PHILOMAKER --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:19:39,023 - PHILOMAKER --> Tweet ID: 1358586231865679876
+2021-02-07 22:19:39,023 - PHILOMAKER --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:19:39,023 - PHILOMAKER --> Adicionado na fila
+2021-02-07 22:19:39,023 - PHILOMAKER --> =======================================================
+
+2021-02-07 22:19:44,037 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:19:44,037 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:19:44,037 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:19:44,037 - PHILOMAKER --> ID Coletado: 1358586231865679876
+2021-02-07 22:19:44,312 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker ijefiejfi https://t.co/44joabDak7
+2021-02-07 22:19:44,312 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker ijefiejfi https://t.co/44joabDak7
+2021-02-07 22:19:46,330 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:19:46,330 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:19:48,337 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 22:19:48,376 - PHILOMAKER --> ERRO: NENHUM USUARIO MENCIONADO!
+2021-02-07 22:19:48,376 - PHILOMAKER --> Enviando imagem de ajuda para o @TestePhiloBot.
+2021-02-07 22:19:49,175 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 22:19:52,191 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:19:52,191 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:19:52,191 - PHILOMAKER --> [ETAPA 7] Coletando URL da imagem: http://pbs.twimg.com/media/Etqq-MKXMAYz6yL.jpg
+2021-02-07 22:19:52,991 - PHILOMAKER --> [ETAPA 5] Verificando aspas...
+2021-02-07 22:19:52,991 - PHILOMAKER --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-02-07 22:26:21,597 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:26:21,597 - HASHTAG --> Tweet ID: 1358587921079689218
+2021-02-07 22:26:21,597 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:26:21,597 - HASHTAG --> Adicionado na fila
+2021-02-07 22:26:21,597 - HASHTAG --> =======================================================
+
+2021-02-07 22:26:26,609 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:26:26,609 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:26:26,609 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:26:26,609 - PHILOMAKER --> ID Coletado: 1358587921079689218
+2021-02-07 22:26:26,901 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker fefefef https://t.co/rc2gHvV6IL
+2021-02-07 22:26:26,901 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker fefefef https://t.co/rc2gHvV6IL
+2021-02-07 22:26:28,917 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:26:28,917 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:26:30,930 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 22:26:30,969 - PHILOMAKER --> ERRO: NENHUM USUARIO MENCIONADO!
+2021-02-07 22:26:30,970 - PHILOMAKER --> Enviando imagem de ajuda para o @TestePhiloBot.
+2021-02-07 22:26:32,156 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 22:26:35,163 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:26:35,163 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:27:36,765 - PHILOMAKER --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:27:36,765 - PHILOMAKER --> Tweet ID: 1358588236382294016
+2021-02-07 22:27:36,765 - PHILOMAKER --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:27:36,765 - PHILOMAKER --> Adicionado na fila
+2021-02-07 22:27:36,765 - PHILOMAKER --> =======================================================
+
+2021-02-07 22:27:41,773 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:27:41,773 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:27:41,773 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:27:41,773 - PHILOMAKER --> ID Coletado: 1358588236382294016
+2021-02-07 22:27:42,027 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker @Flamengo https://t.co/133YhbG3iS
+2021-02-07 22:27:42,027 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker  https://t.co/133YhbG3iS
+2021-02-07 22:27:44,036 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:27:44,036 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:27:44,036 - PHILOMAKER --> STRING VAZIA DETECTADA!
+2021-02-07 22:27:44,036 - PHILOMAKER --> ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-07 22:27:44,868 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 22:27:47,872 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:27:47,872 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:29:47,598 - PHILOMAKER --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:29:47,599 - PHILOMAKER --> Tweet ID: 1358588785227890688
+2021-02-07 22:29:47,599 - PHILOMAKER --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:29:47,599 - PHILOMAKER --> Adicionado na fila
+2021-02-07 22:29:47,599 - PHILOMAKER --> =======================================================
+
+2021-02-07 22:29:52,607 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:29:52,607 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:29:52,607 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:29:52,607 - PHILOMAKER --> ID Coletado: 1358588785227890688
+2021-02-07 22:29:52,889 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker feef @Flamengo
+2021-02-07 22:29:52,889 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker feef 
+2021-02-07 22:29:54,908 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:29:54,908 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:29:56,918 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 22:29:56,958 - PHILOMAKER --> [ETAPA 6] Nome do filósofo coletado: - Flamengo
+2021-02-07 22:29:56,983 - PHILOMAKER --> [ETAPA 5] Verificando aspas...
+2021-02-07 22:29:56,983 - PHILOMAKER --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-02-07 22:29:58,002 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 22:30:01,012 - PHILOMAKER --> Finalizado, ID tratado: 1358588785227890688
+2021-02-07 22:30:01,012 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 22:30:01,012 - PHILOMAKER --> TWEET TRATADO COM SUCESSO
+2021-02-07 22:30:01,012 - PHILOMAKER --> Imagem removida
+2021-02-07 22:30:01,012 - PHILOMAKER --> Finalizado, ID tratado: 1358588785227890688
+2021-02-07 22:30:01,012 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 22:30:01,012 - PHILOMAKER --> TWEET TRATADO COM SUCESSO
+2021-02-07 22:30:01,012 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:30:01,012 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:42:01,719 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:42:01,719 - HASHTAG --> Tweet ID: 1358591863880638464
+2021-02-07 22:42:01,720 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:42:01,720 - HASHTAG --> Adicionado na fila
+2021-02-07 22:42:01,720 - HASHTAG --> =======================================================
+
+2021-02-07 22:42:06,722 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:42:06,722 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:42:06,722 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:42:06,722 - PHILOMAKER --> ID Coletado: 1358591863880638464
+2021-02-07 22:42:07,029 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker @Flamengo https://t.co/JkA4p9kxxc
+2021-02-07 22:42:07,029 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker  https://t.co/JkA4p9kxxc
+2021-02-07 22:42:09,048 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:42:09,048 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:42:09,048 - PHILOMAKER --> STRING VAZIA DETECTADA!
+2021-02-07 22:42:09,048 - PHILOMAKER --> ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-07 22:42:09,914 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 22:42:12,923 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:42:12,923 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:42:41,747 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:42:41,747 - HASHTAG --> Tweet ID: 1358592032231546882
+2021-02-07 22:42:41,747 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:42:41,747 - HASHTAG --> Adicionado na fila
+2021-02-07 22:42:41,747 - HASHTAG --> =======================================================
+
+2021-02-07 22:42:46,754 - PHILOBOT --> ----------------------------------------
+2021-02-07 22:42:46,754 - PHILOBOT -->          > STARTING PHILOBOT < 
+2021-02-07 22:42:46,754 - PHILOBOT --> ----------------------------------------
+2021-02-07 22:42:46,754 - PHILOBOT --> ID Coletado: 1358592032231546882
+2021-02-07 22:42:47,012 - PHILOBOT --> [ETAPA 1] Status coletado: #testephilo
+2021-02-07 22:42:47,013 - PHILOBOT --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:42:47,013 - PHILOBOT --> [ETAPA 2] Status - marcações retiradas: #testephilo
+2021-02-07 22:42:49,039 - PHILOBOT --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:42:49,039 - PHILOBOT --> STRING VAZIA DETECTADA!
+2021-02-07 22:42:49,039 - PHILOBOT --> ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-07 22:42:50,001 - PHILOBOT --> IMAGEM ENVIADA!
+2021-02-07 22:42:53,010 - PHILOBOT --> ----------------------------------------
+
+2021-02-07 22:42:53,010 - PHILOBOT --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:45:51,173 - PHILOMAKER --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:45:51,173 - PHILOMAKER --> Tweet ID: 1358592826678931466
+2021-02-07 22:45:51,173 - PHILOMAKER --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:45:51,173 - PHILOMAKER --> Adicionado na fila
+2021-02-07 22:45:51,173 - PHILOMAKER --> =======================================================
+
+2021-02-07 22:45:56,184 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:45:56,184 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:45:56,184 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:45:56,184 - PHILOMAKER --> ID Coletado: 1358592826678931466
+2021-02-07 22:45:56,479 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker efefef @Flamengo
+2021-02-07 22:45:56,480 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker efefef 
+2021-02-07 22:45:58,489 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:45:58,489 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:46:00,505 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 22:46:00,545 - PHILOMAKER --> [ETAPA 6] Nome do filósofo coletado: - Flamengo
+2021-02-07 22:46:00,545 - PHILOMAKER --> ERRO: IMAGEM NÃO ENCONTRADA
+2021-02-07 22:46:00,545 - PHILOMAKER --> [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-07 22:46:00,545 - PHILOMAKER --> Enviando imagem de ajuda para o @TestePhiloBot.
+2021-02-07 22:46:01,373 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 22:46:04,380 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:46:04,380 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:48:03,943 - PHILOMAKER --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:48:03,943 - PHILOMAKER --> Tweet ID: 1358593383091027970
+2021-02-07 22:48:03,943 - PHILOMAKER --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:48:03,943 - PHILOMAKER --> Adicionado na fila
+2021-02-07 22:48:03,943 - PHILOMAKER --> =======================================================
+
+2021-02-07 22:48:08,948 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:48:08,948 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:48:08,948 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:48:08,948 - PHILOMAKER --> ID Coletado: 1358593383091027970
+2021-02-07 22:48:09,231 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker "fefefeffe" @Flamengo https://t.co/Frw5iId8gj
+2021-02-07 22:48:09,231 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker "fefefeffe"  https://t.co/Frw5iId8gj
+2021-02-07 22:48:11,239 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:48:11,239 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:48:13,252 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 22:48:13,292 - PHILOMAKER --> [ETAPA 6] Nome do filósofo coletado: - Flamengo
+2021-02-07 22:48:13,292 - PHILOMAKER --> [ETAPA 7] Coletando URL da imagem: http://pbs.twimg.com/media/EtqxdmNXAAEYetA.jpg
+2021-02-07 22:48:13,654 - PHILOMAKER --> [ETAPA 5] Verificando aspas...
+2021-02-07 22:48:13,654 - PHILOMAKER --> [ETAPA 5.1] ASPAS IDENTIFICADAS
+2021-02-07 22:48:13,654 - PHILOMAKER --> [ETAPA 5.2] Iniciando manipulação de aspas especiais...
+2021-02-07 22:48:14,162 - PHILOMAKER --> [ETAPA 5.3] Removendo aspas do texto: fefefeffe
+2021-02-07 22:48:14,682 - PHILOMAKER --> [ETAPA 5.4] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-02-07 22:48:14,683 - PHILOMAKER --> [ETAPA 5.5] Colocando as imagens das aspas.
+2021-02-07 22:48:15,567 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 22:48:18,583 - PHILOMAKER --> Finalizado, ID tratado: 1358593383091027970
+2021-02-07 22:48:18,583 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 22:48:18,583 - PHILOMAKER --> Imagem removida
+2021-02-07 22:48:18,583 - PHILOMAKER --> Finalizado, ID tratado: 1358593383091027970
+2021-02-07 22:48:18,583 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 22:48:18,583 - PHILOMAKER --> TWEET TRATADO COM SUCESSO
+2021-02-07 22:48:18,583 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:48:18,583 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:49:07,835 - PHILOMAKER --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:49:07,836 - PHILOMAKER --> Tweet ID: 1358593651048407040
+2021-02-07 22:49:07,836 - PHILOMAKER --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:49:07,836 - PHILOMAKER --> Adicionado na fila
+2021-02-07 22:49:07,836 - PHILOMAKER --> =======================================================
+
+2021-02-07 22:49:12,842 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:49:12,842 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:49:12,842 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:49:12,842 - PHILOMAKER --> ID Coletado: 1358593651048407040
+2021-02-07 22:49:13,465 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker "wdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdw" @Flamengo https://t.co/M538HxrgU4
+2021-02-07 22:49:13,465 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker "wdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdw"  https://t.co/M538HxrgU4
+2021-02-07 22:49:15,481 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:49:15,481 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:49:17,489 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 22:49:17,530 - PHILOMAKER --> ERRO: NENHUM USUARIO MENCIONADO!
+2021-02-07 22:49:17,530 - PHILOMAKER --> Enviando imagem de ajuda para o @TestePhiloBot.
+2021-02-07 22:49:18,411 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 22:49:21,421 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:49:21,421 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:54:45,903 - PHILOMAKER --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:54:45,903 - PHILOMAKER --> Tweet ID: 1358595068953780227
+2021-02-07 22:54:45,903 - PHILOMAKER --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:54:45,903 - PHILOMAKER --> Adicionado na fila
+2021-02-07 22:54:45,903 - PHILOMAKER --> =======================================================
+
+2021-02-07 22:54:50,909 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:54:50,909 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:54:50,909 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:54:50,909 - PHILOMAKER --> ID Coletado: 1358595068953780227
+2021-02-07 22:54:51,162 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker efkefkefoefe @Flamengo https://t.co/8FKjyV3LdH
+2021-02-07 22:54:51,162 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker efkefkefoefe  https://t.co/8FKjyV3LdH
+2021-02-07 22:54:53,182 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:54:53,182 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:54:55,186 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 22:54:55,228 - PHILOMAKER --> [ETAPA 6] Nome do filósofo coletado: - Flamengo
+2021-02-07 22:54:55,228 - PHILOMAKER --> [ETAPA 7] Coletando URL da imagem: http://pbs.twimg.com/media/EtqzAyPXIAAXETE.jpg
+2021-02-07 22:54:56,463 - PHILOMAKER --> [ETAPA 5] Verificando aspas...
+2021-02-07 22:54:56,463 - PHILOMAKER --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-02-07 22:54:57,339 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 22:55:00,350 - PHILOMAKER --> Finalizado, ID tratado: 1358595068953780227
+2021-02-07 22:55:00,350 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 22:55:00,350 - PHILOMAKER --> TWEET TRATADO COM SUCESSO
+2021-02-07 22:55:00,350 - PHILOMAKER --> Imagem removida
+2021-02-07 22:55:00,350 - PHILOMAKER --> Finalizado, ID tratado: 1358595068953780227
+2021-02-07 22:55:00,350 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 22:55:00,350 - PHILOMAKER --> TWEET TRATADO COM SUCESSO
+2021-02-07 22:55:00,350 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:55:00,350 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 22:55:30,560 - PHILOMAKER --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 22:55:30,561 - PHILOMAKER --> Tweet ID: 1358595256372129793
+2021-02-07 22:55:30,561 - PHILOMAKER --> Tweet USERNAME: TestePhiloBot
+2021-02-07 22:55:30,561 - PHILOMAKER --> Adicionado na fila
+2021-02-07 22:55:30,561 - PHILOMAKER --> =======================================================
+
+2021-02-07 22:55:35,568 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:55:35,568 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 22:55:35,568 - PHILOMAKER --> ----------------------------------------
+2021-02-07 22:55:35,568 - PHILOMAKER --> ID Coletado: 1358595256372129793
+2021-02-07 22:55:35,834 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker wdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdww @Flamengo https://t.co/HXuaxTf6aS
+2021-02-07 22:55:35,834 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker wdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdww  https://t.co/HXuaxTf6aS
+2021-02-07 22:55:37,839 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 22:55:37,839 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 22:55:39,845 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 22:55:39,884 - PHILOMAKER --> ERRO: NENHUM USUARIO MENCIONADO!
+2021-02-07 22:55:39,885 - PHILOMAKER --> Enviando imagem de ajuda para o @TestePhiloBot.
+2021-02-07 22:55:40,674 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 22:55:43,689 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 22:55:43,689 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 23:01:05,289 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 23:01:05,304 - HASHTAG --> Tweet ID: 1358596660058877954
+2021-02-07 23:01:05,304 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-02-07 23:01:05,304 - HASHTAG --> Adicionado na fila
+2021-02-07 23:01:05,304 - HASHTAG --> =======================================================
+
+2021-02-07 23:01:10,314 - PHILOMAKER --> ----------------------------------------
+2021-02-07 23:01:10,314 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 23:01:10,314 - PHILOMAKER --> ----------------------------------------
+2021-02-07 23:01:10,314 - PHILOMAKER --> ID Coletado: 1358596660058877954
+2021-02-07 23:01:10,604 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker wdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdww 
+@Flamengo https://t.co/ayt0UgVyKv
+2021-02-07 23:01:10,604 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker wdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdww 
+ https://t.co/ayt0UgVyKv
+2021-02-07 23:01:12,617 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 23:01:12,617 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 23:01:14,619 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 23:01:14,662 - PHILOMAKER --> ERRO: NENHUM USUARIO MENCIONADO!
+2021-02-07 23:01:14,662 - PHILOMAKER --> Enviando imagem de ajuda para o @TestePhiloBot.
+2021-02-07 23:01:15,465 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 23:01:18,473 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 23:01:18,473 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 23:03:52,177 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 23:03:52,180 - HASHTAG --> Tweet ID: 1358597360369205250
+2021-02-07 23:03:52,180 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-02-07 23:03:52,180 - HASHTAG --> Adicionado na fila
+2021-02-07 23:03:52,180 - HASHTAG --> =======================================================
+
+2021-02-07 23:03:57,188 - PHILOMAKER --> ----------------------------------------
+2021-02-07 23:03:57,188 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 23:03:57,188 - PHILOMAKER --> ----------------------------------------
+2021-02-07 23:03:57,188 - PHILOMAKER --> ID Coletado: 1358597360369205250
+2021-02-07 23:03:57,472 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker wdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdww 
+@Flamengo https://t.co/u5fY5tXdqD
+2021-02-07 23:03:57,472 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker wdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdwwdwdwdww 
+ https://t.co/u5fY5tXdqD
+2021-02-07 23:03:59,491 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 23:03:59,491 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 23:04:01,498 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 23:04:01,537 - PHILOMAKER --> ERRO: NENHUM USUARIO MENCIONADO!
+2021-02-07 23:04:01,537 - PHILOMAKER --> Enviando imagem de ajuda para o @TestePhiloBot.
+2021-02-07 23:04:02,294 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 23:04:05,301 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 23:04:05,301 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<
+2021-02-07 23:04:47,268 - PHILOMAKER --> =============== NOVO TWEET ENCONTRADO ================
+2021-02-07 23:04:47,283 - PHILOMAKER --> Tweet ID: 1358597591584374786
+2021-02-07 23:04:47,283 - PHILOMAKER --> Tweet USERNAME: TestePhiloBot
+2021-02-07 23:04:47,283 - PHILOMAKER --> Adicionado na fila
+2021-02-07 23:04:47,283 - PHILOMAKER --> =======================================================
+
+2021-02-07 23:04:52,289 - PHILOMAKER --> ----------------------------------------
+2021-02-07 23:04:52,289 - PHILOMAKER -->        > STARTING PHILOMAKER < 
+2021-02-07 23:04:52,289 - PHILOMAKER --> ----------------------------------------
+2021-02-07 23:04:52,289 - PHILOMAKER --> ID Coletado: 1358597591584374786
+2021-02-07 23:04:52,587 - PHILOMAKER --> [ETAPA 1] Status coletado: #testemaker wdwdwdwwdwdwdw
+@Flamengo https://t.co/SpwqISh3jN
+2021-02-07 23:04:52,587 - PHILOMAKER --> [ETAPA 2] Status - marcações retiradas: #testemaker wdwdwdwwdwdwdw
+ https://t.co/SpwqISh3jN
+2021-02-07 23:04:54,595 - PHILOMAKER --> [ETAPA 3] Checando se é RT...
+2021-02-07 23:04:54,595 - PHILOMAKER --> [ETAPA 4] Checando string vazia...
+2021-02-07 23:04:56,609 - PHILOMAKER --> [ETAPA 5] Ajustando tamanho do texto para imagem...
+2021-02-07 23:04:56,649 - PHILOMAKER --> [ETAPA 6] Nome do filósofo coletado: - Flamengo
+2021-02-07 23:04:56,649 - PHILOMAKER --> [ETAPA 7] Coletando URL da imagem: http://pbs.twimg.com/media/Etq1TojXIAEiS2x.jpg
+2021-02-07 23:04:57,694 - PHILOMAKER --> [ETAPA 5] Verificando aspas...
+2021-02-07 23:04:57,694 - PHILOMAKER --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-02-07 23:04:58,651 - PHILOMAKER --> IMAGEM ENVIADA!
+2021-02-07 23:05:01,656 - PHILOMAKER --> Finalizado, ID tratado: 1358597591584374786
+2021-02-07 23:05:01,656 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 23:05:01,656 - PHILOMAKER --> TWEET TRATADO COM SUCESSO
+2021-02-07 23:05:01,656 - PHILOMAKER --> Imagem removida
+2021-02-07 23:05:01,656 - PHILOMAKER --> Finalizado, ID tratado: 1358597591584374786
+2021-02-07 23:05:01,656 - PHILOMAKER --> Itens restantes: 0
+2021-02-07 23:05:01,656 - PHILOMAKER --> TWEET TRATADO COM SUCESSO
+2021-02-07 23:05:01,656 - PHILOMAKER --> ----------------------------------------
+
+2021-02-07 23:05:01,656 - PHILOMAKER --> >AGUARDANDO NOVOS TWEETS...<

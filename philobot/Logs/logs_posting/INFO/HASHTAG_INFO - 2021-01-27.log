@@ -1,0 +1,1100 @@
+2021-01-27 19:39:30,214 - --------------------------------------
+2021-01-27 19:39:30,214 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 19:39:30,214 - Versão: 3.0
+2021-01-27 19:39:32,232 - ------------------------
+2021-01-27 19:39:36,562 - TWEET SELECIONADO:
+2021-01-27 19:39:36,562 - ['Precisa desenhar sobre o momento que passamos? Dia primeiro de fevereiro pra eles é vital! ']
+2021-01-27 19:39:36,562 - Analisando Texto...
+2021-01-27 19:43:40,309 - --------------------------------------
+2021-01-27 19:43:40,310 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 19:43:40,310 - Versão: 3.0
+2021-01-27 19:43:42,327 - ------------------------
+2021-01-27 19:43:46,667 - TWEET SELECIONADO:
+2021-01-27 19:43:46,667 - ['Pq as forças armadas tão caladinhas sendo cúmplice desse governo: tão levando $$$. Tem que investigar a fundo isso tudo ']
+2021-01-27 19:43:46,667 - Analisando Texto...
+2021-01-27 19:43:50,452 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/8SDvlQchOn
+2021-01-27 19:43:50,452 - > DAILY POST ENVIADO! <
+2021-01-27 19:43:50,452 - ===================================================
+2021-01-27 19:45:30,358 - --------------------------------------
+2021-01-27 19:45:30,358 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 19:45:30,358 - Versão: 3.0
+2021-01-27 19:45:32,378 - ------------------------
+2021-01-27 19:45:36,705 - TWEET SELECIONADO:
+2021-01-27 19:45:36,705 - ['Atenção  galera  a loja está  aberta  acessem    valeu  Ednaldo Pereira']
+2021-01-27 19:45:36,705 - Analisando Texto...
+2021-01-27 19:45:40,489 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/GkGyuRWW3I
+2021-01-27 19:45:40,489 - > DAILY POST ENVIADO! <
+2021-01-27 19:45:40,489 - ===================================================
+2021-01-27 19:49:48,517 - --------------------------------------
+2021-01-27 19:49:48,517 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 19:49:48,518 - Versão: 3.0
+2021-01-27 19:49:50,536 - ------------------------
+2021-01-27 19:49:52,762 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 75, in posting
+    tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 40, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 19:49:53,101 - 'PostingClass' object has no attribute 'tweets'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 86, in posting
+    items = ("\n".join(self.tweets))
+AttributeError: 'PostingClass' object has no attribute 'tweets'
+2021-01-27 19:52:33,829 - --------------------------------------
+2021-01-27 19:54:13,414 - --------------------------------------
+2021-01-27 19:56:06,470 - --------------------------------------
+2021-01-27 19:56:45,765 - --------------------------------------
+2021-01-27 19:56:47,785 - ------------------------
+2021-01-27 19:57:51,461 - --------------------------------------
+2021-01-27 19:58:41,797 - --------------------------------------
+2021-01-27 19:59:36,549 - --------------------------------------
+2021-01-27 19:59:36,549 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 19:59:36,549 - Versão: 3.0
+2021-01-27 19:59:38,569 - ------------------------
+2021-01-27 19:59:42,857 - TWEET SELECIONADO:
+2021-01-27 19:59:42,857 - ['quem q viu bbb 19?']
+2021-01-27 19:59:42,857 - Analisando Texto...
+2021-01-27 20:00:24,533 - --------------------------------------
+2021-01-27 20:00:24,533 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:00:24,533 - Versão: 3.0
+2021-01-27 20:00:26,550 - ------------------------
+2021-01-27 20:00:28,829 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 74, in posting
+    tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:00:29,235 - 'PostingClass' object has no attribute 'tweets'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 85, in posting
+    items = ("\n".join(self.tweets))
+AttributeError: 'PostingClass' object has no attribute 'tweets'
+2021-01-27 20:01:42,645 - --------------------------------------
+2021-01-27 20:01:42,645 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:01:42,645 - Versão: 3.0
+2021-01-27 20:01:44,662 - ------------------------
+2021-01-27 20:01:48,954 - TWEET SELECIONADO:
+2021-01-27 20:01:48,954 - ['man pelo amor de deus o povo desse site eh 100% sem condiçao alguma, gente malucassa']
+2021-01-27 20:01:48,954 - Analisando Texto...
+2021-01-27 20:01:52,856 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/lAvcCIsftz
+2021-01-27 20:01:52,856 - > DAILY POST ENVIADO! <
+2021-01-27 20:01:52,856 - ===================================================
+2021-01-27 20:10:16,853 - --------------------------------------
+2021-01-27 20:10:16,853 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:10:16,853 - Versão: 3.0
+2021-01-27 20:10:18,862 - ------------------------
+2021-01-27 20:10:23,152 - TWEET SELECIONADO:
+2021-01-27 20:10:23,152 - ['Precisa desenhar sobre o momento que passamos? Dia primeiro de fevereiro pra eles é vital! ']
+2021-01-27 20:10:23,152 - Analisando Texto...
+2021-01-27 20:10:26,901 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/2yI1bpNY6U
+2021-01-27 20:10:26,901 - > DAILY POST ENVIADO! <
+2021-01-27 20:10:26,901 - ===================================================
+2021-01-27 20:17:45,892 - --------------------------------------
+2021-01-27 20:17:45,892 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:17:45,893 - Versão: 3.0
+2021-01-27 20:17:47,898 - ------------------------
+2021-01-27 20:17:52,208 - TWEET SELECIONADO:
+2021-01-27 20:17:52,208 - ['Com a pior das intenções xingam de tudo, de nazistas a genocidas e ainda devemos respeitar? Devemos argumentar racionalmente? Claro que não. Contra jumentos este é o linguajar correto.  Não gostou? Venha para o lado de cá do balcão ver como é a guerra. ']
+2021-01-27 20:17:52,208 - Analisando Texto...
+2021-01-27 20:17:56,080 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/vz26K3C0q6
+2021-01-27 20:17:56,080 - > DAILY POST ENVIADO! <
+2021-01-27 20:17:56,081 - ===================================================
+2021-01-27 20:18:49,877 - --------------------------------------
+2021-01-27 20:26:03,516 - --------------------------------------
+2021-01-27 20:26:03,516 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:26:03,516 - Versão: 3.0
+2021-01-27 20:26:05,529 - ------------------------
+2021-01-27 20:26:09,821 - TWEET SELECIONADO:
+2021-01-27 20:26:09,835 - Analisando Texto...
+2021-01-27 20:26:13,635 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/Fu4z5BAzjk
+2021-01-27 20:26:13,635 - > DAILY POST ENVIADO! <
+2021-01-27 20:26:13,635 - ===================================================
+2021-01-27 20:27:59,388 - --------------------------------------
+2021-01-27 20:27:59,388 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:27:59,388 - Versão: 3.0
+2021-01-27 20:28:01,402 - ------------------------
+2021-01-27 20:28:03,650 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 77, in posting
+    tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:28:03,998 - 'PostingClass' object has no attribute 'tweets'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 88, in posting
+    items = ("\n".join(self.tweets))
+AttributeError: 'PostingClass' object has no attribute 'tweets'
+2021-01-27 20:28:39,493 - --------------------------------------
+2021-01-27 20:28:39,493 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:28:39,493 - Versão: 3.0
+2021-01-27 20:28:41,506 - ------------------------
+2021-01-27 20:28:45,839 - TWEET SELECIONADO:
+2021-01-27 20:28:45,839 - ['man pelo amor de deus o povo desse site eh 100% sem condiçao alguma, gente malucassa']
+2021-01-27 20:28:45,839 - Analisando Texto...
+2021-01-27 20:28:49,613 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/lAvcCIsftz
+2021-01-27 20:28:49,613 - > DAILY POST ENVIADO! <
+2021-01-27 20:28:49,613 - ===================================================
+2021-01-27 20:28:54,661 - --------------------------------------
+2021-01-27 20:28:54,662 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:28:54,662 - Versão: 3.0
+2021-01-27 20:28:56,681 - ------------------------
+2021-01-27 20:29:00,981 - TWEET SELECIONADO:
+2021-01-27 20:29:00,981 - ['quem q viu bbb 19?']
+2021-01-27 20:29:00,981 - Analisando Texto...
+2021-01-27 20:29:04,837 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/ufmFJH818Q
+2021-01-27 20:29:04,837 - > DAILY POST ENVIADO! <
+2021-01-27 20:29:04,837 - ===================================================
+2021-01-27 20:32:39,211 - --------------------------------------
+2021-01-27 20:32:39,211 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:32:39,211 - Versão: 3.0
+2021-01-27 20:32:41,218 - ------------------------
+2021-01-27 20:32:45,529 - TWEET SELECIONADO:
+2021-01-27 20:32:45,529 - ['Com a pior das intenções xingam de tudo, de nazistas a genocidas e ainda devemos respeitar? Devemos argumentar racionalmente? Claro que não. Contra jumentos este é o linguajar correto.  Não gostou? Venha para o lado de cá do balcão ver como é a guerra. ']
+2021-01-27 20:32:45,529 - Analisando Texto...
+2021-01-27 20:32:49,645 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/vz26K3C0q6
+2021-01-27 20:32:49,645 - > DAILY POST ENVIADO! <
+2021-01-27 20:32:49,645 - ===================================================
+2021-01-27 20:34:12,878 - --------------------------------------
+2021-01-27 20:34:12,878 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:34:12,878 - Versão: 3.0
+2021-01-27 20:34:14,885 - ------------------------
+2021-01-27 20:34:19,161 - TWEET SELECIONADO:
+2021-01-27 20:34:19,161 - ['Confira minha transmissão do meu PlayStation 4! #PS4live (Grand Theft Auto V)  live at ']
+2021-01-27 20:34:19,161 - Analisando Texto...
+2021-01-27 20:34:22,907 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/jOQ5AGwCMq
+2021-01-27 20:34:22,907 - > DAILY POST ENVIADO! <
+2021-01-27 20:34:22,907 - ===================================================
+2021-01-27 20:34:23,914 - --------------------------------------
+2021-01-27 20:34:23,914 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:34:23,914 - Versão: 3.0
+2021-01-27 20:34:25,924 - ------------------------
+2021-01-27 20:34:28,194 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 77, in posting
+    tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:34:30,050 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/XsJuz3WIu1
+2021-01-27 20:34:30,050 - > DAILY POST ENVIADO! <
+2021-01-27 20:34:30,050 - ===================================================
+2021-01-27 20:34:31,065 - --------------------------------------
+2021-01-27 20:34:31,065 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:34:31,066 - Versão: 3.0
+2021-01-27 20:34:33,079 - ------------------------
+2021-01-27 20:34:37,385 - TWEET SELECIONADO:
+2021-01-27 20:34:37,388 - Analisando Texto...
+2021-01-27 20:34:41,246 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/AGdIMlszNk
+2021-01-27 20:34:41,246 - > DAILY POST ENVIADO! <
+2021-01-27 20:34:41,246 - ===================================================
+2021-01-27 20:34:42,257 - --------------------------------------
+2021-01-27 20:34:42,258 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:34:42,258 - Versão: 3.0
+2021-01-27 20:34:44,276 - ------------------------
+2021-01-27 20:34:48,565 - TWEET SELECIONADO:
+2021-01-27 20:34:48,565 - Analisando Texto...
+2021-01-27 20:34:52,349 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/uIE1DNVwNx
+2021-01-27 20:34:52,349 - > DAILY POST ENVIADO! <
+2021-01-27 20:34:52,349 - ===================================================
+2021-01-27 20:34:53,359 - --------------------------------------
+2021-01-27 20:34:53,360 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:34:53,360 - Versão: 3.0
+2021-01-27 20:34:55,370 - ------------------------
+2021-01-27 20:34:59,685 - TWEET SELECIONADO:
+2021-01-27 20:34:59,685 - ['No fim do mandato vai ser revelado que o Bolsonaro na verdade era uma criança em cima da outra, igual o Vincent do Bojack Horseman ']
+2021-01-27 20:34:59,685 - Analisando Texto...
+2021-01-27 20:35:03,499 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/3gO1jFbyFx
+2021-01-27 20:35:03,499 - > DAILY POST ENVIADO! <
+2021-01-27 20:35:03,499 - ===================================================
+2021-01-27 20:35:04,508 - --------------------------------------
+2021-01-27 20:35:04,509 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:35:04,509 - Versão: 3.0
+2021-01-27 20:35:06,526 - ------------------------
+2021-01-27 20:35:10,834 - TWEET SELECIONADO:
+2021-01-27 20:35:10,834 - ['quem q viu bbb 19?']
+2021-01-27 20:35:10,834 - Analisando Texto...
+2021-01-27 20:35:14,649 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/ufmFJH818Q
+2021-01-27 20:35:14,649 - > DAILY POST ENVIADO! <
+2021-01-27 20:35:14,649 - ===================================================
+2021-01-27 20:35:15,664 - --------------------------------------
+2021-01-27 20:35:15,665 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:35:15,665 - Versão: 3.0
+2021-01-27 20:35:17,685 - ------------------------
+2021-01-27 20:35:21,927 - TWEET SELECIONADO:
+2021-01-27 20:35:21,927 - ['toma distraído otario ']
+2021-01-27 20:35:21,927 - Analisando Texto...
+2021-01-27 20:35:25,575 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/fa5YhgVceQ
+2021-01-27 20:35:25,575 - > DAILY POST ENVIADO! <
+2021-01-27 20:35:25,575 - ===================================================
+2021-01-27 20:35:26,584 - --------------------------------------
+2021-01-27 20:35:26,585 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:35:26,585 - Versão: 3.0
+2021-01-27 20:35:28,594 - ------------------------
+2021-01-27 20:35:30,809 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 77, in posting
+    tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:35:32,529 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/DXOsFvZlMa
+2021-01-27 20:35:32,529 - > DAILY POST ENVIADO! <
+2021-01-27 20:35:32,529 - ===================================================
+2021-01-27 20:35:33,543 - --------------------------------------
+2021-01-27 20:35:33,544 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:35:33,544 - Versão: 3.0
+2021-01-27 20:35:35,549 - ------------------------
+2021-01-27 20:35:37,810 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 77, in posting
+    tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:35:39,688 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/DXOsFvZlMa
+2021-01-27 20:35:39,688 - > DAILY POST ENVIADO! <
+2021-01-27 20:35:39,688 - ===================================================
+2021-01-27 20:35:40,703 - --------------------------------------
+2021-01-27 20:35:40,703 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:35:40,704 - Versão: 3.0
+2021-01-27 20:36:40,208 - --------------------------------------
+2021-01-27 20:36:40,208 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:36:40,208 - Versão: 3.0
+2021-01-27 20:36:42,228 - ------------------------
+2021-01-27 20:36:46,550 - TWEET SELECIONADO:
+2021-01-27 20:36:46,551 - Analisando Texto...
+2021-01-27 20:36:50,371 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/Fu4z5BAzjk
+2021-01-27 20:36:50,371 - > DAILY POST ENVIADO! <
+2021-01-27 20:36:50,371 - ===================================================
+2021-01-27 20:36:51,383 - --------------------------------------
+2021-01-27 20:36:51,383 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:36:51,383 - Versão: 3.0
+2021-01-27 20:36:53,403 - ------------------------
+2021-01-27 20:36:57,649 - TWEET SELECIONADO:
+2021-01-27 20:36:57,649 - Analisando Texto...
+2021-01-27 20:37:01,351 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/uIE1DNVwNx
+2021-01-27 20:37:01,351 - > DAILY POST ENVIADO! <
+2021-01-27 20:37:01,351 - ===================================================
+2021-01-27 20:37:02,360 - --------------------------------------
+2021-01-27 20:37:02,361 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:37:02,361 - Versão: 3.0
+2021-01-27 20:37:04,381 - ------------------------
+2021-01-27 20:37:08,671 - TWEET SELECIONADO:
+2021-01-27 20:37:08,671 - ['Com a pior das intenções xingam de tudo, de nazistas a genocidas e ainda devemos respeitar? Devemos argumentar racionalmente? Claro que não. Contra jumentos este é o linguajar correto.  Não gostou? Venha para o lado de cá do balcão ver como é a guerra. ']
+2021-01-27 20:37:08,671 - Analisando Texto...
+2021-01-27 20:37:12,248 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/vz26K3C0q6
+2021-01-27 20:37:12,249 - > DAILY POST ENVIADO! <
+2021-01-27 20:37:12,249 - ===================================================
+2021-01-27 20:37:13,252 - --------------------------------------
+2021-01-27 20:37:13,253 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:37:13,253 - Versão: 3.0
+2021-01-27 20:37:15,266 - ------------------------
+2021-01-27 20:37:19,579 - TWEET SELECIONADO:
+2021-01-27 20:37:19,579 - ['Com a pior das intenções xingam de tudo, de nazistas a genocidas e ainda devemos respeitar? Devemos argumentar racionalmente? Claro que não. Contra jumentos este é o linguajar correto.  Não gostou? Venha para o lado de cá do balcão ver como é a guerra. ']
+2021-01-27 20:37:19,579 - Analisando Texto...
+2021-01-27 20:37:23,818 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/vz26K3C0q6
+2021-01-27 20:37:23,819 - > DAILY POST ENVIADO! <
+2021-01-27 20:37:23,819 - ===================================================
+2021-01-27 20:37:24,831 - --------------------------------------
+2021-01-27 20:37:24,832 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:37:24,832 - Versão: 3.0
+2021-01-27 20:37:26,850 - ------------------------
+2021-01-27 20:37:31,168 - TWEET SELECIONADO:
+2021-01-27 20:37:31,168 - ['man pelo amor de deus o povo desse site eh 100% sem condiçao alguma, gente malucassa']
+2021-01-27 20:37:31,168 - Analisando Texto...
+2021-01-27 20:37:35,182 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/lAvcCIsftz
+2021-01-27 20:37:35,182 - > DAILY POST ENVIADO! <
+2021-01-27 20:37:35,182 - ===================================================
+2021-01-27 20:37:36,188 - --------------------------------------
+2021-01-27 20:37:36,189 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:37:36,189 - Versão: 3.0
+2021-01-27 20:37:38,205 - ------------------------
+2021-01-27 20:37:40,498 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 77, in posting
+    tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:37:42,992 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/XaU5GARey8
+2021-01-27 20:37:42,992 - > DAILY POST ENVIADO! <
+2021-01-27 20:37:42,992 - ===================================================
+2021-01-27 20:37:44,002 - --------------------------------------
+2021-01-27 20:37:44,003 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:37:44,003 - Versão: 3.0
+2021-01-27 20:37:46,010 - ------------------------
+2021-01-27 20:37:50,279 - TWEET SELECIONADO:
+2021-01-27 20:37:50,279 - Analisando Texto...
+2021-01-27 20:37:54,265 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/iRduWsrM8E
+2021-01-27 20:37:54,265 - > DAILY POST ENVIADO! <
+2021-01-27 20:37:54,265 - ===================================================
+2021-01-27 20:41:26,351 - --------------------------------------
+2021-01-27 20:41:26,351 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:41:26,351 - Versão: 3.0
+2021-01-27 20:41:28,363 - ------------------------
+2021-01-27 20:41:32,697 - TWEET SELECIONADO:
+2021-01-27 20:41:32,697 - ['toma distraído otario ']
+2021-01-27 20:41:32,697 - Analisando Texto...
+2021-01-27 20:41:36,385 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/fa5YhgVceQ
+2021-01-27 20:41:36,385 - > DAILY POST ENVIADO! <
+2021-01-27 20:41:36,385 - ===================================================
+2021-01-27 20:41:37,386 - --------------------------------------
+2021-01-27 20:41:37,386 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:41:37,386 - Versão: 3.0
+2021-01-27 20:41:39,401 - ------------------------
+2021-01-27 20:41:43,769 - TWEET SELECIONADO:
+2021-01-27 20:41:43,769 - ['Capitu sobre opiniões do Felipe Neto.  ']
+2021-01-27 20:41:43,769 - Analisando Texto...
+2021-01-27 20:41:47,494 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/TDe343WACk
+2021-01-27 20:41:47,494 - > DAILY POST ENVIADO! <
+2021-01-27 20:41:47,494 - ===================================================
+2021-01-27 20:41:48,498 - --------------------------------------
+2021-01-27 20:41:48,498 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:41:48,498 - Versão: 3.0
+2021-01-27 20:41:50,507 - ------------------------
+2021-01-27 20:41:54,812 - TWEET SELECIONADO:
+2021-01-27 20:41:54,813 - Analisando Texto...
+2021-01-27 20:41:58,644 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/AGdIMlszNk
+2021-01-27 20:41:58,644 - > DAILY POST ENVIADO! <
+2021-01-27 20:41:58,645 - ===================================================
+2021-01-27 20:41:59,661 - --------------------------------------
+2021-01-27 20:41:59,661 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:41:59,661 - Versão: 3.0
+2021-01-27 20:42:01,681 - ------------------------
+2021-01-27 20:42:05,995 - TWEET SELECIONADO:
+2021-01-27 20:42:05,995 - ['Confira minha transmissão do meu PlayStation 4! #PS4live (Grand Theft Auto V)  live at ']
+2021-01-27 20:42:05,995 - Analisando Texto...
+2021-01-27 20:42:09,854 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/jOQ5AGwCMq
+2021-01-27 20:42:09,854 - > DAILY POST ENVIADO! <
+2021-01-27 20:42:09,854 - ===================================================
+2021-01-27 20:42:10,861 - --------------------------------------
+2021-01-27 20:42:10,862 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:42:10,862 - Versão: 3.0
+2021-01-27 20:42:12,876 - ------------------------
+2021-01-27 20:42:18,233 - TWEET SELECIONADO:
+2021-01-27 20:42:18,233 - ['comida muito quente ui me queimei espera um segundo comida muito quente ui me queimei espera um seg']
+2021-01-27 20:42:18,233 - Analisando Texto...
+2021-01-27 20:42:22,843 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/6m6I6QOCpQ
+2021-01-27 20:42:22,843 - > DAILY POST ENVIADO! <
+2021-01-27 20:42:22,843 - ===================================================
+2021-01-27 20:42:23,851 - --------------------------------------
+2021-01-27 20:42:23,852 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:42:23,852 - Versão: 3.0
+2021-01-27 20:42:25,867 - ------------------------
+2021-01-27 20:42:30,177 - TWEET SELECIONADO:
+2021-01-27 20:42:30,177 - ['Esse é o video mais importante que você vai ver esse ano ']
+2021-01-27 20:42:30,177 - Analisando Texto...
+2021-01-27 20:42:34,054 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/c1FP0OJu0E
+2021-01-27 20:42:34,055 - > DAILY POST ENVIADO! <
+2021-01-27 20:42:34,055 - ===================================================
+2021-01-27 20:42:35,063 - --------------------------------------
+2021-01-27 20:42:35,063 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:42:35,064 - Versão: 3.0
+2021-01-27 20:42:37,081 - ------------------------
+2021-01-27 20:42:41,347 - TWEET SELECIONADO:
+2021-01-27 20:42:41,347 - ['Com a pior das intenções xingam de tudo, de nazistas a genocidas e ainda devemos respeitar? Devemos argumentar racionalmente? Claro que não. Contra jumentos este é o linguajar correto.  Não gostou? Venha para o lado de cá do balcão ver como é a guerra. ']
+2021-01-27 20:42:41,347 - Analisando Texto...
+2021-01-27 20:42:45,372 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/vz26K3C0q6
+2021-01-27 20:42:45,372 - > DAILY POST ENVIADO! <
+2021-01-27 20:42:45,372 - ===================================================
+2021-01-27 20:42:46,380 - --------------------------------------
+2021-01-27 20:42:46,380 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:42:46,380 - Versão: 3.0
+2021-01-27 20:42:48,385 - ------------------------
+2021-01-27 20:42:52,696 - TWEET SELECIONADO:
+2021-01-27 20:42:52,696 - ['Confira minha transmissão do meu PlayStation 4! #PS4live (Grand Theft Auto V)  live at ']
+2021-01-27 20:42:52,696 - Analisando Texto...
+2021-01-27 20:42:56,761 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/jOQ5AGwCMq
+2021-01-27 20:42:56,761 - > DAILY POST ENVIADO! <
+2021-01-27 20:42:56,761 - ===================================================
+2021-01-27 20:42:57,764 - --------------------------------------
+2021-01-27 20:42:57,764 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:42:57,764 - Versão: 3.0
+2021-01-27 20:42:59,778 - ------------------------
+2021-01-27 20:43:04,096 - TWEET SELECIONADO:
+2021-01-27 20:43:04,096 - ['vai o homem mas fica o legado  o luideverso criou momentos que banimento algum apagará da mente do povo de bem ']
+2021-01-27 20:43:04,096 - Analisando Texto...
+2021-01-27 20:43:07,860 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/0345ONh4qD
+2021-01-27 20:43:07,860 - > DAILY POST ENVIADO! <
+2021-01-27 20:43:07,860 - ===================================================
+2021-01-27 20:43:08,876 - --------------------------------------
+2021-01-27 20:43:08,877 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:43:08,877 - Versão: 3.0
+2021-01-27 20:43:10,891 - ------------------------
+2021-01-27 20:43:15,175 - TWEET SELECIONADO:
+2021-01-27 20:43:15,175 - Analisando Texto...
+2021-01-27 20:43:18,965 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/Fu4z5BAzjk
+2021-01-27 20:43:18,965 - > DAILY POST ENVIADO! <
+2021-01-27 20:43:18,965 - ===================================================
+2021-01-27 20:43:19,975 - --------------------------------------
+2021-01-27 20:43:19,976 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:43:19,976 - Versão: 3.0
+2021-01-27 20:43:21,996 - ------------------------
+2021-01-27 20:43:26,278 - TWEET SELECIONADO:
+2021-01-27 20:43:26,278 - ['vai o homem mas fica o legado  o luideverso criou momentos que banimento algum apagará da mente do povo de bem ']
+2021-01-27 20:43:26,278 - Analisando Texto...
+2021-01-27 20:43:30,044 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/0345ONh4qD
+2021-01-27 20:43:30,044 - > DAILY POST ENVIADO! <
+2021-01-27 20:43:30,044 - ===================================================
+2021-01-27 20:43:31,056 - --------------------------------------
+2021-01-27 20:43:31,057 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:43:31,057 - Versão: 3.0
+2021-01-27 20:43:33,077 - ------------------------
+2021-01-27 20:43:37,400 - TWEET SELECIONADO:
+2021-01-27 20:43:37,400 - ['vai o homem mas fica o legado  o luideverso criou momentos que banimento algum apagará da mente do povo de bem ']
+2021-01-27 20:43:37,400 - Analisando Texto...
+2021-01-27 20:43:41,132 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/0345ONh4qD
+2021-01-27 20:43:41,132 - > DAILY POST ENVIADO! <
+2021-01-27 20:43:41,132 - ===================================================
+2021-01-27 20:43:42,133 - --------------------------------------
+2021-01-27 20:43:42,133 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:43:42,134 - Versão: 3.0
+2021-01-27 20:43:44,144 - ------------------------
+2021-01-27 20:43:48,471 - TWEET SELECIONADO:
+2021-01-27 20:43:48,471 - ['Carluxo na fila pra fazer o teste pela décima vez  ']
+2021-01-27 20:43:48,471 - Analisando Texto...
+2021-01-27 20:43:52,134 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/RVdPwqic7Z
+2021-01-27 20:43:52,135 - > DAILY POST ENVIADO! <
+2021-01-27 20:43:52,135 - ===================================================
+2021-01-27 20:43:53,141 - --------------------------------------
+2021-01-27 20:43:53,142 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:43:53,142 - Versão: 3.0
+2021-01-27 20:43:55,154 - ------------------------
+2021-01-27 20:43:59,445 - TWEET SELECIONADO:
+2021-01-27 20:43:59,445 - Analisando Texto...
+2021-01-27 20:44:03,233 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/Fu4z5BAzjk
+2021-01-27 20:44:03,233 - > DAILY POST ENVIADO! <
+2021-01-27 20:44:03,234 - ===================================================
+2021-01-27 20:44:04,236 - --------------------------------------
+2021-01-27 20:44:04,236 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:44:04,237 - Versão: 3.0
+2021-01-27 20:44:06,256 - ------------------------
+2021-01-27 20:44:10,633 - TWEET SELECIONADO:
+2021-01-27 20:44:10,633 - ['']
+2021-01-27 20:44:10,633 - Analisando Texto...
+2021-01-27 20:44:13,060 - String vazia detectada!
+2021-01-27 20:44:13,060 - Retornando aos tweets novamente...
+2021-01-27 20:44:13,060 - ----------------------
+2021-01-27 20:44:14,067 - --------------------------------------
+2021-01-27 20:44:14,067 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:44:14,068 - Versão: 3.0
+2021-01-27 20:44:16,080 - ------------------------
+2021-01-27 20:44:20,373 - TWEET SELECIONADO:
+2021-01-27 20:44:20,373 - Analisando Texto...
+2021-01-27 20:44:24,529 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/uIE1DNVwNx
+2021-01-27 20:44:24,530 - > DAILY POST ENVIADO! <
+2021-01-27 20:44:24,530 - ===================================================
+2021-01-27 20:44:25,546 - --------------------------------------
+2021-01-27 20:44:25,546 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:44:25,546 - Versão: 3.0
+2021-01-27 20:44:27,557 - ------------------------
+2021-01-27 20:44:31,854 - TWEET SELECIONADO:
+2021-01-27 20:44:31,854 - ['']
+2021-01-27 20:44:31,854 - Analisando Texto...
+2021-01-27 20:44:34,266 - String vazia detectada!
+2021-01-27 20:44:34,266 - Retornando aos tweets novamente...
+2021-01-27 20:44:34,266 - ----------------------
+2021-01-27 20:44:35,271 - --------------------------------------
+2021-01-27 20:44:35,272 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:44:35,272 - Versão: 3.0
+2021-01-27 20:44:37,279 - ------------------------
+2021-01-27 20:44:41,552 - TWEET SELECIONADO:
+2021-01-27 20:44:41,552 - ['Assistindo o \u2066Manhattan Connection, agora na TV Cultura. Excelente. #ManhattanConnection ']
+2021-01-27 20:44:41,554 - Analisando Texto...
+2021-01-27 20:44:45,260 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/kWVfy6RxOR
+2021-01-27 20:44:45,260 - > DAILY POST ENVIADO! <
+2021-01-27 20:44:45,260 - ===================================================
+2021-01-27 20:44:46,271 - --------------------------------------
+2021-01-27 20:44:46,271 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:44:46,271 - Versão: 3.0
+2021-01-27 20:44:48,291 - ------------------------
+2021-01-27 20:44:52,622 - TWEET SELECIONADO:
+2021-01-27 20:44:52,622 - Analisando Texto...
+2021-01-27 20:44:56,466 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/Fu4z5BAzjk
+2021-01-27 20:44:56,467 - > DAILY POST ENVIADO! <
+2021-01-27 20:44:56,467 - ===================================================
+2021-01-27 20:44:57,476 - --------------------------------------
+2021-01-27 20:44:57,476 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:44:57,476 - Versão: 3.0
+2021-01-27 20:45:19,373 - --------------------------------------
+2021-01-27 20:45:19,373 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:45:19,373 - Versão: 3.0
+2021-01-27 20:45:21,387 - ------------------------
+2021-01-27 20:45:25,693 - TWEET SELECIONADO:
+2021-01-27 20:45:25,693 - ['Atenção  galera  a loja está  aberta  acessem    valeu  Ednaldo Pereira']
+2021-01-27 20:45:25,693 - Analisando Texto...
+2021-01-27 20:45:29,345 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/GkGyuRWW3I
+2021-01-27 20:45:29,345 - > DAILY POST ENVIADO! <
+2021-01-27 20:45:29,345 - ===================================================
+2021-01-27 20:45:30,354 - --------------------------------------
+2021-01-27 20:45:30,355 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:45:30,355 - Versão: 3.0
+2021-01-27 20:45:32,374 - ------------------------
+2021-01-27 20:45:36,694 - TWEET SELECIONADO:
+2021-01-27 20:45:36,694 - ['toma distraído otario ']
+2021-01-27 20:45:36,694 - Analisando Texto...
+2021-01-27 20:45:40,351 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/fa5YhgVceQ
+2021-01-27 20:45:40,351 - > DAILY POST ENVIADO! <
+2021-01-27 20:45:40,351 - ===================================================
+2021-01-27 20:45:41,356 - --------------------------------------
+2021-01-27 20:45:41,357 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:45:41,357 - Versão: 3.0
+2021-01-27 20:45:43,372 - ------------------------
+2021-01-27 20:45:47,662 - TWEET SELECIONADO:
+2021-01-27 20:45:47,662 - ['Carluxo na fila pra fazer o teste pela décima vez  ']
+2021-01-27 20:45:47,662 - Analisando Texto...
+2021-01-27 20:45:51,342 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/RVdPwqic7Z
+2021-01-27 20:45:51,342 - > DAILY POST ENVIADO! <
+2021-01-27 20:45:51,342 - ===================================================
+2021-01-27 20:45:52,358 - --------------------------------------
+2021-01-27 20:45:52,359 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:45:52,359 - Versão: 3.0
+2021-01-27 20:45:54,372 - ------------------------
+2021-01-27 20:45:58,653 - TWEET SELECIONADO:
+2021-01-27 20:45:58,653 - ['Atenção  galera  a loja está  aberta  acessem    valeu  Ednaldo Pereira']
+2021-01-27 20:45:58,653 - Analisando Texto...
+2021-01-27 20:46:02,516 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/GkGyuRWW3I
+2021-01-27 20:46:02,516 - > DAILY POST ENVIADO! <
+2021-01-27 20:46:02,516 - ===================================================
+2021-01-27 20:46:03,521 - --------------------------------------
+2021-01-27 20:46:03,521 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:46:03,521 - Versão: 3.0
+2021-01-27 20:46:05,529 - ------------------------
+2021-01-27 20:46:09,833 - TWEET SELECIONADO:
+2021-01-27 20:46:09,833 - ['Assistindo o \u2066Manhattan Connection, agora na TV Cultura. Excelente. #ManhattanConnection ']
+2021-01-27 20:46:09,833 - Analisando Texto...
+2021-01-27 20:46:13,832 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/kWVfy6RxOR
+2021-01-27 20:46:13,833 - > DAILY POST ENVIADO! <
+2021-01-27 20:46:13,833 - ===================================================
+2021-01-27 20:46:14,842 - --------------------------------------
+2021-01-27 20:46:14,843 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:46:14,843 - Versão: 3.0
+2021-01-27 20:46:16,862 - ------------------------
+2021-01-27 20:46:21,162 - TWEET SELECIONADO:
+2021-01-27 20:46:21,163 - Analisando Texto...
+2021-01-27 20:46:24,960 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/uIE1DNVwNx
+2021-01-27 20:46:24,960 - > DAILY POST ENVIADO! <
+2021-01-27 20:46:24,960 - ===================================================
+2021-01-27 20:46:25,971 - --------------------------------------
+2021-01-27 20:46:25,972 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:46:25,972 - Versão: 3.0
+2021-01-27 20:46:27,988 - ------------------------
+2021-01-27 20:46:30,206 - ERRO - NAO AUTORIZADO
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 79, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:46:30,206 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 79, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:46:30,206 - TWEET SELECIONADO:
+2021-01-27 20:46:30,207 - Analisando Texto...
+2021-01-27 20:46:33,951 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/Ld8D1Q3fE0
+2021-01-27 20:46:33,951 - > DAILY POST ENVIADO! <
+2021-01-27 20:46:33,951 - ===================================================
+2021-01-27 20:46:34,964 - --------------------------------------
+2021-01-27 20:46:34,964 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:46:34,964 - Versão: 3.0
+2021-01-27 20:50:36,138 - --------------------------------------
+2021-01-27 20:50:36,139 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:50:36,139 - Versão: 3.0
+2021-01-27 20:50:38,151 - ------------------------
+2021-01-27 20:50:42,501 - TWEET SELECIONADO:
+2021-01-27 20:50:42,501 - ['']
+2021-01-27 20:50:42,501 - Analisando Texto...
+2021-01-27 20:50:44,933 - String vazia detectada!
+2021-01-27 20:50:44,933 - Retornando aos tweets novamente...
+2021-01-27 20:50:44,933 - ----------------------
+2021-01-27 20:50:45,945 - --------------------------------------
+2021-01-27 20:50:45,946 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:50:45,946 - Versão: 3.0
+2021-01-27 20:50:47,961 - ------------------------
+2021-01-27 20:50:52,242 - TWEET SELECIONADO:
+2021-01-27 20:50:52,242 - ['Esse é o video mais importante que você vai ver esse ano ']
+2021-01-27 20:50:52,242 - Analisando Texto...
+2021-01-27 20:50:55,833 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/c1FP0OJu0E
+2021-01-27 20:50:55,833 - > DAILY POST ENVIADO! <
+2021-01-27 20:50:55,833 - ===================================================
+2021-01-27 20:50:56,838 - --------------------------------------
+2021-01-27 20:50:56,839 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:50:56,839 - Versão: 3.0
+2021-01-27 20:50:58,856 - ------------------------
+2021-01-27 20:51:03,144 - TWEET SELECIONADO:
+2021-01-27 20:51:03,144 - ['Confira minha transmissão do meu PlayStation 4! #PS4live (Grand Theft Auto V)  live at ']
+2021-01-27 20:51:03,144 - Analisando Texto...
+2021-01-27 20:51:06,843 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/jOQ5AGwCMq
+2021-01-27 20:51:06,844 - > DAILY POST ENVIADO! <
+2021-01-27 20:51:06,844 - ===================================================
+2021-01-27 20:51:07,860 - --------------------------------------
+2021-01-27 20:51:07,860 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:51:07,860 - Versão: 3.0
+2021-01-27 20:51:09,866 - ------------------------
+2021-01-27 20:51:12,106 - ERRO - NAO AUTORIZADO
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 84, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 41, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:51:12,106 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 84, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 41, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:51:12,106 - TWEET SELECIONADO:
+2021-01-27 20:51:12,107 - ['Confira minha transmissão do meu PlayStation 4! #PS4live (Grand Theft Auto V)  live at ']
+2021-01-27 20:51:12,107 - Analisando Texto...
+2021-01-27 20:51:15,937 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/XsJuz3WIu1
+2021-01-27 20:51:15,937 - > DAILY POST ENVIADO! <
+2021-01-27 20:51:15,937 - ===================================================
+2021-01-27 20:51:16,941 - --------------------------------------
+2021-01-27 20:51:16,942 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:51:16,942 - Versão: 3.0
+2021-01-27 20:51:18,952 - ------------------------
+2021-01-27 20:51:23,498 - TWEET SELECIONADO:
+2021-01-27 20:51:23,498 - ['']
+2021-01-27 20:51:23,498 - Analisando Texto...
+2021-01-27 20:51:25,862 - String vazia detectada!
+2021-01-27 20:51:25,862 - Retornando aos tweets novamente...
+2021-01-27 20:51:25,862 - ----------------------
+2021-01-27 20:51:26,865 - --------------------------------------
+2021-01-27 20:51:26,865 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:51:26,866 - Versão: 3.0
+2021-01-27 20:51:28,885 - ------------------------
+2021-01-27 20:51:33,196 - TWEET SELECIONADO:
+2021-01-27 20:51:33,196 - ['toma distraído otario ']
+2021-01-27 20:51:33,196 - Analisando Texto...
+2021-01-27 20:51:36,832 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/fa5YhgVceQ
+2021-01-27 20:51:36,832 - > DAILY POST ENVIADO! <
+2021-01-27 20:51:36,832 - ===================================================
+2021-01-27 20:51:37,843 - --------------------------------------
+2021-01-27 20:51:37,844 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:51:37,844 - Versão: 3.0
+2021-01-27 20:51:39,860 - ------------------------
+2021-01-27 20:51:44,192 - TWEET SELECIONADO:
+2021-01-27 20:51:44,192 - ['comida muito quente ui me queimei espera um segundo comida muito quente ui me queimei espera um seg']
+2021-01-27 20:51:44,192 - Analisando Texto...
+2021-01-27 20:51:47,720 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/6m6I6R6dOq
+2021-01-27 20:51:47,721 - > DAILY POST ENVIADO! <
+2021-01-27 20:51:47,721 - ===================================================
+2021-01-27 20:51:48,735 - --------------------------------------
+2021-01-27 20:51:48,736 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:51:48,736 - Versão: 3.0
+2021-01-27 20:51:50,746 - ------------------------
+2021-01-27 20:51:55,009 - TWEET SELECIONADO:
+2021-01-27 20:51:55,009 - ['toma distraído otario ']
+2021-01-27 20:51:55,009 - Analisando Texto...
+2021-01-27 20:51:58,759 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/fa5YhgVceQ
+2021-01-27 20:51:58,759 - > DAILY POST ENVIADO! <
+2021-01-27 20:51:58,759 - ===================================================
+2021-01-27 20:51:59,775 - --------------------------------------
+2021-01-27 20:51:59,775 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:51:59,775 - Versão: 3.0
+2021-01-27 20:52:01,780 - ------------------------
+2021-01-27 20:52:06,090 - TWEET SELECIONADO:
+2021-01-27 20:52:06,090 - ['Atenção  galera  a loja está  aberta  acessem    valeu  Ednaldo Pereira']
+2021-01-27 20:52:06,090 - Analisando Texto...
+2021-01-27 20:52:09,910 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/GkGyuRWW3I
+2021-01-27 20:52:09,911 - > DAILY POST ENVIADO! <
+2021-01-27 20:52:09,911 - ===================================================
+2021-01-27 20:52:10,920 - --------------------------------------
+2021-01-27 20:52:10,920 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:52:10,920 - Versão: 3.0
+2021-01-27 20:52:12,938 - ------------------------
+2021-01-27 20:52:17,244 - TWEET SELECIONADO:
+2021-01-27 20:52:17,244 - ['toma distraído otario ']
+2021-01-27 20:52:17,244 - Analisando Texto...
+2021-01-27 20:52:21,035 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/fa5YhgVceQ
+2021-01-27 20:52:21,035 - > DAILY POST ENVIADO! <
+2021-01-27 20:52:21,035 - ===================================================
+2021-01-27 20:52:22,049 - --------------------------------------
+2021-01-27 20:52:22,049 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:52:22,049 - Versão: 3.0
+2021-01-27 20:52:24,063 - ------------------------
+2021-01-27 20:52:28,485 - TWEET SELECIONADO:
+2021-01-27 20:52:28,485 - ['Capitu sobre opiniões do Felipe Neto.  ']
+2021-01-27 20:52:28,485 - Analisando Texto...
+2021-01-27 20:52:32,167 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/TDe343WACk
+2021-01-27 20:52:32,167 - > DAILY POST ENVIADO! <
+2021-01-27 20:52:32,167 - ===================================================
+2021-01-27 20:52:33,175 - --------------------------------------
+2021-01-27 20:52:33,176 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:52:33,176 - Versão: 3.0
+2021-01-27 20:52:35,190 - ------------------------
+2021-01-27 20:52:39,472 - TWEET SELECIONADO:
+2021-01-27 20:52:39,472 - ['quem q viu bbb 19?']
+2021-01-27 20:52:39,472 - Analisando Texto...
+2021-01-27 20:52:43,119 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/ufmFJH818Q
+2021-01-27 20:52:43,119 - > DAILY POST ENVIADO! <
+2021-01-27 20:52:43,119 - ===================================================
+2021-01-27 20:52:44,132 - --------------------------------------
+2021-01-27 20:52:44,133 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:52:44,133 - Versão: 3.0
+2021-01-27 20:52:46,144 - ------------------------
+2021-01-27 20:52:48,442 - ERRO - NAO AUTORIZADO
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 84, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 41, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:52:48,442 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 84, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 41, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:52:48,442 - TWEET SELECIONADO:
+2021-01-27 20:52:48,443 - ['quem q viu bbb 19?']
+2021-01-27 20:52:48,443 - Analisando Texto...
+2021-01-27 20:52:52,251 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/siwCIieFNU
+2021-01-27 20:52:52,251 - > DAILY POST ENVIADO! <
+2021-01-27 20:52:52,251 - ===================================================
+2021-01-27 20:52:53,260 - --------------------------------------
+2021-01-27 20:52:53,261 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:52:53,261 - Versão: 3.0
+2021-01-27 20:52:55,280 - ------------------------
+2021-01-27 20:52:59,584 - TWEET SELECIONADO:
+2021-01-27 20:52:59,584 - ['f']
+2021-01-27 20:52:59,584 - Analisando Texto...
+2021-01-27 20:53:03,177 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/r0UuSmOOzP
+2021-01-27 20:53:03,177 - > DAILY POST ENVIADO! <
+2021-01-27 20:53:03,177 - ===================================================
+2021-01-27 20:53:04,186 - --------------------------------------
+2021-01-27 20:53:04,186 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:53:04,186 - Versão: 3.0
+2021-01-27 20:53:06,202 - ------------------------
+2021-01-27 20:53:10,473 - TWEET SELECIONADO:
+2021-01-27 20:53:10,473 - ['Com a pior das intenções xingam de tudo, de nazistas a genocidas e ainda devemos respeitar? Devemos argumentar racionalmente? Claro que não. Contra jumentos este é o linguajar correto.  Não gostou? Venha para o lado de cá do balcão ver como é a guerra. ']
+2021-01-27 20:53:10,473 - Analisando Texto...
+2021-01-27 20:53:14,344 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/vz26K3C0q6
+2021-01-27 20:53:14,344 - > DAILY POST ENVIADO! <
+2021-01-27 20:53:14,344 - ===================================================
+2021-01-27 20:53:15,353 - --------------------------------------
+2021-01-27 20:53:15,353 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:53:15,354 - Versão: 3.0
+2021-01-27 20:53:17,373 - ------------------------
+2021-01-27 20:53:21,659 - TWEET SELECIONADO:
+2021-01-27 20:53:21,659 - ['']
+2021-01-27 20:53:21,659 - Analisando Texto...
+2021-01-27 20:53:24,104 - String vazia detectada!
+2021-01-27 20:53:24,104 - Retornando aos tweets novamente...
+2021-01-27 20:53:24,104 - ----------------------
+2021-01-27 20:53:25,110 - --------------------------------------
+2021-01-27 20:53:25,110 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:53:25,110 - Versão: 3.0
+2021-01-27 20:53:27,129 - ------------------------
+2021-01-27 20:53:31,448 - TWEET SELECIONADO:
+2021-01-27 20:53:31,449 - Analisando Texto...
+2021-01-27 20:53:35,219 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/iRduWsrM8E
+2021-01-27 20:53:35,220 - > DAILY POST ENVIADO! <
+2021-01-27 20:53:35,220 - ===================================================
+2021-01-27 20:53:36,223 - --------------------------------------
+2021-01-27 20:53:36,223 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:53:36,223 - Versão: 3.0
+2021-01-27 20:53:38,241 - ------------------------
+2021-01-27 20:56:57,326 - --------------------------------------
+2021-01-27 20:56:57,326 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:56:57,326 - Versão: 3.0
+2021-01-27 20:56:59,342 - ------------------------
+2021-01-27 20:57:03,638 - TWEET SELECIONADO:
+2021-01-27 20:57:03,638 - ['Com a pior das intenções xingam de tudo, de nazistas a genocidas e ainda devemos respeitar? Devemos argumentar racionalmente? Claro que não. Contra jumentos este é o linguajar correto.  Não gostou? Venha para o lado de cá do balcão ver como é a guerra. ']
+2021-01-27 20:57:03,638 - Analisando Texto...
+2021-01-27 20:57:07,898 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/vz26K3C0q6
+2021-01-27 20:57:07,898 - > DAILY POST ENVIADO! <
+2021-01-27 20:57:07,898 - ===================================================
+2021-01-27 20:57:08,913 - --------------------------------------
+2021-01-27 20:57:08,914 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:57:08,914 - Versão: 3.0
+2021-01-27 20:57:10,931 - ------------------------
+2021-01-27 20:57:15,239 - TWEET SELECIONADO:
+2021-01-27 20:57:15,239 - ['toma distraído otario ']
+2021-01-27 20:57:15,239 - Analisando Texto...
+2021-01-27 20:57:18,817 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/fa5YhgVceQ
+2021-01-27 20:57:18,817 - > DAILY POST ENVIADO! <
+2021-01-27 20:57:18,818 - ===================================================
+2021-01-27 20:57:19,820 - --------------------------------------
+2021-01-27 20:57:19,821 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:57:19,821 - Versão: 3.0
+2021-01-27 20:57:21,832 - ------------------------
+2021-01-27 20:57:24,039 - ERRO - NAO AUTORIZADO
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 79, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:57:24,039 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 79, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 20:57:24,039 - TWEET SELECIONADO:
+2021-01-27 20:57:24,039 - ['toma distraído otario ']
+2021-01-27 20:57:24,039 - Analisando Texto...
+2021-01-27 20:57:27,613 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/cqhl6fJJqt
+2021-01-27 20:57:27,613 - > DAILY POST ENVIADO! <
+2021-01-27 20:57:27,613 - ===================================================
+2021-01-27 20:57:28,620 - --------------------------------------
+2021-01-27 20:57:28,620 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:57:28,620 - Versão: 3.0
+2021-01-27 20:57:30,635 - ------------------------
+2021-01-27 20:57:34,936 - TWEET SELECIONADO:
+2021-01-27 20:57:34,936 - ['Capitu sobre opiniões do Felipe Neto.  ']
+2021-01-27 20:57:34,936 - Analisando Texto...
+2021-01-27 20:57:38,877 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/TDe343WACk
+2021-01-27 20:57:38,877 - > DAILY POST ENVIADO! <
+2021-01-27 20:57:38,877 - ===================================================
+2021-01-27 20:57:39,884 - --------------------------------------
+2021-01-27 20:57:39,884 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:57:39,885 - Versão: 3.0
+2021-01-27 20:57:41,898 - ------------------------
+2021-01-27 20:57:46,218 - TWEET SELECIONADO:
+2021-01-27 20:57:46,218 - ['Atenção  galera  a loja está  aberta  acessem    valeu  Ednaldo Pereira']
+2021-01-27 20:57:46,218 - Analisando Texto...
+2021-01-27 20:57:49,905 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/GkGyuRWW3I
+2021-01-27 20:57:49,905 - > DAILY POST ENVIADO! <
+2021-01-27 20:57:49,906 - ===================================================
+2021-01-27 20:57:50,912 - --------------------------------------
+2021-01-27 20:57:50,912 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:57:50,912 - Versão: 3.0
+2021-01-27 20:57:52,921 - ------------------------
+2021-01-27 20:57:57,240 - TWEET SELECIONADO:
+2021-01-27 20:57:57,240 - ['Deve ser pq tem 1200 pessoas morrendo por dia né sua puta ']
+2021-01-27 20:57:57,240 - Analisando Texto...
+2021-01-27 20:58:00,937 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/WPKq6S61Mm
+2021-01-27 20:58:00,937 - > DAILY POST ENVIADO! <
+2021-01-27 20:58:00,937 - ===================================================
+2021-01-27 20:58:01,951 - --------------------------------------
+2021-01-27 20:58:01,952 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:58:01,952 - Versão: 3.0
+2021-01-27 20:58:03,958 - ------------------------
+2021-01-27 20:58:08,273 - TWEET SELECIONADO:
+2021-01-27 20:58:08,274 - Analisando Texto...
+2021-01-27 20:58:12,021 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/iRduWsrM8E
+2021-01-27 20:58:12,021 - > DAILY POST ENVIADO! <
+2021-01-27 20:58:12,021 - ===================================================
+2021-01-27 20:58:13,029 - --------------------------------------
+2021-01-27 20:58:13,029 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:58:13,029 - Versão: 3.0
+2021-01-27 20:59:36,016 - --------------------------------------
+2021-01-27 20:59:36,016 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:59:36,016 - Versão: 3.0
+2021-01-27 20:59:38,030 - ------------------------
+2021-01-27 20:59:42,345 - TWEET SELECIONADO:
+2021-01-27 20:59:42,345 - ['']
+2021-01-27 20:59:42,345 - Analisando Texto...
+2021-01-27 20:59:44,712 - String vazia detectada!
+2021-01-27 20:59:44,712 - Retornando aos tweets novamente...
+2021-01-27 20:59:44,712 - ----------------------
+2021-01-27 20:59:45,716 - --------------------------------------
+2021-01-27 20:59:45,716 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:59:45,716 - Versão: 3.0
+2021-01-27 20:59:47,735 - ------------------------
+2021-01-27 20:59:55,049 - TWEET SELECIONADO:
+2021-01-27 20:59:55,049 - ['toma distraído otario ']
+2021-01-27 20:59:55,049 - Analisando Texto...
+2021-01-27 20:59:58,874 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/fa5YhgVceQ
+2021-01-27 20:59:58,874 - > DAILY POST ENVIADO! <
+2021-01-27 20:59:58,874 - ===================================================
+2021-01-27 20:59:59,889 - --------------------------------------
+2021-01-27 20:59:59,889 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 20:59:59,889 - Versão: 3.0
+2021-01-27 21:00:01,900 - ------------------------
+2021-01-27 21:00:06,238 - TWEET SELECIONADO:
+2021-01-27 21:00:06,238 - ['quem q viu bbb 19?']
+2021-01-27 21:00:06,238 - Analisando Texto...
+2021-01-27 21:00:10,052 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/ufmFJH818Q
+2021-01-27 21:00:10,052 - > DAILY POST ENVIADO! <
+2021-01-27 21:00:10,052 - ===================================================
+2021-01-27 21:00:11,055 - --------------------------------------
+2021-01-27 21:00:11,055 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 21:00:11,055 - Versão: 3.0
+2021-01-27 21:00:13,065 - ------------------------
+2021-01-27 21:00:17,384 - TWEET SELECIONADO:
+2021-01-27 21:00:17,384 - ['Atenção  galera  a loja está  aberta  acessem    valeu  Ednaldo Pereira']
+2021-01-27 21:00:17,384 - Analisando Texto...
+2021-01-27 21:00:21,167 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/GkGyuRWW3I
+2021-01-27 21:00:21,167 - > DAILY POST ENVIADO! <
+2021-01-27 21:00:21,167 - ===================================================
+2021-01-27 21:00:22,181 - --------------------------------------
+2021-01-27 21:00:22,181 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 21:00:22,181 - Versão: 3.0
+2021-01-27 21:00:24,192 - ------------------------
+2021-01-27 21:00:26,425 - ERRO - NAO AUTORIZADO
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 79, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 21:00:26,426 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 79, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 21:00:26,426 - TWEET SELECIONADO:
+2021-01-27 21:00:26,426 - ['Atenção  galera  a loja está  aberta  acessem    valeu  Ednaldo Pereira']
+2021-01-27 21:00:26,427 - Analisando Texto...
+2021-01-27 21:00:30,073 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/ZJ2qhEQDXB
+2021-01-27 21:00:30,073 - > DAILY POST ENVIADO! <
+2021-01-27 21:00:30,073 - ===================================================
+2021-01-27 21:00:31,086 - --------------------------------------
+2021-01-27 21:00:31,087 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 21:00:31,087 - Versão: 3.0
+2021-01-27 21:00:33,099 - ------------------------
+2021-01-27 21:00:37,377 - TWEET SELECIONADO:
+2021-01-27 21:00:37,377 - ['Atenção  galera  a loja está  aberta  acessem    valeu  Ednaldo Pereira']
+2021-01-27 21:00:37,377 - Analisando Texto...
+2021-01-27 21:00:42,249 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/GkGyuRWW3I
+2021-01-27 21:00:42,249 - > DAILY POST ENVIADO! <
+2021-01-27 21:00:42,249 - ===================================================
+2021-01-27 21:00:43,256 - --------------------------------------
+2021-01-27 21:00:43,256 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 21:00:43,256 - Versão: 3.0
+2021-01-27 21:00:45,266 - ------------------------
+2021-01-27 21:00:49,613 - TWEET SELECIONADO:
+2021-01-27 21:00:49,613 - ['Capitu sobre opiniões do Felipe Neto.  ']
+2021-01-27 21:00:49,613 - Analisando Texto...
+2021-01-27 21:00:53,407 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/TDe343WACk
+2021-01-27 21:00:53,407 - > DAILY POST ENVIADO! <
+2021-01-27 21:00:53,407 - ===================================================
+2021-01-27 21:00:54,414 - --------------------------------------
+2021-01-27 21:00:54,414 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 21:00:54,414 - Versão: 3.0
+2021-01-27 21:00:56,426 - ------------------------
+2021-01-27 21:01:00,772 - TWEET SELECIONADO:
+2021-01-27 21:01:00,772 - ['Deve ser pq tem 1200 pessoas morrendo por dia né sua puta ']
+2021-01-27 21:01:00,772 - Analisando Texto...
+2021-01-27 21:01:04,701 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/WPKq6S61Mm
+2021-01-27 21:01:04,701 - > DAILY POST ENVIADO! <
+2021-01-27 21:01:04,701 - ===================================================
+2021-01-27 21:01:05,712 - --------------------------------------
+2021-01-27 21:01:05,712 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 21:01:05,712 - Versão: 3.0
+2021-01-27 21:01:07,724 - ------------------------
+2021-01-27 21:01:10,253 - ERRO - NAO AUTORIZADO
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 79, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 21:01:10,253 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 79, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 39, in obter_tweets
+    resultados = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-27 21:01:10,254 - TWEET SELECIONADO:
+2021-01-27 21:01:10,254 - ['Deve ser pq tem 1200 pessoas morrendo por dia né sua puta ']
+2021-01-27 21:01:10,254 - Analisando Texto...
+2021-01-27 21:01:14,137 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/GlWK9s00bF
+2021-01-27 21:01:14,137 - > DAILY POST ENVIADO! <
+2021-01-27 21:01:14,137 - ===================================================
+2021-01-27 21:01:15,143 - --------------------------------------
+2021-01-27 21:01:15,143 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 21:01:15,143 - Versão: 3.0
+2021-01-27 21:01:17,159 - ------------------------
+2021-01-27 21:01:21,505 - TWEET SELECIONADO:
+2021-01-27 21:01:21,507 - Analisando Texto...
+2021-01-27 21:01:25,972 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/Fu4z5BAzjk
+2021-01-27 21:01:25,972 - > DAILY POST ENVIADO! <
+2021-01-27 21:01:25,973 - ===================================================
+2021-01-27 21:01:26,975 - --------------------------------------
+2021-01-27 21:01:26,975 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-27 21:01:26,975 - Versão: 3.0
+2021-01-27 21:01:28,992 - ------------------------

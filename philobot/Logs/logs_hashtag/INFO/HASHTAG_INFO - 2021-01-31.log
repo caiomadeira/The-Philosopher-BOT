@@ -1,0 +1,1061 @@
+2021-01-31 08:28:43,360 - Bem-vindo!
+
+2021-01-31 08:28:43,360 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 08:28:43,360 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 08:28:43,360 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 08:28:52,309 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 08:28:52,309 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 08:28:52,309 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 08:28:52,309 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 08:28:52,309 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 09:11:27,344 - Bem-vindo!
+
+2021-01-31 09:11:27,353 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 09:11:27,353 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 09:11:27,353 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 09:11:30,494 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 09:11:30,494 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 09:11:30,494 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 09:11:30,494 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 09:11:30,494 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 09:11:48,678 - [{'code': 215, 'message': 'Bad Authentication data.'}]
+Traceback (most recent call last):
+  File "C:/Users/caiom/Documents/GitHub/PhiloBot-Test-ENV/TWITTER_TEST_ENV/main.py", line 123, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 51, in choose_auto_tweet
+    AUTO_post_status_with_media(IMG_PATH=IMG_PATH)
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 30, in AUTO_post_status_with_media
+    api.update_with_media(IMG_PATH, status=f'#Testemaker {status_key}' + ' @felipeneto')
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\lib\site-packages\tweepy\api.py", line 275, in update_with_media
+    return bind_api(
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\lib\site-packages\tweepy\binder.py", line 252, in _call
+    return method.execute()
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 215, 'message': 'Bad Authentication data.'}]
+2021-01-31 09:12:31,855 - Bem-vindo!
+
+2021-01-31 09:12:31,855 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 09:12:31,855 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 09:12:31,855 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 09:12:32,005 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 09:12:32,005 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 09:12:32,005 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 09:12:32,005 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 09:12:32,005 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 09:13:53,568 - Bem-vindo!
+
+2021-01-31 09:13:53,568 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 09:13:53,568 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 09:13:53,568 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 09:13:53,849 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 09:13:53,849 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 09:13:53,849 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 09:13:53,849 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 09:13:53,849 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 09:36:08,719 - Bem-vindo!
+
+2021-01-31 09:36:08,729 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 09:36:08,729 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 09:36:08,729 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 09:36:11,619 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 09:36:11,619 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 09:36:11,619 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 09:36:11,619 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 09:36:11,619 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 09:36:35,920 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 09:36:35,986 - Tweet ID: 1355857490899070976
+2021-01-31 09:36:35,986 - Tweet USERNAME: TestePhiloBot
+2021-01-31 09:36:35,986 - Adicionado na fila
+2021-01-31 09:36:35,986 - --------------------------------------------------------
+
+2021-01-31 09:36:40,995 - ----------------------------------------
+2021-01-31 09:36:40,995 - _\|/_ STARTING PHILOMAKER _\|/_ 
+2021-01-31 09:36:40,995 - ----------------------------------------
+2021-01-31 09:36:40,995 - TAMANHO FILA: 1
+2021-01-31 09:36:40,995 - Motor atuando: 1355857490899070976
+2021-01-31 09:36:42,940 - STATUS CONVERTIDO: #Testemaker ABEE44EFA7A1492CB4EA0F56 @felipeneto https://t.co/R78n0iUAIt
+2021-01-31 09:36:42,940 - STATUS TRATADO: #Testemaker ABEE44EFA7A1492CB4EA0F56  https://t.co/R78n0iUAIt
+2021-01-31 09:36:49,580 - Finalizado, enviando: 1355857490899070976
+2021-01-31 09:36:49,580 - Itens restantes: 0
+2021-01-31 09:36:49,580 - --------------------------------------------------------
+
+2021-01-31 09:36:49,580 - Lista tratada com sucesso.
+2021-01-31 09:36:49,580 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 09:38:20,879 - Bem-vindo!
+
+2021-01-31 09:38:20,879 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 09:38:20,879 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 09:38:20,879 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 09:38:21,030 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 09:38:21,030 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 09:38:21,030 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 09:38:21,030 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 09:38:21,030 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 09:38:46,171 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 09:38:46,186 - Tweet ID: 1355858037462986752
+2021-01-31 09:38:46,186 - Tweet USERNAME: TestePhiloBot
+2021-01-31 09:38:46,186 - Adicionado na fila
+2021-01-31 09:38:46,186 - --------------------------------------------------------
+
+2021-01-31 09:38:51,187 - ----------------------------------------
+2021-01-31 09:38:51,187 - _\|/_ STARTING PHILOMAKER _\|/_ 
+2021-01-31 09:38:51,187 - ----------------------------------------
+2021-01-31 09:38:51,187 - TAMANHO FILA: 1
+2021-01-31 09:38:51,187 - Motor atuando: 1355858037462986752
+2021-01-31 09:38:51,852 - STATUS CONVERTIDO: #Testemaker ECC9494F95128ED95FDD8696 @felipeneto https://t.co/WOnv1r0vYC
+2021-01-31 09:38:51,852 - STATUS TRATADO: #Testemaker ECC9494F95128ED95FDD8696  https://t.co/WOnv1r0vYC
+2021-01-31 09:38:54,314 - Read-only application cannot POST.
+2021-01-31 09:38:54,314 - ERRO! Não foi possivel realizar a ação para o usuário.
+2021-01-31 09:38:54,314 - 
+==========================
+2021-01-31 09:38:54,314 - Finalizado, enviando: 1355858037462986752
+2021-01-31 09:38:54,314 - Itens restantes: 0
+2021-01-31 09:38:54,314 - --------------------------------------------------------
+
+2021-01-31 09:38:54,314 - Lista tratada com sucesso.
+2021-01-31 09:38:54,314 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 09:39:48,324 - Bem-vindo!
+
+2021-01-31 09:39:48,324 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 09:39:48,324 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 09:39:48,324 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 09:39:48,409 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 09:39:48,409 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 09:39:48,409 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 09:39:48,409 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 09:39:48,409 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 09:40:15,327 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 09:40:15,337 - Tweet ID: 1355858411372605441
+2021-01-31 09:40:15,337 - Tweet USERNAME: TestePhiloBot
+2021-01-31 09:40:15,337 - Adicionado na fila
+2021-01-31 09:40:15,337 - --------------------------------------------------------
+
+2021-01-31 09:40:20,351 - ----------------------------------------
+2021-01-31 09:40:20,351 - _\|/_ STARTING PHILOMAKER _\|/_ 
+2021-01-31 09:40:20,351 - ----------------------------------------
+2021-01-31 09:40:20,351 - TAMANHO FILA: 1
+2021-01-31 09:40:20,351 - Motor atuando: 1355858411372605441
+2021-01-31 09:40:21,236 - STATUS CONVERTIDO: #Testemaker 4DD44C7D9B6742D509C0B11F @felipeneto https://t.co/V2v0W4jlAD
+2021-01-31 09:40:21,236 - STATUS TRATADO: #Testemaker 4DD44C7D9B6742D509C0B11F  https://t.co/V2v0W4jlAD
+2021-01-31 09:40:23,746 - Read-only application cannot POST.
+2021-01-31 09:40:23,746 - ERRO! Não foi possivel realizar a ação para o usuário.
+2021-01-31 09:40:23,746 - 
+==========================
+2021-01-31 09:40:23,746 - Finalizado, enviando: 1355858411372605441
+2021-01-31 09:40:23,746 - Itens restantes: 0
+2021-01-31 09:40:23,746 - --------------------------------------------------------
+
+2021-01-31 09:40:23,746 - Lista tratada com sucesso.
+2021-01-31 09:40:23,746 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 09:43:23,726 - Bem-vindo!
+
+2021-01-31 09:43:23,726 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 09:43:23,726 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 09:43:23,726 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 09:43:23,827 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 09:43:23,827 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 09:43:23,827 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 09:43:23,827 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 09:43:23,827 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 09:43:50,347 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 09:43:50,367 - Tweet ID: 1355859312611098625
+2021-01-31 09:43:50,367 - Tweet USERNAME: TestePhiloBot
+2021-01-31 09:43:50,367 - Adicionado na fila
+2021-01-31 09:43:50,367 - --------------------------------------------------------
+
+2021-01-31 09:43:55,386 - ----------------------------------------
+2021-01-31 09:43:55,386 - _\|/_ STARTING PHILOMAKER _\|/_ 
+2021-01-31 09:43:55,386 - ----------------------------------------
+2021-01-31 09:43:55,386 - TAMANHO FILA: 1
+2021-01-31 09:43:55,386 - Motor atuando: 1355859312611098625
+2021-01-31 09:43:56,227 - STATUS CONVERTIDO: #Testemaker 34954EDC825F7FC214EB021B @felipeneto https://t.co/dYICRzAR5n
+2021-01-31 09:43:56,227 - STATUS TRATADO: #Testemaker 34954EDC825F7FC214EB021B  https://t.co/dYICRzAR5n
+2021-01-31 09:44:02,587 - Finalizado, enviando: 1355859312611098625
+2021-01-31 09:44:02,587 - Itens restantes: 0
+2021-01-31 09:44:02,587 - --------------------------------------------------------
+
+2021-01-31 09:44:02,587 - Lista tratada com sucesso.
+2021-01-31 09:44:02,587 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 11:11:08,824 - Bem-vindo!
+
+2021-01-31 11:11:08,831 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 11:11:08,831 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 11:11:08,831 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 11:11:12,337 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 11:11:12,337 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 11:11:12,337 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 11:11:12,337 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 11:11:12,337 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 11:11:45,681 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 11:11:45,697 - Tweet ID: 1355881439380832259
+2021-01-31 11:11:45,697 - Tweet USERNAME: TestePhiloBot
+2021-01-31 11:11:45,697 - Adicionado na fila
+2021-01-31 11:11:45,697 - --------------------------------------------------------
+
+2021-01-31 11:11:50,720 - ----------------------------------------
+2021-01-31 11:11:51,771 - ----------------------------------------
+2021-01-31 11:11:51,771 - TAMANHO FILA: 1
+2021-01-31 11:11:51,771 - Motor atuando: 1355881439380832259
+2021-01-31 11:11:52,713 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #Testemaker C4BF49F0A3D6C65B195DAA1A @felipeneto https://t.co/dTFaibGtkg
+2021-01-31 11:11:52,713 - STATUS TRATADO: #Testemaker C4BF49F0A3D6C65B195DAA1A  https://t.co/dTFaibGtkg
+2021-01-31 11:11:52,775 - ETAPA 3 -> CHECANDO SE É RT
+2021-01-31 11:11:52,775 - Nenhum RT encontrado. Continuando...
+2021-01-31 11:11:52,775 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-01-31 11:11:52,775 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-01-31 11:11:52,844 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-01-31 11:11:52,860 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtEO-9PW4AANjX2.png
+2021-01-31 11:11:53,978 - Imagem do Filósofo salva.
+2021-01-31 11:11:59,430 - Finalizado, enviando: 1355881439380832259
+2021-01-31 11:11:59,430 - Itens restantes: 0
+2021-01-31 11:11:59,430 - --------------------------------------------------------
+
+2021-01-31 11:11:59,430 - Lista tratada com sucesso.
+2021-01-31 11:11:59,430 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 11:23:59,670 - Bem-vindo!
+
+2021-01-31 11:23:59,670 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 11:23:59,670 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 11:23:59,670 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 11:23:59,786 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 11:23:59,786 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 11:23:59,786 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 11:23:59,801 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 11:23:59,801 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 11:24:26,147 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 11:24:26,147 - Tweet ID: 1355884629111283718
+2021-01-31 11:24:26,147 - Tweet USERNAME: TestePhiloBot
+2021-01-31 11:24:26,147 - Adicionado na fila
+2021-01-31 11:24:26,147 - --------------------------------------------------------
+
+2021-01-31 11:24:31,168 - ----------------------------------------
+2021-01-31 11:24:31,168 - > STARTING PHILOMAKER < 
+2021-01-31 11:24:31,168 - ----------------------------------------
+2021-01-31 11:24:31,168 - TAMANHO FILA: 1
+2021-01-31 11:24:31,168 - Motor atuando: 1355884629111283718
+2021-01-31 11:24:32,220 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #Testemaker 1A114B0AB906E13C52441950 @felipeneto https://t.co/0Lasvfaysj
+2021-01-31 11:24:32,220 - STATUS TRATADO: #Testemaker 1A114B0AB906E13C52441950  https://t.co/0Lasvfaysj
+2021-01-31 11:24:34,244 - ETAPA 3 -> CHECANDO SE É RT
+2021-01-31 11:24:34,244 - Nenhum RT encontrado. Continuando...
+2021-01-31 11:24:34,244 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-01-31 11:24:36,251 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-01-31 11:24:36,304 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-01-31 11:24:36,304 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtER4nAXEAMfhDS.png
+2021-01-31 11:24:37,340 - Imagem do Filósofo salva.
+2021-01-31 11:24:43,315 - Finalizado, enviando: 1355884629111283718
+2021-01-31 11:24:43,315 - Itens restantes: 0
+2021-01-31 11:24:43,315 - --------------------------------------------------------
+
+2021-01-31 11:24:43,315 - Lista tratada com sucesso.
+2021-01-31 11:24:43,315 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 11:25:39,264 - Bem-vindo!
+
+2021-01-31 11:25:39,264 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 11:25:39,264 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 11:25:39,264 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 11:25:39,349 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 11:25:39,349 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 11:25:39,349 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 11:25:39,349 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 11:25:39,349 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 11:32:09,840 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 11:32:09,840 - Tweet ID: 1355886574093955076
+2021-01-31 11:32:09,840 - Tweet USERNAME: TestePhiloBot
+2021-01-31 11:32:09,840 - Adicionado na fila
+2021-01-31 11:32:09,840 - --------------------------------------------------------
+
+2021-01-31 11:32:14,850 - ----------------------------------------
+2021-01-31 11:32:14,850 - > STARTING PHILOMAKER < 
+2021-01-31 11:32:14,850 - ----------------------------------------
+2021-01-31 11:32:14,850 - TAMANHO FILA: 1
+2021-01-31 11:32:14,850 - Motor atuando: 1355886574093955076
+2021-01-31 11:32:15,490 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #Testemaker D1CE435D977B1350CF793879 @felipeneto https://t.co/2JXYDX3Ck5
+2021-01-31 11:32:15,490 - STATUS TRATADO: #Testemaker D1CE435D977B1350CF793879  https://t.co/2JXYDX3Ck5
+2021-01-31 11:32:17,510 - ETAPA 3 -> CHECANDO SE É RT
+2021-01-31 11:32:17,510 - Nenhum RT encontrado. Continuando...
+2021-01-31 11:32:17,510 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-01-31 11:32:19,530 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-01-31 11:32:19,590 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-01-31 11:32:19,599 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtETp1WXYAEm5RH.png
+2021-01-31 11:32:20,840 - Imagem do Filósofo salva.
+2021-01-31 11:32:26,210 - Finalizado, enviando: 1355886574093955076
+2021-01-31 11:32:26,210 - Itens restantes: 0
+2021-01-31 11:32:26,210 - --------------------------------------------------------
+
+2021-01-31 11:32:26,210 - Lista tratada com sucesso.
+2021-01-31 11:32:26,210 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 11:40:46,541 - Bem-vindo!
+
+2021-01-31 11:40:46,541 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 11:40:46,541 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 11:40:46,541 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 11:40:46,758 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 11:40:46,758 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 11:40:46,773 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 11:40:46,773 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 11:40:46,773 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 11:41:33,469 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 11:41:33,469 - Tweet ID: 1355888937844289536
+2021-01-31 11:41:33,469 - Tweet USERNAME: TestePhiloBot
+2021-01-31 11:41:33,469 - Adicionado na fila
+2021-01-31 11:41:33,469 - --------------------------------------------------------
+
+2021-01-31 11:41:38,487 - ----------------------------------------
+2021-01-31 11:41:38,487 - > STARTING PHILOMAKER < 
+2021-01-31 11:41:38,487 - ----------------------------------------
+2021-01-31 11:41:38,487 - TAMANHO FILA: 1
+2021-01-31 11:41:38,487 - Motor atuando: 1355888937844289536
+2021-01-31 11:41:39,259 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #Testemaker 0CFC4CB8AC614074141C1223 @felipeneto https://t.co/J4yqURCRiF
+2021-01-31 11:41:39,259 - STATUS TRATADO: #Testemaker 0CFC4CB8AC614074141C1223  https://t.co/J4yqURCRiF
+2021-01-31 11:41:41,284 - ETAPA 3 -> CHECANDO SE É RT
+2021-01-31 11:41:41,284 - Nenhum RT encontrado. Continuando...
+2021-01-31 11:41:41,284 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-01-31 11:41:43,292 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-01-31 11:41:43,345 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-01-31 11:41:43,345 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtEVzbgXcAEB1e4.png
+2021-01-31 11:41:44,350 - Imagem do Filósofo salva.
+2021-01-31 11:41:49,669 - Finalizado, enviando: 1355888937844289536
+2021-01-31 11:41:49,669 - Itens restantes: 0
+2021-01-31 11:41:49,669 - --------------------------------------------------------
+
+2021-01-31 11:41:49,669 - Lista tratada com sucesso.
+2021-01-31 11:41:49,669 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 12:11:36,042 - Bem-vindo!
+
+2021-01-31 12:11:36,042 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 12:11:36,042 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 12:11:36,057 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 12:11:37,410 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 12:11:37,410 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 12:11:37,410 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 12:11:37,410 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 12:11:37,410 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 12:12:21,566 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 12:12:21,566 - Tweet ID: 1355896689312325632
+2021-01-31 12:12:21,566 - Tweet USERNAME: TestePhiloBot
+2021-01-31 12:12:21,566 - Adicionado na fila
+2021-01-31 12:12:21,566 - --------------------------------------------------------
+
+2021-01-31 12:12:26,569 - ----------------------------------------
+2021-01-31 12:12:26,569 - > STARTING PHILOMAKER < 
+2021-01-31 12:12:26,569 - ----------------------------------------
+2021-01-31 12:12:26,569 - TAMANHO FILA: 1
+2021-01-31 12:12:26,569 - Motor atuando: 1355896689312325632
+2021-01-31 12:12:28,109 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #Testemaker CF254C0C81014BF83CDABB1F @felipeneto https://t.co/RjXHxedyCf
+2021-01-31 12:12:28,109 - STATUS TRATADO: #Testemaker CF254C0C81014BF83CDABB1F  https://t.co/RjXHxedyCf
+2021-01-31 12:12:30,170 - ETAPA 3 -> CHECANDO SE É RT
+2021-01-31 12:12:30,170 - Nenhum RT encontrado. Continuando...
+2021-01-31 12:12:30,170 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-01-31 12:12:32,177 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-01-31 12:12:32,223 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-01-31 12:12:32,262 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtEc2obXIAA23Hq.png
+2021-01-31 12:12:33,297 - Imagem do Filósofo salva.
+2021-01-31 12:12:38,833 - Finalizado, enviando: 1355896689312325632
+2021-01-31 12:12:38,833 - Itens restantes: 0
+2021-01-31 12:12:38,833 - --------------------------------------------------------
+
+2021-01-31 12:12:38,833 - Lista tratada com sucesso.
+2021-01-31 12:12:38,833 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 12:36:36,135 - Bem-vindo!
+
+2021-01-31 12:36:36,135 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 12:36:36,135 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 12:36:36,135 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 12:36:36,321 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 12:36:36,322 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 12:36:36,322 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 12:36:36,322 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 12:36:36,322 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 12:37:06,532 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 12:37:06,533 - Tweet ID: 1355902914519293952
+2021-01-31 12:37:06,533 - Tweet USERNAME: TestePhiloBot
+2021-01-31 12:37:06,533 - Adicionado na fila
+2021-01-31 12:37:06,533 - --------------------------------------------------------
+
+2021-01-31 12:37:11,543 - ----------------------------------------
+2021-01-31 12:37:11,543 - > STARTING PHILOMAKER < 
+2021-01-31 12:37:11,543 - ----------------------------------------
+2021-01-31 12:37:11,543 - TAMANHO FILA: 1
+2021-01-31 12:37:11,543 - Motor atuando: 1355902914519293952
+2021-01-31 12:37:11,780 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #Testemaker 42724EC6A8F77B64CA439FDB @felipeneto https://t.co/nLbBNEwHMm
+2021-01-31 12:37:11,780 - STATUS TRATADO: #Testemaker 42724EC6A8F77B64CA439FDB  https://t.co/nLbBNEwHMm
+2021-01-31 12:37:13,797 - ETAPA 3 -> CHECANDO SE É RT
+2021-01-31 12:37:13,797 - -- Nenhum RT encontrado. Continuando...
+2021-01-31 12:37:13,797 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-01-31 12:37:15,802 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-01-31 12:37:15,843 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-01-31 12:37:15,846 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtEig-UXUAMGvLi.png
+2021-01-31 12:37:16,698 - Imagem do Filósofo salva.
+2021-01-31 12:37:20,672 - Finalizado, enviando: 1355902914519293952
+2021-01-31 12:37:20,672 - Itens restantes: 0
+2021-01-31 12:37:20,672 - --------------------------------------------------------
+
+2021-01-31 12:37:20,672 - Lista tratada com sucesso.
+2021-01-31 12:37:20,672 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 12:43:46,090 - Bem-vindo!
+
+2021-01-31 12:43:46,090 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 12:43:46,090 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 12:43:46,090 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 12:43:46,146 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 12:43:46,146 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 12:43:46,146 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 12:43:46,146 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 12:43:46,146 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 12:44:38,293 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 12:44:38,293 - Tweet ID: 1355904809484890116
+2021-01-31 12:44:38,293 - Tweet USERNAME: TestePhiloBot
+2021-01-31 12:44:38,293 - Adicionado na fila
+2021-01-31 12:44:38,293 - --------------------------------------------------------
+
+2021-01-31 12:44:43,299 - ----------------------------------------
+2021-01-31 12:44:43,299 - > STARTING PHILOMAKER < 
+2021-01-31 12:44:43,299 - ----------------------------------------
+2021-01-31 12:44:43,299 - TAMANHO FILA: 1
+2021-01-31 12:44:43,299 - Motor atuando: 1355904809484890116
+2021-01-31 12:44:43,567 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #Testemaker BB0A44A890350CD73A857A49 @felipeneto https://t.co/aCwnf4Idx1
+2021-01-31 12:44:43,567 - STATUS TRATADO: #Testemaker BB0A44A890350CD73A857A49  https://t.co/aCwnf4Idx1
+2021-01-31 12:44:45,581 - ETAPA 3 -> CHECANDO SE É RT
+2021-01-31 12:44:45,581 - -- Nenhum RT encontrado. Continuando...
+2021-01-31 12:44:45,581 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-01-31 12:44:47,593 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-01-31 12:44:47,633 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-01-31 12:44:47,636 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtEkPR7W8AUXKon.png
+2021-01-31 12:44:48,674 - Imagem do Filósofo salva.
+2021-01-31 12:44:52,964 - Finalizado, enviando: 1355904809484890116
+2021-01-31 12:44:52,964 - Itens restantes: 0
+2021-01-31 12:44:52,964 - --------------------------------------------------------
+
+2021-01-31 12:44:52,964 - Lista tratada com sucesso.
+2021-01-31 12:44:52,964 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 12:57:54,389 - Bem-vindo!
+
+2021-01-31 12:57:54,389 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 12:57:54,389 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 12:57:54,389 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 12:57:54,450 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 12:57:54,451 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 12:57:54,451 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 12:57:54,451 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 12:57:54,451 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 12:58:18,637 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 12:58:18,638 - Tweet ID: 1355908250412191745
+2021-01-31 12:58:18,638 - Tweet USERNAME: TestePhiloBot
+2021-01-31 12:58:18,638 - Adicionado na fila
+2021-01-31 12:58:18,638 - --------------------------------------------------------
+
+2021-01-31 12:58:23,645 - ----------------------------------------
+2021-01-31 12:58:23,645 - > STARTING PHILOMAKER < 
+2021-01-31 12:58:23,645 - ----------------------------------------
+2021-01-31 12:58:23,645 - TAMANHO FILA: 1
+2021-01-31 12:58:23,645 - Motor atuando: 1355908250412191745
+2021-01-31 12:58:26,917 - Bem-vindo!
+
+2021-01-31 12:58:26,917 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 12:58:26,917 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 12:58:26,917 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 12:58:26,970 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 12:58:26,970 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 12:58:26,970 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 12:58:26,970 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 12:58:26,970 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:00:33,126 - [{'code': 187, 'message': 'Status is a duplicate.'}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 187, 'message': 'Status is a duplicate.'}]
+2021-01-31 13:05:33,362 - Bem-vindo!
+
+2021-01-31 13:05:33,362 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 13:05:33,362 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 13:05:33,362 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 13:05:33,416 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 13:05:33,417 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 13:05:33,417 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 13:05:33,417 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 13:05:33,417 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:06:45,228 - [{'code': 187, 'message': 'Status is a duplicate.'}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 121, in hash_or_posting
+    from EnvironmentUtil.Automatic_Tweets.auto_status import choose_auto_tweet
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 59, in <module>
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 187, 'message': 'Status is a duplicate.'}]
+2021-01-31 13:06:51,595 - Bem-vindo!
+
+2021-01-31 13:06:51,595 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 13:06:51,595 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 13:06:51,595 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 13:06:51,648 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 13:06:51,648 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 13:06:51,648 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 13:06:51,648 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 13:06:51,648 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:11:11,554 - Bem-vindo!
+
+2021-01-31 13:11:11,554 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 13:11:11,555 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 13:11:11,555 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 13:11:11,609 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 13:11:11,609 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 13:11:11,609 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 13:11:11,609 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 13:11:11,609 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:11:57,910 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 13:11:57,910 - Tweet ID: 1355911686893527048
+2021-01-31 13:11:57,910 - Tweet USERNAME: TestePhiloBot
+2021-01-31 13:11:57,911 - Adicionado na fila
+2021-01-31 13:11:57,911 - --------------------------------------------------------
+
+2021-01-31 13:12:02,926 - ----------------------------------------
+2021-01-31 13:12:02,926 - > STARTING PHILOMAKER < 
+2021-01-31 13:12:02,926 - ----------------------------------------
+2021-01-31 13:12:02,926 - TAMANHO FILA: 1
+2021-01-31 13:12:02,926 - Motor atuando: 1355911686893527048
+2021-01-31 13:12:03,216 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker bundinha @felipeneto  @felipeneto
+2021-01-31 13:12:03,217 - STATUS TRATADO: #testemaker bundinha   
+2021-01-31 13:12:05,231 - ETAPA 3 -> CHECANDO SE É RT
+2021-01-31 13:12:05,231 - -- Nenhum RT encontrado. Continuando...
+2021-01-31 13:12:05,231 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-01-31 13:12:07,234 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-01-31 13:12:07,275 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-01-31 13:12:12,518 - Finalizado, enviando: 1355911686893527048
+2021-01-31 13:12:12,518 - Itens restantes: 0
+2021-01-31 13:12:12,518 - --------------------------------------------------------
+
+2021-01-31 13:12:12,518 - Lista tratada com sucesso.
+2021-01-31 13:12:12,518 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 13:16:24,325 - Bem-vindo!
+
+2021-01-31 13:16:24,325 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 13:16:24,325 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 13:16:24,325 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 13:16:24,381 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 13:16:24,381 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 13:16:24,381 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 13:16:24,381 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 13:16:24,381 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:16:56,278 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 13:16:56,278 - Tweet ID: 1355912938545152000
+2021-01-31 13:16:56,278 - Tweet USERNAME: TestePhiloBot
+2021-01-31 13:16:56,278 - Adicionado na fila
+2021-01-31 13:16:56,278 - --------------------------------------------------------
+
+2021-01-31 13:17:01,289 - ----------------------------------------
+2021-01-31 13:17:01,289 - > STARTING PHILOMAKER < 
+2021-01-31 13:17:01,289 - ----------------------------------------
+2021-01-31 13:17:01,289 - TAMANHO FILA: 1
+2021-01-31 13:17:01,289 - Motor atuando: 1355912938545152000
+2021-01-31 13:17:01,560 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #TESTEMAKER OI  @felipeneto
+2021-01-31 13:17:01,561 - STATUS TRATADO: #TESTEMAKER OI  
+2021-01-31 13:17:03,579 - ETAPA 3 -> CHECANDO SE É RT
+2021-01-31 13:17:03,579 - -- Nenhum RT encontrado. Continuando...
+2021-01-31 13:17:03,579 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-01-31 13:17:05,582 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-01-31 13:17:05,622 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-01-31 13:17:09,563 - Finalizado, enviando: 1355912938545152000
+2021-01-31 13:17:09,563 - Itens restantes: 0
+2021-01-31 13:17:09,563 - --------------------------------------------------------
+
+2021-01-31 13:17:09,563 - Lista tratada com sucesso.
+2021-01-31 13:17:09,563 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 13:18:57,570 - Bem-vindo!
+
+2021-01-31 13:18:57,571 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 13:18:57,571 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 13:18:57,571 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 13:18:57,627 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 13:18:57,627 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 13:18:57,627 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 13:18:57,627 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 13:18:57,627 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:19:26,169 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 13:19:26,169 - Tweet ID: 1355913566818283522
+2021-01-31 13:19:26,169 - Tweet USERNAME: TestePhiloBot
+2021-01-31 13:19:26,169 - Adicionado na fila
+2021-01-31 13:19:26,169 - --------------------------------------------------------
+
+2021-01-31 13:19:31,183 - ----------------------------------------
+2021-01-31 13:19:31,183 - > STARTING PHILOMAKER < 
+2021-01-31 13:19:31,183 - ----------------------------------------
+2021-01-31 13:19:31,183 - TAMANHO FILA: 1
+2021-01-31 13:19:31,183 - Motor atuando: 1355913566818283522
+2021-01-31 13:19:31,440 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker pucca ama garu  @felipeneto
+2021-01-31 13:19:31,440 - STATUS TRATADO: #testemaker pucca ama garu  
+2021-01-31 13:19:33,456 - ETAPA 3 -> CHECANDO SE É RT
+2021-01-31 13:19:33,456 - -- Nenhum RT encontrado. Continuando...
+2021-01-31 13:19:33,456 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-01-31 13:19:35,470 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-01-31 13:19:35,511 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-01-31 13:19:39,488 - Finalizado, enviando: 1355913566818283522
+2021-01-31 13:19:39,488 - Itens restantes: 0
+2021-01-31 13:19:39,488 - --------------------------------------------------------
+
+2021-01-31 13:19:39,488 - Lista tratada com sucesso.
+2021-01-31 13:19:39,488 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-01-31 13:20:16,633 - Bem-vindo!
+
+2021-01-31 13:20:16,633 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 13:20:16,633 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 13:20:16,633 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 13:20:16,694 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 13:20:16,694 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 13:20:16,694 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 13:20:16,694 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 13:20:16,694 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:20:46,276 - =============== NOVO TWEET ENCONTRADO ================
+2021-01-31 13:20:46,276 - Tweet ID: 1355913903159566337
+2021-01-31 13:20:46,276 - Tweet USERNAME: TestePhiloBot
+2021-01-31 13:20:46,276 - Adicionado na fila
+2021-01-31 13:20:46,276 - --------------------------------------------------------
+
+2021-01-31 13:20:51,278 - ----------------------------------------
+2021-01-31 13:20:51,278 - > STARTING PHILOMAKER < 
+2021-01-31 13:20:51,278 - ----------------------------------------
+2021-01-31 13:20:51,278 - TAMANHO FILA: 1
+2021-01-31 13:20:51,278 - Motor atuando: 1355913903159566337
+2021-01-31 13:20:51,528 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiago ama pica  @felipeneto
+2021-01-31 13:20:51,529 - STATUS TRATADO: #testemaker tiago ama pica  
+2021-01-31 13:20:53,536 - ETAPA 3 -> CHECANDO SE É RT
+2021-01-31 13:20:53,536 - -- Nenhum RT encontrado. Continuando...
+2021-01-31 13:20:53,536 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-01-31 13:20:55,539 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-01-31 13:20:55,579 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-01-31 13:27:02,806 - Bem-vindo!
+
+2021-01-31 13:27:02,806 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 13:27:02,806 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 13:27:02,806 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 13:27:02,870 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 13:27:02,870 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 13:27:02,870 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 13:27:02,870 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 13:27:02,870 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:27:32,008 - [{'message': 'Application cannot perform write actions. Contact Twitter Platform Operations through https://help.twitter.com/forms/platform.', 'code': 261}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'message': 'Application cannot perform write actions. Contact Twitter Platform Operations through https://help.twitter.com/forms/platform.', 'code': 261}]
+2021-01-31 13:33:46,120 - Bem-vindo!
+
+2021-01-31 13:33:46,120 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 13:33:46,120 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 13:33:46,120 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 13:33:46,177 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 13:33:46,177 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 13:33:46,177 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 13:33:46,177 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 13:33:46,177 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:34:12,641 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 13:35:06,343 - Bem-vindo!
+
+2021-01-31 13:35:06,343 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 13:35:06,343 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 13:35:06,343 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 13:35:06,415 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 13:35:06,415 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 13:35:06,415 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 13:35:06,415 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 13:35:06,415 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:35:33,179 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 13:36:09,451 - Bem-vindo!
+
+2021-01-31 13:36:09,451 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 13:36:09,451 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 13:36:09,451 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 13:36:09,506 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 13:36:09,506 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 13:36:09,506 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 13:36:09,506 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 13:36:09,506 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:36:35,502 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 13:42:19,952 - Bem-vindo!
+
+2021-01-31 13:42:19,953 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 13:42:19,953 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 13:42:19,953 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 13:42:20,009 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 13:42:20,009 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 13:42:20,009 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 13:42:20,009 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 13:42:20,009 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 13:42:54,784 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 14:22:33,942 - Bem-vindo!
+
+2021-01-31 14:22:33,942 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 14:22:33,942 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 14:22:33,942 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 14:22:33,997 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 14:22:33,997 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 14:22:33,997 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 14:22:33,997 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 14:22:33,997 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 14:22:36,673 - Bem-vindo!
+
+2021-01-31 14:22:36,673 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 14:22:36,673 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 14:22:36,673 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 14:22:36,731 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 14:22:36,731 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 14:22:36,731 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 14:22:36,731 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 14:22:36,731 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 14:23:05,240 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 14:26:02,863 - Bem-vindo!
+
+2021-01-31 14:26:02,863 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 14:26:02,863 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 14:26:02,863 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 14:26:02,917 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 14:26:02,917 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 14:26:02,917 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 14:26:02,918 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 14:26:02,918 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 14:26:25,015 - [{'code': 32, 'message': 'Could not authenticate you.'}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 32, 'message': 'Could not authenticate you.'}]
+2021-01-31 14:28:25,923 - Bem-vindo!
+
+2021-01-31 14:28:25,923 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 14:28:25,923 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 14:28:25,923 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 14:28:25,977 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 14:28:25,977 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 14:28:25,977 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 14:28:25,977 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 14:28:25,977 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 14:28:52,494 - [{'code': 32, 'message': 'Could not authenticate you.'}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 32, 'message': 'Could not authenticate you.'}]
+2021-01-31 14:30:05,147 - Bem-vindo!
+
+2021-01-31 14:30:05,147 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 14:30:05,148 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 14:30:05,148 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 14:30:05,204 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 14:30:05,204 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 14:30:05,204 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 14:30:05,204 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 14:30:05,204 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 14:30:31,095 - [{'code': 32, 'message': 'Could not authenticate you.'}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 32, 'message': 'Could not authenticate you.'}]
+2021-01-31 14:36:27,287 - Bem-vindo!
+
+2021-01-31 14:36:27,287 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 14:36:27,287 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 14:36:27,287 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 14:36:27,344 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 14:36:27,344 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 14:36:27,344 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 14:36:27,344 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 14:36:27,344 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 14:36:53,548 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 14:37:16,061 - Bem-vindo!
+
+2021-01-31 14:37:16,061 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 14:37:16,061 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 14:37:16,061 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 14:37:16,116 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 14:37:16,116 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 14:37:16,116 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 14:37:16,116 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 14:37:16,116 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 14:37:41,512 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 14:39:15,891 - Bem-vindo!
+
+2021-01-31 14:39:15,891 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-01-31 14:39:15,891 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-01-31 14:39:15,891 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-01-31 14:39:15,949 - Qual HASHTAG voce deseja iniciar?
+2021-01-31 14:39:15,949 - [ 1 ] - HASHTAG OFICIAL
+2021-01-31 14:39:15,949 - [ 2 ] - HASHTAG EXTENSION
+2021-01-31 14:39:15,949 - [ 3 ] - HASHTAG DE TESTE
+2021-01-31 14:39:15,949 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-01-31 14:39:35,460 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.

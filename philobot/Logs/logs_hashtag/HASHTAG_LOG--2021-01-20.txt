@@ -1,0 +1,20 @@
+20-01-21 18:58:45 - =============== NOVO TWEET ENCONTRADO ================
+20-01-21 18:58:45 - Tweet ID: 1352012693155295243
+20-01-21 18:58:45 - Tweet USERNAME: TestePhiloBot
+20-01-21 18:58:45 - Adicionado na fila
+20-01-21 18:58:45 - --------------------------------------------------------
+
+20-01-21 18:58:45 - ----------------------------------------
+20-01-21 18:58:45 - _\|/_ STARTING PHILO_BOT_ENGINE _\|/_ 
+20-01-21 18:58:45 - ----------------------------------------
+20-01-21 18:58:45 - TAMANHO FILA: 1
+20-01-21 18:58:45 - Motor atuando: 1352012693155295243
+20-01-21 18:58:46 - STATUS CONVERTIDO: #Testephilo arFRIL
+20-01-21 18:58:46 - STATUS TRATADO: #Testephilo arFRIL
+20-01-21 18:58:50 - Finalizado, enviando: 1352012693155295243
+20-01-21 18:58:50 - Itens restantes: 0
+20-01-21 18:58:50 - --------------------------------------------------------
+
+20-01-21 18:58:50 - Lista tratada com sucesso.
+20-01-21 18:58:50 - _\|/_ TURNING OFF PHILO_BOT_ENGINE _\|/_ 
+20-01-21 18:58:50 - Escutando tweets da Hashtag: #TestePhilo....

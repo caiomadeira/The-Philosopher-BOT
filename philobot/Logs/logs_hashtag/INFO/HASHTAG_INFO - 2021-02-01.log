@@ -1,0 +1,2892 @@
+2021-02-01 18:05:20,180 - Bem-vindo!
+
+2021-02-01 18:05:20,180 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:05:20,180 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:05:20,180 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:05:20,330 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:05:20,331 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:05:20,331 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:05:20,331 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:05:20,331 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:05:51,342 - [{'code': 32, 'message': 'Could not authenticate you.'}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 123, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 32, 'message': 'Could not authenticate you.'}]
+2021-02-01 18:18:14,529 - Bem-vindo!
+
+2021-02-01 18:18:14,529 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:18:14,529 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:18:14,529 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:18:14,585 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:18:14,585 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:18:14,585 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:18:14,585 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:18:14,585 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:18:39,417 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 123, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-02-01 18:18:59,163 - Bem-vindo!
+
+2021-02-01 18:18:59,163 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:18:59,163 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:18:59,163 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:18:59,218 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:18:59,218 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:18:59,218 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:18:59,218 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:18:59,218 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:19:18,682 - Bem-vindo!
+
+2021-02-01 18:19:18,682 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:19:18,682 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:19:18,682 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:19:18,756 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:19:18,757 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:19:18,757 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:19:18,757 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:19:18,757 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:19:40,188 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 123, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-02-01 18:21:39,816 - Bem-vindo!
+
+2021-02-01 18:21:39,816 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:21:39,817 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:21:39,817 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:21:39,873 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:21:39,873 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:21:39,873 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:21:39,873 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:21:39,873 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:22:13,817 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 18:22:13,817 - Tweet ID: 1356352158183133187
+2021-02-01 18:22:13,817 - Tweet USERNAME: TestePhiloBot
+2021-02-01 18:22:13,817 - Adicionado na fila
+2021-02-01 18:22:13,817 - --------------------------------------------------------
+
+2021-02-01 18:22:18,821 - ----------------------------------------
+2021-02-01 18:22:18,821 - > STARTING PHILOMAKER < 
+2021-02-01 18:22:18,821 - ----------------------------------------
+2021-02-01 18:22:18,821 - TAMANHO FILA: 1
+2021-02-01 18:22:18,821 - Motor atuando: 1356352158183133187
+2021-02-01 18:22:19,097 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #Testemaker tiago nanico  @felipeneto
+2021-02-01 18:22:19,098 - STATUS TRATADO: #Testemaker tiago nanico  
+2021-02-01 18:22:21,119 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 18:22:21,119 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 18:22:21,119 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 18:22:23,126 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 18:22:23,169 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 18:25:21,335 - Bem-vindo!
+
+2021-02-01 18:25:21,335 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:25:21,335 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:25:21,335 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:25:21,393 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:25:21,393 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:25:21,393 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:25:21,393 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:25:21,393 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:26:32,119 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 18:26:32,120 - Tweet ID: 1356353241764802561
+2021-02-01 18:26:32,120 - Tweet USERNAME: TestePhiloBot
+2021-02-01 18:26:32,120 - Adicionado na fila
+2021-02-01 18:26:32,120 - --------------------------------------------------------
+
+2021-02-01 18:26:37,132 - ----------------------------------------
+2021-02-01 18:26:37,132 - > STARTING PHILOMAKER < 
+2021-02-01 18:26:37,132 - ----------------------------------------
+2021-02-01 18:26:37,132 - TAMANHO FILA: 1
+2021-02-01 18:26:37,132 - Motor atuando: 1356353241764802561
+2021-02-01 18:26:37,396 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #Testephilo tiago maker  @felipeneto
+2021-02-01 18:26:37,396 - STATUS TRATADO: #Testephilo tiago maker  
+2021-02-01 18:26:39,425 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 18:26:39,425 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 18:26:39,425 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 18:26:41,436 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 18:26:41,477 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 18:26:41,479 - IMAGEM NÃO ENCONTRADA
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 130, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:26:41,480 - Enviando imagem de erro...
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 130, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:29:58,755 - Bem-vindo!
+
+2021-02-01 18:29:58,755 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:29:58,755 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:29:58,755 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:29:58,813 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:29:58,813 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:29:58,813 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:29:58,813 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:29:58,813 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:31:38,182 - Bem-vindo!
+
+2021-02-01 18:31:38,183 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:31:38,183 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:31:38,183 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:31:38,239 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:31:38,240 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:31:38,240 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:31:38,240 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:31:38,240 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:34:13,715 - Bem-vindo!
+
+2021-02-01 18:34:13,715 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:34:13,715 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:34:13,715 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:34:13,775 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:34:13,775 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:34:13,775 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:34:13,775 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:34:13,775 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:35:04,591 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 18:35:04,592 - Tweet ID: 1356355391098138629
+2021-02-01 18:35:04,592 - Tweet USERNAME: TestePhiloBot
+2021-02-01 18:35:04,592 - Adicionado na fila
+2021-02-01 18:35:04,592 - --------------------------------------------------------
+
+2021-02-01 18:35:09,596 - ----------------------------------------
+2021-02-01 18:35:09,596 - > STARTING PHILOMAKER < 
+2021-02-01 18:35:09,596 - ----------------------------------------
+2021-02-01 18:35:09,596 - TAMANHO FILA: 1
+2021-02-01 18:35:09,596 - Motor atuando: 1356355391098138629
+2021-02-01 18:35:09,829 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker fevite fevito  @felipeneto
+2021-02-01 18:35:09,829 - STATUS TRATADO: #testemaker fevite fevito  
+2021-02-01 18:35:11,845 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 18:35:11,845 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 18:35:11,845 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 18:35:13,854 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 18:35:13,894 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 18:35:13,896 - IMAGEM NÃO ENCONTRADA
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 130, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:35:13,897 - Enviando imagem de erro...
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 130, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:35:13,897 - STRING VAZIA DETECTADA!
+2021-02-01 18:35:13,897 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 18:35:17,879 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 130, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:35:17,879 - Finalizado, enviando: 1356355391098138629
+2021-02-01 18:35:17,879 - Itens restantes: 0
+2021-02-01 18:35:17,879 - --------------------------------------------------------
+
+2021-02-01 18:35:17,879 - Lista tratada com sucesso.
+2021-02-01 18:35:17,879 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 18:39:06,792 - Bem-vindo!
+
+2021-02-01 18:39:06,792 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:39:06,792 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:39:06,792 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:39:06,852 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:39:06,852 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:39:06,852 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:39:06,852 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:39:06,852 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:39:32,939 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 18:39:32,939 - Tweet ID: 1356356516547350528
+2021-02-01 18:39:32,939 - Tweet USERNAME: TestePhiloBot
+2021-02-01 18:39:32,940 - Adicionado na fila
+2021-02-01 18:39:32,940 - --------------------------------------------------------
+
+2021-02-01 18:39:37,946 - ----------------------------------------
+2021-02-01 18:39:37,946 - > STARTING PHILOMAKER < 
+2021-02-01 18:39:37,946 - ----------------------------------------
+2021-02-01 18:39:37,946 - TAMANHO FILA: 1
+2021-02-01 18:39:37,946 - Motor atuando: 1356356516547350528
+2021-02-01 18:39:38,483 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker caio viado  @felipeneto
+2021-02-01 18:39:38,484 - STATUS TRATADO: #testemaker caio viado  
+2021-02-01 18:39:40,497 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 18:39:40,497 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 18:39:40,497 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 18:39:42,512 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 18:39:42,566 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 18:39:42,568 - IMAGEM NÃO ENCONTRADA2
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 130, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:39:42,569 - Enviando imagem de erro...
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 130, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:39:42,569 - STRING VAZIA DETECTADA!
+2021-02-01 18:39:42,569 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 18:39:46,620 - Finalizado, enviando: 1356356516547350528
+2021-02-01 18:39:46,620 - Itens restantes: 0
+2021-02-01 18:39:46,620 - --------------------------------------------------------
+
+2021-02-01 18:39:46,620 - Lista tratada com sucesso.
+2021-02-01 18:39:46,620 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 18:40:35,482 - Bem-vindo!
+
+2021-02-01 18:40:35,482 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:40:35,482 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:40:35,482 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:40:35,541 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:40:35,541 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:40:35,541 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:40:35,541 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:40:35,541 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:41:11,973 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 18:41:11,973 - Tweet ID: 1356356931884097537
+2021-02-01 18:41:11,973 - Tweet USERNAME: TestePhiloBot
+2021-02-01 18:41:11,973 - Adicionado na fila
+2021-02-01 18:41:11,973 - --------------------------------------------------------
+
+2021-02-01 18:41:16,984 - ----------------------------------------
+2021-02-01 18:41:16,984 - > STARTING PHILOMAKER < 
+2021-02-01 18:41:16,984 - ----------------------------------------
+2021-02-01 18:41:16,984 - TAMANHO FILA: 1
+2021-02-01 18:41:16,984 - Motor atuando: 1356356931884097537
+2021-02-01 18:41:17,261 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker testandodddd  @felipeneto
+2021-02-01 18:41:17,261 - STATUS TRATADO: #testemaker testandodddd  
+2021-02-01 18:41:19,278 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 18:41:19,278 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 18:41:19,278 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 18:41:21,293 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 18:41:21,335 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 18:41:21,337 - IMAGEM NÃO ENCONTRADA2
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:41:21,338 - Enviando imagem de erro...
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:41:21,338 - STRING VAZIA DETECTADA!
+2021-02-01 18:41:21,338 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 18:41:25,294 - Finalizado, enviando: 1356356931884097537
+2021-02-01 18:41:25,294 - Itens restantes: 0
+2021-02-01 18:41:25,294 - --------------------------------------------------------
+
+2021-02-01 18:41:25,294 - Lista tratada com sucesso.
+2021-02-01 18:41:25,294 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 18:42:25,381 - Bem-vindo!
+
+2021-02-01 18:42:25,381 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:42:25,381 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:42:25,382 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:42:25,439 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:42:25,439 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:42:25,439 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:42:25,439 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:42:25,439 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:43:20,650 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 18:43:20,650 - Tweet ID: 1356357471384854532
+2021-02-01 18:43:20,650 - Tweet USERNAME: TestePhiloBot
+2021-02-01 18:43:20,650 - Adicionado na fila
+2021-02-01 18:43:20,650 - --------------------------------------------------------
+
+2021-02-01 18:43:25,663 - ----------------------------------------
+2021-02-01 18:43:25,663 - > STARTING PHILOMAKER < 
+2021-02-01 18:43:25,663 - ----------------------------------------
+2021-02-01 18:43:25,663 - TAMANHO FILA: 1
+2021-02-01 18:43:25,663 - Motor atuando: 1356357471384854532
+2021-02-01 18:43:25,917 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker teste teste ttttteste  @felipeneto
+2021-02-01 18:43:25,917 - STATUS TRATADO: #testemaker teste teste ttttteste  
+2021-02-01 18:43:27,924 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 18:43:27,924 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 18:43:27,924 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 18:43:29,935 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 18:43:29,976 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 18:43:29,979 - IMAGEM NÃO ENCONTRADA2
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:43:29,980 - Enviando imagem de erro...
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:43:29,980 - STRING VAZIA DETECTADA!
+2021-02-01 18:43:29,980 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 18:43:33,880 - Finalizado, enviando: 1356357471384854532
+2021-02-01 18:43:33,880 - Itens restantes: 0
+2021-02-01 18:43:33,880 - --------------------------------------------------------
+
+2021-02-01 18:43:33,880 - Lista tratada com sucesso.
+2021-02-01 18:43:33,880 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 18:44:37,455 - Bem-vindo!
+
+2021-02-01 18:44:37,455 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:44:37,455 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:44:37,455 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:44:37,510 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:44:37,510 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:44:37,510 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:44:37,510 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:44:37,511 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:45:05,664 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 18:45:05,664 - Tweet ID: 1356357912118108165
+2021-02-01 18:45:05,664 - Tweet USERNAME: TestePhiloBot
+2021-02-01 18:45:05,664 - Adicionado na fila
+2021-02-01 18:45:05,664 - --------------------------------------------------------
+
+2021-02-01 18:45:10,669 - ----------------------------------------
+2021-02-01 18:45:10,669 - > STARTING PHILOMAKER < 
+2021-02-01 18:45:10,669 - ----------------------------------------
+2021-02-01 18:45:10,669 - TAMANHO FILA: 1
+2021-02-01 18:45:10,669 - Motor atuando: 1356357912118108165
+2021-02-01 18:45:10,929 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker testetrtrtete  @felipeneto
+2021-02-01 18:45:10,929 - STATUS TRATADO: #testemaker testetrtrtete  
+2021-02-01 18:45:12,951 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 18:45:12,951 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 18:45:12,951 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 18:45:14,954 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 18:45:15,003 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 18:45:15,005 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 18:45:15,006 - Enviando imagem de erro...
+2021-02-01 18:45:15,006 - STRING VAZIA DETECTADA!
+2021-02-01 18:45:15,006 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 18:45:19,575 - Finalizado, enviando: 1356357912118108165
+2021-02-01 18:45:19,575 - Itens restantes: 0
+2021-02-01 18:45:19,575 - --------------------------------------------------------
+
+2021-02-01 18:45:19,575 - Lista tratada com sucesso.
+2021-02-01 18:45:19,575 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 18:46:38,353 - Bem-vindo!
+
+2021-02-01 18:46:38,353 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:46:38,353 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:46:38,353 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:46:38,407 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:46:38,407 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:46:38,407 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:46:38,407 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:46:38,407 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:47:09,274 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 18:47:09,274 - Tweet ID: 1356358430781534214
+2021-02-01 18:47:09,274 - Tweet USERNAME: TestePhiloBot
+2021-02-01 18:47:09,274 - Adicionado na fila
+2021-02-01 18:47:09,274 - --------------------------------------------------------
+
+2021-02-01 18:47:14,279 - ----------------------------------------
+2021-02-01 18:47:14,279 - > STARTING PHILOMAKER < 
+2021-02-01 18:47:14,279 - ----------------------------------------
+2021-02-01 18:47:14,279 - TAMANHO FILA: 1
+2021-02-01 18:47:14,279 - Motor atuando: 1356358430781534214
+2021-02-01 18:47:14,551 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiago la cokita  @felipeneto
+2021-02-01 18:47:14,551 - STATUS TRATADO: #testemaker tiago la cokita  
+2021-02-01 18:47:16,562 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 18:47:16,562 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 18:47:16,562 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 18:47:18,575 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 18:47:18,617 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 18:47:18,619 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 18:47:18,619 - Enviando imagem de erro...
+2021-02-01 18:47:18,619 - STRING VAZIA DETECTADA!
+2021-02-01 18:47:18,619 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 18:47:22,474 - Finalizado, enviando: 1356358430781534214
+2021-02-01 18:47:22,474 - Itens restantes: 0
+2021-02-01 18:47:22,474 - --------------------------------------------------------
+
+2021-02-01 18:47:22,474 - Lista tratada com sucesso.
+2021-02-01 18:47:22,474 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 18:48:48,235 - Bem-vindo!
+
+2021-02-01 18:48:48,235 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:48:48,235 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:48:48,235 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:48:48,292 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:48:48,292 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:48:48,292 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:48:48,292 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:48:48,292 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:49:43,453 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 18:49:43,453 - Tweet ID: 1356359077388050433
+2021-02-01 18:49:43,453 - Tweet USERNAME: TestePhiloBot
+2021-02-01 18:49:43,454 - Adicionado na fila
+2021-02-01 18:49:43,454 - --------------------------------------------------------
+
+2021-02-01 18:49:48,458 - ----------------------------------------
+2021-02-01 18:49:48,458 - > STARTING PHILOMAKER < 
+2021-02-01 18:49:48,458 - ----------------------------------------
+2021-02-01 18:49:48,458 - TAMANHO FILA: 1
+2021-02-01 18:49:48,458 - Motor atuando: 1356359077388050433
+2021-02-01 18:49:48,746 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiago the coke man  @felipeneto
+2021-02-01 18:49:48,746 - STATUS TRATADO: #testemaker tiago the coke man  
+2021-02-01 18:49:50,761 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 18:49:50,761 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 18:49:50,761 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 18:49:52,770 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 18:49:52,818 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 18:49:52,821 - IMAGEM NÃO ENCONTRADA2
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:49:52,821 - Enviando imagem de erro...
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:49:52,824 - STRING VAZIA DETECTADA!
+2021-02-01 18:49:52,824 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 18:49:56,794 - Finalizado, enviando: 1356359077388050433
+2021-02-01 18:49:56,794 - Itens restantes: 0
+2021-02-01 18:49:56,794 - --------------------------------------------------------
+
+2021-02-01 18:49:56,794 - Lista tratada com sucesso.
+2021-02-01 18:49:56,794 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 18:53:15,682 - Bem-vindo!
+
+2021-02-01 18:53:15,682 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:53:15,682 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:53:15,682 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:53:15,740 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:53:15,741 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:53:15,741 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:53:15,741 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:53:15,741 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:53:47,366 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 18:53:47,366 - Tweet ID: 1356360100504625153
+2021-02-01 18:53:47,366 - Tweet USERNAME: TestePhiloBot
+2021-02-01 18:53:47,366 - Adicionado na fila
+2021-02-01 18:53:47,367 - --------------------------------------------------------
+
+2021-02-01 18:53:52,373 - ----------------------------------------
+2021-02-01 18:53:52,373 - > STARTING PHILOMAKER < 
+2021-02-01 18:53:52,373 - ----------------------------------------
+2021-02-01 18:53:52,373 - TAMANHO FILA: 1
+2021-02-01 18:53:52,373 - Motor atuando: 1356360100504625153
+2021-02-01 18:53:52,642 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiagularte  @felipeneto
+2021-02-01 18:53:52,643 - STATUS TRATADO: #testemaker tiagularte  
+2021-02-01 18:53:54,656 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 18:53:54,656 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 18:53:54,656 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 18:53:56,659 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 18:53:56,704 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 18:53:56,706 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 18:53:56,707 - Enviando imagem de erro...
+2021-02-01 18:53:56,707 - STRING VAZIA DETECTADA!
+2021-02-01 18:53:56,707 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 18:54:01,342 - Finalizado, enviando: 1356360100504625153
+2021-02-01 18:54:01,342 - Itens restantes: 0
+2021-02-01 18:54:01,342 - --------------------------------------------------------
+
+2021-02-01 18:54:01,342 - Lista tratada com sucesso.
+2021-02-01 18:54:01,342 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 18:54:44,426 - Bem-vindo!
+
+2021-02-01 18:54:44,426 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 18:54:44,426 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 18:54:44,426 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 18:54:44,484 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 18:54:44,485 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 18:54:44,485 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 18:54:44,485 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 18:54:44,485 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 18:55:17,973 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 18:55:17,973 - Tweet ID: 1356360480420483073
+2021-02-01 18:55:17,973 - Tweet USERNAME: TestePhiloBot
+2021-02-01 18:55:17,973 - Adicionado na fila
+2021-02-01 18:55:17,973 - --------------------------------------------------------
+
+2021-02-01 18:55:22,988 - ----------------------------------------
+2021-02-01 18:55:22,988 - > STARTING PHILOMAKER < 
+2021-02-01 18:55:22,988 - ----------------------------------------
+2021-02-01 18:55:22,988 - TAMANHO FILA: 1
+2021-02-01 18:55:22,988 - Motor atuando: 1356360480420483073
+2021-02-01 18:55:23,274 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiago o projota 2  @felipeneto
+2021-02-01 18:55:23,275 - STATUS TRATADO: #testemaker tiago o projota 2  
+2021-02-01 18:55:25,293 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 18:55:25,293 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 18:55:25,293 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 18:55:27,299 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 18:55:27,345 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 18:55:27,348 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 18:55:27,348 - Enviando imagem de erro...
+2021-02-01 18:55:27,348 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 18:55:27,348 - STRING VAZIA DETECTADA!
+2021-02-01 18:55:27,348 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 18:55:31,356 - Finalizado, enviando: 1356360480420483073
+2021-02-01 18:55:31,356 - Itens restantes: 0
+2021-02-01 18:55:31,356 - --------------------------------------------------------
+
+2021-02-01 18:55:31,356 - Lista tratada com sucesso.
+2021-02-01 18:55:31,356 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 19:01:47,569 - Bem-vindo!
+
+2021-02-01 19:01:47,569 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:01:47,570 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:01:47,570 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:04:16,088 - Bem-vindo!
+
+2021-02-01 19:04:16,089 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:04:16,089 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:04:16,089 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:04:16,147 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:04:16,147 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:04:16,147 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:04:16,147 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:04:16,147 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:04:56,614 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:04:56,614 - Tweet ID: 1356362907374809088
+2021-02-01 19:04:56,614 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:04:56,615 - Adicionado na fila
+2021-02-01 19:04:56,615 - --------------------------------------------------------
+
+2021-02-01 19:05:01,626 - ----------------------------------------
+2021-02-01 19:05:01,626 - > STARTING PHILOMAKER < 
+2021-02-01 19:05:01,626 - ----------------------------------------
+2021-02-01 19:05:01,626 - TAMANHO FILA: 1
+2021-02-01 19:05:01,626 - Motor atuando: 1356362907374809088
+2021-02-01 19:05:01,910 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker testing testertrt  @felipeneto
+2021-02-01 19:05:01,910 - STATUS TRATADO: #testemaker testing testertrt  
+2021-02-01 19:05:03,923 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:05:03,923 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:05:03,923 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:05:05,935 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:05:05,975 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 19:05:05,978 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:05:05,978 - Enviando imagem de erro...
+2021-02-01 19:05:05,978 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:05:05,981 - STRING VAZIA DETECTADA!
+2021-02-01 19:05:05,981 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 19:05:09,874 - Finalizado, enviando: 1356362907374809088
+2021-02-01 19:05:09,874 - Itens restantes: 0
+2021-02-01 19:05:09,874 - --------------------------------------------------------
+
+2021-02-01 19:05:09,874 - Lista tratada com sucesso.
+2021-02-01 19:05:09,874 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 19:05:41,765 - Bem-vindo!
+
+2021-02-01 19:05:41,766 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:05:41,766 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:05:41,766 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:05:41,819 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:05:41,819 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:05:41,819 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:05:41,819 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:05:41,819 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:06:55,500 - Bem-vindo!
+
+2021-02-01 19:06:55,500 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:06:55,501 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:06:55,501 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:06:55,552 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:06:55,552 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:06:55,552 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:06:55,552 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:06:55,552 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:07:01,079 - Bem-vindo!
+
+2021-02-01 19:07:01,079 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:07:01,079 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:07:01,079 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:07:01,131 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:07:01,131 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:07:01,131 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:07:01,131 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:07:01,131 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:07:46,988 - Bem-vindo!
+
+2021-02-01 19:07:46,988 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:07:46,988 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:07:46,988 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:07:47,041 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:07:47,041 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:07:47,042 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:07:47,042 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:07:47,042 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:08:20,592 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:08:20,592 - Tweet ID: 1356363763092434946
+2021-02-01 19:08:20,592 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:08:20,592 - Adicionado na fila
+2021-02-01 19:08:20,592 - --------------------------------------------------------
+
+2021-02-01 19:08:25,596 - ----------------------------------------
+2021-02-01 19:08:25,596 - > STARTING PHILOMAKER < 
+2021-02-01 19:08:25,596 - ----------------------------------------
+2021-02-01 19:08:25,596 - TAMANHO FILA: 1
+2021-02-01 19:08:25,596 - Motor atuando: 1356363763092434946
+2021-02-01 19:08:25,891 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker testestetestete  @felipeneto
+2021-02-01 19:08:25,892 - STATUS TRATADO: #testemaker testestetestete  
+2021-02-01 19:08:27,909 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:08:27,909 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:08:27,909 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:08:29,918 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:08:29,959 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 19:08:29,962 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:08:29,962 - Enviando imagem de erro...
+2021-02-01 19:08:29,962 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:08:29,963 - STRING VAZIA DETECTADA!
+2021-02-01 19:08:29,963 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 19:08:33,943 - Finalizado, enviando: 1356363763092434946
+2021-02-01 19:08:33,943 - Itens restantes: 0
+2021-02-01 19:08:33,943 - --------------------------------------------------------
+
+2021-02-01 19:08:33,943 - Lista tratada com sucesso.
+2021-02-01 19:08:33,943 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 19:10:06,129 - Bem-vindo!
+
+2021-02-01 19:10:06,129 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:10:06,129 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:10:06,129 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:10:06,186 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:10:06,186 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:10:06,186 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:10:06,186 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:10:06,186 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:10:33,545 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:10:33,545 - Tweet ID: 1356364320662282240
+2021-02-01 19:10:33,545 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:10:33,545 - Adicionado na fila
+2021-02-01 19:10:33,545 - --------------------------------------------------------
+
+2021-02-01 19:10:38,560 - ----------------------------------------
+2021-02-01 19:10:38,560 - > STARTING PHILOMAKER < 
+2021-02-01 19:10:38,560 - ----------------------------------------
+2021-02-01 19:10:38,560 - TAMANHO FILA: 1
+2021-02-01 19:10:38,560 - Motor atuando: 1356364320662282240
+2021-02-01 19:10:38,845 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiago the tiago2  @felipeneto
+2021-02-01 19:10:38,845 - STATUS TRATADO: #testemaker tiago the tiago2  
+2021-02-01 19:10:40,859 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:10:40,859 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:10:40,859 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:10:42,871 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:10:42,913 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 19:10:42,915 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:10:42,915 - Enviando imagem de erro...
+2021-02-01 19:10:42,915 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:10:42,915 - STRING VAZIA DETECTADA!
+2021-02-01 19:10:42,916 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 19:10:47,172 - Finalizado, enviando: 1356364320662282240
+2021-02-01 19:10:47,172 - Itens restantes: 0
+2021-02-01 19:10:47,172 - --------------------------------------------------------
+
+2021-02-01 19:10:47,172 - Lista tratada com sucesso.
+2021-02-01 19:10:47,172 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 19:16:49,677 - Bem-vindo!
+
+2021-02-01 19:16:49,677 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:16:49,677 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:16:49,677 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:16:49,733 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:16:49,733 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:16:49,733 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:16:49,733 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:16:49,733 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:17:15,296 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:17:15,296 - Tweet ID: 1356366005761679360
+2021-02-01 19:17:15,296 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:17:15,296 - Adicionado na fila
+2021-02-01 19:17:15,296 - --------------------------------------------------------
+
+2021-02-01 19:17:20,303 - ----------------------------------------
+2021-02-01 19:17:20,303 - > STARTING PHILOMAKER < 
+2021-02-01 19:17:20,303 - ----------------------------------------
+2021-02-01 19:17:20,303 - TAMANHO FILA: 1
+2021-02-01 19:17:20,303 - Motor atuando: 1356366005761679360
+2021-02-01 19:17:20,591 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker phifoofiifiifoo  @felipeneto
+2021-02-01 19:17:20,591 - STATUS TRATADO: #testemaker phifoofiifiifoo  
+2021-02-01 19:17:22,609 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:17:22,609 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:17:22,609 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:17:24,622 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:17:24,666 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 19:17:24,668 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:17:24,668 - Enviando imagem de erro...
+2021-02-01 19:17:24,668 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:17:24,669 - STRING VAZIA DETECTADA!
+2021-02-01 19:17:24,669 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 19:17:28,578 - Finalizado, enviando: 1356366005761679360
+2021-02-01 19:17:28,578 - Itens restantes: 0
+2021-02-01 19:17:28,578 - --------------------------------------------------------
+
+2021-02-01 19:17:28,578 - Lista tratada com sucesso.
+2021-02-01 19:17:28,578 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 19:17:28,578 - FALHA AO DELETAR IMAGEM
+2021-02-01 19:17:28,578 - [WinError 2] O sistema não pode encontrar o arquivo especificado: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 149, in philomaker_engine
+    os.remove('Hashtag/twitter_philo_img.png')
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:17:44,403 - Bem-vindo!
+
+2021-02-01 19:17:44,404 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:17:44,404 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:17:44,404 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:17:44,458 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:17:44,458 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:17:44,458 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:17:44,458 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:17:44,459 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:18:10,773 - Bem-vindo!
+
+2021-02-01 19:18:10,773 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:18:10,773 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:18:10,773 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:18:10,828 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:18:10,828 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:18:10,828 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:18:10,828 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:18:10,828 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:18:44,115 - Bem-vindo!
+
+2021-02-01 19:18:44,115 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:18:44,115 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:18:44,115 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:18:44,169 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:18:44,169 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:18:44,169 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:18:44,169 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:18:44,169 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:19:11,394 - [{'message': 'Application cannot perform write actions. Contact Twitter Platform Operations through https://help.twitter.com/forms/platform.', 'code': 261}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 123, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 45, in choose_auto_tweet
+    post_status_with_media(IMG_PATH=IMG_PATH)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 12, in post_status_with_media
+    api.update_with_media(IMG_PATH, status=status_test)
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 283, in update_with_media
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'message': 'Application cannot perform write actions. Contact Twitter Platform Operations through https://help.twitter.com/forms/platform.', 'code': 261}]
+2021-02-01 19:19:16,698 - Bem-vindo!
+
+2021-02-01 19:19:16,698 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:19:16,698 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:19:16,698 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:19:16,753 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:19:16,753 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:19:16,753 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:19:16,753 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:19:16,753 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:20:13,231 - Bem-vindo!
+
+2021-02-01 19:20:13,231 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:20:13,231 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:20:13,231 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:20:13,285 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:20:13,285 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:20:13,285 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:20:13,286 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:20:13,286 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:20:30,268 - Bem-vindo!
+
+2021-02-01 19:20:30,268 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:20:30,268 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:20:30,269 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:20:30,322 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:20:30,322 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:20:30,322 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:20:30,322 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:20:30,322 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:22:50,883 - Bem-vindo!
+
+2021-02-01 19:22:50,883 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:22:50,883 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:22:50,883 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:22:50,937 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:22:50,937 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:22:50,937 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:22:50,937 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:22:50,937 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:23:26,979 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:23:26,981 - Tweet ID: 1356367564125966336
+2021-02-01 19:23:26,981 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:23:26,981 - Adicionado na fila
+2021-02-01 19:23:26,981 - --------------------------------------------------------
+
+2021-02-01 19:23:31,983 - ----------------------------------------
+2021-02-01 19:23:31,983 - > STARTING PHILOMAKER < 
+2021-02-01 19:23:31,983 - ----------------------------------------
+2021-02-01 19:23:31,983 - TAMANHO FILA: 1
+2021-02-01 19:23:31,983 - Motor atuando: 1356367564125966336
+2021-02-01 19:23:32,236 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiaguitus 123 @felipeneto https://t.co/q89WFkNS6H
+2021-02-01 19:23:32,236 - STATUS TRATADO: #testemaker tiaguitus 123  https://t.co/q89WFkNS6H
+2021-02-01 19:23:34,253 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:23:34,253 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:23:34,253 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:23:36,264 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:23:36,306 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 19:23:36,309 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLJGywW4AABbAe.png
+2021-02-01 19:23:36,602 - Imagem do Filósofo salva.
+2021-02-01 19:23:37,065 - Read-only application cannot POST.
+2021-02-01 19:23:37,065 - ERRO! Não foi possivel realizar a ação para o usuário.
+2021-02-01 19:23:37,065 - 
+==========================
+2021-02-01 19:23:37,066 - Finalizado, enviando: 1356367564125966336
+2021-02-01 19:23:37,066 - Itens restantes: 0
+2021-02-01 19:23:37,066 - --------------------------------------------------------
+
+2021-02-01 19:23:37,066 - Lista tratada com sucesso.
+2021-02-01 19:23:37,066 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 19:23:37,066 - Imagem removida
+2021-02-01 19:25:19,127 - Bem-vindo!
+
+2021-02-01 19:25:19,127 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:25:19,127 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:25:19,127 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:25:19,183 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:25:19,183 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:25:19,183 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:25:19,183 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:25:19,183 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:26:15,883 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:26:15,883 - Tweet ID: 1356368272355184647
+2021-02-01 19:26:15,883 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:26:15,883 - Adicionado na fila
+2021-02-01 19:26:15,883 - --------------------------------------------------------
+
+2021-02-01 19:26:20,890 - ----------------------------------------
+2021-02-01 19:26:20,890 - > STARTING PHILOMAKER < 
+2021-02-01 19:26:20,890 - ----------------------------------------
+2021-02-01 19:26:20,890 - TAMANHO FILA: 1
+2021-02-01 19:26:20,890 - Motor atuando: 1356368272355184647
+2021-02-01 19:26:21,196 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiago the guy guy @LucianoHuck https://t.co/gpnzEhYacn
+2021-02-01 19:26:21,196 - STATUS TRATADO: #testemaker tiago the guy guy  https://t.co/gpnzEhYacn
+2021-02-01 19:26:23,207 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:26:23,207 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:26:23,207 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:26:25,210 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:26:25,250 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Luciano Huck
+2021-02-01 19:26:25,253 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLJvm4XIAIB9do.png
+2021-02-01 19:26:25,467 - Imagem do Filósofo salva.
+2021-02-01 19:26:29,491 - Finalizado, enviando: 1356368272355184647
+2021-02-01 19:26:29,491 - Itens restantes: 0
+2021-02-01 19:26:29,491 - --------------------------------------------------------
+
+2021-02-01 19:26:29,491 - Lista tratada com sucesso.
+2021-02-01 19:26:29,491 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 19:26:29,492 - Imagem removida
+2021-02-01 19:27:14,016 - Bem-vindo!
+
+2021-02-01 19:27:14,016 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:27:14,017 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:27:14,017 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:27:14,072 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:27:14,072 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:27:14,072 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:27:14,072 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:27:14,072 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:27:34,262 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:27:34,263 - Tweet ID: 1356368601863876614
+2021-02-01 19:27:34,263 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:27:34,263 - Adicionado na fila
+2021-02-01 19:27:34,263 - --------------------------------------------------------
+
+2021-02-01 19:27:39,278 - ----------------------------------------
+2021-02-01 19:27:39,278 - > STARTING PHILOMAKER < 
+2021-02-01 19:27:39,278 - ----------------------------------------
+2021-02-01 19:27:39,278 - TAMANHO FILA: 1
+2021-02-01 19:27:39,278 - Motor atuando: 1356368601863876614
+2021-02-01 19:27:39,567 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiago hetero top @olalair
+2021-02-01 19:27:39,567 - STATUS TRATADO: #testemaker tiago hetero top 
+2021-02-01 19:27:41,583 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:27:41,583 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:27:41,583 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:27:43,590 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:27:43,632 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Lair Rennó
+2021-02-01 19:27:43,635 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:27:43,635 - Enviando imagem de erro...
+2021-02-01 19:27:43,635 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:27:43,636 - STRING VAZIA DETECTADA!
+2021-02-01 19:27:43,636 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 19:27:47,481 - Finalizado, enviando: 1356368601863876614
+2021-02-01 19:27:47,481 - Itens restantes: 0
+2021-02-01 19:27:47,481 - --------------------------------------------------------
+
+2021-02-01 19:27:47,481 - Lista tratada com sucesso.
+2021-02-01 19:27:47,481 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 19:27:47,481 - FALHA AO DELETAR IMAGEM
+2021-02-01 19:27:47,482 - [WinError 2] O sistema não pode encontrar o arquivo especificado: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 149, in philomaker_engine
+    os.remove('Hashtag/twitter_philo_img.png')
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:34:36,449 - Bem-vindo!
+
+2021-02-01 19:34:36,449 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:34:36,449 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:34:36,449 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:34:36,508 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:34:36,508 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:34:36,508 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:34:36,508 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:34:36,508 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:34:36,510 - >AGUARDANDO NOVOS TWEETS...<
+2021-02-01 19:34:41,522 - >AGUARDANDO NOVOS TWEETS...<
+2021-02-01 19:35:07,175 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:35:07,175 - Tweet ID: 1356370501560639491
+2021-02-01 19:35:07,175 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:35:07,175 - Adicionado na fila
+2021-02-01 19:35:07,175 - --------------------------------------------------------
+
+2021-02-01 19:35:12,188 - ----------------------------------------
+2021-02-01 19:35:12,188 - > STARTING PHILOMAKER < 
+2021-02-01 19:35:12,188 - ----------------------------------------
+2021-02-01 19:35:12,188 - TAMANHO FILA: 1
+2021-02-01 19:35:12,188 - Motor atuando: 1356370501560639491
+2021-02-01 19:35:12,472 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiago lajotas @maiconkusterk
+2021-02-01 19:35:12,472 - STATUS TRATADO: #testemaker tiago lajotas 
+2021-02-01 19:35:14,488 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:35:14,488 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:35:14,488 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:35:16,498 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:35:16,538 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Maicon Küster
+2021-02-01 19:35:16,541 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:35:16,541 - Enviando imagem de erro...
+2021-02-01 19:35:16,541 - STRING VAZIA DETECTADA!
+2021-02-01 19:35:16,541 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 19:36:08,819 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:36:08,819 - Tweet ID: 1356370760093364226
+2021-02-01 19:36:08,819 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:36:08,819 - Adicionado na fila
+2021-02-01 19:36:08,819 - --------------------------------------------------------
+
+2021-02-01 19:36:30,778 - Bem-vindo!
+
+2021-02-01 19:36:30,778 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:36:30,778 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:36:30,778 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:36:30,833 - >AGUARDANDO NOVOS TWEETS...<
+2021-02-01 19:36:30,833 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:36:30,834 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:36:30,834 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:36:30,834 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:36:30,834 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:37:19,056 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:37:19,056 - Tweet ID: 1356371054747389965
+2021-02-01 19:37:19,056 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:37:19,056 - Adicionado na fila
+2021-02-01 19:37:19,057 - --------------------------------------------------------
+
+2021-02-01 19:37:24,061 - ----------------------------------------
+2021-02-01 19:37:24,061 - > STARTING PHILOMAKER < 
+2021-02-01 19:37:24,061 - ----------------------------------------
+2021-02-01 19:37:24,061 - TAMANHO FILA: 1
+2021-02-01 19:37:24,061 - Motor atuando: 1356371054747389965
+2021-02-01 19:37:24,314 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker apenas testando um bot @fbbreal
+2021-02-01 19:37:24,315 - STATUS TRATADO: #testemaker apenas testando um bot 
+2021-02-01 19:37:26,326 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:37:26,326 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:37:26,326 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:37:28,340 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:37:28,385 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Fatima Bernardes
+2021-02-01 19:37:28,388 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:37:28,388 - Enviando imagem de erro...
+2021-02-01 19:37:28,388 - STRING VAZIA DETECTADA!
+2021-02-01 19:37:28,388 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 19:44:31,585 - Bem-vindo!
+
+2021-02-01 19:44:31,585 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:44:31,586 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:44:31,586 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:44:31,644 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:44:31,644 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:44:31,644 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:44:31,644 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:44:31,644 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:45:02,116 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:45:02,116 - Tweet ID: 1356372996739510273
+2021-02-01 19:45:02,116 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:45:02,116 - Adicionado na fila
+2021-02-01 19:45:02,116 - --------------------------------------------------------
+
+2021-02-01 19:45:07,121 - ----------------------------------------
+2021-02-01 19:45:07,121 - > STARTING PHILOMAKER < 
+2021-02-01 19:45:07,121 - ----------------------------------------
+2021-02-01 19:45:07,121 - TAMANHO FILA: 1
+2021-02-01 19:45:07,121 - Motor atuando: 1356372996739510273
+2021-02-01 19:45:07,396 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiaguiadi @LucianoHuck
+2021-02-01 19:45:07,396 - STATUS TRATADO: #testemaker tiaguiadi 
+2021-02-01 19:45:09,411 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:45:09,411 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:45:09,411 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:45:11,424 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:45:11,465 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Luciano Huck
+2021-02-01 19:45:11,467 - IMAGEM NÃO ENCONTRADA
+2021-02-01 19:45:11,467 - Enviando imagem de erro...
+2021-02-01 19:45:11,467 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 19:45:11,467 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 19:45:15,275 - >AGUARDANDO NOVOS TWEETS...<
+2021-02-01 19:45:54,514 - Bem-vindo!
+
+2021-02-01 19:45:54,514 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:45:54,514 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:45:54,514 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:45:54,571 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:45:54,571 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:45:54,571 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:45:54,572 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:45:54,572 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:46:09,255 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:46:09,255 - Tweet ID: 1356373278353403907
+2021-02-01 19:46:09,255 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:46:09,255 - Adicionado na fila
+2021-02-01 19:46:09,255 - --------------------------------------------------------
+
+2021-02-01 19:46:14,257 - ----------------------------------------
+2021-02-01 19:46:14,257 - > STARTING PHILOMAKER < 
+2021-02-01 19:46:14,257 - ----------------------------------------
+2021-02-01 19:46:14,257 - TAMANHO FILA: 1
+2021-02-01 19:46:14,257 - Motor atuando: 1356373278353403907
+2021-02-01 19:46:14,536 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiaguiadi 
+@LucianoHuck
+2021-02-01 19:46:14,536 - STATUS TRATADO: #testemaker tiaguiadi 
+
+2021-02-01 19:46:16,553 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:46:16,553 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:46:16,553 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:46:18,557 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:46:18,598 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Luciano Huck
+2021-02-01 19:46:18,600 - IMAGEM NÃO ENCONTRADA
+2021-02-01 19:46:18,600 - Enviando imagem de erro...
+2021-02-01 19:46:18,600 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 19:46:18,601 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 19:46:23,185 - ----------------------------------------
+
+2021-02-01 19:46:23,185 - >AGUARDANDO NOVOS TWEETS...<
+2021-02-01 19:54:13,467 - Bem-vindo!
+
+2021-02-01 19:54:13,467 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:54:13,467 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:54:13,467 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:54:13,525 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:54:13,526 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:54:13,526 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:54:13,526 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:54:13,526 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:54:38,020 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:54:38,020 - Tweet ID: 1356375412415279106
+2021-02-01 19:54:38,020 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:54:38,020 - Adicionado na fila
+2021-02-01 19:54:38,021 - --------------------------------------------------------
+
+2021-02-01 19:54:43,035 - ----------------------------------------
+2021-02-01 19:54:43,035 - > STARTING PHILOMAKER < 
+2021-02-01 19:54:43,035 - ----------------------------------------
+2021-02-01 19:54:43,035 - TAMANHO FILA: 1
+2021-02-01 19:54:43,035 - Motor atuando: 1356375412415279106
+2021-02-01 19:54:43,351 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker taigo the coke man @LucianoHuck
+2021-02-01 19:54:43,352 - STATUS TRATADO: #testemaker taigo the coke man 
+2021-02-01 19:54:45,367 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:54:45,367 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:54:45,367 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:54:47,367 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:54:47,409 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Luciano Huck
+2021-02-01 19:54:47,412 - IMAGEM NÃO ENCONTRADA
+2021-02-01 19:54:47,412 - Enviando imagem de erro...
+2021-02-01 19:54:47,412 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:54:47,412 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 19:54:47,412 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 19:54:51,304 - ----------------------------------------
+
+2021-02-01 19:54:51,304 - >AGUARDANDO NOVOS TWEETS...<
+2021-02-01 19:56:04,905 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:56:04,905 - Tweet ID: 1356375776749375488
+2021-02-01 19:56:04,905 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:56:04,905 - Adicionado na fila
+2021-02-01 19:56:04,905 - --------------------------------------------------------
+
+2021-02-01 19:56:09,907 - ----------------------------------------
+2021-02-01 19:56:09,907 - > STARTING PHILOMAKER < 
+2021-02-01 19:56:09,907 - ----------------------------------------
+2021-02-01 19:56:09,907 - TAMANHO FILA: 1
+2021-02-01 19:56:09,907 - Motor atuando: 1356375776749375488
+2021-02-01 19:56:10,179 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: RT @TestePhiloBot: #testemaker taigo the coke man @LucianoHuck
+2021-02-01 19:56:10,179 - STATUS TRATADO: RT  #testemaker taigo the coke man 
+2021-02-01 19:56:12,199 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:56:12,199 - RETWEET ENCONTRADO, IGNORANDO... - USER: TestePhiloBot
+2021-02-01 19:56:12,199 - Voltando a escutar a Hashtag
+2021-02-01 19:56:46,573 - Bem-vindo!
+
+2021-02-01 19:56:46,573 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 19:56:46,574 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 19:56:46,574 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 19:56:46,632 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 19:56:46,632 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 19:56:46,632 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 19:56:46,632 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 19:56:46,632 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 19:57:06,135 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:57:06,135 - Tweet ID: 1356376033713336322
+2021-02-01 19:57:06,135 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:57:06,135 - Adicionado na fila
+2021-02-01 19:57:06,135 - --------------------------------------------------------
+
+2021-02-01 19:57:11,146 - ----------------------------------------
+2021-02-01 19:57:11,146 - > STARTING PHILOMAKER < 
+2021-02-01 19:57:11,146 - ----------------------------------------
+2021-02-01 19:57:11,146 - TAMANHO FILA: 1
+2021-02-01 19:57:11,146 - Motor atuando: 1356376033713336322
+2021-02-01 19:57:11,653 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiago da acba
+2021-02-01 19:57:11,653 - STATUS TRATADO: #testemaker tiago da acba
+2021-02-01 19:57:13,667 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:57:13,667 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:57:13,667 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:57:15,669 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:57:15,712 - Erro: Nome do Filosofo não encontrado. Enviando imagem de erro.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 95, in philomaker_engine
+    self.user_mentioned_profile_name = store_name[0]
+IndexError: list index out of range
+2021-02-01 19:58:00,645 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 19:58:00,645 - Tweet ID: 1356376262298755075
+2021-02-01 19:58:00,645 - Tweet USERNAME: TestePhiloBot
+2021-02-01 19:58:00,645 - Adicionado na fila
+2021-02-01 19:58:00,645 - --------------------------------------------------------
+
+2021-02-01 19:58:05,657 - ----------------------------------------
+2021-02-01 19:58:05,657 - > STARTING PHILOMAKER < 
+2021-02-01 19:58:05,657 - ----------------------------------------
+2021-02-01 19:58:05,657 - TAMANHO FILA: 1
+2021-02-01 19:58:05,657 - Motor atuando: 1356376262298755075
+2021-02-01 19:58:05,940 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker caio eh viado @felipeneto
+2021-02-01 19:58:05,940 - STATUS TRATADO: #testemaker caio eh viado 
+2021-02-01 19:58:07,957 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 19:58:07,957 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 19:58:07,957 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 19:58:09,962 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 19:58:10,003 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 19:58:10,005 - IMAGEM NÃO ENCONTRADA
+2021-02-01 19:58:10,005 - Enviando imagem de erro...
+2021-02-01 19:58:10,005 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:58:10,005 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 19:58:10,006 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 19:58:13,894 - ----------------------------------------
+
+2021-02-01 19:58:13,894 - >AGUARDANDO NOVOS TWEETS...<
+2021-02-01 20:00:02,830 - Bem-vindo!
+
+2021-02-01 20:00:02,831 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:00:02,831 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:00:02,831 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:00:02,894 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:00:02,894 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:00:02,894 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:00:02,894 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:00:02,894 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:00:43,236 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:00:43,237 - Tweet ID: 1356376943470505985
+2021-02-01 20:00:43,237 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:00:43,237 - Adicionado na fila
+2021-02-01 20:00:43,237 - --------------------------------------------------------
+
+2021-02-01 20:00:48,250 - ----------------------------------------
+2021-02-01 20:00:48,250 - > STARTING PHILOMAKER < 
+2021-02-01 20:00:48,250 - ----------------------------------------
+2021-02-01 20:00:48,250 - TAMANHO FILA: 1
+2021-02-01 20:00:48,250 - Motor atuando: 1356376943470505985
+2021-02-01 20:00:48,532 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiago the cokitus https://t.co/uVpGSXh56c
+2021-02-01 20:00:48,533 - STATUS TRATADO: #testemaker tiago the cokitus https://t.co/uVpGSXh56c
+2021-02-01 20:00:50,546 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:00:50,546 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 20:00:50,546 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 20:00:52,549 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 20:00:52,591 - Erro: Nome do Filosofo não encontrado. Enviando imagem de erro.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 95, in philomaker_engine
+    self.user_mentioned_profile_name = store_name[0]
+IndexError: list index out of range
+2021-02-01 20:00:52,592 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 20:00:52,592 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 20:00:56,770 - ----------------------------------------
+
+2021-02-01 20:00:56,770 - >AGUARDANDO NOVOS TWEETS...<
+2021-02-01 20:01:28,174 - Bem-vindo!
+
+2021-02-01 20:01:28,174 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:01:28,174 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:01:28,174 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:01:28,239 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:01:28,239 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:01:28,239 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:01:28,239 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:01:28,239 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:03:23,284 - Bem-vindo!
+
+2021-02-01 20:03:23,284 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:03:23,284 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:03:23,284 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:03:23,344 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:03:23,344 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:03:23,344 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:03:23,344 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:03:23,344 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:05:12,549 - Bem-vindo!
+
+2021-02-01 20:05:12,550 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:05:12,550 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:05:12,550 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:05:12,614 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:05:12,614 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:05:12,614 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:05:12,614 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:05:12,614 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:05:36,733 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:05:36,733 - Tweet ID: 1356378174721040387
+2021-02-01 20:05:36,733 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:05:36,733 - Adicionado na fila
+2021-02-01 20:05:36,733 - --------------------------------------------------------
+
+2021-02-01 20:05:41,743 - ----------------------------------------
+2021-02-01 20:05:41,743 - > STARTING PHILOMAKER < 
+2021-02-01 20:05:41,743 - ----------------------------------------
+2021-02-01 20:05:41,743 - TAMANHO FILA: 1
+2021-02-01 20:05:41,743 - Motor atuando: 1356378174721040387
+2021-02-01 20:05:42,017 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker teste bunda https://t.co/5MLcxPVch5
+2021-02-01 20:05:42,017 - STATUS TRATADO: #testemaker teste bunda https://t.co/5MLcxPVch5
+2021-02-01 20:05:44,031 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:05:44,031 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 20:05:44,031 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 20:05:46,036 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 20:05:46,079 - Erro: Nome do Filosofo não encontrado. Enviando imagem de erro.
+2021-02-01 20:05:46,079 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 20:05:46,079 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 20:05:50,024 - ----------------------------------------
+
+2021-02-01 20:05:50,024 - >AGUARDANDO NOVOS TWEETS...<
+2021-02-01 20:07:41,553 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:07:41,554 - Tweet ID: 1356378698149203969
+2021-02-01 20:07:41,554 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:07:41,554 - Adicionado na fila
+2021-02-01 20:07:41,554 - --------------------------------------------------------
+
+2021-02-01 20:07:46,565 - ----------------------------------------
+2021-02-01 20:07:46,565 - > STARTING PHILOMAKER < 
+2021-02-01 20:07:46,565 - ----------------------------------------
+2021-02-01 20:07:46,565 - TAMANHO FILA: 1
+2021-02-01 20:07:46,565 - Motor atuando: 1356378698149203969
+2021-02-01 20:07:46,819 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker teste reply tiago https://t.co/Dnbl1DRfsj
+2021-02-01 20:07:46,820 - STATUS TRATADO: #testemaker teste reply tiago https://t.co/Dnbl1DRfsj
+2021-02-01 20:07:48,833 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:07:48,833 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 20:07:48,833 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 20:07:50,847 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 20:07:50,889 - Erro: Nome do Filosofo não encontrado. Enviando imagem de erro.
+2021-02-01 20:07:50,889 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 20:07:50,890 - ENVIANDO TEMPLATE DE AJUDA PARA O @TestePhiloBot.
+2021-02-01 20:07:54,801 - ----------------------------------------
+
+2021-02-01 20:07:54,801 - >AGUARDANDO NOVOS TWEETS...<
+2021-02-01 20:10:13,724 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:10:13,724 - Tweet ID: 1356379336329338880
+2021-02-01 20:10:13,724 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:10:13,724 - Adicionado na fila
+2021-02-01 20:10:13,724 - --------------------------------------------------------
+
+2021-02-01 20:10:18,740 - ----------------------------------------
+2021-02-01 20:10:18,740 - > STARTING PHILOMAKER < 
+2021-02-01 20:10:18,740 - ----------------------------------------
+2021-02-01 20:10:18,740 - TAMANHO FILA: 1
+2021-02-01 20:10:18,740 - Motor atuando: 1356379336329338880
+2021-02-01 20:10:19,000 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker texto bunda pra teste @lipimzada @sudomadeira https://t.co/Yqv1gIYwqS
+2021-02-01 20:10:19,000 - STATUS TRATADO: #testemaker texto bunda pra teste   https://t.co/Yqv1gIYwqS
+2021-02-01 20:10:21,019 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:10:21,019 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 20:10:21,019 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 20:10:23,022 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 20:10:23,062 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Lipim
+2021-02-01 20:10:23,065 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLTxtRWMAEY0Ne.png
+2021-02-01 20:10:23,399 - Imagem do Filósofo salva.
+2021-02-01 20:10:27,340 - Finalizado, enviando: 1356379336329338880
+2021-02-01 20:10:27,340 - Itens restantes: 0
+2021-02-01 20:10:27,340 - --------------------------------------------------------
+
+2021-02-01 20:10:27,340 - Lista tratada com sucesso.
+2021-02-01 20:10:27,340 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 20:10:27,340 - Imagem removida
+2021-02-01 20:11:07,402 - Bem-vindo!
+
+2021-02-01 20:11:07,402 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:11:07,402 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:11:07,403 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:11:07,458 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:11:07,458 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:11:07,458 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:11:07,458 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:11:07,459 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:11:27,965 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:11:27,965 - Tweet ID: 1356379645181128707
+2021-02-01 20:11:27,965 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:11:27,965 - Adicionado na fila
+2021-02-01 20:11:27,965 - --------------------------------------------------------
+
+2021-02-01 20:11:32,976 - ----------------------------------------
+2021-02-01 20:11:32,976 - > STARTING PHILOMAKER < 
+2021-02-01 20:11:32,976 - ----------------------------------------
+2021-02-01 20:11:32,976 - TAMANHO FILA: 1
+2021-02-01 20:11:32,976 - Motor atuando: 1356379645181128707
+2021-02-01 20:11:33,772 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: RT @TestePhiloBot: #testemaker texto bunda pra teste @lipimzada @sudomadeira https://t.co/Yqv1gIYwqS
+2021-02-01 20:11:33,773 - STATUS TRATADO: RT  #testemaker texto bunda pra teste   https://t.co/Yqv1gIYwqS
+2021-02-01 20:11:35,787 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:11:35,787 - RETWEET ENCONTRADO, IGNORANDO... - USER: TestePhiloBot
+2021-02-01 20:11:35,787 - Voltando a escutar a Hashtag
+2021-02-01 20:28:24,144 - Bem-vindo!
+
+2021-02-01 20:28:24,145 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:28:24,145 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:28:24,145 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:28:24,203 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:28:24,203 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:28:24,203 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:28:24,203 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:28:24,203 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:28:53,975 - Bem-vindo!
+
+2021-02-01 20:28:53,975 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:28:53,975 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:28:53,975 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:28:54,034 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:28:54,034 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:28:54,034 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:28:54,034 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:28:54,034 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:30:31,456 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:30:31,456 - Tweet ID: 1356384443993350151
+2021-02-01 20:30:31,456 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:30:31,456 - Adicionado na fila
+2021-02-01 20:30:31,456 - --------------------------------------------------------
+
+2021-02-01 20:30:36,460 - ----------------------------------------
+2021-02-01 20:30:36,460 - > STARTING PHILOMAKER < 
+2021-02-01 20:30:36,460 - ----------------------------------------
+2021-02-01 20:30:36,460 - TAMANHO FILA: 1
+2021-02-01 20:30:36,460 - Motor atuando: 1356384443993350151
+2021-02-01 20:30:36,750 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker vai se fuder rodrigo @rodrigoblock4 https://t.co/oDMuXvoCrr
+2021-02-01 20:30:36,750 - STATUS TRATADO: #testemaker vai se fuder rodrigo  https://t.co/oDMuXvoCrr
+2021-02-01 20:30:38,769 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:30:38,769 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 20:30:38,769 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 20:30:40,782 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 20:31:15,957 - Bem-vindo!
+
+2021-02-01 20:31:15,957 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:31:15,957 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:31:15,957 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:31:16,014 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:31:16,014 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:31:16,014 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:31:16,014 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:31:16,014 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:33:11,811 - Bem-vindo!
+
+2021-02-01 20:33:11,811 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:33:11,811 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:33:11,811 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:33:11,865 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:33:11,866 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:33:11,866 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:33:11,866 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:33:11,866 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:33:36,907 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:33:36,908 - Tweet ID: 1356385220262588418
+2021-02-01 20:33:36,908 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:33:36,908 - Adicionado na fila
+2021-02-01 20:33:36,908 - --------------------------------------------------------
+
+2021-02-01 20:33:41,912 - ----------------------------------------
+2021-02-01 20:33:41,912 - > STARTING PHILOMAKER < 
+2021-02-01 20:33:41,912 - ----------------------------------------
+2021-02-01 20:33:41,912 - TAMANHO FILA: 1
+2021-02-01 20:33:41,912 - Motor atuando: 1356385220262588418
+2021-02-01 20:33:42,191 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker hsuyfeju9i @Flamengo https://t.co/wtdXZH1rC4
+2021-02-01 20:33:42,191 - STATUS TRATADO: #testemaker hsuyfeju9i  https://t.co/wtdXZH1rC4
+2021-02-01 20:33:44,202 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:33:44,202 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 20:33:44,202 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 20:33:46,216 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 20:36:49,766 - Bem-vindo!
+
+2021-02-01 20:36:49,766 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:36:49,767 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:36:49,767 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:36:49,826 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:36:49,826 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:36:49,826 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:36:49,826 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:36:49,827 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:39:09,210 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:39:09,210 - Tweet ID: 1356386615669747713
+2021-02-01 20:39:09,210 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:39:09,210 - Adicionado na fila
+2021-02-01 20:39:09,210 - --------------------------------------------------------
+
+2021-02-01 20:39:14,223 - ----------------------------------------
+2021-02-01 20:39:14,223 - > STARTING PHILOMAKER < 
+2021-02-01 20:39:14,223 - ----------------------------------------
+2021-02-01 20:39:14,223 - TAMANHO FILA: 1
+2021-02-01 20:39:14,223 - Motor atuando: 1356386615669747713
+2021-02-01 20:39:14,490 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker keurjfudj @FabioPorchat https://t.co/jV6kpOMUvr
+2021-02-01 20:39:14,490 - STATUS TRATADO: #testemaker keurjfudj  https://t.co/jV6kpOMUvr
+2021-02-01 20:39:16,502 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:39:16,502 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 20:39:16,502 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 20:39:18,514 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 20:47:26,520 - Bem-vindo!
+
+2021-02-01 20:47:26,520 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:47:26,520 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:47:26,520 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:47:26,578 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:47:26,578 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:47:26,578 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:47:26,578 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:47:26,578 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:49:37,414 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:49:37,414 - Tweet ID: 1356389250787344384
+2021-02-01 20:49:37,414 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:49:37,414 - Adicionado na fila
+2021-02-01 20:49:37,415 - --------------------------------------------------------
+
+2021-02-01 20:49:42,428 - ----------------------------------------
+2021-02-01 20:49:42,428 - > STARTING PHILOMAKER < 
+2021-02-01 20:49:42,428 - ----------------------------------------
+2021-02-01 20:49:42,428 - TAMANHO FILA: 1
+2021-02-01 20:49:42,428 - Motor atuando: 1356389250787344384
+2021-02-01 20:49:43,711 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker cuzinho gotoso @mariruybarbosa https://t.co/I9lhteIuU4
+2021-02-01 20:49:43,711 - STATUS TRATADO: #testemaker cuzinho gotoso  https://t.co/I9lhteIuU4
+2021-02-01 20:49:45,723 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:49:45,723 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 20:49:45,723 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 20:49:47,732 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 20:49:47,774 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Marina Ruy Barbosa
+2021-02-01 20:52:16,241 - Bem-vindo!
+
+2021-02-01 20:52:16,241 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:52:16,241 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:52:16,241 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:52:16,297 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:52:16,298 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:52:16,298 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:52:16,298 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:52:16,298 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:53:38,217 - Bem-vindo!
+
+2021-02-01 20:53:38,217 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:53:38,217 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:53:38,217 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:53:38,270 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:53:38,270 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:53:38,270 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:53:38,270 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:53:38,270 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:54:13,352 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:54:13,353 - Tweet ID: 1356390406695645184
+2021-02-01 20:54:13,353 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:54:13,353 - Adicionado na fila
+2021-02-01 20:54:13,353 - --------------------------------------------------------
+
+2021-02-01 20:54:18,358 - ----------------------------------------
+2021-02-01 20:54:18,358 - > STARTING PHILOMAKER < 
+2021-02-01 20:54:18,358 - ----------------------------------------
+2021-02-01 20:54:18,358 - TAMANHO FILA: 1
+2021-02-01 20:54:18,358 - Motor atuando: 1356390406695645184
+2021-02-01 20:54:18,656 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker negro bunda enxada 
+@WillSmithBahia https://t.co/1fIa4s7Mru
+2021-02-01 20:54:18,657 - STATUS TRATADO: #testemaker negro bunda enxada 
+ https://t.co/1fIa4s7Mru
+2021-02-01 20:54:20,667 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:54:20,667 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 20:54:20,667 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 20:54:22,678 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 20:54:22,720 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Will Smith Baiano
+2021-02-01 20:55:11,199 - Bem-vindo!
+
+2021-02-01 20:55:11,200 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:55:11,200 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:55:11,200 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:55:11,257 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:55:11,257 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:55:11,257 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:55:11,257 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:55:11,257 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:56:23,265 - Bem-vindo!
+
+2021-02-01 20:56:23,266 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:56:23,266 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:56:23,266 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:56:23,318 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:56:23,318 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:56:23,318 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:56:23,318 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:56:23,318 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:56:45,138 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:56:45,138 - Tweet ID: 1356391044858937346
+2021-02-01 20:56:45,138 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:56:45,138 - Adicionado na fila
+2021-02-01 20:56:45,138 - --------------------------------------------------------
+
+2021-02-01 20:56:50,141 - ----------------------------------------
+2021-02-01 20:56:50,141 - > STARTING PHILOMAKER < 
+2021-02-01 20:56:50,141 - ----------------------------------------
+2021-02-01 20:56:50,141 - TAMANHO FILA: 1
+2021-02-01 20:56:50,141 - Motor atuando: 1356391044858937346
+2021-02-01 20:56:50,433 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker negro bunda enxada j
+@WillSmithBahia https://t.co/r0PINUMcYg
+2021-02-01 20:56:50,434 - STATUS TRATADO: #testemaker negro bunda enxada j
+ https://t.co/r0PINUMcYg
+2021-02-01 20:56:52,455 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:56:52,455 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 20:56:52,455 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 20:56:54,460 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 20:56:54,501 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Will Smith Baiano
+2021-02-01 20:56:54,504 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLecKoXUAURyiB.jpg
+2021-02-01 20:56:54,743 - Imagem do Filósofo salva.
+2021-02-01 20:56:58,784 - Finalizado, enviando: 1356391044858937346
+2021-02-01 20:56:58,784 - Itens restantes: 0
+2021-02-01 20:56:58,784 - --------------------------------------------------------
+
+2021-02-01 20:56:58,784 - Lista tratada com sucesso.
+2021-02-01 20:56:58,784 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 20:56:58,784 - Imagem removida
+2021-02-01 20:58:13,363 - Bem-vindo!
+
+2021-02-01 20:58:13,364 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 20:58:13,364 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 20:58:13,364 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 20:58:13,417 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 20:58:13,417 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 20:58:13,417 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 20:58:13,417 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 20:58:13,417 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 20:58:44,889 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 20:58:44,890 - Tweet ID: 1356391547160436742
+2021-02-01 20:58:44,890 - Tweet USERNAME: TestePhiloBot
+2021-02-01 20:58:44,890 - Adicionado na fila
+2021-02-01 20:58:44,890 - --------------------------------------------------------
+
+2021-02-01 20:58:49,895 - ----------------------------------------
+2021-02-01 20:58:49,895 - > STARTING PHILOMAKER < 
+2021-02-01 20:58:49,895 - ----------------------------------------
+2021-02-01 20:58:49,895 - TAMANHO FILA: 1
+2021-02-01 20:58:49,895 - Motor atuando: 1356391547160436742
+2021-02-01 20:58:50,489 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker erf @felipeneto https://t.co/BJTyL0pebv
+2021-02-01 20:58:50,489 - STATUS TRATADO: #testemaker erf  https://t.co/BJTyL0pebv
+2021-02-01 20:58:52,508 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 20:58:52,508 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 20:58:52,508 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 20:58:54,520 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 20:58:54,562 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Felipe Neto
+2021-02-01 20:58:54,563 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLe60xXcAAUqpq.jpg
+2021-02-01 20:58:54,955 - Imagem do Filósofo salva.
+2021-02-01 20:58:58,998 - Finalizado, enviando: 1356391547160436742
+2021-02-01 20:58:58,998 - Itens restantes: 0
+2021-02-01 20:58:58,998 - --------------------------------------------------------
+
+2021-02-01 20:58:58,998 - Lista tratada com sucesso.
+2021-02-01 20:58:58,998 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 20:58:58,998 - Imagem removida
+2021-02-01 21:00:11,754 - Bem-vindo!
+
+2021-02-01 21:00:11,754 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:00:11,754 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:00:11,754 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:00:11,815 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:00:11,815 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:00:11,816 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:00:11,816 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:00:11,816 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:00:40,211 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:00:40,211 - Tweet ID: 1356392030734319616
+2021-02-01 21:00:40,211 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:00:40,211 - Adicionado na fila
+2021-02-01 21:00:40,211 - --------------------------------------------------------
+
+2021-02-01 21:00:45,213 - ----------------------------------------
+2021-02-01 21:00:45,213 - > STARTING PHILOMAKER < 
+2021-02-01 21:00:45,213 - ----------------------------------------
+2021-02-01 21:00:45,213 - TAMANHO FILA: 1
+2021-02-01 21:00:45,213 - Motor atuando: 1356392030734319616
+2021-02-01 21:00:45,568 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker grttr @LucianoHuck https://t.co/MfOomJKkl1
+2021-02-01 21:00:45,568 - STATUS TRATADO: #testemaker grttr  https://t.co/MfOomJKkl1
+2021-02-01 21:00:47,586 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:00:47,586 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:00:47,586 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:00:49,599 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:00:49,640 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Luciano Huck
+2021-02-01 21:00:49,641 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLfXFCXEAQzITG.jpg
+2021-02-01 21:00:49,957 - Imagem do Filósofo salva.
+2021-02-01 21:00:53,865 - Finalizado, enviando: 1356392030734319616
+2021-02-01 21:00:53,865 - Itens restantes: 0
+2021-02-01 21:00:53,865 - --------------------------------------------------------
+
+2021-02-01 21:00:53,865 - Lista tratada com sucesso.
+2021-02-01 21:00:53,865 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:00:53,865 - Imagem removida
+2021-02-01 21:01:52,011 - Bem-vindo!
+
+2021-02-01 21:01:52,011 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:01:52,011 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:01:52,011 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:01:52,069 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:01:52,069 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:01:52,069 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:01:52,069 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:01:52,069 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:02:16,911 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:02:16,911 - Tweet ID: 1356392436239638529
+2021-02-01 21:02:16,911 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:02:16,911 - Adicionado na fila
+2021-02-01 21:02:16,911 - --------------------------------------------------------
+
+2021-02-01 21:02:21,925 - ----------------------------------------
+2021-02-01 21:02:21,925 - > STARTING PHILOMAKER < 
+2021-02-01 21:02:21,925 - ----------------------------------------
+2021-02-01 21:02:21,925 - TAMANHO FILA: 1
+2021-02-01 21:02:21,925 - Motor atuando: 1356392436239638529
+2021-02-01 21:02:22,195 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker trtrr @fbbreal https://t.co/sI4rSuWJ4w
+2021-02-01 21:02:22,195 - STATUS TRATADO: #testemaker trtrr  https://t.co/sI4rSuWJ4w
+2021-02-01 21:02:24,209 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:02:24,209 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:02:24,209 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:02:26,224 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:02:26,264 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Fatima Bernardes
+2021-02-01 21:02:26,266 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLftcnXUAYeQz-.jpg
+2021-02-01 21:02:26,613 - Imagem do Filósofo salva.
+2021-02-01 21:02:31,959 - Finalizado, enviando: 1356392436239638529
+2021-02-01 21:02:31,959 - Itens restantes: 0
+2021-02-01 21:02:31,959 - --------------------------------------------------------
+
+2021-02-01 21:02:31,959 - Lista tratada com sucesso.
+2021-02-01 21:02:31,959 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:02:31,959 - Imagem removida
+2021-02-01 21:03:53,112 - Bem-vindo!
+
+2021-02-01 21:03:53,112 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:03:53,112 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:03:53,112 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:03:53,168 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:03:53,168 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:03:53,169 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:03:53,169 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:03:53,169 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:04:18,966 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:04:18,967 - Tweet ID: 1356392948506775552
+2021-02-01 21:04:18,967 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:04:18,967 - Adicionado na fila
+2021-02-01 21:04:18,967 - --------------------------------------------------------
+
+2021-02-01 21:04:23,977 - ----------------------------------------
+2021-02-01 21:04:23,977 - > STARTING PHILOMAKER < 
+2021-02-01 21:04:23,977 - ----------------------------------------
+2021-02-01 21:04:23,977 - TAMANHO FILA: 1
+2021-02-01 21:04:23,977 - Motor atuando: 1356392948506775552
+2021-02-01 21:04:24,261 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tiago bunda piro @GiuseppeRiesgo
+2021-02-01 21:04:24,261 - STATUS TRATADO: #testemaker tiago bunda piro 
+2021-02-01 21:04:26,283 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:04:26,283 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:04:26,283 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:04:28,297 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:04:28,340 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Giuseppe Riesgo
+2021-02-01 21:05:22,459 - Bem-vindo!
+
+2021-02-01 21:05:22,459 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:05:22,459 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:05:22,459 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:05:22,512 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:05:22,512 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:05:22,512 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:05:22,512 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:05:22,512 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:05:54,988 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:05:54,988 - Tweet ID: 1356393350878928898
+2021-02-01 21:05:54,988 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:05:54,988 - Adicionado na fila
+2021-02-01 21:05:54,988 - --------------------------------------------------------
+
+2021-02-01 21:05:59,993 - ----------------------------------------
+2021-02-01 21:05:59,993 - > STARTING PHILOMAKER < 
+2021-02-01 21:05:59,993 - ----------------------------------------
+2021-02-01 21:05:59,993 - TAMANHO FILA: 1
+2021-02-01 21:05:59,993 - Motor atuando: 1356393350878928898
+2021-02-01 21:06:00,230 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker jjb @flaviokotaka https://t.co/lP6Rnva1DN
+2021-02-01 21:06:00,231 - STATUS TRATADO: #testemaker jjb  https://t.co/lP6Rnva1DN
+2021-02-01 21:06:02,242 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:06:02,242 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:06:02,242 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:06:04,243 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:06:04,284 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Kotaka
+2021-02-01 21:13:17,358 - Bem-vindo!
+
+2021-02-01 21:13:17,358 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:13:17,358 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:13:17,358 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:13:17,414 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:13:17,414 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:13:17,414 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:13:17,414 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:13:17,414 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:13:41,002 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:13:41,003 - Tweet ID: 1356395305651085314
+2021-02-01 21:13:41,003 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:13:41,003 - Adicionado na fila
+2021-02-01 21:13:41,003 - --------------------------------------------------------
+
+2021-02-01 21:13:46,006 - ----------------------------------------
+2021-02-01 21:13:46,006 - > STARTING PHILOMAKER < 
+2021-02-01 21:13:46,006 - ----------------------------------------
+2021-02-01 21:13:46,006 - TAMANHO FILA: 1
+2021-02-01 21:13:46,006 - Motor atuando: 1356395305651085314
+2021-02-01 21:13:46,257 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker rfji @nathfinancas https://t.co/GkibkiBnV6
+2021-02-01 21:13:46,258 - STATUS TRATADO: #testemaker rfji  https://t.co/GkibkiBnV6
+2021-02-01 21:13:48,267 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:13:48,267 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:13:48,267 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:13:50,269 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:13:50,309 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: Nath Finanças
+2021-02-01 21:13:50,312 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLiTvoW8AI3PL7.jpg
+2021-02-01 21:13:50,559 - Imagem do Filósofo salva.
+2021-02-01 21:13:54,791 - Finalizado, enviando: 1356395305651085314
+2021-02-01 21:13:54,791 - Itens restantes: 0
+2021-02-01 21:13:54,791 - --------------------------------------------------------
+
+2021-02-01 21:13:54,791 - Lista tratada com sucesso.
+2021-02-01 21:13:54,791 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:13:54,791 - Imagem removida
+2021-02-01 21:15:52,256 - Bem-vindo!
+
+2021-02-01 21:15:52,256 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:15:52,256 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:15:52,256 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:15:52,314 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:15:52,314 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:15:52,314 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:15:52,314 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:15:52,314 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:16:26,225 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:16:26,225 - Tweet ID: 1356395998642368514
+2021-02-01 21:16:26,225 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:16:26,225 - Adicionado na fila
+2021-02-01 21:16:26,226 - --------------------------------------------------------
+
+2021-02-01 21:16:31,240 - ----------------------------------------
+2021-02-01 21:16:31,240 - > STARTING PHILOMAKER < 
+2021-02-01 21:16:31,240 - ----------------------------------------
+2021-02-01 21:16:31,240 - TAMANHO FILA: 1
+2021-02-01 21:16:31,240 - Motor atuando: 1356395998642368514
+2021-02-01 21:16:31,524 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker will smoke @WillSmithBahia https://t.co/XQ4OYCJuEc
+2021-02-01 21:16:31,524 - STATUS TRATADO: #testemaker will smoke  https://t.co/XQ4OYCJuEc
+2021-02-01 21:16:33,543 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:16:33,543 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:16:33,543 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:16:35,558 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:16:35,598 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: - Will Smith Baiano
+2021-02-01 21:16:35,601 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLi6LaW4AoiX3f.jpg
+2021-02-01 21:16:35,958 - Imagem do Filósofo salva.
+2021-02-01 21:16:39,943 - Finalizado, enviando: 1356395998642368514
+2021-02-01 21:16:39,943 - Itens restantes: 0
+2021-02-01 21:16:39,943 - --------------------------------------------------------
+
+2021-02-01 21:16:39,943 - Lista tratada com sucesso.
+2021-02-01 21:16:39,943 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:16:39,943 - Imagem removida
+2021-02-01 21:18:25,322 - Bem-vindo!
+
+2021-02-01 21:18:25,323 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:18:25,323 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:18:25,323 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:18:25,380 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:18:25,380 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:18:25,380 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:18:25,380 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:18:25,380 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:18:52,799 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:18:52,799 - Tweet ID: 1356396612768194568
+2021-02-01 21:18:52,799 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:18:52,799 - Adicionado na fila
+2021-02-01 21:18:52,799 - --------------------------------------------------------
+
+2021-02-01 21:18:57,809 - ----------------------------------------
+2021-02-01 21:18:57,809 - > STARTING PHILOMAKER < 
+2021-02-01 21:18:57,809 - ----------------------------------------
+2021-02-01 21:18:57,809 - TAMANHO FILA: 1
+2021-02-01 21:18:57,809 - Motor atuando: 1356396612768194568
+2021-02-01 21:18:58,076 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker eeerer @AAbdenur https://t.co/1ZLjftdRoA
+2021-02-01 21:18:58,077 - STATUS TRATADO: #testemaker eeerer  https://t.co/1ZLjftdRoA
+2021-02-01 21:19:00,088 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:19:00,088 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:19:00,088 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:19:02,094 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:19:02,135 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: - Adriana Erthal Abdenur
+2021-02-01 21:19:02,138 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLjhyqW4AAHBNq.jpg
+2021-02-01 21:19:02,356 - Imagem do Filósofo salva.
+2021-02-01 21:19:06,408 - Finalizado, enviando: 1356396612768194568
+2021-02-01 21:19:06,408 - Itens restantes: 0
+2021-02-01 21:19:06,408 - --------------------------------------------------------
+
+2021-02-01 21:19:06,408 - Lista tratada com sucesso.
+2021-02-01 21:19:06,408 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:19:06,408 - Imagem removida
+2021-02-01 21:20:13,503 - Bem-vindo!
+
+2021-02-01 21:20:13,503 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:20:13,503 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:20:13,503 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:20:13,561 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:20:13,561 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:20:13,561 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:20:13,561 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:20:13,561 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:20:46,441 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:20:46,442 - Tweet ID: 1356397089748615169
+2021-02-01 21:20:46,442 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:20:46,442 - Adicionado na fila
+2021-02-01 21:20:46,442 - --------------------------------------------------------
+
+2021-02-01 21:20:51,456 - ----------------------------------------
+2021-02-01 21:20:51,456 - > STARTING PHILOMAKER < 
+2021-02-01 21:20:51,456 - ----------------------------------------
+2021-02-01 21:20:51,456 - TAMANHO FILA: 1
+2021-02-01 21:20:51,456 - Motor atuando: 1356397089748615169
+2021-02-01 21:20:51,753 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker rfiiiihunmklde @RodrigoMaia https://t.co/NXIgpXoHWu
+2021-02-01 21:20:51,753 - STATUS TRATADO: #testemaker rfiiiihunmklde  https://t.co/NXIgpXoHWu
+2021-02-01 21:20:53,772 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:20:53,772 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:20:53,772 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:20:55,783 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:20:55,824 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: - Rodrigo Maia
+2021-02-01 21:20:55,826 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLj9NCXcAAL6h1.png
+2021-02-01 21:20:59,351 - Imagem do Filósofo salva.
+2021-02-01 21:21:03,396 - Finalizado, enviando: 1356397089748615169
+2021-02-01 21:21:03,396 - Itens restantes: 0
+2021-02-01 21:21:03,396 - --------------------------------------------------------
+
+2021-02-01 21:21:03,396 - Lista tratada com sucesso.
+2021-02-01 21:21:03,396 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:21:03,396 - Imagem removida
+2021-02-01 21:21:27,283 - Bem-vindo!
+
+2021-02-01 21:21:27,283 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:21:27,283 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:21:27,283 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:21:27,340 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:21:27,340 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:21:27,340 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:21:27,340 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:21:27,340 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:21:55,976 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:21:55,976 - Tweet ID: 1356397381819002881
+2021-02-01 21:21:55,976 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:21:55,976 - Adicionado na fila
+2021-02-01 21:21:55,976 - --------------------------------------------------------
+
+2021-02-01 21:22:00,991 - ----------------------------------------
+2021-02-01 21:22:00,991 - > STARTING PHILOMAKER < 
+2021-02-01 21:22:00,991 - ----------------------------------------
+2021-02-01 21:22:00,991 - TAMANHO FILA: 1
+2021-02-01 21:22:00,991 - Motor atuando: 1356397381819002881
+2021-02-01 21:22:01,777 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker saasas @RCaio03 https://t.co/bOj2Giwq2h
+2021-02-01 21:22:01,777 - STATUS TRATADO: #testemaker saasas  https://t.co/bOj2Giwq2h
+2021-02-01 21:22:03,797 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:22:03,797 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:22:03,797 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:22:05,799 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:22:05,841 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: - Rodrigo Caio
+2021-02-01 21:22:05,843 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLkOkNW4AAHDAE.jpg
+2021-02-01 21:22:06,062 - Imagem do Filósofo salva.
+2021-02-01 21:22:10,143 - Finalizado, enviando: 1356397381819002881
+2021-02-01 21:22:10,143 - Itens restantes: 0
+2021-02-01 21:22:10,143 - --------------------------------------------------------
+
+2021-02-01 21:22:10,143 - Lista tratada com sucesso.
+2021-02-01 21:22:10,143 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:22:10,143 - Imagem removida
+2021-02-01 21:23:43,795 - Bem-vindo!
+
+2021-02-01 21:23:43,796 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:23:43,796 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:23:43,796 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:23:43,853 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:23:43,853 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:23:43,853 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:23:43,853 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:23:43,853 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:24:13,715 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:24:13,717 - Tweet ID: 1356397959336890368
+2021-02-01 21:24:13,717 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:24:13,717 - Adicionado na fila
+2021-02-01 21:24:13,717 - --------------------------------------------------------
+
+2021-02-01 21:24:18,730 - ----------------------------------------
+2021-02-01 21:24:18,730 - > STARTING PHILOMAKER < 
+2021-02-01 21:24:18,730 - ----------------------------------------
+2021-02-01 21:24:18,730 - TAMANHO FILA: 1
+2021-02-01 21:24:18,730 - Motor atuando: 1356397959336890368
+2021-02-01 21:24:19,019 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker tesrrte @franca_rodrigo https://t.co/BSvCiduny1
+2021-02-01 21:24:19,019 - STATUS TRATADO: #testemaker tesrrte  https://t.co/BSvCiduny1
+2021-02-01 21:24:21,035 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:24:21,035 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:24:21,035 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:24:23,036 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:24:23,095 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLkwKDXAAE9wNC.jpg
+2021-02-01 21:24:23,445 - Imagem do Filósofo salva.
+2021-02-01 21:24:27,454 - Finalizado, enviando: 1356397959336890368
+2021-02-01 21:24:27,454 - Itens restantes: 0
+2021-02-01 21:24:27,454 - --------------------------------------------------------
+
+2021-02-01 21:24:27,454 - Lista tratada com sucesso.
+2021-02-01 21:24:27,454 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:24:27,454 - Imagem removida
+2021-02-01 21:25:35,533 - Bem-vindo!
+
+2021-02-01 21:25:35,533 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:25:35,534 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:25:35,534 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:25:35,589 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:25:35,589 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:25:35,589 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:25:35,589 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:25:35,589 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:26:05,731 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:26:05,731 - Tweet ID: 1356398428847280128
+2021-02-01 21:26:05,731 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:26:05,731 - Adicionado na fila
+2021-02-01 21:26:05,731 - --------------------------------------------------------
+
+2021-02-01 21:26:10,735 - ----------------------------------------
+2021-02-01 21:26:10,735 - > STARTING PHILOMAKER < 
+2021-02-01 21:26:10,735 - ----------------------------------------
+2021-02-01 21:26:10,735 - TAMANHO FILA: 1
+2021-02-01 21:26:10,735 - Motor atuando: 1356398428847280128
+2021-02-01 21:26:11,011 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker hujiok @pedrow https://t.co/YVEff9HU0q
+2021-02-01 21:26:11,011 - STATUS TRATADO: #testemaker hujiok  https://t.co/YVEff9HU0q
+2021-02-01 21:26:13,023 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:26:13,023 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:26:13,023 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:26:15,028 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:26:15,069 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: - Pedro Willmersdorf
+2021-02-01 21:26:15,072 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLlLQAXUAAVCbm.png
+2021-02-01 21:26:15,974 - Imagem do Filósofo salva.
+2021-02-01 21:26:20,243 - Finalizado, enviando: 1356398428847280128
+2021-02-01 21:26:20,243 - Itens restantes: 0
+2021-02-01 21:26:20,243 - --------------------------------------------------------
+
+2021-02-01 21:26:20,243 - Lista tratada com sucesso.
+2021-02-01 21:26:20,243 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:26:20,243 - Imagem removida
+2021-02-01 21:27:48,872 - Bem-vindo!
+
+2021-02-01 21:27:48,872 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:27:48,872 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:27:48,872 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:27:48,928 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:27:48,928 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:27:48,928 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:27:48,928 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:27:48,928 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:28:23,100 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:28:23,100 - Tweet ID: 1356399004960100352
+2021-02-01 21:28:23,100 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:28:23,100 - Adicionado na fila
+2021-02-01 21:28:23,100 - --------------------------------------------------------
+
+2021-02-01 21:28:28,108 - ----------------------------------------
+2021-02-01 21:28:28,108 - > STARTING PHILOMAKER < 
+2021-02-01 21:28:28,108 - ----------------------------------------
+2021-02-01 21:28:28,108 - TAMANHO FILA: 1
+2021-02-01 21:28:28,108 - Motor atuando: 1356399004960100352
+2021-02-01 21:28:28,375 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker bhunjmk @ionosawa https://t.co/nmHrnH1apX
+2021-02-01 21:28:28,375 - STATUS TRATADO: #testemaker bhunjmk  https://t.co/nmHrnH1apX
+2021-02-01 21:28:30,390 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:28:30,390 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:28:30,390 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:28:32,398 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:28:32,440 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: - FaZe ion
+2021-02-01 21:28:32,443 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLlrVTW8AIYhgM.png
+2021-02-01 21:28:33,334 - Imagem do Filósofo salva.
+2021-02-01 21:28:37,333 - Finalizado, enviando: 1356399004960100352
+2021-02-01 21:28:37,333 - Itens restantes: 0
+2021-02-01 21:28:37,333 - --------------------------------------------------------
+
+2021-02-01 21:28:37,333 - Lista tratada com sucesso.
+2021-02-01 21:28:37,333 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:28:37,333 - Imagem removida
+2021-02-01 21:29:08,702 - Bem-vindo!
+
+2021-02-01 21:29:08,703 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:29:08,703 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:29:08,703 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:29:08,760 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:29:08,760 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:29:08,760 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:29:08,760 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:29:08,760 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:29:42,470 - Bem-vindo!
+
+2021-02-01 21:29:42,470 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:29:42,470 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:29:42,470 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:29:42,524 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:29:42,524 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:29:42,524 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:29:42,524 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:29:42,524 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:30:34,305 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:30:34,306 - Tweet ID: 1356399555609321472
+2021-02-01 21:30:34,306 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:30:34,306 - Adicionado na fila
+2021-02-01 21:30:34,306 - --------------------------------------------------------
+
+2021-02-01 21:30:39,320 - ----------------------------------------
+2021-02-01 21:30:39,320 - > STARTING PHILOMAKER < 
+2021-02-01 21:30:39,320 - ----------------------------------------
+2021-02-01 21:30:39,320 - TAMANHO FILA: 1
+2021-02-01 21:30:39,320 - Motor atuando: 1356399555609321472
+2021-02-01 21:30:39,848 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker bhunjmkiju 
+@ionosawa https://t.co/OKHIRy90hL
+2021-02-01 21:30:39,848 - STATUS TRATADO: #testemaker bhunjmkiju 
+ https://t.co/OKHIRy90hL
+2021-02-01 21:30:41,861 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:30:41,861 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:30:41,861 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:30:43,863 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:30:43,904 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: - FaZe ion
+2021-02-01 21:30:43,906 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLmM9pXIAA3LEO.jpg
+2021-02-01 21:30:44,211 - Imagem do Filósofo salva.
+2021-02-01 21:30:48,261 - Finalizado, enviando: 1356399555609321472
+2021-02-01 21:30:48,261 - Itens restantes: 0
+2021-02-01 21:30:48,261 - --------------------------------------------------------
+
+2021-02-01 21:30:48,261 - Lista tratada com sucesso.
+2021-02-01 21:30:48,261 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:30:48,261 - Imagem removida
+2021-02-01 21:31:21,074 - Bem-vindo!
+
+2021-02-01 21:31:21,074 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:31:21,074 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:31:21,074 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:31:21,132 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:31:21,132 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:31:21,132 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:31:21,132 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:31:21,132 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:31:41,055 - Bem-vindo!
+
+2021-02-01 21:31:41,055 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:31:41,055 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:31:41,055 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:31:41,114 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:31:41,115 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:31:41,115 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:31:41,115 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:31:41,115 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:31:53,273 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:31:53,273 - Tweet ID: 1356399886812520450
+2021-02-01 21:31:53,273 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:31:53,274 - Adicionado na fila
+2021-02-01 21:31:53,274 - --------------------------------------------------------
+
+2021-02-01 21:31:58,278 - ----------------------------------------
+2021-02-01 21:31:58,278 - > STARTING PHILOMAKER < 
+2021-02-01 21:31:58,278 - ----------------------------------------
+2021-02-01 21:31:58,278 - TAMANHO FILA: 1
+2021-02-01 21:31:58,278 - Motor atuando: 1356399886812520450
+2021-02-01 21:31:58,556 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker bhunjmnjkmlk 
+@ionosawa https://t.co/1rMAAxz6dA
+2021-02-01 21:31:58,556 - STATUS TRATADO: #testemaker bhunjmnjkmlk 
+ https://t.co/1rMAAxz6dA
+2021-02-01 21:32:00,576 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:32:00,576 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:32:00,576 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:32:02,583 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:32:02,624 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: - FaZe ion
+2021-02-01 21:32:02,626 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLmgR7XYAIrrp1.jpg
+2021-02-01 21:32:02,838 - Imagem do Filósofo salva.
+2021-02-01 21:32:06,895 - Finalizado, enviando: 1356399886812520450
+2021-02-01 21:32:06,895 - Itens restantes: 0
+2021-02-01 21:32:06,895 - --------------------------------------------------------
+
+2021-02-01 21:32:06,895 - Lista tratada com sucesso.
+2021-02-01 21:32:06,895 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:32:06,895 - Imagem removida
+2021-02-01 21:32:32,727 - Bem-vindo!
+
+2021-02-01 21:32:32,727 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:32:32,728 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:32:32,728 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:32:32,784 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:32:32,784 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:32:32,784 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:32:32,784 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:32:32,784 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:33:07,498 - Bem-vindo!
+
+2021-02-01 21:33:07,498 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:33:07,498 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:33:07,498 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:33:07,557 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:33:07,557 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:33:07,557 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:33:07,557 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:33:07,558 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:34:32,169 - Bem-vindo!
+
+2021-02-01 21:34:32,169 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:34:32,169 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:34:32,169 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:34:32,234 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:34:32,234 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:34:32,234 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:34:32,234 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:34:32,234 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:34:59,070 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:34:59,072 - Tweet ID: 1356400666261004289
+2021-02-01 21:34:59,072 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:34:59,072 - Adicionado na fila
+2021-02-01 21:34:59,072 - --------------------------------------------------------
+
+2021-02-01 21:35:04,082 - ----------------------------------------
+2021-02-01 21:35:04,082 - > STARTING PHILOMAKER < 
+2021-02-01 21:35:04,082 - ----------------------------------------
+2021-02-01 21:35:04,082 - TAMANHO FILA: 1
+2021-02-01 21:35:04,082 - Motor atuando: 1356400666261004289
+2021-02-01 21:35:04,455 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker ritirit @Brunohenrique https://t.co/OAG6tft8fL
+2021-02-01 21:35:04,455 - STATUS TRATADO: #testemaker ritirit  https://t.co/OAG6tft8fL
+2021-02-01 21:35:06,469 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:35:06,469 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:35:06,469 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:35:08,479 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:35:08,524 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLnNYKW4Ao9kHC.jpg
+2021-02-01 21:35:09,178 - Imagem do Filósofo salva.
+2021-02-01 21:35:13,167 - Finalizado, enviando: 1356400666261004289
+2021-02-01 21:35:13,167 - Itens restantes: 0
+2021-02-01 21:35:13,167 - --------------------------------------------------------
+
+2021-02-01 21:35:13,167 - Lista tratada com sucesso.
+2021-02-01 21:35:13,167 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:35:13,167 - Imagem removida
+2021-02-01 21:37:01,124 - Bem-vindo!
+
+2021-02-01 21:37:01,124 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:37:01,124 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:37:01,124 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:37:01,184 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:37:01,185 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:37:01,185 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:37:01,185 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:37:01,185 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:37:19,349 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:37:19,350 - Tweet ID: 1356401254675709952
+2021-02-01 21:37:19,350 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:37:19,350 - Adicionado na fila
+2021-02-01 21:37:19,350 - --------------------------------------------------------
+
+2021-02-01 21:37:24,351 - ----------------------------------------
+2021-02-01 21:37:24,351 - > STARTING PHILOMAKER < 
+2021-02-01 21:37:24,351 - ----------------------------------------
+2021-02-01 21:37:24,351 - TAMANHO FILA: 1
+2021-02-01 21:37:24,351 - Motor atuando: 1356401254675709952
+2021-02-01 21:37:24,623 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #testemaker ritirifefefeft 
+@Brunohenrique https://t.co/KJv4EbOwJk
+2021-02-01 21:37:24,623 - STATUS TRATADO: #testemaker ritirifefefeft 
+ https://t.co/KJv4EbOwJk
+2021-02-01 21:37:26,632 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:37:26,632 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:37:26,632 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:37:28,639 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:37:28,686 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLnwBVXEAEykUm.jpg
+2021-02-01 21:37:28,907 - Imagem do Filósofo salva.
+2021-02-01 21:37:32,947 - Finalizado, enviando: 1356401254675709952
+2021-02-01 21:37:32,947 - Itens restantes: 0
+2021-02-01 21:37:32,947 - --------------------------------------------------------
+
+2021-02-01 21:37:32,947 - Lista tratada com sucesso.
+2021-02-01 21:37:32,947 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:37:32,947 - Imagem removida
+2021-02-01 21:42:51,257 - Bem-vindo!
+
+2021-02-01 21:42:51,257 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:42:51,257 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:42:51,257 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:42:51,325 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:42:51,325 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:42:51,325 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:42:51,325 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:42:51,325 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:43:12,083 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:43:12,084 - Tweet ID: 1356402734409412608
+2021-02-01 21:43:12,084 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:43:12,084 - Adicionado na fila
+2021-02-01 21:43:12,084 - --------------------------------------------------------
+
+2021-02-01 21:44:05,542 - Bem-vindo!
+
+2021-02-01 21:44:05,542 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:44:05,542 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:44:05,542 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:44:05,599 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:44:05,599 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:44:05,599 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:44:05,599 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:44:05,599 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:45:10,795 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:45:10,795 - Tweet ID: 1356403232378146817
+2021-02-01 21:45:10,795 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:45:10,796 - Adicionado na fila
+2021-02-01 21:45:10,796 - --------------------------------------------------------
+
+2021-02-01 21:45:15,808 - ----------------------------------------
+2021-02-01 21:45:15,808 - _\|/_ STARTING PHILO_BOT_ENGINE _\|/_ 
+2021-02-01 21:45:15,808 - ----------------------------------------
+2021-02-01 21:45:15,808 - TAMANHO FILA: 1
+2021-02-01 21:45:15,808 - Motor atuando: 1356403232378146817
+2021-02-01 21:45:16,107 - STATUS CONVERTIDO: #TestePhilo rirjtiejr
+2021-02-01 21:45:16,107 - STATUS TRATADO: #TestePhilo rirjtiejr
+2021-02-01 21:45:20,273 - Finalizado, enviando: 1356403232378146817
+2021-02-01 21:45:20,273 - Itens restantes: 0
+2021-02-01 21:45:20,273 - --------------------------------------------------------
+
+2021-02-01 21:45:20,273 - Lista tratada com sucesso.
+2021-02-01 21:45:20,273 - _\|/_ TURNING OFF PHILO_BOT_ENGINE _\|/_ 
+2021-02-01 21:48:33,945 - Bem-vindo!
+
+2021-02-01 21:48:33,946 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:48:33,946 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:48:33,946 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:48:34,001 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:48:34,001 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:48:34,001 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:48:34,001 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:48:34,001 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:48:53,180 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:48:53,180 - Tweet ID: 1356404164759343105
+2021-02-01 21:48:53,180 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:48:53,180 - Adicionado na fila
+2021-02-01 21:48:53,181 - --------------------------------------------------------
+
+2021-02-01 21:48:58,190 - ----------------------------------------
+2021-02-01 21:48:58,190 - _\|/_ STARTING PHILO_BOT_ENGINE _\|/_ 
+2021-02-01 21:48:58,190 - ----------------------------------------
+2021-02-01 21:48:58,190 - TAMANHO FILA: 1
+2021-02-01 21:48:58,190 - Motor atuando: 1356404164759343105
+2021-02-01 21:48:58,473 - STATUS CONVERTIDO: #TestePhilo derererfdfd
+2021-02-01 21:48:58,473 - STATUS TRATADO: #TestePhilo derererfdfd
+2021-02-01 21:49:02,530 - Finalizado, enviando: 1356404164759343105
+2021-02-01 21:49:02,530 - Itens restantes: 0
+2021-02-01 21:49:02,530 - --------------------------------------------------------
+
+2021-02-01 21:49:02,530 - Lista tratada com sucesso.
+2021-02-01 21:49:02,530 - _\|/_ TURNING OFF PHILO_BOT_ENGINE _\|/_ 
+2021-02-01 21:49:18,689 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:49:18,689 - Tweet ID: 1356404271584055298
+2021-02-01 21:49:18,689 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:49:18,689 - Adicionado na fila
+2021-02-01 21:49:18,689 - --------------------------------------------------------
+
+2021-02-01 21:49:23,698 - ----------------------------------------
+2021-02-01 21:49:23,698 - > STARTING PHILOMAKER < 
+2021-02-01 21:49:23,698 - ----------------------------------------
+2021-02-01 21:49:23,698 - TAMANHO FILA: 1
+2021-02-01 21:49:23,698 - Motor atuando: 1356404271584055298
+2021-02-01 21:49:23,980 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #TesteMaker erere @franca_rodrigo https://t.co/feFjBNufzH
+2021-02-01 21:49:23,980 - STATUS TRATADO: #TesteMaker erere  https://t.co/feFjBNufzH
+2021-02-01 21:49:25,993 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 21:49:25,993 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 21:49:25,993 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 21:49:27,997 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 21:49:28,045 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLqfCAXAAYHJ5e.jpg
+2021-02-01 21:49:28,271 - Imagem do Filósofo salva.
+2021-02-01 21:49:32,311 - Finalizado, enviando: 1356404271584055298
+2021-02-01 21:49:32,311 - Itens restantes: 0
+2021-02-01 21:49:32,311 - --------------------------------------------------------
+
+2021-02-01 21:49:32,311 - Lista tratada com sucesso.
+2021-02-01 21:49:32,311 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 21:49:32,311 - Imagem removida
+2021-02-01 21:50:59,259 - Bem-vindo!
+
+2021-02-01 21:50:59,259 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:50:59,259 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:50:59,259 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:50:59,320 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:50:59,320 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:50:59,320 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:50:59,320 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:50:59,320 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:51:16,191 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:51:16,191 - Tweet ID: 1356404764679032838
+2021-02-01 21:51:16,191 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:51:16,191 - Adicionado na fila
+2021-02-01 21:51:16,191 - --------------------------------------------------------
+
+2021-02-01 21:54:10,803 - Bem-vindo!
+
+2021-02-01 21:54:10,803 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:54:10,803 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:54:10,803 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:54:10,865 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:54:10,865 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:54:10,865 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:54:10,865 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:54:10,865 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 21:54:39,833 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 21:54:39,833 - Tweet ID: 1356405618756767748
+2021-02-01 21:54:39,833 - Tweet USERNAME: TestePhiloBot
+2021-02-01 21:54:39,833 - Adicionado na fila
+2021-02-01 21:54:39,833 - --------------------------------------------------------
+
+2021-02-01 21:59:49,841 - Bem-vindo!
+
+2021-02-01 21:59:49,842 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 21:59:49,842 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 21:59:49,842 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 21:59:49,899 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 21:59:49,899 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 21:59:49,899 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 21:59:49,899 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 21:59:49,899 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 22:00:27,216 - Bem-vindo!
+
+2021-02-01 22:00:27,216 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 22:00:27,216 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 22:00:27,216 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 22:00:27,279 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 22:00:27,279 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 22:00:27,279 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 22:00:27,279 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 22:00:27,279 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 22:01:40,354 - Bem-vindo!
+
+2021-02-01 22:01:40,354 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 22:01:40,355 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 22:01:40,355 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 22:01:40,415 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 22:01:40,415 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 22:01:40,415 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 22:01:40,415 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 22:01:40,415 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 22:12:30,119 - Bem-vindo!
+
+2021-02-01 22:12:30,120 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 22:12:30,120 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 22:12:30,120 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 22:12:30,181 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 22:12:30,181 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 22:12:30,181 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 22:12:30,181 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 22:12:30,181 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 22:12:59,187 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 22:12:59,188 - Tweet ID: 1356410229823594498
+2021-02-01 22:12:59,188 - Tweet USERNAME: TestePhiloBot
+2021-02-01 22:12:59,188 - Adicionado na fila
+2021-02-01 22:12:59,188 - --------------------------------------------------------
+
+2021-02-01 22:13:04,189 - ----------------------------------------
+2021-02-01 22:13:04,189 - > STARTING PHILOMAKER < 
+2021-02-01 22:13:04,189 - ----------------------------------------
+2021-02-01 22:13:04,189 - TAMANHO FILA: 1
+2021-02-01 22:13:04,189 - Motor atuando: 1356410229823594498
+2021-02-01 22:13:04,493 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #TESTEMAKER JDJFUDJ @yutawheein https://t.co/YMIO7TZCAd
+2021-02-01 22:13:04,493 - STATUS TRATADO: #TESTEMAKER JDJFUDJ  https://t.co/YMIO7TZCAd
+2021-02-01 22:13:06,500 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 22:13:06,500 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 22:13:06,500 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 22:13:08,500 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 22:13:08,545 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLv6ZGW8AAjX9R.jpg
+2021-02-01 22:13:08,856 - Imagem do Filósofo salva.
+2021-02-01 22:13:12,891 - Finalizado, enviando: 1356410229823594498
+2021-02-01 22:13:12,891 - Itens restantes: 0
+2021-02-01 22:13:12,891 - --------------------------------------------------------
+
+2021-02-01 22:13:12,891 - Lista tratada com sucesso.
+2021-02-01 22:13:12,891 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 22:13:12,891 - Imagem removida
+2021-02-01 22:16:03,250 - Bem-vindo!
+
+2021-02-01 22:16:03,250 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 22:16:03,250 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 22:16:03,250 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 22:16:03,312 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 22:16:03,312 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 22:16:03,312 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 22:16:03,312 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 22:16:03,312 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 22:16:31,411 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 22:16:31,411 - Tweet ID: 1356411119913545728
+2021-02-01 22:16:31,411 - Tweet USERNAME: TestePhiloBot
+2021-02-01 22:16:31,411 - Adicionado na fila
+2021-02-01 22:16:31,411 - --------------------------------------------------------
+
+2021-02-01 22:16:36,424 - ----------------------------------------
+2021-02-01 22:16:36,424 - > STARTING PHILOMAKER < 
+2021-02-01 22:16:36,424 - ----------------------------------------
+2021-02-01 22:16:36,424 - TAMANHO FILA: 1
+2021-02-01 22:16:36,424 - Motor atuando: 1356411119913545728
+2021-02-01 22:16:36,709 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #TESTEMAKER  EURHDU @EuSouMBC https://t.co/i4Y8r9Dl8U
+2021-02-01 22:16:36,709 - STATUS TRATADO: #TESTEMAKER  EURHDU  https://t.co/i4Y8r9Dl8U
+2021-02-01 22:16:38,719 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 22:16:38,719 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 22:16:38,719 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 22:16:40,719 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 22:16:40,761 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: - MBC – Movimento Brasil Conservador
+2021-02-01 22:16:40,766 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLwuJUXcAEqbgU.jpg
+2021-02-01 22:16:40,996 - Imagem do Filósofo salva.
+2021-02-01 22:16:45,078 - Finalizado, enviando: 1356411119913545728
+2021-02-01 22:16:45,078 - Itens restantes: 0
+2021-02-01 22:16:45,078 - --------------------------------------------------------
+
+2021-02-01 22:16:45,078 - Lista tratada com sucesso.
+2021-02-01 22:16:45,078 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 22:16:45,078 - Imagem removida
+2021-02-01 22:19:04,312 - Bem-vindo!
+
+2021-02-01 22:19:04,312 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 22:19:04,313 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 22:19:04,313 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 22:19:04,375 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 22:19:04,375 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 22:19:04,375 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 22:19:04,375 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 22:19:04,375 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 22:19:23,583 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 22:19:23,583 - Tweet ID: 1356411842197934082
+2021-02-01 22:19:23,583 - Tweet USERNAME: TestePhiloBot
+2021-02-01 22:19:23,583 - Adicionado na fila
+2021-02-01 22:19:23,583 - --------------------------------------------------------
+
+2021-02-01 22:19:28,597 - ----------------------------------------
+2021-02-01 22:19:28,597 - _\|/_ STARTING PHILO_BOT_ENGINE _\|/_ 
+2021-02-01 22:19:28,597 - ----------------------------------------
+2021-02-01 22:19:28,597 - TAMANHO FILA: 1
+2021-02-01 22:19:28,597 - Motor atuando: 1356411842197934082
+2021-02-01 22:19:28,880 - STATUS CONVERTIDO: #Testephilo jejjejjejjej
+2021-02-01 22:19:28,880 - STATUS TRATADO: #Testephilo jejjejjejjej
+2021-02-01 22:19:33,230 - Finalizado, enviando: 1356411842197934082
+2021-02-01 22:19:33,230 - Itens restantes: 0
+2021-02-01 22:19:33,230 - --------------------------------------------------------
+
+2021-02-01 22:19:33,230 - Lista tratada com sucesso.
+2021-02-01 22:19:33,230 - _\|/_ TURNING OFF PHILO_BOT_ENGINE _\|/_ 
+2021-02-01 22:21:03,583 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 22:21:03,583 - Tweet ID: 1356412261368270850
+2021-02-01 22:21:03,583 - Tweet USERNAME: TestePhiloBot
+2021-02-01 22:21:03,583 - Adicionado na fila
+2021-02-01 22:21:03,583 - --------------------------------------------------------
+
+2021-02-01 22:21:08,595 - ----------------------------------------
+2021-02-01 22:21:08,595 - > STARTING PHILOMAKER < 
+2021-02-01 22:21:08,595 - ----------------------------------------
+2021-02-01 22:21:08,595 - TAMANHO FILA: 1
+2021-02-01 22:21:08,595 - Motor atuando: 1356412261368270850
+2021-02-01 22:21:08,879 - ETAPA 1 -> STATUS CONVERTIDO EM TEXTO: #TESTEMAKER EUERUEYR @FGVDAPP https://t.co/TmcAbiefQz
+2021-02-01 22:21:08,879 - STATUS TRATADO: #TESTEMAKER EUERUEYR  https://t.co/TmcAbiefQz
+2021-02-01 22:21:10,888 - ETAPA 3 -> CHECANDO SE É RT
+2021-02-01 22:21:10,888 - -- Nenhum RT encontrado. Continuando...
+2021-02-01 22:21:10,888 - ETAPA 4 -> CHECANDO SE É STRING VAZIA.
+2021-02-01 22:21:12,902 - ETAPA 5 -> AJUSTANDO TAMANHO DO TEXTO PARA A IMAGEM
+2021-02-01 22:21:12,944 - ETAPA 6 -> NOME DO FILÓSOFO COLETADO: - FGV DAPP
+2021-02-01 22:21:12,946 - ETAPA 8 -> COLETANDO URL DA IMAGEM DO FILÓSOFO: http://pbs.twimg.com/media/EtLxv15W8AEL0Wa.jpg
+2021-02-01 22:21:13,624 - Imagem do Filósofo salva.
+2021-02-01 22:21:17,682 - Finalizado, enviando: 1356412261368270850
+2021-02-01 22:21:17,682 - Itens restantes: 0
+2021-02-01 22:21:17,682 - --------------------------------------------------------
+
+2021-02-01 22:21:17,682 - Lista tratada com sucesso.
+2021-02-01 22:21:17,682 - _\|/_ TURNING OFF PHILOMAKER _\|/_ 
+2021-02-01 22:21:17,682 - Imagem removida
+2021-02-01 22:21:54,699 - Bem-vindo!
+
+2021-02-01 22:21:54,699 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 22:21:54,699 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 22:21:54,699 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 22:21:54,760 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 22:21:54,760 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 22:21:54,760 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 22:21:54,760 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 22:21:54,760 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 22:22:14,112 - Bem-vindo!
+
+2021-02-01 22:22:14,112 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-02-01 22:22:14,112 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+2021-02-01 22:22:14,112 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+2021-02-01 22:22:14,171 - Qual HASHTAG voce deseja iniciar?
+2021-02-01 22:22:14,171 - [ 1 ] - HASHTAG OFICIAL
+2021-02-01 22:22:14,172 - [ 2 ] - HASHTAG EXTENSION
+2021-02-01 22:22:14,172 - [ 3 ] - HASHTAG DE TESTE
+2021-02-01 22:22:14,172 - HASHTAG TESTE ESCOLHIDA, INICIANDO #Testephilo e #Testemaker...
+2021-02-01 22:22:34,870 - =============== NOVO TWEET ENCONTRADO ================
+2021-02-01 22:22:34,870 - Tweet ID: 1356412644522078211
+2021-02-01 22:22:34,870 - Tweet USERNAME: TestePhiloBot
+2021-02-01 22:22:34,870 - Adicionado na fila
+2021-02-01 22:22:34,870 - --------------------------------------------------------
+
+2021-02-01 22:22:39,888 - ----------------------------------------
+2021-02-01 22:22:39,888 - _\|/_ STARTING PHILO_BOT_ENGINE _\|/_ 
+2021-02-01 22:22:39,888 - ----------------------------------------
+2021-02-01 22:22:39,888 - TAMANHO FILA: 1
+2021-02-01 22:22:39,888 - Motor atuando: 1356412644522078211
+2021-02-01 22:22:40,169 - STATUS CONVERTIDO: #TESTEPHILO QUANDO EU DO UMA AULINHA PRA ELE FGICA MAL
+2021-02-01 22:22:40,169 - STATUS TRATADO: #TESTEPHILO QUANDO EU DO UMA AULINHA PRA ELE FGICA MAL
+2021-02-01 22:22:44,218 - Finalizado, enviando: 1356412644522078211
+2021-02-01 22:22:44,218 - Itens restantes: 0
+2021-02-01 22:22:44,218 - --------------------------------------------------------
+
+2021-02-01 22:22:44,218 - Lista tratada com sucesso.
+2021-02-01 22:22:44,218 - _\|/_ TURNING OFF PHILO_BOT_ENGINE _\|/_ 

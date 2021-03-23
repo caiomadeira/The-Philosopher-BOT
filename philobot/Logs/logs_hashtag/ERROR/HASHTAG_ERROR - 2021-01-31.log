@@ -1,0 +1,227 @@
+2021-01-31 09:11:48,678 - [{'code': 215, 'message': 'Bad Authentication data.'}]
+Traceback (most recent call last):
+  File "C:/Users/caiom/Documents/GitHub/PhiloBot-Test-ENV/TWITTER_TEST_ENV/main.py", line 123, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 51, in choose_auto_tweet
+    AUTO_post_status_with_media(IMG_PATH=IMG_PATH)
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 30, in AUTO_post_status_with_media
+    api.update_with_media(IMG_PATH, status=f'#Testemaker {status_key}' + ' @felipeneto')
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\lib\site-packages\tweepy\api.py", line 275, in update_with_media
+    return bind_api(
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\lib\site-packages\tweepy\binder.py", line 252, in _call
+    return method.execute()
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 215, 'message': 'Bad Authentication data.'}]
+2021-01-31 13:00:33,126 - [{'code': 187, 'message': 'Status is a duplicate.'}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 187, 'message': 'Status is a duplicate.'}]
+2021-01-31 13:06:45,228 - [{'code': 187, 'message': 'Status is a duplicate.'}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 121, in hash_or_posting
+    from EnvironmentUtil.Automatic_Tweets.auto_status import choose_auto_tweet
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 59, in <module>
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 187, 'message': 'Status is a duplicate.'}]
+2021-01-31 13:27:32,008 - [{'message': 'Application cannot perform write actions. Contact Twitter Platform Operations through https://help.twitter.com/forms/platform.', 'code': 261}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'message': 'Application cannot perform write actions. Contact Twitter Platform Operations through https://help.twitter.com/forms/platform.', 'code': 261}]
+2021-01-31 13:34:12,641 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 13:35:33,179 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 13:36:35,502 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 13:42:54,784 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 14:23:05,240 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 14:26:25,015 - [{'code': 32, 'message': 'Could not authenticate you.'}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 32, 'message': 'Could not authenticate you.'}]
+2021-01-31 14:28:52,494 - [{'code': 32, 'message': 'Could not authenticate you.'}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 32, 'message': 'Could not authenticate you.'}]
+2021-01-31 14:30:31,095 - [{'code': 32, 'message': 'Could not authenticate you.'}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 32, 'message': 'Could not authenticate you.'}]
+2021-01-31 14:36:53,548 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 14:37:41,512 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.
+2021-01-31 14:39:35,460 - Read-only application cannot POST.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 122, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 48, in choose_auto_tweet
+    post_status_only_text()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 21, in post_status_only_text
+    api.update_status(f'{status_test}  @felipeneto')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 205, in update_status
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Read-only application cannot POST.

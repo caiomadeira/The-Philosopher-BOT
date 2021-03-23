@@ -1,0 +1,244 @@
+2021-01-29 04:31:47,464 - --------------------------------------
+2021-01-29 04:31:47,464 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:31:47,464 - Versão: 3.0
+2021-01-29 04:31:49,464 - ------------------------
+2021-01-29 04:31:54,384 - TWEET SELECIONADO:
+2021-01-29 04:31:54,384 - ['Confira minha transmissão do meu PlayStation 4! #PS4live (Grand Theft Auto V)  live at ']
+2021-01-29 04:31:54,384 - Analisando Texto...
+2021-01-29 04:32:00,214 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/jOQ5AGwCMq
+2021-01-29 04:32:00,214 - > DAILY POST ENVIADO! <
+2021-01-29 04:32:00,214 - ===================================================
+2021-01-29 04:32:01,234 - --------------------------------------
+2021-01-29 04:32:01,234 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:32:01,234 - Versão: 3.0
+2021-01-29 04:32:03,234 - ------------------------
+2021-01-29 04:32:07,913 - TWEET SELECIONADO:
+2021-01-29 04:32:07,914 - ['só gol de FIFA  isso é Cenismo  atura ou surta']
+2021-01-29 04:32:07,914 - Analisando Texto...
+2021-01-29 04:35:44,954 - --------------------------------------
+2021-01-29 04:35:44,954 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:35:44,954 - Versão: 3.0
+2021-01-29 04:35:46,974 - ------------------------
+2021-01-29 04:35:51,754 - TWEET SELECIONADO:
+2021-01-29 04:35:51,754 - ['pelo amor de deus o prior fazendo live dormindo ???????????????????']
+2021-01-29 04:35:51,754 - Analisando Texto...
+2021-01-29 04:35:57,439 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/3NevN11sg4
+2021-01-29 04:35:57,439 - > DAILY POST ENVIADO! <
+2021-01-29 04:35:57,439 - ===================================================
+2021-01-29 04:35:58,493 - --------------------------------------
+2021-01-29 04:35:58,493 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:35:58,493 - Versão: 3.0
+2021-01-29 04:36:00,503 - ------------------------
+2021-01-29 04:36:05,234 - TWEET SELECIONADO:
+2021-01-29 04:36:05,334 - Analisando Texto...
+2021-01-29 04:37:19,864 - --------------------------------------
+2021-01-29 04:37:19,864 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:37:19,864 - Versão: 3.0
+2021-01-29 04:37:21,865 - ------------------------
+2021-01-29 04:37:26,643 - TWEET SELECIONADO:
+2021-01-29 04:37:26,643 - ['pelo amor de deus o prior fazendo live dormindo ???????????????????']
+2021-01-29 04:37:26,643 - Analisando Texto...
+2021-01-29 04:37:33,094 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/3NevN11sg4
+2021-01-29 04:37:33,094 - > DAILY POST ENVIADO! <
+2021-01-29 04:37:33,104 - ===================================================
+2021-01-29 04:37:34,104 - --------------------------------------
+2021-01-29 04:37:34,104 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:37:34,104 - Versão: 3.0
+2021-01-29 04:37:36,124 - ------------------------
+2021-01-29 04:37:40,825 - TWEET SELECIONADO:
+2021-01-29 04:37:40,825 - ['imagens da viih tube na festa do nego di ']
+2021-01-29 04:37:40,825 - Analisando Texto...
+2021-01-29 04:37:46,414 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/WdZBXqbPOx
+2021-01-29 04:37:46,414 - > DAILY POST ENVIADO! <
+2021-01-29 04:37:46,414 - ===================================================
+2021-01-29 04:37:47,434 - --------------------------------------
+2021-01-29 04:37:47,434 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:37:47,434 - Versão: 3.0
+2021-01-29 04:37:49,434 - ------------------------
+2021-01-29 04:37:54,194 - TWEET SELECIONADO:
+2021-01-29 04:37:54,194 - ['pelo amor de deus o prior fazendo live dormindo ???????????????????']
+2021-01-29 04:37:54,194 - Analisando Texto...
+2021-01-29 04:38:02,604 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/3NevN11sg4
+2021-01-29 04:38:02,604 - > DAILY POST ENVIADO! <
+2021-01-29 04:38:02,604 - ===================================================
+2021-01-29 04:38:03,615 - --------------------------------------
+2021-01-29 04:38:03,615 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:38:03,615 - Versão: 3.0
+2021-01-29 04:38:05,634 - ------------------------
+2021-01-29 04:38:08,324 - ERRO - NAO AUTORIZADO
+Traceback (most recent call last):
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 79, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 41, in obter_tweets
+    self.results = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\lib\site-packages\tweepy\binder.py", line 252, in _call
+    return method.execute()
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-29 04:38:08,354 - Not authorized.
+Traceback (most recent call last):
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 79, in posting
+    self.tweets_conta = self.obter_tweets(self.api, random_conta)
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Posting\posting.py", line 41, in obter_tweets
+    self.results = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\lib\site-packages\tweepy\binder.py", line 252, in _call
+    return method.execute()
+  File "C:\Users\caiom\Documents\GitHub\PhiloBot-Test-ENV\TWITTER_TEST_ENV\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: Not authorized.
+2021-01-29 04:38:08,354 - TWEET SELECIONADO:
+2021-01-29 04:38:08,354 - ['pelo amor de deus o prior fazendo live dormindo ???????????????????']
+2021-01-29 04:38:08,354 - Analisando Texto...
+2021-01-29 04:38:14,054 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/KkMij6Sy6d
+2021-01-29 04:38:14,054 - > DAILY POST ENVIADO! <
+2021-01-29 04:38:14,054 - ===================================================
+2021-01-29 04:38:15,064 - --------------------------------------
+2021-01-29 04:38:15,064 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:38:15,064 - Versão: 3.0
+2021-01-29 04:38:46,474 - --------------------------------------
+2021-01-29 04:38:46,474 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:38:46,474 - Versão: 3.0
+2021-01-29 04:38:48,494 - ------------------------
+2021-01-29 04:38:53,244 - TWEET SELECIONADO:
+2021-01-29 04:38:53,244 - ['yo leifert imma let you finish']
+2021-01-29 04:38:53,244 - Analisando Texto...
+2021-01-29 04:38:59,064 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/2fyHcrSI9f
+2021-01-29 04:38:59,064 - > DAILY POST ENVIADO! <
+2021-01-29 04:38:59,064 - ===================================================
+2021-01-29 04:39:00,084 - --------------------------------------
+2021-01-29 04:39:00,084 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:39:00,084 - Versão: 3.0
+2021-01-29 04:39:02,104 - ------------------------
+2021-01-29 04:39:06,824 - TWEET SELECIONADO:
+2021-01-29 04:39:06,824 - ['Mensagem  de aniversário  de Fernando  e Vitor  para  Bruno Ribeiro  valeu  Ednaldo Pereira ']
+2021-01-29 04:39:06,824 - Analisando Texto...
+2021-01-29 04:39:13,094 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/PfNQ8jq4Sv
+2021-01-29 04:39:13,094 - > DAILY POST ENVIADO! <
+2021-01-29 04:39:13,094 - ===================================================
+2021-01-29 04:39:14,104 - --------------------------------------
+2021-01-29 04:39:14,104 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:39:14,104 - Versão: 3.0
+2021-01-29 04:39:16,125 - ------------------------
+2021-01-29 04:39:21,104 - TWEET SELECIONADO:
+2021-01-29 04:39:21,104 - ['Então é isso. Pra mim, não tem mais jeito. Acabou, boa sorte. ']
+2021-01-29 04:39:21,104 - Analisando Texto...
+2021-01-29 04:39:26,844 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/PAqB3TxaLV
+2021-01-29 04:39:26,844 - > DAILY POST ENVIADO! <
+2021-01-29 04:39:26,844 - ===================================================
+2021-01-29 04:39:27,844 - --------------------------------------
+2021-01-29 04:39:27,844 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:39:27,844 - Versão: 3.0
+2021-01-29 04:39:29,845 - ------------------------
+2021-01-29 04:39:34,484 - TWEET SELECIONADO:
+2021-01-29 04:39:34,484 - ['- Live de Quinta-feira - 28/01/2021 - Acompanhe pelo YouTube:   . Siga-nos em nosso telegram: ']
+2021-01-29 04:39:34,484 - Analisando Texto...
+2021-01-29 04:39:40,074 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/LQN5Ou14QI
+2021-01-29 04:39:40,074 - > DAILY POST ENVIADO! <
+2021-01-29 04:39:40,074 - ===================================================
+2021-01-29 04:39:41,084 - --------------------------------------
+2021-01-29 04:39:41,084 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:39:41,084 - Versão: 3.0
+2021-01-29 04:39:43,085 - ------------------------
+2021-01-29 04:39:45,774 - Not authorized.
+2021-01-29 04:39:45,774 - ERRO - NAO AUTORIZADO
+2021-01-29 04:39:45,774 - TWEET SELECIONADO:
+2021-01-29 04:39:45,774 - ['- Live de Quinta-feira - 28/01/2021 - Acompanhe pelo YouTube:   . Siga-nos em nosso telegram: ']
+2021-01-29 04:39:45,774 - Analisando Texto...
+2021-01-29 04:39:52,744 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/dbGyYdyjRT
+2021-01-29 04:39:52,744 - > DAILY POST ENVIADO! <
+2021-01-29 04:39:52,744 - ===================================================
+2021-01-29 04:39:53,765 - --------------------------------------
+2021-01-29 04:39:53,765 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:39:53,765 - Versão: 3.0
+2021-01-29 04:39:55,784 - ------------------------
+2021-01-29 04:40:00,524 - TWEET SELECIONADO:
+2021-01-29 04:40:00,524 - ['Esse é o video mais importante que você vai ver esse ano ']
+2021-01-29 04:40:00,524 - Analisando Texto...
+2021-01-29 04:40:06,424 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/c1FP0OJu0E
+2021-01-29 04:40:06,424 - > DAILY POST ENVIADO! <
+2021-01-29 04:40:06,424 - ===================================================
+2021-01-29 04:40:07,444 - --------------------------------------
+2021-01-29 04:40:07,444 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:40:07,444 - Versão: 3.0
+2021-01-29 04:40:09,444 - ------------------------
+2021-01-29 04:40:14,145 - TWEET SELECIONADO:
+2021-01-29 04:40:14,145 - ['Fiuk? Eu prefiro o Mussum! Genial! ']
+2021-01-29 04:40:14,145 - Analisando Texto...
+2021-01-29 04:40:20,049 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/V5cNYdOhrW
+2021-01-29 04:40:20,049 - > DAILY POST ENVIADO! <
+2021-01-29 04:40:20,049 - ===================================================
+2021-01-29 04:40:21,065 - --------------------------------------
+2021-01-29 04:40:21,065 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:40:21,065 - Versão: 3.0
+2021-01-29 04:40:23,080 - ------------------------
+2021-01-29 04:40:27,804 - TWEET SELECIONADO:
+2021-01-29 04:40:27,804 - ['Assistindo o \u2066Manhattan Connection, agora na TV Cultura. Excelente. #ManhattanConnection ']
+2021-01-29 04:40:27,854 - Analisando Texto...
+2021-01-29 04:40:34,198 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/kWVfy6RxOR
+2021-01-29 04:40:34,198 - > DAILY POST ENVIADO! <
+2021-01-29 04:40:34,198 - ===================================================
+2021-01-29 04:40:35,202 - --------------------------------------
+2021-01-29 04:40:35,202 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:40:35,202 - Versão: 3.0
+2021-01-29 04:40:37,205 - ------------------------
+2021-01-29 04:40:41,924 - TWEET SELECIONADO:
+2021-01-29 04:40:41,924 - ['imagens da viih tube na festa do nego di ']
+2021-01-29 04:40:41,924 - Analisando Texto...
+2021-01-29 04:40:47,694 - TWEET ORIGINAL ENVIADO: Tweet Original: https://t.co/WdZBXqbPOx
+2021-01-29 04:40:47,694 - > DAILY POST ENVIADO! <
+2021-01-29 04:40:47,694 - ===================================================
+2021-01-29 04:40:48,705 - --------------------------------------
+2021-01-29 04:40:48,705 - INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 04:40:48,705 - Versão: 3.0
+2021-01-29 04:40:50,724 - ------------------------
+2021-01-29 04:40:55,405 - TWEET SELECIONADO:
+2021-01-29 04:40:55,405 - ['- Live de Quinta-feira - 28/01/2021 - Acompanhe pelo YouTube:   . Siga-nos em nosso telegram: ']
+2021-01-29 04:40:55,405 - Analisando Texto...
+2021-01-29 04:52:17,392 - --------------------------------------
+2021-01-29 04:52:17,392 - None
+2021-01-29 04:52:17,392 - Versão: 3.0
+2021-01-29 04:52:19,410 - ------------------------
+2021-01-29 04:52:24,281 - TWEET SELECIONADO:
+2021-01-29 04:52:24,281 - ['- Live de Quinta-feira - 28/01/2021 - Acompanhe pelo YouTube:   . Siga-nos em nosso telegram: ']
+2021-01-29 04:52:24,281 - Analisando Texto...
+2021-01-29 04:52:30,270 - None
+2021-01-29 04:52:30,270 - > DAILY POST ENVIADO! <
+2021-01-29 04:52:30,280 - ===================================================
+2021-01-29 04:52:31,281 - --------------------------------------
+2021-01-29 04:52:31,281 - None
+2021-01-29 04:52:31,281 - Versão: 3.0
+2021-01-29 04:52:33,281 - ------------------------
+2021-01-29 04:52:38,040 - TWEET SELECIONADO:
+2021-01-29 04:52:38,040 - ['Esse é o video mais importante que você vai ver esse ano ']
+2021-01-29 04:52:38,040 - Analisando Texto...
+2021-01-29 04:58:20,722 - --------------------------------------
+2021-01-29 04:58:20,722 - None
+2021-01-29 04:58:20,722 - None
+2021-01-29 04:58:22,723 - ------------------------
+2021-01-29 04:58:25,482 - None
+2021-01-29 04:58:25,482 - []
+2021-01-29 04:58:25,482 - None
+2021-01-29 04:58:28,587 - None
+2021-01-29 04:58:28,587 - None
+2021-01-29 04:58:28,587 - None
+2021-01-29 04:58:29,603 - --------------------------------------
+2021-01-29 04:58:29,603 - None
+2021-01-29 04:58:29,603 - None
+2021-01-29 04:58:31,623 - ------------------------
+2021-01-29 04:58:36,383 - None
+2021-01-29 04:58:36,383 - ['Fiuk? Eu prefiro o Mussum! Genial! ']
+2021-01-29 04:58:36,383 - None
+2021-01-29 05:00:23,783 - --------------------------------------
+2021-01-29 05:00:23,783 - [+] INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 05:00:23,783 - [+] Versão: 3.0
+2021-01-29 05:00:25,803 - ------------------------
+2021-01-29 05:00:30,543 - [+] TWEET SELECIONADO:
+2021-01-29 05:00:30,543 - ['Assistindo o \u2066Manhattan Connection, agora na TV Cultura. Excelente. #ManhattanConnection ']
+2021-01-29 05:00:30,543 - [+] Analisando Texto...
+2021-01-29 05:00:36,603 - [+]Tweet Original enviado: Tweet Original: https://t.co/kWVfy6RxOR
+2021-01-29 05:00:36,603 - [+] Post Diário enviado.
+2021-01-29 05:00:36,603 - ===================================================
+2021-01-29 05:00:37,613 - --------------------------------------
+2021-01-29 05:00:37,613 - [+] INICIANDO POSTAGEM NA CONTA TESTE
+2021-01-29 05:00:37,613 - [+] Versão: 3.0

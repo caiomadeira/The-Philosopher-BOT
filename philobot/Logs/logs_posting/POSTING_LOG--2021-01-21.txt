@@ -1,0 +1,22 @@
+21-01-21 21:28:21 - =============== NOVO TWEET ENCONTRADO ================
+21-01-21 21:28:21 - Tweet ID: 1352412733619240961
+21-01-21 21:28:21 - Tweet USERNAME: TestePhiloBot
+21-01-21 21:28:21 - Adicionado na fila
+21-01-21 21:28:21 - --------------------------------------------------------
+
+21-01-21 21:28:21 - ----------------------------------------
+21-01-21 21:28:21 - _\|/_ STARTING PHILO_BOT_ENGINE _\|/_ 
+21-01-21 21:28:21 - ----------------------------------------
+21-01-21 21:28:21 - TAMANHO FILA: 1
+21-01-21 21:28:21 - Motor atuando: 1352412733619240961
+21-01-21 21:28:22 - STATUS CONVERTIDO: #Testephilo fffffffffffffff
+21-01-21 21:28:22 - STATUS TRATADO: #Testephilo fffffffffffffff
+21-01-21 21:28:26 - Finalizado, enviando: 1352412733619240961
+21-01-21 21:28:26 - Itens restantes: 0
+21-01-21 21:28:26 - --------------------------------------------------------
+
+21-01-21 21:28:26 - Lista tratada com sucesso.
+21-01-21 21:28:26 - _\|/_ TURNING OFF PHILO_BOT_ENGINE _\|/_ 
+21-01-21 21:32:14 - TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE
+21-01-21 21:32:30 - TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTEHASHTA
+21-01-21 21:32:41 - TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTEHASHTA

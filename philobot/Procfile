@@ -1,0 +1,2 @@
+worker: python "init_hashtag_extension.py"
+processor: python "init_posting.py"

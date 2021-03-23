@@ -1,0 +1,25 @@
+ try:
+        template = Image.open('templateNovo.png')
+
+        # ======= CITAÇÃO PERSONALIZADA ============
+        fonte = ImageFont.truetype("font/myriad.otf", 45)
+        escrever = ImageDraw.Draw(template)
+        escrever.text(xy=(50, 100), text=textwrap.fill(mensagens, 30), fill=(255, 255, 255), font=fonte)
+        # =====================================
+        # ======= NOME DO FILOSOFO ============
+        fonte_2 = ImageFont.truetype("font/myriad.otf", 25)
+        escrever_2 = ImageDraw.Draw(template)
+        escrever_2.text(xy=(50, 516), text=f'- {member.display_name}', fill=(255, 255, 255), font=fonte_2)
+
+        # =====================================
+        # ======= FOTO DO FILOSOFO ============
+
+        for img in ctx.message.attachments:
+            await img.save('Philomaker/stored_img/filo_img.png')
+        filo = Image.open("Philomaker/stored_img/filo_img.png")
+        filo2 = filo.resize((449, 584))
+        template.paste(filo2, (629, 0))  # try: img.filename or img
+        template.save('Philomaker/philomaker.png')
+        file = discord.File('Philomaker/philomaker.png', filename="philomaker.png")
+        await ctx.channel.send(file=file)
+

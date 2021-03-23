@@ -1,0 +1,102 @@
+2021-02-01 18:55:27,348 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 18:55:27,348 - Enviando imagem de erro...
+2021-02-01 18:55:27,348 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:05:05,978 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:05:05,978 - Enviando imagem de erro...
+2021-02-01 19:05:05,978 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:08:29,962 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:08:29,962 - Enviando imagem de erro...
+2021-02-01 19:08:29,962 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:10:42,915 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:10:42,915 - Enviando imagem de erro...
+2021-02-01 19:10:42,915 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:17:24,668 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:17:24,668 - Enviando imagem de erro...
+2021-02-01 19:17:24,668 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:17:28,578 - FALHA AO DELETAR IMAGEM
+2021-02-01 19:17:28,578 - [WinError 2] O sistema não pode encontrar o arquivo especificado: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 149, in philomaker_engine
+    os.remove('Hashtag/twitter_philo_img.png')
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:19:11,394 - [{'message': 'Application cannot perform write actions. Contact Twitter Platform Operations through https://help.twitter.com/forms/platform.', 'code': 261}]
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\main.py", line 123, in hash_or_posting
+    choose_auto_tweet()
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 45, in choose_auto_tweet
+    post_status_with_media(IMG_PATH=IMG_PATH)
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\EnvironmentUtil\Automatic_Tweets\auto_status.py", line 12, in post_status_with_media
+    api.update_with_media(IMG_PATH, status=status_test)
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\api.py", line 283, in update_with_media
+    return bind_api(
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 253, in _call
+    return method.execute()
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\tweepy\binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'message': 'Application cannot perform write actions. Contact Twitter Platform Operations through https://help.twitter.com/forms/platform.', 'code': 261}]
+2021-02-01 19:27:43,635 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:27:43,635 - Enviando imagem de erro...
+2021-02-01 19:27:43,635 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 126, in philomaker_engine
+    filo = Image.open('Hashtag/twitter_philo_img.png')
+  File "C:\Users\rodri\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 2904, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:27:47,481 - FALHA AO DELETAR IMAGEM
+2021-02-01 19:27:47,482 - [WinError 2] O sistema não pode encontrar o arquivo especificado: 'Hashtag/twitter_philo_img.png'
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 149, in philomaker_engine
+    os.remove('Hashtag/twitter_philo_img.png')
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:35:16,541 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:35:16,541 - Enviando imagem de erro...
+2021-02-01 19:37:28,388 - IMAGEM NÃO ENCONTRADA2
+2021-02-01 19:37:28,388 - Enviando imagem de erro...
+2021-02-01 19:45:11,467 - IMAGEM NÃO ENCONTRADA
+2021-02-01 19:45:11,467 - Enviando imagem de erro...
+2021-02-01 19:45:11,467 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 19:46:18,600 - IMAGEM NÃO ENCONTRADA
+2021-02-01 19:46:18,600 - Enviando imagem de erro...
+2021-02-01 19:46:18,600 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 19:54:47,412 - IMAGEM NÃO ENCONTRADA
+2021-02-01 19:54:47,412 - Enviando imagem de erro...
+2021-02-01 19:54:47,412 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:54:47,412 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 19:57:15,712 - Erro: Nome do Filosofo não encontrado. Enviando imagem de erro.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 95, in philomaker_engine
+    self.user_mentioned_profile_name = store_name[0]
+IndexError: list index out of range
+2021-02-01 19:58:10,005 - IMAGEM NÃO ENCONTRADA
+2021-02-01 19:58:10,005 - Enviando imagem de erro...
+2021-02-01 19:58:10,005 - [Errno 2] No such file or directory: 'Hashtag/twitter_philo_img.png'
+2021-02-01 19:58:10,005 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 20:00:52,591 - Erro: Nome do Filosofo não encontrado. Enviando imagem de erro.
+Traceback (most recent call last):
+  File "C:\Users\rodri\PythonProjects\PhiloBot-Test-ENV\TWITTER_TEST_ENV\Hashtag\philomaker_engine.py", line 95, in philomaker_engine
+    self.user_mentioned_profile_name = store_name[0]
+IndexError: list index out of range
+2021-02-01 20:00:52,592 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 20:05:46,079 - Erro: Nome do Filosofo não encontrado. Enviando imagem de erro.
+2021-02-01 20:05:46,079 - >TWEET SEM IMAGEM DETECTADO!<
+2021-02-01 20:07:50,889 - Erro: Nome do Filosofo não encontrado. Enviando imagem de erro.
+2021-02-01 20:07:50,889 - >TWEET SEM IMAGEM DETECTADO!<

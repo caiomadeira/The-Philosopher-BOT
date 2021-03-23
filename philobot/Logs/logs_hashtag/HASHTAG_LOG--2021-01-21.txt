@@ -1,0 +1,34 @@
+21-01-21 21:33:13 - TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTEHASHTA
+21-01-21 21:36:16 - TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTEHASHTA
+21-01-21 23:17:00 - Bem-vindo!
+
+21-01-21 23:17:00 - Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+21-01-21 23:17:00 - [32mPara acessar o PhiloBot Manager digite [1]
+[0m
+21-01-21 23:17:02 - Escolha qual script função rodar: HASHTAG OU POSTING
+
+21-01-21 23:17:05 - Qual HASHTAG voce deseja iniciar?
+21-01-21 23:17:05 - [ 1 ] - HASHTAG OFICIAL
+21-01-21 23:17:05 - [ 2 ] - HASHTAG EXTENSION
+21-01-21 23:17:05 - [ 3 ] - HASHTAG DE TESTE
+21-01-21 23:17:07 - HASHTAG TESTE ESCOLHIDA, INICIANDO #TESTEPHILO...
+21-01-21 23:17:28 - =============== NOVO TWEET ENCONTRADO ================
+21-01-21 23:17:28 - Tweet ID: 1352440190393081861
+21-01-21 23:17:28 - Tweet USERNAME: TestePhiloBot
+21-01-21 23:17:28 - Adicionado na fila
+21-01-21 23:17:28 - --------------------------------------------------------
+
+21-01-21 23:17:28 - ----------------------------------------
+21-01-21 23:17:28 - _\|/_ STARTING PHILO_BOT_ENGINE _\|/_ 
+21-01-21 23:17:28 - ----------------------------------------
+21-01-21 23:17:28 - TAMANHO FILA: 1
+21-01-21 23:17:28 - Motor atuando: 1352440190393081861
+21-01-21 23:17:28 - STATUS CONVERTIDO: #TesTEPhiLO sera q vai?
+21-01-21 23:17:28 - STATUS TRATADO: #TesTEPhiLO sera q vai?
+21-01-21 23:17:32 - Finalizado, enviando: 1352440190393081861
+21-01-21 23:17:32 - Itens restantes: 0
+21-01-21 23:17:32 - --------------------------------------------------------
+
+21-01-21 23:17:32 - Lista tratada com sucesso.
+21-01-21 23:17:32 - _\|/_ TURNING OFF PHILO_BOT_ENGINE _\|/_ 
