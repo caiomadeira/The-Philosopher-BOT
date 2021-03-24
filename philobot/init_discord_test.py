@@ -9,13 +9,14 @@ Disponível no Discord e no Twitter!
 from Discord.bot import *
 
 
-def ler_token_official():
-    with open(os.getenv("token_official"), "r") as f:
+def ler_token_test():
+    with open(os.getenv("token_test"), "r") as f:
         linhas = f.readlines()
         return linhas[0].strip()
 
 
-TOKEN = ler_token_official()
+TOKEN = ler_token_test()
+
 
 if __name__ == '__main__':
     client.run(TOKEN)
