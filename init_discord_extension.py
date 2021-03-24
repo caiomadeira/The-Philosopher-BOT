@@ -10,7 +10,6 @@ Avaliable on Discord too!
 
 """
 from Discord.bot import *
-from boto.s3.connection import S3Connection
 
 
 def ler_token_extension():
