@@ -10,14 +10,15 @@ Avaliable on Discord too!
 
 """
 # -*- coding: utf-8 -*-
-import tweepy, textwrap, random, time, re, schedule
+import tweepy, textwrap, random, time, re, schedule, os, dotenv
 from PIL import Image, ImageDraw, ImageFont
-import os
 from Lists.accounts import accounts_list
 from Lists.img_list import PHILOSOPHERS_LIST
-from Twitter.Hashtag import Functionalities
+from Twitter.Hashtag.functionalities import Functionalities
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
 from Logs.Twitter.logger_hashtag import log_posting
+
+dotenv.load_dotenv(dotenv.find_dotenv())
 
 
 class PostingClass(tweepy.StreamListener, Functionalities):
@@ -28,9 +29,9 @@ class PostingClass(tweepy.StreamListener, Functionalities):
         self.q_username = []
         self.q_tweet_info = []
         self.api = get_post_api
-        self.ACCOUNT = "OFICIAL"
+        self.ACCOUNT = os.getenv('posting_account')
         self.QUEUE = 1
-        self.VERSION = '3.0'
+        self.VERSION = os.getenv('version')
         self.log = log_posting(__name__)
 
     def obter_tweets(self, api, USERNAME_ACCOUNT):
@@ -57,8 +58,8 @@ class PostingClass(tweepy.StreamListener, Functionalities):
 
         try:
             self.img = Image.open(f'{TEMPLATES_PATH}/layer_1.png')
-            self.TEMPLATE_PATH = 'Templates/template.png'
-            self.FONT_PATH = "Font/myriad.otf"
+            self.TEMPLATE_PATH = os.getenv('template_posting')
+            self.FONT_PATH = os.getenv('myriad_font')
             self.POSTING_FINISHED_PATH = 'Posting/posting.png'
             txt = self.FONT_PATH
             fontsize = 1
@@ -138,33 +139,33 @@ class PostingClass(tweepy.StreamListener, Functionalities):
                     self.log.info("Nenhum (2) encontrado. Prosseguindo normal.")
                     self.log.info(finish_name_of_philosopher)
 
-                philosopher_str_to_obj = Image.open(choice_philosopher)  # abre a imagem como local na memoria ao inves de string
+                philosopher_str_to_obj = Image.open(
+                    choice_philosopher)  # abre a imagem como local na memoria ao inves de string
                 IMG_2 = philosopher_str_to_obj.resize((449, 584))
                 self.img.paste(IMG_2, (629, 0))
                 smooth_template = Image.open(f'{TEMPLATES_PATH}/layer_3.png')
                 self.img.paste(smooth_template, (0, 0), smooth_template)
 
                 # texto do filosofo
-                self.drawing.text(xy=(68, 120), text=textwrap.fill(str(self.get_treated_status), 30), fill=(255, 255, 255), font=fonte)
+                self.drawing.text(xy=(68, 120), text=textwrap.fill(str(self.get_treated_status), 30),
+                                  fill=(255, 255, 255), font=fonte)
 
                 # nome do filosofo
                 fontsize = 30
-                font = ImageFont.truetype("Font/times.ttf", fontsize)
+                font = ImageFont.truetype(os.getenv('times_font'), fontsize)
                 self.drawing.text(xy=(43, 514), text=textwrap.fill(str(finish_name_of_philosopher), 30),
-                             fill=(255, 255, 255), font=font)
-
+                                  fill=(255, 255, 255), font=font)
 
                 self.img.save(self.POSTING_FINISHED_PATH)
                 post_img = self.api.update_with_media(self.POSTING_FINISHED_PATH)
-                tweet_author = self.api.update_status(f'Tweet Original: twitter.com/{random_account}/status/{self.r.id}',
-                                                   post_img.id,
-                                                   include_entities=True)
-
+                tweet_author = self.api.update_status(
+                    f'Tweet Original: twitter.com/{random_account}/status/{self.r.id}',
+                    post_img.id,
+                    include_entities=True)
 
                 self.log.info(f'[+]Tweet Original enviado: {tweet_author}')
                 self.log.info("[+] Post Diário enviado.")
                 self.log.info("-------------------------------------------")
-
 
                 return
         except Exception as e:

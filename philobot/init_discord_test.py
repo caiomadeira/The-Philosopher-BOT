@@ -1,11 +1,14 @@
-""""""""""""""""""""""
-PHILOSOPHER BOT DISCORD 1.2
+"""
+Philosopher Bot
 ---------------
-Criado por Caio Madeira (@sudomaidera)
-Disponível no Discord e no Twitter!
-2020
+Created by Caio Madeira
+Co-worker: Rodrigo Carmo
 
-"""""""""""""""""""""""
+instagram: @sudomadeira
+Twitter: @bot_philospher
+Avaliable on Discord too!
+
+"""
 from Discord.bot import *
 
 

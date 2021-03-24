@@ -1,0 +1,61 @@
+2021-03-23 23:00:40,717 - POSTING --> POSTS DEFINIDOS PARA A CADA 2 HORAS EM 'config.py'
+
+2021-03-23 23:00:42,757 - POSTING --> --------------------------------------
+2021-03-23 23:00:42,757 - POSTING --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2021-03-23 23:00:42,757 - POSTING --> [+] Versão: 3.1.3 - (23/03/2021)
+2021-03-23 23:00:44,767 - POSTING --> ------------------------
+2021-03-23 23:00:49,587 - POSTING --> [+] TWEET SELECIONADO:
+2021-03-23 23:00:49,587 - POSTING --> ['POCAHS PALAVRAS MAS CIRÚRGICA']
+2021-03-23 23:00:49,587 - POSTING --> [+] Analisando Texto...
+2021-03-23 23:00:52,757 - POSTING --> C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\philobot\Images\Santo Agostinho.png
+2021-03-23 23:00:52,757 - POSTING --> Santo Agostinho.png
+2021-03-23 23:00:52,757 - POSTING --> Santo Agostinho
+2021-03-23 23:00:52,757 - POSTING --> Nenhum (2) encontrado. Prosseguindo normal.
+2021-03-23 23:00:52,757 - POSTING --> - Santo Agostinho
+2021-03-23 23:00:52,842 - POSTING --> [Errno 2] No such file or directory: 'Posting/posting.png'
+2021-03-23 23:00:54,848 - POSTING --> --------------------------------------
+2021-03-23 23:00:54,848 - POSTING --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2021-03-23 23:00:54,848 - POSTING --> [+] Versão: 3.1.3 - (23/03/2021)
+2021-03-23 23:03:09,717 - POSTING --> POSTS DEFINIDOS PARA A CADA 2 HORAS EM 'config.py'
+
+2021-03-23 23:03:11,752 - POSTING --> --------------------------------------
+2021-03-23 23:03:11,752 - POSTING --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2021-03-23 23:03:11,752 - POSTING --> [+] Versão: 3.1.3 - (23/03/2021)
+2021-03-23 23:03:13,767 - POSTING --> ------------------------
+2021-03-23 23:03:16,379 - POSTING --> [{'code': 32, 'message': 'Could not authenticate you.'}]
+2021-03-23 23:03:16,379 - POSTING --> [x] Erro - Não autorizado
+[x] Ignorando...
+2021-03-23 23:03:16,379 - POSTING --> [+] TWEET SELECIONADO:
+2021-03-23 23:03:16,379 - POSTING --> 'PostingClass' object has no attribute 'tweet_account'
+2021-03-23 23:03:18,417 - POSTING --> --------------------------------------
+2021-03-23 23:03:18,417 - POSTING --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2021-03-23 23:03:18,417 - POSTING --> [+] Versão: 3.1.3 - (23/03/2021)
+2021-03-23 23:03:24,442 - POSTING --> POSTS DEFINIDOS PARA A CADA 2 HORAS EM 'config.py'
+
+2021-03-23 23:03:26,467 - POSTING --> --------------------------------------
+2021-03-23 23:03:26,467 - POSTING --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2021-03-23 23:03:26,467 - POSTING --> [+] Versão: 3.1.3 - (23/03/2021)
+2021-03-23 23:03:28,477 - POSTING --> ------------------------
+2021-03-23 23:03:31,037 - POSTING --> [{'code': 32, 'message': 'Could not authenticate you.'}]
+2021-03-23 23:03:31,037 - POSTING --> [x] Erro - Não autorizado
+[x] Ignorando...
+2021-03-23 23:03:31,037 - POSTING --> [+] TWEET SELECIONADO:
+2021-03-23 23:03:31,037 - POSTING --> 'PostingClass' object has no attribute 'tweet_account'
+2021-03-23 23:03:33,067 - POSTING --> --------------------------------------
+2021-03-23 23:03:33,067 - POSTING --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2021-03-23 23:03:33,067 - POSTING --> [+] Versão: 3.1.3 - (23/03/2021)
+2021-03-23 23:03:35,068 - POSTING --> ------------------------
+2021-03-23 23:03:37,731 - POSTING --> [{'code': 32, 'message': 'Could not authenticate you.'}]
+2021-03-23 23:03:37,731 - POSTING --> [x] Erro - Não autorizado
+[x] Ignorando...
+2021-03-23 23:03:37,735 - POSTING --> [+] TWEET SELECIONADO:
+2021-03-23 23:03:37,735 - POSTING --> 'PostingClass' object has no attribute 'tweet_account'
+2021-03-23 23:03:39,760 - POSTING --> --------------------------------------
+2021-03-23 23:03:39,760 - POSTING --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2021-03-23 23:03:39,760 - POSTING --> [+] Versão: 3.1.3 - (23/03/2021)
+2021-03-23 23:03:41,778 - POSTING --> ------------------------
+2021-03-23 23:03:44,408 - POSTING --> [{'code': 32, 'message': 'Could not authenticate you.'}]
+2021-03-23 23:03:44,408 - POSTING --> [x] Erro - Não autorizado
+[x] Ignorando...
+2021-03-23 23:03:44,408 - POSTING --> [+] TWEET SELECIONADO:
+2021-03-23 23:03:44,408 - POSTING --> 'PostingClass' object has no attribute 'tweet_account'

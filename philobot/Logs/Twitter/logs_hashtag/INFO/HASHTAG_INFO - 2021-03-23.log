@@ -29,3 +29,118 @@
 
 2021-03-23 19:31:58,953 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
 2021-03-23 19:31:58,991 - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #PHILOBOT E #PHILOMAKER...
+2021-03-23 23:17:54,534 - HASHTAG --> Bem-vindo!
+
+2021-03-23 23:17:54,550 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-03-23 23:17:54,550 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-03-23 23:17:54,704 - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #PHILOBOT E #PHILOMAKER...
+2021-03-23 23:19:06,198 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-03-23 23:19:06,198 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-03-23 23:19:06,198 - HASHTAG --> ITENS NA LISTA:
+2021-03-23 23:19:06,198 - HASHTAG --> ['TestePhiloBot']
+2021-03-23 23:19:06,198 - HASHTAG --> Tweet ID: 1374546262893211654
+2021-03-23 23:19:06,198 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-03-23 23:19:06,198 - HASHTAG --> Adicionado na fila
+2021-03-23 23:19:06,198 - HASHTAG --> =======================================================
+
+2021-03-23 23:19:11,208 - PHILOBOT --> ----------------------------------------
+2021-03-23 23:19:11,208 - PHILOBOT -->          > STARTING PHILOBOT < 
+2021-03-23 23:19:11,208 - PHILOBOT --> ----------------------------------------
+2021-03-23 23:19:11,208 - PHILOBOT --> ID Coletado: 1374546262893211654
+2021-03-23 23:19:11,858 - PHILOBOT --> [ETAPA 1] Status coletado: #TestePhilo teste
+2021-03-23 23:19:11,858 - PHILOBOT --> [ETAPA 3] Checando se é RT...
+2021-03-23 23:19:11,858 - PHILOBOT --> [ETAPA 2] Status - marcações retiradas: #TestePhilo teste
+2021-03-23 23:19:13,888 - PHILOBOT --> [ETAPA 4] Checando string vazia...
+2021-03-23 23:19:15,977 - PHILOBOT --> [ETAPA 4] Configurando imagem...
+2021-03-23 23:19:15,977 - PHILOBOT --> [ETAPA 4.1] Imagem do filósofo escolhida: Nicolau Copérnico.png
+2021-03-23 23:19:15,977 - PHILOBOT --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-03-23 23:19:15,977 - PHILOBOT --> [ETAPA 4.3] Nome do filósofo tratado: - Nicolau Copérnico
+2021-03-23 23:19:16,018 - PHILOBOT --> [ETAPA 5] Verificando aspas...
+2021-03-23 23:19:16,018 - PHILOBOT --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-03-23 23:21:08,317 - HASHTAG --> Bem-vindo!
+
+2021-03-23 23:21:08,317 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-03-23 23:21:08,317 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-03-23 23:21:08,347 - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #PHILOBOT E #PHILOMAKER...
+2021-03-23 23:21:21,711 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-03-23 23:21:21,711 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-03-23 23:21:21,711 - HASHTAG --> ITENS NA LISTA:
+2021-03-23 23:21:21,711 - HASHTAG --> ['TestePhiloBot']
+2021-03-23 23:21:21,711 - HASHTAG --> Tweet ID: 1374546831334649857
+2021-03-23 23:21:21,711 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-03-23 23:21:21,711 - HASHTAG --> Adicionado na fila
+2021-03-23 23:21:21,711 - HASHTAG --> =======================================================
+
+2021-03-23 23:21:26,735 - PHILOBOT --> ----------------------------------------
+2021-03-23 23:21:26,735 - PHILOBOT -->          > STARTING PHILOBOT < 
+2021-03-23 23:21:26,735 - PHILOBOT --> ----------------------------------------
+2021-03-23 23:21:26,735 - PHILOBOT --> ID Coletado: 1374546831334649857
+2021-03-23 23:21:27,565 - PHILOBOT --> [ETAPA 1] Status coletado: #TestePhilo trhytrhyu
+2021-03-23 23:21:27,565 - PHILOBOT --> [ETAPA 3] Checando se é RT...
+2021-03-23 23:21:27,565 - PHILOBOT --> [ETAPA 2] Status - marcações retiradas: #TestePhilo trhytrhyu
+2021-03-23 23:21:29,594 - PHILOBOT --> [ETAPA 4] Checando string vazia...
+2021-03-23 23:21:31,684 - PHILOBOT --> [ETAPA 4] Configurando imagem...
+2021-03-23 23:21:31,694 - PHILOBOT --> [ETAPA 4.1] Imagem do filósofo escolhida: Gautama Buddha.png
+2021-03-23 23:21:31,694 - PHILOBOT --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-03-23 23:21:31,694 - PHILOBOT --> [ETAPA 4.3] Nome do filósofo tratado: - Gautama Buddha
+2021-03-23 23:21:31,744 - PHILOBOT --> [ETAPA 5] Verificando aspas...
+2021-03-23 23:21:31,744 - PHILOBOT --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-03-23 23:22:36,404 - HASHTAG --> Bem-vindo!
+
+2021-03-23 23:22:36,404 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-03-23 23:22:36,404 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-03-23 23:22:36,434 - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #PHILOBOT E #PHILOMAKER...
+2021-03-23 23:23:01,384 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-03-23 23:23:01,434 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-03-23 23:23:01,434 - HASHTAG --> ITENS NA LISTA:
+2021-03-23 23:23:01,434 - HASHTAG --> ['TestePhiloBot']
+2021-03-23 23:23:01,434 - HASHTAG --> Tweet ID: 1374547249255096320
+2021-03-23 23:23:01,434 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-03-23 23:23:01,434 - HASHTAG --> Adicionado na fila
+2021-03-23 23:23:01,434 - HASHTAG --> =======================================================
+
+2021-03-23 23:23:06,448 - PHILOBOT --> ----------------------------------------
+2021-03-23 23:23:06,448 - PHILOBOT -->          > STARTING PHILOBOT < 
+2021-03-23 23:23:06,448 - PHILOBOT --> ----------------------------------------
+2021-03-23 23:23:06,448 - PHILOBOT --> ID Coletado: 1374547249255096320
+2021-03-23 23:23:07,150 - PHILOBOT --> [ETAPA 1] Status coletado: #TestePhilo AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2021-03-23 23:23:07,150 - PHILOBOT --> [ETAPA 3] Checando se é RT...
+2021-03-23 23:23:07,150 - PHILOBOT --> [ETAPA 2] Status - marcações retiradas: #TestePhilo AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2021-03-23 23:23:09,181 - PHILOBOT --> [ETAPA 4] Checando string vazia...
+2021-03-23 23:23:11,261 - PHILOBOT --> [ETAPA 4] Configurando imagem...
+2021-03-23 23:23:11,261 - PHILOBOT --> [ETAPA 4.1] Imagem do filósofo escolhida: Jeon Jung-kook.png
+2021-03-23 23:23:11,261 - PHILOBOT --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-03-23 23:23:11,261 - PHILOBOT --> [ETAPA 4.3] Nome do filósofo tratado: - Jeon Jung-kook
+2021-03-23 23:23:11,440 - PHILOBOT --> [ETAPA 5] Verificando aspas...
+2021-03-23 23:25:25,731 - HASHTAG --> Bem-vindo!
+
+2021-03-23 23:25:25,731 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-03-23 23:25:25,731 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-03-23 23:25:25,761 - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #PHILOBOT E #PHILOMAKER...
+2021-03-23 23:25:50,949 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-03-23 23:25:50,959 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-03-23 23:25:50,959 - HASHTAG --> ITENS NA LISTA:
+2021-03-23 23:25:50,959 - HASHTAG --> ['TestePhiloBot']
+2021-03-23 23:25:50,959 - HASHTAG --> Tweet ID: 1374547960630026240
+2021-03-23 23:25:50,959 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-03-23 23:25:50,959 - HASHTAG --> Adicionado na fila
+2021-03-23 23:25:50,959 - HASHTAG --> =======================================================
+
+2021-03-23 23:25:55,980 - PHILOBOT --> ----------------------------------------
+2021-03-23 23:25:55,980 - PHILOBOT -->          > STARTING PHILOBOT < 
+2021-03-23 23:25:55,980 - PHILOBOT --> ----------------------------------------
+2021-03-23 23:25:55,980 - PHILOBOT --> ID Coletado: 1374547960630026240
+2021-03-23 23:25:56,870 - PHILOBOT --> [ETAPA 1] Status coletado: #PhiloBOT ERERERERERERER
+2021-03-23 23:25:56,870 - PHILOBOT --> [ETAPA 3] Checando se é RT...
+2021-03-23 23:25:56,870 - PHILOBOT --> [ETAPA 2] Status - marcações retiradas: #PhiloBOT ERERERERERERER
+2021-03-23 23:25:58,889 - PHILOBOT --> [ETAPA 4] Checando string vazia...
+2021-03-23 23:26:00,979 - PHILOBOT --> [ETAPA 4] Configurando imagem...
+2021-03-23 23:26:00,979 - PHILOBOT --> [ETAPA 4.1] Imagem do filósofo escolhida: Nero.png
+2021-03-23 23:26:00,979 - PHILOBOT --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-03-23 23:26:00,979 - PHILOBOT --> [ETAPA 4.3] Nome do filósofo tratado: - Nero
+2021-03-23 23:26:01,029 - PHILOBOT --> [ETAPA 5] Verificando aspas...
+2021-03-23 23:26:01,029 - PHILOBOT --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...

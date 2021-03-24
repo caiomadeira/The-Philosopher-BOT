@@ -1,12 +1,14 @@
-""""""""""""""""""""""
-PHILOSOPHER BOT DISCORD 1.2
+"""
+Philosopher Bot
 ---------------
-Criado por Caio Madeira (@sudomaidera)
-Disponível no Discord e no Twitter!
-2020
+Created by Caio Madeira
+Co-worker: Rodrigo Carmo
 
-"""""""""""""""""""""""
+instagram: @sudomadeira
+Twitter: @bot_philospher
+Avaliable on Discord too!
 
+"""
 import dotenv
 import discord
 from discord.ext import commands
@@ -180,44 +182,39 @@ async def clear(ctx, numero):
 @client.command()  # função principal
 async def philobot(ctx, *, mensagem):
     try:
-        img = Image.open(os.getenv('old_template_path'))
-        font = ImageFont.truetype(os.getenv('myriad_font'), 45)
+        img = Image.open(f'{TEMPLATES_PATH}/layer_1.png')
+        font = ImageFont.truetype(os.getenv('myriad_font'), 50)
         drawing = ImageDraw.Draw(img)
 
-        font = ImageFont.truetype("Font/times.ttf", fontsize)
-        drawing.text(xy=(50, 128),
-                          text=textwrap.fill(str(PHILO_NAME)),
-                          fill=(255, 255, 255),
-                          font=font)
-
+        print(f'Canal :{client.activity}\n')
+        print(f'Mensagem: {mensagem}')
+        print(f'BOT: {client.user}')
+        choice_philosopher = random.choice(PHILOSOPHERS_LIST)
         remove_path_of_filename = os.path.basename(choice_philosopher)
-        LOG.info(f"[ETAPA 4.1] Imagem do filósofo escolhida: {remove_path_of_filename}")
+        print(f"Imagem do filósofo escolhida: {remove_path_of_filename}")
 
         remove_extension_of_filename = remove_path_of_filename.replace('.png', '')
         if '(2)' in remove_extension_of_filename:
-            LOG.info("[ETAPA 4.2] Removendo lixo no nome da imagem do filosofo...")
+            print("Removendo lixo no nome da imagem do filosofo...")
             remove_number_in_name = remove_extension_of_filename.replace('(2)', '')
-            self.finish_name_of_philosopher = f'- {remove_number_in_name}'
-            LOG.info(f'[ETAPA 4.3] Nome do filósofo tratado: {self.finish_name_of_philosopher}')
+            finish_name_of_philosopher = f'- {remove_number_in_name}'
+            print(f'Nome do filósofo tratado: {finish_name_of_philosopher}')
         else:
             finish_name_of_philosopher = f'- {remove_extension_of_filename}'
-            print("[ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...")
-            print(f'[ETAPA 4.3] Nome do filósofo tratado: {self.finish_name_of_philosopher}')
+            print("Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...")
+            print(f'Nome do filósofo tratado: {finish_name_of_philosopher}')
 
         philosopher_str_to_obj = Image.open(choice_philosopher)
         img_2 = philosopher_str_to_obj.resize((449, 584))
         img.paste(img_2, (629, 0))
         smooth_template = Image.open(f'{TEMPLATES_PATH}/layer_3.png')
         img.paste(smooth_template, (0, 0), smooth_template)
-
-
-
-        TEXTO = escrever.text(xy=(50, 128), text=textwrap.fill(mensagem, 30), fill=(255, 255, 255), font=fonte)
-        print(f'Canal :{client.activity}\n')
-        print(f'Mensagem: {mensagem}')
-        print(f'BOT: {client.user}')
-        randomphilo = random.choice(PHILOSOPHERS_LIST)
-        img.paste(randomphilo, (0, 0), randomphilo)
+        TEXTO = drawing.text(xy=(60, 128), text=textwrap.fill(mensagem, 20), fill=(255, 255, 255), font=font)
+        font = ImageFont.truetype("Font/times.ttf", 30)
+        drawing.text(xy=(43, 512),
+                     text=textwrap.fill(str(finish_name_of_philosopher), 25),
+                     fill=(255, 255, 255),
+                     font=font)
         img.save('philobot_discord.png')
 
         file = discord.File('philobot_discord.png', filename='philobot_discord.png')
@@ -241,7 +238,7 @@ async def philomaker(ctx, member: discord.Member, *, mensagens):
         template = Image.open(os.getenv('old_template_path'))
 
         # ======= CITAÇÃO PERSONALIZADA ============
-        fonte = ImageFont.truetype(os.getenv('myriad_font'), 45)
+        fonte = ImageFont.truetype(os.getenv('myriad_font'), 50)
         escrever = ImageDraw.Draw(template)
         escrever.text(xy=(50, 100), text=textwrap.fill(mensagens, 30), fill=(255, 255, 255), font=fonte)
         # =====================================
@@ -276,7 +273,7 @@ async def clear_error(ctx, error):
         await ctx.send('Argumento necessário faltando para esse comando.')
         print('Argumento necessário faltando para esse comando.')
 
-    if isinstance(error, commands.CommandNotFound):
+    if isinstance(error, discord.ext.commands.errors.CommandNotFound):
         await ctx.send('Esse comando não existe. Digite #help para ver os que existem!')
         print('Esse comando não existe. Digite #help para ver os que existem!')
 

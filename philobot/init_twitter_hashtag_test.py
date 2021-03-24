@@ -44,17 +44,16 @@ class StartHashtagExtension:
 
         self.log.info('HASHTAG EXTENSION ESCOLHIDA, INICIANDO #PHILOBOT E #PHILOMAKER...')
 
-        # from Credentials.Extension.main_credentials_extension import API_MAIN_EXTENSION as api_reserva
-        # from Credentials.Extension.main_credentials_extension import API_MAIN_EXTENSION as api_reserva
-        from Credentials.Twitter.Extension.hashtag_credentials_extension import API_HASHTAG_EXTENSION as api_reserva
-        # from Credentials.Official.posting_credentials_official import API_POSTING_OFFICIAL as api_reserva
+
+        from Credentials.Twitter.Test.main_credentials_test import API_MAIN_TEST as api_reserva
+
 
         try:
             # TESTEPHILO
             Philobot_Stream = tweepy.Stream(auth=api_reserva.auth,
                                             listener=HashtagClass(self.PHILOBOT__SUBLIST, api_reserva),
                                             include_rts=False)
-            Philobot_Stream.filter(track=['#Philobot'], is_async=True)
+            Philobot_Stream.filter(track=['#TestePhilo'], is_async=True)
             '''
             # TESTEMAKER
             Philobot_Stream = tweepy.Stream(auth=api_reserva.auth,
