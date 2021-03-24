@@ -12,13 +12,7 @@ Avaliable on Discord too!
 from Discord.bot import *
 
 
-def ler_token_official():
-    with open(os.getenv("token_official"), "r") as f:
-        linhas = f.readlines()
-        return linhas[0].strip()
-
-
-TOKEN = ler_token_official()
+TOKEN = os.environ.get('discord_main_token', None)
 
 if __name__ == '__main__':
     client.run(TOKEN)
