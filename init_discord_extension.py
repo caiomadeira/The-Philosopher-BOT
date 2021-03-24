@@ -10,10 +10,12 @@ Avaliable on Discord too!
 
 """
 from Discord.bot import *
+from boto.s3.connection import S3Connection
 
 
 def ler_token_extension():
-    with open(os.getenv("discord_ex_token"), "r") as f:
+    token = S3Connection(os.environ['discord_ex_token'])
+    with open(token, "r") as f:
         linhas = f.readlines()
         return linhas[0].strip()
 
