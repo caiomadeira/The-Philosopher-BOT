@@ -14,8 +14,8 @@ from boto.s3.connection import S3Connection
 
 
 def ler_token_extension():
-    token = S3Connection(os.environ['discord_ex_token'])
-    with open(token, "r") as f:
+
+    with open(os.environ.get('discord_ex_token', None), "r") as f:
         linhas = f.readlines()
         return linhas[0].strip()
 
