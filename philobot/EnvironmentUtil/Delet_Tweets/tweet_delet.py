@@ -1,6 +1,6 @@
-from Credentials.Test.main_credentials_test import api_test
+from Credentials.Twitter.Test import api_test
 from Credentials.main_credentials_extension import api_reserva
-from Credentials.Official.main_credentials_official import api_oficial
+from Credentials.Twitter.Official.main_credentials_official import api_oficial
 from EnvironmentUtil.Code_Design.design import GREEN, YELLOW, RED
 import time
 import tweepy

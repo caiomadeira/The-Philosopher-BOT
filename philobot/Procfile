@@ -1,2 +1,6 @@
 worker: python "init_hashtag_extension.py"
 processor: python "init_posting.py"
+processor_2: python "init_discord.py"
+processor_3: python "init_discord_extension.py"
+processor_4: python "init_hashtag_philomaker.py"
+

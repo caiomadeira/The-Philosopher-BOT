@@ -10,8 +10,8 @@ Avaliable on Discord too!
 
 """
 import tweepy
-from Credentials.Test.main_credentials_test import api_test as api_teste
-from Credentials.Official.main_credentials_official import api_oficial as api_oficial
+from Credentials.Twitter.Test import api_test as api_teste
+from Credentials.Twitter.Official.main_credentials_official import api_oficial as api_oficial
 from Credentials.main_credentials_extension import api_reserva as api_extension
 from art import tprint
 

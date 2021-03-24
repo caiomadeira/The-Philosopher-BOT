@@ -1,4 +1,4 @@
-from Credentials.Test.main_credentials_test import API_MAIN_TEST
+from Credentials.Twitter.Test import API_MAIN_TEST
 import time
 import uuid
 

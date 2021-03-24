@@ -15,8 +15,8 @@ import tweepy
 from termcolor import colored
 import schedule
 from config import *
-from Logs.logger_hashtag import log_general
-from Posting.posting import PostingClass
+from Logs.Twitter.logger_hashtag import log_general
+from Twitter.Posting import PostingClass
 
 class HashtagOrPosting:
 
@@ -49,7 +49,7 @@ class HashtagOrPosting:
         self.log.info("Escolha qual script função rodar: HASHTAG OU POSTING\n")
         question = input("Digite 'HASHTAG' para executar a Hashtag\nDigite 'POSTING' para executar o Posting\n")
 
-        from Hashtag.hashtag import HashtagClass
+        from Twitter.Hashtag import HashtagClass
         if question.upper() == 'HASHTAG':
             try:
                 self.log.info('Qual HASHTAG voce deseja iniciar?')
@@ -68,7 +68,7 @@ class HashtagOrPosting:
                 if get_hash == '1':
                     self.log.info('HASHTAG OFICIAL ESCOLHIDA, INICIANDO #PHILOBOT...')
 
-                    from Credentials.Official.hashtag_credentials_official import API_HASHTAG_OFFICIAL as api_oficial
+                    from Credentials.Twitter.Official import API_HASHTAG_OFFICIAL as api_oficial
 
                     # TESTEPHILO
                     Philobot_Stream = tweepy.Stream(auth=api_oficial.auth,
@@ -91,7 +91,7 @@ class HashtagOrPosting:
                 elif get_hash == '2':
                     self.log.info('HASHTAG EXTENSION ESCOLHIDA, INICIANDO #PHILOBOT...')
 
-                    from Credentials.Extension.main_credentials_extension import API_MAIN_EXTENSION as api_reserva
+                    from Credentials.Twitter.Extension.main_credentials_extension import API_MAIN_EXTENSION as api_reserva
 
                     # TESTEPHILO
                     Philobot_Stream = tweepy.Stream(auth=api_reserva.auth,
@@ -115,8 +115,8 @@ class HashtagOrPosting:
                     self.log.info(
                         f'HASHTAG TESTE ESCOLHIDA, INICIANDO {self.TESTEPHILO_HASHTAG} e {self.TESTEMAKER_HASHTAG}...\n')
 
-                    from Credentials.Test.main_credentials_test import API_MAIN_TEST as api_test
-                    from Hashtag.hashtag import HashtagClass
+                    from Credentials.Twitter.Test import API_MAIN_TEST as api_test
+                    from Twitter.Hashtag import HashtagClass
 
 
                     # TESTEPHILO
@@ -155,7 +155,7 @@ class HashtagOrPosting:
             TOKEN_CHOICE = '3'
             # ORIGINAL ACCOUNT
             if TOKEN_CHOICE == '1':
-                from Credentials.Official.posting_credentials_official import API_POSTING_OFFICIAL
+                from Credentials.Twitter.Official import API_POSTING_OFFICIAL
 
                 self.log.info(f"\nPOSTS DEFINIDOS PARA A CADA {self.OFFICIAL_POST_TIME} HORAS EM 'config.py'\n")
 
@@ -166,7 +166,7 @@ class HashtagOrPosting:
 
             # EXTENSION ACCOUNT
             if TOKEN_CHOICE == '2':
-                from Credentials.Extension.posting_credentials_extension import API_POSTING_EXTENSION
+                from Credentials.Twitter.Extension.posting_credentials_extension import API_POSTING_EXTENSION
                 self.log.info("============ A V I S O ================")
                 question = input("Você selecionou a conta EXTENSION, ela não constuma a fazer postagens. \n Se "
                                  "tem certeza que deseja continuar digite [1] \n Se quiser voltar para o menu, digite [2]\n")
@@ -188,7 +188,7 @@ class HashtagOrPosting:
 
             # TEST ACCOUNT
             if TOKEN_CHOICE == '3':
-                from Credentials.Test.posting_credentials_test import API_POSTING_TEST
+                from Credentials.Twitter.Test.posting_credentials_test import API_POSTING_TEST
 
                 start_posting = PostingClass(API_POSTING_TEST)
 

@@ -1,5 +1,5 @@
 from EnvironmentUtil.Time_Counter.time_counter import count
-from Credentials.Test.main_credentials_test import API_MAIN_TEST
+from Credentials.Twitter.Test import API_MAIN_TEST
 import tweepy
 import time
 api = API_MAIN_TEST

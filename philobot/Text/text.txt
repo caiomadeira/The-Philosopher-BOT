@@ -1,0 +1,1 @@
+The application is an extension of an existing one of the same name. Since Discord has a limit of servers for applications even for verified. Anyway, the application takes a message with the hashtag #philobot and turns it into a philosopher quote. It's just for fun. There are other commands like #cleaning that help, among other things, maintain the chat.
