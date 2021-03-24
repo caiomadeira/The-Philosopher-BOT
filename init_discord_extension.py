@@ -11,16 +11,7 @@ Avaliable on Discord too!
 """
 from Discord.bot import *
 
-
-def ler_token_extension():
-
-    with open(os.environ.get('discord_ex_token', None), "r") as f:
-        linhas = f.readlines()
-        return linhas[0].strip()
-
-
-TOKEN = ler_token_extension()
-
+TOKEN = os.environ.get('discord_ex_token', None)
 
 if __name__ == '__main__':
     client.run(TOKEN)
