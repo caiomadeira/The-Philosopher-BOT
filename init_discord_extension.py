@@ -13,7 +13,7 @@ from Discord.bot import *
 
 
 def ler_token_extension():
-    with open(os.getenv("token_extension"), "r") as f:
+    with open(os.getenv("discord_ex_token"), "r") as f:
         linhas = f.readlines()
         return linhas[0].strip()
 
