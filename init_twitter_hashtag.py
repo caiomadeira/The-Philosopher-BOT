@@ -55,13 +55,13 @@ class StartHashtagExtension:
                                             listener=HashtagClass(self.PHILOBOT__SUBLIST, api_reserva),
                                             include_rts=False)
             Philobot_Stream.filter(track=['#Philobot'], is_async=True)
-            '''
+            """
             # TESTEMAKER
             Philobot_Stream = tweepy.Stream(auth=api_reserva.auth,
                                             listener=HashtagClass(self.PHILOMAKER_SUBLIST, api_reserva),
                                             include_rts=False)
             Philobot_Stream.filter(track=['#Philomaker'], is_async=True)
-            '''
+            """
 
         except Exception as stream:
             self.log.error('ERRO AO INICIAR O STREAM COM A API DO TWITTER')
@@ -69,4 +69,5 @@ class StartHashtagExtension:
 
 
 if __name__ == '__main__':
-    StartHashtagExtension()
+    start_project = StartHashtagExtension()
+    start_project.start_hashtag_extension()
