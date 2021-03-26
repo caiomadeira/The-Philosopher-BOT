@@ -31,8 +31,8 @@ class PostingOfficial:
 
         start_posting = PostingClass(API)
 
-        PostingClass.timer(start_posting, USE_TEST_POST=self.OFFICIAL_POST_TIME)  # 2 HORAS
-        # PostingClass.timer_TEST(start_posting, USE_TEST_POST=self.OFFICIAL_POST_TIME) # 2 SEGUNDOS
+        # PostingClass.timer(start_posting, USE_TEST_POST=self.OFFICIAL_POST_TIME)  # 2 HORAS
+        PostingClass.timer_TEST(start_posting, USE_TEST_POST=self.OFFICIAL_POST_TIME) # 2 SEGUNDOS
 
 
 if __name__ == '__main__':

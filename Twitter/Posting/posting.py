@@ -60,7 +60,7 @@ class PostingClass(tweepy.StreamListener, Functionalities):
             self.img = Image.open(f'{TEMPLATES_PATH}/layer_1.png')
             self.TEMPLATE_PATH = os.getenv('template_posting')
             self.FONT_PATH = os.getenv('myriad_font')
-            self.POSTING_FINISHED_PATH = 'Posting/posting.png'
+            self.POSTING_FINISHED_PATH = 'posting.png'
             txt = self.FONT_PATH
             fontsize = 1
             blank = Image.new('RGB', (269, 194))
