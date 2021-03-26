@@ -9,12 +9,14 @@ Twitter: @bot_philospher
 Avaliable on Discord too!
 
 """
+from http import client
+import urllib3
 import time
 import tweepy
-from Twitter.Hashtag.philobot_engine import PhiloBot
-from Twitter.Hashtag.philomaker_engine import PhiloMaker
+from Hashtag.philobot_engine import PhiloBot
+from Hashtag.philomaker_engine import PhiloMaker
 from config import *
-from Logs.Twitter.logger_hashtag import log_hashtag
+from Logs.Twitter.logger_hashtag  import log_hashtag
 from config import Config
 
 

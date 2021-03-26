@@ -8,7 +8,6 @@ from config import Config
 from PIL import Image, ImageDraw, ImageFont
 from Lists.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
 from Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
-from Templates.templates_path_reference import TDD_PATH
 
 
 class Functionalities(Config):
@@ -24,7 +23,7 @@ class Functionalities(Config):
                     self.send_error_empty_string(LAST_ID=last_id, LOG=LOG, PHILOMAKER=PHILOMAKER)
                     return True
         except Exception:
-            from Twitter.Hashtag import HashtagClass
+            from Hashtag.hashtag import HashtagClass
             LOG.error('ERRO: FALHA AO CHECAR SE A STRING É VAZIA')
             self.q_username.clear()
 
@@ -66,8 +65,7 @@ class Functionalities(Config):
             LOG.error('TRATAMENTO DE TEXTO CANCELADO - TWEET DELETADO')
             self.q_username.clear()
 
-
-    def img_with_quotes(self, PHILO_NAME, LOG):
+    def img_with_quotes(self,PHILO_NAME, LOG):
 
         LOG.info("[ETAPA 5.1] ASPAS IDENTIFICADAS")
 
@@ -76,55 +74,35 @@ class Functionalities(Config):
         remove_quotes_in_text = self.get_treated_status.replace('"', '')
         LOG.info(f"[ETAPA 5.3] Removendo aspas do texto: {remove_quotes_in_text}")
 
-        try:
-            open_quote = Image.open(f'{TDD_PATH}\open_quote.png')
-            LOG.info(open_quote)
+        open_quote = Image.open('Templates/open_quote.png')
+        close_quote = Image.open('Templates/close_quote.png')
+        open_quote_resized = open_quote.resize((60, 60))
+        close_quote_resized = close_quote.resize((60, 60))
+        time.sleep(0.5)
 
-            close_quote = Image.open(f'{TDD_PATH}\close_quote.png')
-            LOG.info(close_quote)
+        if len(remove_quotes_in_text) > 240:
+            LOG.info("[ETAPA 5.4] Tweet MAIOR que 240 caracteres, ajustando texto...")
+            fontsize = 30
+            font = ImageFont.truetype("Font/myriad.otf", fontsize)
+            self.positions['tweet_with_quotes_PosX'] = 70
+            self.positions['tweet_with_quotes_PosY'] = 115
+            self.positions['textwraped_value'] = 25
 
+        elif len(remove_quotes_in_text) <= 25:
+            LOG.info("[ETAPA 5.4] Tweet MENOR que 25 caracteres, ajustando texto...")
+            fontsize = 50
+            font = ImageFont.truetype("Font/myriad.otf", fontsize)
+            self.positions['tweet_with_quotes_PosX'] = 80
+            self.positions['tweet_with_quotes_PosY'] = 128
+            self.positions['textwraped_value'] = 20
 
-            open_quote_resized = open_quote.resize((60, 60))
-            LOG.info(open_quote_resized)
-
-            close_quote_resized = close_quote.resize((60, 60))
-            LOG.info(close_quote_resized)
-
-        except Exception as close_quote_e:
-            LOG.info(close_quote_e)
-
-        LOG.info('TESTE 1')
-
-        try:
-
-            if len(remove_quotes_in_text) >= 240:
-                LOG.info('TESTE 2')
-                LOG.info("[ETAPA 5.4] Tweet MAIOR que 240 caracteres, ajustando texto...")
-                fontsize = 30
-                font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
-                self.positions['tweet_with_quotes_PosX'] = 70
-                self.positions['tweet_with_quotes_PosY'] = 115
-                self.positions['textwraped_value'] = 25
-
-            elif len(remove_quotes_in_text) <= 25:
-                LOG.info("[ETAPA 5.4] Tweet MENOR que 25 caracteres, ajustando texto...")
-                fontsize = 50
-                font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
-                self.positions['tweet_with_quotes_PosX'] = 80
-                self.positions['tweet_with_quotes_PosY'] = 128
-                self.positions['textwraped_value'] = 20
-
-            else:
-                pass
-
-        except Exception as e_a:
-            LOG.info(e_a)
+        else:
             pass
 
         # texto do filosofo
         try:
             fontsize = 50
-            font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
+            font = ImageFont.truetype("Font/myriad.otf", fontsize)
             self.drawing.text(xy=(self.positions['tweet_with_quotes_PosX'], self.positions['tweet_with_quotes_PosY']),
                               text=textwrap.fill(str(remove_quotes_in_text), self.positions['textwraped_value']),
                               fill=(255, 255, 255),
@@ -136,13 +114,13 @@ class Functionalities(Config):
 
             # nome do filosofo
             fontsize = 30
-            font = ImageFont.truetype(os.getenv('times_font'), fontsize)
+            font = ImageFont.truetype("Font/times.ttf", fontsize)
             self.drawing.text(xy=(self.positions['tweet_with_quotes_PosX'], self.positions['author_quote_posY']),
                               text=textwrap.fill(str(PHILO_NAME)),
                               fill=(255, 255, 255),
                               font=font)
         except Exception:
-            from Twitter.Hashtag import HashtagClass
+            from Hashtag.hashtag import HashtagClass
             LOG.info('PASSANDO PELO ERRO QUE A GENTE NAO QUERIA VER')
             return HashtagClass
 
@@ -151,12 +129,12 @@ class Functionalities(Config):
 
         return img_update_quotes
 
-    def img_without_quotes(self, PHILO_NAME, LOG):
+    def img_without_quotes(self,PHILO_NAME, LOG):
 
         if len(self.get_treated_status) > 240:
             LOG.info("[ETAPA 6] Tweet MAIOR que 240 caracteres, ajustando texto...\n")
             fontsize = 35
-            font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
+            font = ImageFont.truetype("Font/myriad.otf", fontsize)
             self.positions['tweet_default_PosX'] = 38
             self.positions['tweet_default_PosY'] = 105
             self.positions['textwraped_value'] = 25
@@ -164,7 +142,7 @@ class Functionalities(Config):
         elif len(self.get_treated_status) <= 25:
             LOG.info("[ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...")
             fontsize = 50
-            font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
+            font = ImageFont.truetype("Font/myriad.otf", fontsize)
             self.positions['tweet_default_PosX'] = 80
             self.positions['tweet_default_PosY'] = 150
             self.positions['textwraped_value'] = 20
@@ -173,27 +151,26 @@ class Functionalities(Config):
 
         try:
             fontsize = 50
-            font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
+            font = ImageFont.truetype("Font/myriad.otf", fontsize)
             self.drawing.text(xy=(self.positions['tweet_default_PosX'], self.positions['tweet_default_PosY']),
                               text=textwrap.fill(str(self.get_treated_status), self.positions['textwraped_value']),
                               fill=(255, 255, 255),
                               font=font)
             fontsize = 30
-            font = ImageFont.truetype(os.getenv('times_font'), fontsize)
+            font = ImageFont.truetype("Font/times.ttf", fontsize)
             self.drawing.text(xy=(self.positions['author_quote_posX'], self.positions['author_quote_posY']),
                               text=textwrap.fill(str(PHILO_NAME)),
                               fill=(255, 255, 255),
                               font=font)
         except Exception:
-            from Twitter.Hashtag import HashtagClass
+            from Hashtag.hashtag import HashtagClass
             LOG.info('PASSANDO PELO ERRO QUE A GENTE NAO QUERIA VER')
             return HashtagClass
-
+            
         self.img.save('Hashtag/hashtag.png')
         img_update_no_quotes = 'Hashtag/hashtag.png'
 
         return img_update_no_quotes
-
 
     def check_rt(self, LOG):
         LOG.info("[ETAPA 3] Checando se é RT...")

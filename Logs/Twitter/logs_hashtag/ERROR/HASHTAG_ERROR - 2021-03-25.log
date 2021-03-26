@@ -1,0 +1,2 @@
+2021-03-25 20:22:09,507 - HASHTAG --> ERRO AO INICIAR O STREAM COM A API DO TWITTER
+2021-03-25 20:22:09,507 - HASHTAG --> 'HashtagClass' object has no attribute 'log'

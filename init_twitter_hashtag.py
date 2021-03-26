@@ -39,7 +39,7 @@ class StartHashtagExtension:
         self.log.info("Philosopher BOT por Caio Madeira e Rodrigo Carmo\n")
         self.log.info(">INICIANDO HASHTAG - EXTENSION<")
 
-        from Twitter.Hashtag.hashtag import HashtagClass
+        from Hashtag.hashtag import HashtagClass
 
 
         self.log.info('HASHTAG EXTENSION ESCOLHIDA, INICIANDO #PHILOBOT E #PHILOMAKER...')
@@ -50,7 +50,7 @@ class StartHashtagExtension:
         # from Credentials.Official.posting_credentials_official import API_POSTING_OFFICIAL as api_reserva
 
         try:
-            # TESTEPHILO
+
             Philobot_Stream = tweepy.Stream(auth=api_reserva.auth,
                                             listener=HashtagClass(self.PHILOBOT__SUBLIST, api_reserva),
                                             include_rts=False)
@@ -69,5 +69,4 @@ class StartHashtagExtension:
 
 
 if __name__ == '__main__':
-    start_project = StartHashtagExtension()
-    start_project.start_hashtag_extension()
+    StartHashtagExtension()
