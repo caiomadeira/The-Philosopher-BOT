@@ -34,7 +34,7 @@ a demanda pelo uso da Hashtag e de servidores no Discord.
 ### Criadores:
 
 > Criador e desenvolvedor: [**Caio Madeira**](https://www.linkedin.com/in/caio-madeira/)  
-> Desenvolvedor: [**Rodrigo do Carmo**](https://www.linkedin.com/in/rodrigo-carmo-7086a9b7/)
+> Desenvolvedor: [**Rodrigo Carmo**](https://www.linkedin.com/in/rodrigo-carmo-7086a9b7/)
 
 
 
