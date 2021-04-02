@@ -68,7 +68,6 @@ class Functionalities(Config):
     def img_with_quotes(self,PHILO_NAME, LOG):
 
         LOG.info("[ETAPA 5.1] ASPAS IDENTIFICADAS")
-
         LOG.info("[ETAPA 5.2] Iniciando manipulação de aspas especiais...")
         time.sleep(0.5)
         remove_quotes_in_text = self.get_treated_status.replace('"', '')
@@ -184,7 +183,7 @@ class Functionalities(Config):
 
     def text_adjust(self, LOG, choice_philosopher):
         remove_path_of_filename = os.path.basename(choice_philosopher)
-        LOG.info(f"[ETAPA 4.1] Imagem do filósofo escolhida: {remove_path_of_filename}")
+        LOG.info(f"Imagem do filósofo escolhida: {remove_path_of_filename}")
 
         remove_extension_of_filename = remove_path_of_filename.replace('.png', '')
         if '(2)' in remove_extension_of_filename:

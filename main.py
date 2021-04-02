@@ -132,7 +132,7 @@ class HashtagOrPosting:
                     Philobot_Stream.filter(track=[self.TESTEMAKER_HASHTAG], is_async=True)
 
                     """time.sleep(1)
-                    from EnvironmentUtil.Automatic_Tweets.auto_status import choose_auto_tweet
+                    from Scripts.Automatic_Tweets.auto_status import choose_auto_tweet
                     choose_auto_tweet()"""
 
 
@@ -198,7 +198,7 @@ class HashtagOrPosting:
 
 """        elif question == '1':
             try:
-                from EnvironmentUtil.philobot_manager import instructions
+                from Scripts.philobot_manager import instructions
                 instructions()
             except Exception as e:
                 self.log.exception(e)

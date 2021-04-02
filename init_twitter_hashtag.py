@@ -46,7 +46,7 @@ class StartHashtagExtension:
 
         # from Credentials.Extension.main_credentials_extension import API_MAIN_EXTENSION as api_reserva
         # from Credentials.Extension.main_credentials_extension import API_MAIN_EXTENSION as api_reserva
-        from Credentials.Twitter.Extension.hashtag_credentials_extension import API_HASHTAG_EXTENSION as api_reserva
+        from Credentials.Twitter.credentials import API_HASHTAG_EXTENSION as api_reserva
         # from Credentials.Official.posting_credentials_official import API_POSTING_OFFICIAL as api_reserva
 
         try:

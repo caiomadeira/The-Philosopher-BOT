@@ -9,22 +9,15 @@ Twitter: @bot_philospher
 Avaliable on Discord too!
 
 """
-from http import client
-import urllib3
 import time
 import tweepy
 from Hashtag.philobot_engine import PhiloBot
-from Hashtag.philomaker_engine import PhiloMaker
-from config import *
-from Logs.Twitter.logger_hashtag  import log_hashtag
-from config import Config
+from Logs.Twitter.logger_hashtag import log_hashtag
 
 
-class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
+class HashtagClass(tweepy.StreamListener, PhiloBot):
     def __init__(self, hashtag_list, get_hash_api):
         super().__init__()
-        instance = Config()
-        self.positions = instance.positions
         self.q = []
         self.q_username = []
         self.q_tweet_info = []
@@ -60,7 +53,7 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
 
             if len(self.q) >= self.QUEUE:
                 for i in range(1):
-                    self.philobot_engine(self.hashtag_list)
+                    self.philobot_engine()
                     break
         except Exception:
             pass
@@ -86,6 +79,20 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
             except Exception:
             pass
             '''
+    # @staticmethod
+    # def get_status_func(self, last_id_param):
+    #     try:
+    #         get_status = self.api.get_status(last_id_param, tweet_mode='extended', include_entities=False)._json[
+    #             'full_text']
+    #         self.log.info('[ETAPA 1] Status coletado: ' + get_status)
+    #     except tweepy.error.TweepError as e:
+    #         self.log.info(e)
+    #         self.log.info('ERRO: FALHA NA PEGA DO ID - TWEET DELETADO')
+    #         self.log.info('----------------------------------------\n')
+    #         self.log.info('>AGUARDANDO NOVOS TWEETS...<')
+    #
+    #         time.sleep(2)
+    #         return HashtagClass
 
     def update(self, post, status, post_username):
         number = 1
@@ -94,6 +101,9 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
             self.api.update_with_media(post, status="@" + post_username + " ", auto_populate_reply_metadata=True,
                                        in_reply_to_status_id=status)
             self.log.info('IMAGEM ENVIADA!')
+            self.log.info('Finalizado, ID tratado: ' + status)
+            self.log.info('Itens restantes: ' + str(len(self.q)))
+            self.log.info('TWEET TRATADO COM SUCESSO')
             time.sleep(3)
         except tweepy.TweepError as e:
             self.log.info(e.reason)

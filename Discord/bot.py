@@ -36,7 +36,7 @@ async def on_ready():
     text_channel_list = []
     for server in client.guilds:
         for channel in server.channels:
-            if channel.type == 'Text':
+            if channel.type == 'Tests':
                 text_channel_list.append(channel)
 
     embed_1 = discord.Embed(colour=discord.Colour.dark_green())
