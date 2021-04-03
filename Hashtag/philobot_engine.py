@@ -23,7 +23,7 @@ class PhiloBot(Template, Suport):
         while len(self.q) > 0:
 
             last_id = self.q.pop(0)
-            print('LAST ID:' + last_id)
+            self.log.info('LAST ID:' + last_id)
             # self.log.info(philobot_strings['ID_Col'] + last_id)
 
             try:
@@ -41,25 +41,21 @@ class PhiloBot(Template, Suport):
             " CHECK RT =================================================================================== "
             self.check_rt_SAFE(LOG=self.log, q_tweet_info=self.q_tweet_info.pop(0),
                                q_username_pop=self.q_username.pop(0))
-            print("Saiu na check RT")
+            self.log.info("Saiu na check RT")
             " TEXT TREATMENT ============================================================================== "
-            print("Indo entrar na basic text treatment")
-            self.basic_text_treatment(get_status_param=get_status,
-                                      image_param=BASE_TEMPLATE_LAYER,
-                                      sub_list_param=sub_list_philobot,
-                                      LOG=self.log,
-                                      clear_users_param=self.q_username)
+
 
             " CHECK EMPTY STRING ========================================================================= "
-            returned_check_philo = self.check_emptystring(last_id=last_id, LOG=self.log, PHILOMAKER=False,
-                                                          clear_users_param=self.q_username)
-            if returned_check_philo:
-                self.log.info('----------------------------------------\n')
-                self.log.info('>AGUARDANDO NOVOS TWEETS...<')
-                return HashtagClass
+            # self.check_emptystring(LAST_ID=last_id,
+            #                        LOG=self.log,
+            #                        clear_users_param=self.q_username,
+            #                        philobot_hashtag='#PhiloBot',
+            #                        philomaker_hashtag='#PhiloMaker',
+            #                        remove_user_from_list=self.q_username.pop(0),
+            #                        first_status_param=get_status)
 
             " TEMPLATE 1 // DEFAULT  ======================================================================= "
-            finalized = self.default_template(status_text=get_status, sub_list=sub_list_philobot)
+            finalized = self.default_template(status_text=get_status, LOG=self.log, clear_users_param=self.q_username)
 
             " POST IMAGE =================================================================================== "
             self.update(post=finalized, status=last_id, post_username=self.q_username.pop(0))

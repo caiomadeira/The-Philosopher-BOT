@@ -100,12 +100,12 @@ class HashtagClass(tweepy.StreamListener, PhiloBot):
             tweepy.Cursor(self.api.user_timeline).items(number)
             self.api.update_with_media(post, status="@" + post_username + " ", auto_populate_reply_metadata=True,
                                        in_reply_to_status_id=status)
-            self.log.info('IMAGEM ENVIADA!')
-            self.log.info('Finalizado, ID tratado: ' + status)
-            self.log.info('Itens restantes: ' + str(len(self.q)))
-            self.log.info('TWEET TRATADO COM SUCESSO')
+            self.log.info('update -> IMAGEM ENVIADA!')
+            self.log.info('update -> Finalizado, ID tratado: ' + status)
+            self.log.info('update -> Itens restantes: ' + str(len(self.q)))
+            self.log.info('update -> TWEET TRATADO COM SUCESSO')
             time.sleep(3)
         except tweepy.TweepError as e:
             self.log.info(e.reason)
-            self.log.info("ERRO! Não foi possivel realizar a ação para o usuário.")
+            self.log.info("update -> ERRO! Não foi possivel realizar a ação para o usuário.")
             self.log.info("\n==========================")

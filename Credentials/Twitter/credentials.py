@@ -15,10 +15,10 @@ CONSUMER SECRET KEY
 API KEY | ACESS TOKEN
 API SECRET KEY | ACESS TOKEN SECRET
 BEARER_TOKEN
-
 """
 import tweepy.api
 import os
+
 
 CONSUMER_KEY = os.environ.get('CONSUMER_KEY', None)
 
@@ -30,7 +30,6 @@ API_SECRET_TOKEN = os.environ.get('API_SECRET_TOKEN', None)
 
 BEARER_TOKEN = os.environ.get('BEARER_TOKEN', None)
 
-
 AUTH_HASHTAG_EXTENSION = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET_KEY)
 AUTH_HASHTAG_EXTENSION.set_access_token(API_KEY, API_SECRET_TOKEN)
 
@@ -39,4 +38,3 @@ try:
 
 except tweepy.TweepError:
     print('Error_Philobot! Falha ao pegar o Token de acesso!')
-
