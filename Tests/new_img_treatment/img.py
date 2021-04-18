@@ -57,6 +57,7 @@ custom_text = 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 # texto do filosofo
 drawing.text(xy=(75, 120), text=textwrap.fill(str(custom_text), 28), fill=(255, 255, 255), font=font)
 
+
 img.paste(open_quote_resized, (50, 30), open_quote_resized)
 img.paste(close_quote_resized, (500, 400), close_quote_resized)
 

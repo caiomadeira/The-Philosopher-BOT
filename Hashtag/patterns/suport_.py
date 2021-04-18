@@ -60,14 +60,14 @@ class Suport():
     #         LOG.info("BASIC TEXT TREATMENT -> " + self.remove_user)
     #         LOG.info("BASIC TEXT TREATMENT -> Passou do LOG")
     #         self.treating_status = re.sub(r'https://.*[\r\n]*', '', self.remove_user)
-    #         self.drawing = ImageDraw.Draw(image_param)
+    #         drawing = ImageDraw.Draw(image_param)
     #
     #         sub_list_config = dict((re.escape(k), v) for k, v in sub_list_param.items())
     #         pattern = re.compile("|".join(sub_list_config.keys()))
-    #         self.get_treated_status = pattern.sub(lambda m: sub_list_config[re.escape(m.group(0))],
+    #         get_treated_status = pattern.sub(lambda m: sub_list_config[re.escape(m.group(0))],
     #                                               self.treating_status).strip()
     #
-    #         return self.get_treated_status
+    #         return get_treated_status, drawing
     #     except tweepy.error.TweepError as e:
     #         LOG.error(e)
     #         LOG.info("BASIC TEXT TREATMENT -> TRATAMENTO DE TEXTO CANCELADO - TWEET DELETADO")

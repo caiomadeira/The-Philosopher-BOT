@@ -10,6 +10,7 @@ nomes de funções são MINUSCULAS e usando UNDERSCORE
 
 import random
 import re
+import textwrap
 
 import tweepy
 from PIL import Image, ImageDraw, ImageFont
@@ -49,17 +50,16 @@ class Template(Font, Suport):
         LOG.info("DEFAULT_TEMPLATE -> Iniciando")
         LOG.info("DEFAULT_TEMPLATE -> Pass myriad")
         LOG.info("DEFAULT_TEMPLATE -> Pass times")
-        TXT = 'Font/myriad.otf'
+        TXT = '../Font/myriad.otf'
         LOG.info("DEFAULT_TEMPLATE -> Pass TXT")
         BLANK = Image.new('RGB', (269, 194))
         LOG.info("DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK")
         font_size = 1
         LOG.info("DEFAULT_TEMPLATE -> Pass font size")
-        # font = ImageFont.truetype('Font/myriad.otf', font_size)
+        font = ImageFont.truetype('../Font/myriad.otf', font_size)
         LOG.info("DEFAULT_TEMPLATE -> Pass QUOTE FONTE")
         LOG.info("DEFAULT_TEMPLATE -> Primeira forma do status pega")
         LOG.info("DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT")
-
 
         try:
             LOG.info("BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment")
@@ -69,17 +69,18 @@ class Template(Font, Suport):
             LOG.info("BASIC TEXT TREATMENT -> " + remove_user)
             LOG.info("BASIC TEXT TREATMENT -> Passou do LOG")
             treating_status = re.sub(r'https://.*[\r\n]*', '', remove_user)
-            drawing = ImageDraw.Draw(BASE_TEMPLATE_LAYER)
+            self.drawing = ImageDraw.Draw(BASE_TEMPLATE_LAYER)
 
             sub_list_config = dict((re.escape(k), v) for k, v in sub_list_philobot.items())
             pattern = re.compile("|".join(sub_list_config.keys()))
-            get_treated_status = pattern.sub(lambda m: sub_list_config[re.escape(m.group(0))],
+            self.get_treated_status = pattern.sub(lambda m: sub_list_config[re.escape(m.group(0))],
                                                   treating_status).strip()
 
         except tweepy.error.TweepError as e:
             LOG.error(e)
             LOG.info("BASIC TEXT TREATMENT -> TRATAMENTO DE TEXTO CANCELADO - TWEET DELETADO")
             clear_users_param.clear()
+        # self.basic_text_treatment(get_status_param=status_text, image_param=BASE_TEMPLATE_LAYER, sub_list_param=sub_list_philobot, LOG=LOG, clear_users_param=self.q_username)
 
         LOG.info("DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST")
         # self.adjust_tweet_font_size(font_philo_txt=TXT,
@@ -91,22 +92,7 @@ class Template(Font, Suport):
         LOG.info("CHOOSE PHILOSPHER ->Pass randmom choose philo")
         LOG.info("Entrando no ajust_philosopher_name")
 
-        # choose philosopher
-        LOG.info("ajust_philosopher_name -> Entrou")
-        remove_path_filename = os.path.basename(choose_philosopher)
-        LOG.info(f"Imagem do filósofo escolhida: {remove_path_filename}")
-        remove_extension_filename = remove_path_filename.replace('.png', '')
-
-        if f'({int})' in remove_extension_filename:
-            LOG.info("Removendo lixo no nome da imagem do filosofo...")
-            remove_number_in_name = remove_extension_filename.replace(f'({int})', '')
-            self.finish_name_philosopher = f'- {remove_number_in_name}'
-            LOG.info(f'Nome do filósofo tratado: {self.finish_name_philosopher}')
-        else:
-            self.finish_name_philosopher = f'- {remove_extension_filename}'
-            LOG.info("Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...")
-            LOG.info(f'Nome do filósofo tratado: {self.finish_name_philosopher}')
-        LOG.info("ajust_philosopher_name -> Saindo")
+        self.ajust_philosopher_name(LOG=LOG, choose_philosopher_param=choose_philosopher)
 
         LOG.info("img_paste -> Indo entrar")
 
@@ -127,29 +113,37 @@ class Template(Font, Suport):
         # tweet_default_PosY = 105
         # textwraped_value = 25
 
-        # if self.get_treated_status.startswith('"') and self.get_treated_status.endswith('"'):
-        #     LOG.info("ASPAS DETECTADAS - ENTRANDO NA WITH QUOTES")
-        #     self.with_quotes(status_text=self.get_treated_status,
-        #                      tweet_posX=tweet_posX(38),
-        #                      tweet_posY=tweet_posY(105),
-        #                      textwraped_value=textwraped_value(25),
-        #                      philosopher_name=self.finish_name_philosopher,
-        #                      font_philo_text=ImageFont.truetype('Font/myriad.otf', font_size),
-        #                      font_philo_name=ImageFont.truetype('Font/myriad.otf', font_size),
-        #                      author_posX=author_posX(43),
-        #                      author_posY=author_posY(512),
-        #                      LOG=LOG)
-        # else:
-        #     self.no_quotes(status_text=self.get_treated_status,
-        #                    tweet_posX=tweet_posX(38),
-        #                    tweet_posY=tweet_posY(105),
-        #                    textwraped_value=textwraped_value(25),
-        #                    philosopher_name=self.finish_name_philosopher,
-        #                    font_philo_text=ImageFont.truetype('Font/myriad.otf', font_size),
-        #                    font_philo_name=ImageFont.truetype('Font/myriad.otf', font_size),
-        #                    author_posX=author_posX(43),
-        #                    author_posY=author_posY(512),
-        #                    LOG=LOG)
+        if self.get_treated_status.startswith('"') and self.get_treated_status.endswith('"'):
+            LOG.info("ASPAS DETECTADAS - ENTRANDO NA WITH QUOTES")
+            self.with_quotes(status_text=self.get_treated_status,
+                             tweet_posX=tweet_posX(38),
+                             tweet_posY=tweet_posY(105),
+                             textwraped_value=textwraped_value(25),
+                             font_philo_text=ImageFont.truetype('../Font/myriad.otf', font_size),
+                             LOG=LOG, drawing_p=self.drawing)
+
+        else:
+            self.no_quotes(status_text=self.get_treated_status,
+                           tweet_posX=tweet_posX(38),
+                           tweet_posY=tweet_posY(105),
+                           textwraped_value=textwraped_value(25),
+                           font_philo_text=ImageFont.truetype('../Font/myriad.otf', font_size),
+                           LOG=LOG, drawing_p=self.drawing)
+
+        LOG.info("Colocando nome do philosopher")
+        # self.put_name_of_philosopher(self, philosopher_name=self.ajust_philosopher_name(LOG=LOG,
+        #                              choose_philosopher_param=choose_philosopher),
+        #                              font_philosopher_name=font,
+        #                              author_posX=author_posX(43),
+        #                              author_posY=author_posY(512),
+        #                              drawing_p=self.drawing)
+
+        size_philosopher_name = 30
+
+        self.drawing.text(xy=(author_posX, author_posY),
+                       text=textwrap.fill(str(self.finish_name_philosopher)),
+                       fill=(255, 255, 255),
+                       font=ImageFont.truetype('../Font/myriad.otf', size_philosopher_name))
 
         BASE_TEMPLATE_LAYER.save("Hashtag.png")
         BASE_TEMPLATE_LAYER.show()
@@ -160,4 +154,3 @@ class Template(Font, Suport):
         LOG.info("Retornando img_saved")
 
         return self.img_saved
-

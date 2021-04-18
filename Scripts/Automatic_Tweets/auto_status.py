@@ -1,6 +1,7 @@
 from Tests.Credentials.twitter_credentials_test import API_TEST as API
 import time
 import uuid
+import random
 
 api = API
 
@@ -19,10 +20,11 @@ def post_status_only_text():
     try:
         status_key = ''.join(str(uuid.uuid4()).upper().split('-')[1:])
         status_2 = f'#TestePhilo {status_key}'
+        status_3 = f'#TestePhilo "{status_key}"'
+        status_4 = f'#TestePhilo "{status_key}{status_key}{status_key}"'
 
         api.update_status(status_2)
         print(status_2)
-
         time.sleep(2)
     except Exception as e:
         print(e)

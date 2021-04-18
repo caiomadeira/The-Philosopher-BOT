@@ -1275,3 +1275,1465 @@
 2021-04-18 06:15:40,532 - HASHTAG --> clear_user_list -> Limpeza de lista realizada com sucesso!
 2021-04-18 06:15:40,532 - HASHTAG --> time_to_rest -> Esperando 20 segundos...
 2021-04-18 06:15:59,667 - HASHTAG --> time_to_rest -> >AGUARDANDO NOVOS TWEETS...<
+2021-04-18 06:46:12,427 - HASHTAG --> Bem-vindo!
+
+2021-04-18 06:46:12,427 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 06:46:12,427 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 06:46:12,460 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 06:46:26,441 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 06:46:26,441 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 06:46:26,441 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 06:46:26,441 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 06:46:26,441 - HASHTAG --> Tweet ID: 1383718534019043328
+2021-04-18 06:46:26,441 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 06:46:26,441 - HASHTAG --> Adicionado na fila
+2021-04-18 06:46:26,441 - HASHTAG --> =======================================================
+
+2021-04-18 06:46:31,463 - HASHTAG --> ----------------------------------------
+2021-04-18 06:46:31,463 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 06:46:31,463 - HASHTAG --> ----------------------------------------
+2021-04-18 06:46:31,463 - HASHTAG --> LAST ID:1383718534019043328
+2021-04-18 06:46:32,332 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 40F646A2973B08B0BAB21BA2
+2021-04-18 06:46:32,348 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 06:46:32,348 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 06:46:32,348 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 06:46:32,348 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 06:46:32,348 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 06:46:32,348 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 06:46:32,348 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 06:46:32,348 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 06:46:32,348 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 06:46:32,348 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 06:46:32,348 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 06:46:32,348 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 06:46:32,348 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 40F646A2973B08B0BAB21BA2
+2021-04-18 06:46:32,348 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 06:46:32,348 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 06:46:32,348 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 06:46:32,348 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 06:46:32,348 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 06:46:32,348 - HASHTAG --> Imagem do filósofo escolhida: Epicuro.png
+2021-04-18 06:46:32,348 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 06:46:32,364 - HASHTAG --> Nome do filósofo tratado: - Epicuro
+2021-04-18 06:46:32,364 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 06:46:32,364 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 06:46:32,364 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 06:46:32,414 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 06:46:32,414 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 06:46:32,414 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 06:46:32,414 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 06:46:32,430 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 06:46:32,430 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 06:46:32,430 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 06:46:34,701 - HASHTAG --> img_saved - Salvo com sucesso
+2021-04-18 06:46:34,701 - HASHTAG --> Retornando img_saved
+2021-04-18 06:46:36,851 - HASHTAG --> Estatos postado
+2021-04-18 06:46:36,852 - HASHTAG --> update -> IMAGEM ENVIADA!
+2021-04-18 06:46:36,852 - HASHTAG --> update -> Finalizado, ID tratado: 1383718534019043328
+2021-04-18 06:46:36,852 - HASHTAG --> update -> Itens restantes: 0
+2021-04-18 06:46:36,852 - HASHTAG --> update -> TWEET TRATADO COM SUCESSO
+2021-04-18 06:46:39,861 - HASHTAG --> ----------------------------------------
+2021-04-18 06:46:39,861 - HASHTAG --> clear_user_list -> Limpeza de lista realizada com sucesso!
+2021-04-18 06:46:39,861 - HASHTAG --> time_to_rest -> Esperando 20 segundos...
+2021-04-18 06:47:44,893 - HASHTAG --> Bem-vindo!
+
+2021-04-18 06:47:44,893 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 06:47:44,893 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 06:47:44,932 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 06:47:58,901 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 06:47:58,901 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 06:47:58,901 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 06:47:58,901 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 06:47:58,901 - HASHTAG --> Tweet ID: 1383718921950269449
+2021-04-18 06:47:58,901 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 06:47:58,901 - HASHTAG --> Adicionado na fila
+2021-04-18 06:47:58,901 - HASHTAG --> =======================================================
+
+2021-04-18 06:48:03,905 - HASHTAG --> ----------------------------------------
+2021-04-18 06:48:03,905 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 06:48:03,905 - HASHTAG --> ----------------------------------------
+2021-04-18 06:48:03,905 - HASHTAG --> LAST ID:1383718921950269449
+2021-04-18 06:48:04,790 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 24C8466FA867CE53FC2FA59D
+2021-04-18 06:48:04,806 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 06:48:04,806 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 06:48:04,806 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 06:48:04,806 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 06:48:04,806 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 06:48:04,806 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 06:48:04,806 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 06:48:04,806 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 06:48:04,806 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 06:48:04,806 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 06:48:04,806 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 06:48:04,806 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 06:48:04,806 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 24C8466FA867CE53FC2FA59D
+2021-04-18 06:48:04,806 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 06:48:04,806 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 06:48:04,806 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 06:48:04,806 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 06:48:04,806 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 06:48:04,806 - HASHTAG --> Imagem do filósofo escolhida: Leandro Karnal(2).png
+2021-04-18 06:48:04,806 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 06:48:04,806 - HASHTAG --> Nome do filósofo tratado: - Leandro Karnal(2)
+2021-04-18 06:48:04,806 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 06:48:04,806 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 06:48:04,806 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 06:48:04,840 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 06:48:04,840 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 06:48:04,840 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 06:48:04,840 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 06:48:04,856 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 06:48:04,856 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 06:48:04,856 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 06:48:10,195 - HASHTAG --> Bem-vindo!
+
+2021-04-18 06:48:10,195 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 06:48:10,195 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 06:48:10,228 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 06:49:25,142 - HASHTAG --> Bem-vindo!
+
+2021-04-18 06:49:25,142 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 06:49:25,142 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 06:49:25,222 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 06:49:39,151 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 06:49:39,151 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 06:49:39,151 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 06:49:39,151 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 06:49:39,151 - HASHTAG --> Tweet ID: 1383719342441832457
+2021-04-18 06:49:39,151 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 06:49:39,151 - HASHTAG --> Adicionado na fila
+2021-04-18 06:49:39,151 - HASHTAG --> =======================================================
+
+2021-04-18 06:49:44,168 - HASHTAG --> ----------------------------------------
+2021-04-18 06:49:44,168 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 06:49:44,168 - HASHTAG --> ----------------------------------------
+2021-04-18 06:49:44,168 - HASHTAG --> LAST ID:1383719342441832457
+2021-04-18 06:49:45,040 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo D774489CA55CAC8F93BE47C8
+2021-04-18 06:49:45,057 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 06:49:45,057 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 06:49:45,057 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 06:49:45,057 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 06:49:45,057 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 06:49:45,057 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 06:50:27,899 - HASHTAG --> Bem-vindo!
+
+2021-04-18 06:50:27,899 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 06:50:27,899 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 06:50:27,932 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 06:50:41,863 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 06:50:41,863 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 06:50:41,863 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 06:50:41,863 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 06:50:41,863 - HASHTAG --> Tweet ID: 1383719605495947270
+2021-04-18 06:50:41,863 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 06:50:41,863 - HASHTAG --> Adicionado na fila
+2021-04-18 06:50:41,863 - HASHTAG --> =======================================================
+
+2021-04-18 06:50:46,878 - HASHTAG --> ----------------------------------------
+2021-04-18 06:50:46,878 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 06:50:46,878 - HASHTAG --> ----------------------------------------
+2021-04-18 06:50:46,878 - HASHTAG --> LAST ID:1383719605495947270
+2021-04-18 06:50:47,729 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo BF3E40769B065B8D6C76EB34
+2021-04-18 06:50:47,746 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 06:50:47,746 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 06:50:47,746 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 06:50:47,746 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 06:50:47,746 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 06:50:47,746 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 06:50:47,803 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 06:50:47,803 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 06:50:47,803 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 06:50:47,803 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 06:50:47,803 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 06:50:47,803 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 06:50:47,803 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo BF3E40769B065B8D6C76EB34
+2021-04-18 06:50:47,803 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 06:50:47,820 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 06:50:47,820 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 06:50:47,820 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 06:50:47,820 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 06:50:47,820 - HASHTAG --> Imagem do filósofo escolhida: Dilma Rousseff.png
+2021-04-18 06:50:47,820 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 06:50:47,820 - HASHTAG --> Nome do filósofo tratado: - Dilma Rousseff
+2021-04-18 06:50:47,820 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 06:50:47,820 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 06:50:47,820 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 06:50:47,829 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 06:50:47,849 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 06:50:47,849 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 06:50:47,849 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 06:50:47,866 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 06:50:47,866 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 06:50:47,870 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 06:50:50,098 - HASHTAG --> img_saved - Salvo com sucesso
+2021-04-18 06:50:50,098 - HASHTAG --> Retornando img_saved
+2021-04-18 06:50:52,443 - HASHTAG --> Estatos postado
+2021-04-18 06:50:52,443 - HASHTAG --> update -> IMAGEM ENVIADA!
+2021-04-18 06:50:52,443 - HASHTAG --> update -> Finalizado, ID tratado: 1383719605495947270
+2021-04-18 06:50:52,443 - HASHTAG --> update -> Itens restantes: 0
+2021-04-18 06:50:52,443 - HASHTAG --> update -> TWEET TRATADO COM SUCESSO
+2021-04-18 06:50:55,460 - HASHTAG --> ----------------------------------------
+2021-04-18 06:50:55,460 - HASHTAG --> clear_user_list -> Limpeza de lista realizada com sucesso!
+2021-04-18 06:50:55,460 - HASHTAG --> time_to_rest -> Esperando 20 segundos...
+2021-04-18 06:57:50,428 - HASHTAG --> Bem-vindo!
+
+2021-04-18 06:57:50,428 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 06:57:50,428 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 06:57:50,474 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 06:58:04,389 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 06:58:04,389 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 06:58:04,389 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 06:58:04,389 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 06:58:04,389 - HASHTAG --> Tweet ID: 1383721461538443271
+2021-04-18 06:58:04,389 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 06:58:04,389 - HASHTAG --> Adicionado na fila
+2021-04-18 06:58:04,389 - HASHTAG --> =======================================================
+
+2021-04-18 06:58:09,410 - HASHTAG --> ----------------------------------------
+2021-04-18 06:58:09,410 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 06:58:09,410 - HASHTAG --> ----------------------------------------
+2021-04-18 06:58:09,410 - HASHTAG --> LAST ID:1383721461538443271
+2021-04-18 06:58:10,278 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo E21B4BCB9A4093AEBCF131BC
+2021-04-18 06:58:10,278 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 06:58:10,278 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 06:58:10,278 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 06:58:10,278 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 06:58:10,278 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 06:58:10,278 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 06:58:10,278 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 06:58:10,278 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 06:58:10,278 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 06:58:10,278 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 06:58:10,278 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 06:58:10,278 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 06:58:10,278 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo E21B4BCB9A4093AEBCF131BC
+2021-04-18 06:58:10,278 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 06:58:10,294 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 06:58:10,294 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 06:58:10,294 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 06:58:10,294 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 06:58:10,294 - HASHTAG --> Imagem do filósofo escolhida: Henrique VIII.png
+2021-04-18 06:58:10,294 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 06:58:10,294 - HASHTAG --> Nome do filósofo tratado: - Henrique VIII
+2021-04-18 06:58:10,294 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 06:58:10,294 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 06:58:10,294 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 06:58:10,345 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 06:58:10,345 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 06:58:10,361 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 06:58:10,361 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 06:58:10,361 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 06:58:10,361 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 06:58:10,361 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 06:58:12,609 - HASHTAG --> img_saved - Salvo com sucesso
+2021-04-18 06:58:12,609 - HASHTAG --> Retornando img_saved
+2021-04-18 06:58:15,016 - HASHTAG --> Estatos postado
+2021-04-18 06:58:15,016 - HASHTAG --> update -> IMAGEM ENVIADA!
+2021-04-18 06:58:15,016 - HASHTAG --> update -> Finalizado, ID tratado: 1383721461538443271
+2021-04-18 06:58:15,016 - HASHTAG --> update -> Itens restantes: 0
+2021-04-18 06:58:15,016 - HASHTAG --> update -> TWEET TRATADO COM SUCESSO
+2021-04-18 06:58:18,018 - HASHTAG --> ----------------------------------------
+2021-04-18 06:58:18,018 - HASHTAG --> clear_user_list -> Limpeza de lista realizada com sucesso!
+2021-04-18 06:58:18,018 - HASHTAG --> time_to_rest -> Esperando 20 segundos...
+2021-04-18 07:00:13,617 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:00:13,617 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:00:13,617 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:00:13,667 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 07:00:27,588 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 07:00:27,589 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 07:00:27,589 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 07:00:27,589 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 07:00:27,589 - HASHTAG --> Tweet ID: 1383722062208901124
+2021-04-18 07:00:27,589 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 07:00:27,589 - HASHTAG --> Adicionado na fila
+2021-04-18 07:00:27,589 - HASHTAG --> =======================================================
+
+2021-04-18 07:00:32,602 - HASHTAG --> ----------------------------------------
+2021-04-18 07:00:32,602 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 07:00:32,602 - HASHTAG --> ----------------------------------------
+2021-04-18 07:00:32,602 - HASHTAG --> LAST ID:1383722062208901124
+2021-04-18 07:00:33,470 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 61E7475CBD80D6BB7353E6BD
+2021-04-18 07:00:33,486 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 07:00:33,486 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 07:00:33,486 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 07:00:33,486 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 07:00:33,486 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 07:00:33,486 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 07:00:33,486 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 07:00:33,486 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 07:00:33,486 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 07:00:33,486 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 07:00:33,486 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 07:00:33,486 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 07:00:33,486 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 61E7475CBD80D6BB7353E6BD
+2021-04-18 07:00:33,486 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 07:00:33,502 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 07:00:33,502 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 07:00:33,502 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 07:00:33,502 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 07:00:33,502 - HASHTAG --> Imagem do filósofo escolhida: João Calvino.png
+2021-04-18 07:00:33,502 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 07:00:33,502 - HASHTAG --> Nome do filósofo tratado: - João Calvino
+2021-04-18 07:00:33,502 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 07:00:33,502 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 07:00:33,502 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 07:00:33,550 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 07:00:33,566 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 07:00:33,566 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 07:00:33,566 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 07:00:33,570 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 07:00:33,570 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 07:00:33,570 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 07:00:38,576 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:00:38,576 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:00:38,576 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:00:38,625 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 07:00:52,513 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 07:00:52,513 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 07:00:52,513 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 07:00:52,513 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 07:00:52,513 - HASHTAG --> Tweet ID: 1383722166802280452
+2021-04-18 07:00:52,513 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 07:00:52,513 - HASHTAG --> Adicionado na fila
+2021-04-18 07:00:52,513 - HASHTAG --> =======================================================
+
+2021-04-18 07:00:57,528 - HASHTAG --> ----------------------------------------
+2021-04-18 07:00:57,528 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 07:00:57,528 - HASHTAG --> ----------------------------------------
+2021-04-18 07:00:57,528 - HASHTAG --> LAST ID:1383722166802280452
+2021-04-18 07:00:58,377 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 4C3D402FBDB0F6CE86EEEEFC
+2021-04-18 07:00:58,393 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 07:00:58,393 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 07:00:58,393 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 07:00:58,393 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 07:00:58,393 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 07:00:58,393 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 07:00:58,393 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 07:00:58,393 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 07:00:58,393 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 07:00:58,393 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 07:00:58,393 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 07:00:58,393 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 07:00:58,393 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 4C3D402FBDB0F6CE86EEEEFC
+2021-04-18 07:00:58,393 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 07:00:58,412 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 07:00:58,412 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 07:00:58,412 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 07:00:58,412 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 07:00:58,412 - HASHTAG --> Imagem do filósofo escolhida: Felipe Neto.png
+2021-04-18 07:00:58,412 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 07:00:58,412 - HASHTAG --> Nome do filósofo tratado: - Felipe Neto
+2021-04-18 07:00:58,412 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 07:00:58,412 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 07:00:58,412 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 07:00:58,428 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 07:00:58,445 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 07:00:58,445 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 07:00:58,445 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 07:00:58,445 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 07:00:58,445 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 07:00:58,445 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 07:01:43,157 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:01:43,157 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:01:43,157 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:01:43,206 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 07:01:57,154 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 07:01:57,154 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 07:01:57,154 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 07:01:57,154 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 07:01:57,154 - HASHTAG --> Tweet ID: 1383722437829746694
+2021-04-18 07:01:57,154 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 07:01:57,154 - HASHTAG --> Adicionado na fila
+2021-04-18 07:01:57,154 - HASHTAG --> =======================================================
+
+2021-04-18 07:02:02,174 - HASHTAG --> ----------------------------------------
+2021-04-18 07:02:02,174 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 07:02:02,174 - HASHTAG --> ----------------------------------------
+2021-04-18 07:02:02,174 - HASHTAG --> LAST ID:1383722437829746694
+2021-04-18 07:02:03,027 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 512140F6A424055D427D3B0C
+2021-04-18 07:02:03,027 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 07:02:03,027 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 07:02:03,027 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 07:02:03,027 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 07:02:03,027 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 07:02:03,027 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 07:02:03,027 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 07:02:03,042 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 07:02:03,043 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 07:02:03,043 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 07:02:03,043 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 07:02:03,043 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 07:02:03,043 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 512140F6A424055D427D3B0C
+2021-04-18 07:02:03,043 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 07:02:03,044 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 07:02:03,044 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 07:02:03,044 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 07:02:03,044 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 07:02:03,044 - HASHTAG --> Imagem do filósofo escolhida: Georg W. Friedrich Hegel.png
+2021-04-18 07:02:03,044 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 07:02:03,044 - HASHTAG --> Nome do filósofo tratado: - Georg W. Friedrich Hegel
+2021-04-18 07:02:03,044 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 07:02:03,044 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 07:02:03,044 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 07:02:03,110 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 07:02:03,127 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 07:02:03,127 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 07:02:03,127 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 07:02:03,127 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 07:02:03,127 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 07:02:03,127 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 07:02:04,905 - HASHTAG --> img_saved - Salvo com sucesso
+2021-04-18 07:02:04,905 - HASHTAG --> Retornando img_saved
+2021-04-18 07:02:07,205 - HASHTAG --> Estatos postado
+2021-04-18 07:02:07,205 - HASHTAG --> update -> IMAGEM ENVIADA!
+2021-04-18 07:02:07,205 - HASHTAG --> update -> Finalizado, ID tratado: 1383722437829746694
+2021-04-18 07:02:07,205 - HASHTAG --> update -> Itens restantes: 0
+2021-04-18 07:02:07,205 - HASHTAG --> update -> TWEET TRATADO COM SUCESSO
+2021-04-18 07:02:10,217 - HASHTAG --> ----------------------------------------
+2021-04-18 07:02:10,217 - HASHTAG --> clear_user_list -> Limpeza de lista realizada com sucesso!
+2021-04-18 07:02:10,217 - HASHTAG --> time_to_rest -> Esperando 20 segundos...
+2021-04-18 07:02:29,341 - HASHTAG --> time_to_rest -> >AGUARDANDO NOVOS TWEETS...<
+2021-04-18 07:06:31,319 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:06:31,319 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:06:31,319 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:06:31,362 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 07:06:45,255 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 07:06:45,255 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 07:06:45,255 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 07:06:45,255 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 07:06:45,255 - HASHTAG --> Tweet ID: 1383723646250721284
+2021-04-18 07:06:45,255 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 07:06:45,255 - HASHTAG --> Adicionado na fila
+2021-04-18 07:06:45,255 - HASHTAG --> =======================================================
+
+2021-04-18 07:06:50,264 - HASHTAG --> ----------------------------------------
+2021-04-18 07:06:50,264 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 07:06:50,264 - HASHTAG --> ----------------------------------------
+2021-04-18 07:06:50,264 - HASHTAG --> LAST ID:1383723646250721284
+2021-04-18 07:06:51,096 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo A01F467893A2D4AFB0273A70
+2021-04-18 07:06:51,096 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 07:06:51,096 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 07:06:51,096 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 07:06:51,096 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 07:06:51,096 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 07:06:51,096 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 07:06:51,096 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 07:06:51,096 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 07:06:51,096 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 07:06:51,096 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 07:06:51,096 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 07:06:51,112 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 07:06:51,112 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo A01F467893A2D4AFB0273A70
+2021-04-18 07:06:51,112 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 07:07:58,617 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:07:58,617 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:07:58,617 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:07:58,682 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 07:08:12,574 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 07:08:12,574 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 07:08:12,574 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 07:08:12,574 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 07:08:12,574 - HASHTAG --> Tweet ID: 1383724012505690112
+2021-04-18 07:08:12,574 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 07:08:12,574 - HASHTAG --> Adicionado na fila
+2021-04-18 07:08:12,574 - HASHTAG --> =======================================================
+
+2021-04-18 07:08:17,599 - HASHTAG --> ----------------------------------------
+2021-04-18 07:08:17,599 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 07:08:17,599 - HASHTAG --> ----------------------------------------
+2021-04-18 07:08:17,599 - HASHTAG --> LAST ID:1383724012505690112
+2021-04-18 07:08:18,451 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo A123416895F013FDBEE821B6
+2021-04-18 07:08:18,467 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 07:08:18,467 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 07:08:18,467 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 07:08:18,467 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 07:08:18,467 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 07:08:18,467 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 07:08:18,467 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 07:08:18,467 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 07:08:18,467 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 07:08:18,467 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 07:08:18,467 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 07:08:18,467 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 07:08:18,467 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo A123416895F013FDBEE821B6
+2021-04-18 07:08:18,467 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 07:08:18,483 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 07:08:18,483 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 07:08:18,483 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 07:08:18,483 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 07:08:18,483 - HASHTAG --> Imagem do filósofo escolhida: Émile Durkheim.png
+2021-04-18 07:08:18,483 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 07:08:18,483 - HASHTAG --> Nome do filósofo tratado: - Émile Durkheim
+2021-04-18 07:08:18,483 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 07:08:18,483 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 07:08:18,483 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 07:08:18,531 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 07:08:18,535 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 07:08:18,535 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 07:08:18,535 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 07:08:18,551 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 07:08:18,551 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 07:08:18,551 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 07:08:20,369 - HASHTAG --> img_saved - Salvo com sucesso
+2021-04-18 07:08:20,369 - HASHTAG --> Retornando img_saved
+2021-04-18 07:08:22,488 - HASHTAG --> Estatos postado
+2021-04-18 07:08:22,488 - HASHTAG --> update -> IMAGEM ENVIADA!
+2021-04-18 07:08:22,488 - HASHTAG --> update -> Finalizado, ID tratado: 1383724012505690112
+2021-04-18 07:08:22,488 - HASHTAG --> update -> Itens restantes: 0
+2021-04-18 07:08:22,488 - HASHTAG --> update -> TWEET TRATADO COM SUCESSO
+2021-04-18 07:08:25,511 - HASHTAG --> ----------------------------------------
+2021-04-18 07:08:25,511 - HASHTAG --> clear_user_list -> Limpeza de lista realizada com sucesso!
+2021-04-18 07:08:25,511 - HASHTAG --> time_to_rest -> Esperando 20 segundos...
+2021-04-18 07:12:41,181 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:12:41,181 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:12:41,181 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:12:41,214 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 07:17:53,858 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:17:53,858 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:17:53,858 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:23:49,932 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:23:49,932 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:23:49,932 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:23:49,987 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 07:24:03,914 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 07:24:03,914 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 07:24:03,914 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 07:24:03,914 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 07:24:03,914 - HASHTAG --> Tweet ID: 1383728002714923008
+2021-04-18 07:24:03,914 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 07:24:03,914 - HASHTAG --> Adicionado na fila
+2021-04-18 07:24:03,914 - HASHTAG --> =======================================================
+
+2021-04-18 07:24:08,934 - HASHTAG --> ----------------------------------------
+2021-04-18 07:24:08,934 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 07:24:08,934 - HASHTAG --> ----------------------------------------
+2021-04-18 07:24:08,934 - HASHTAG --> LAST ID:1383728002714923008
+2021-04-18 07:24:09,777 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 959C4E9EAF43C07808FCB1B5
+2021-04-18 07:24:09,810 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 07:24:09,810 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 07:24:09,810 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 07:24:09,810 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 07:24:09,810 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 07:24:09,810 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 07:24:09,810 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 07:24:09,810 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 07:24:09,810 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 07:24:09,810 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 07:24:09,810 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 07:24:09,810 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 07:24:09,810 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 959C4E9EAF43C07808FCB1B5
+2021-04-18 07:24:09,810 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 07:24:09,810 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 07:24:09,810 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 07:24:09,810 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 07:24:09,810 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 07:24:09,810 - HASHTAG --> Imagem do filósofo escolhida: William Shakespeare.png
+2021-04-18 07:24:09,810 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 07:24:09,810 - HASHTAG --> Nome do filósofo tratado: - William Shakespeare
+2021-04-18 07:24:09,810 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 07:24:09,810 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 07:24:09,810 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 07:24:09,851 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 07:24:09,868 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 07:24:09,868 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 07:24:09,868 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 07:24:09,868 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 07:24:09,868 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 07:24:09,868 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 07:24:11,699 - HASHTAG --> img_saved - Salvo com sucesso
+2021-04-18 07:24:11,699 - HASHTAG --> Retornando img_saved
+2021-04-18 07:24:14,607 - HASHTAG --> Estatos postado
+2021-04-18 07:24:14,607 - HASHTAG --> update -> IMAGEM ENVIADA!
+2021-04-18 07:24:14,607 - HASHTAG --> update -> Finalizado, ID tratado: 1383728002714923008
+2021-04-18 07:24:14,607 - HASHTAG --> update -> Itens restantes: 0
+2021-04-18 07:24:14,607 - HASHTAG --> update -> TWEET TRATADO COM SUCESSO
+2021-04-18 07:24:17,609 - HASHTAG --> ----------------------------------------
+2021-04-18 07:24:17,609 - HASHTAG --> clear_user_list -> Limpeza de lista realizada com sucesso!
+2021-04-18 07:24:17,609 - HASHTAG --> time_to_rest -> Esperando 20 segundos...
+2021-04-18 07:30:56,859 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:30:56,859 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:30:56,859 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:30:56,905 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 07:31:10,801 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 07:31:10,801 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 07:31:10,801 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 07:31:10,801 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 07:31:10,801 - HASHTAG --> Tweet ID: 1383729793275817988
+2021-04-18 07:31:10,801 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 07:31:10,801 - HASHTAG --> Adicionado na fila
+2021-04-18 07:31:10,801 - HASHTAG --> =======================================================
+
+2021-04-18 07:31:15,810 - HASHTAG --> ----------------------------------------
+2021-04-18 07:31:15,810 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 07:31:15,810 - HASHTAG --> ----------------------------------------
+2021-04-18 07:31:15,810 - HASHTAG --> LAST ID:1383729793275817988
+2021-04-18 07:31:16,728 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo C00C487587751FF252E0CA64
+2021-04-18 07:31:16,744 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 07:31:16,744 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 07:31:16,744 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 07:31:16,744 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 07:31:16,744 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 07:31:16,744 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 07:31:16,744 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 07:31:16,744 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 07:31:16,744 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 07:31:16,744 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 07:31:16,744 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 07:31:16,744 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 07:31:16,744 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo C00C487587751FF252E0CA64
+2021-04-18 07:31:16,744 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 07:31:16,761 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 07:31:16,761 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 07:31:16,761 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 07:31:16,761 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 07:31:16,761 - HASHTAG --> Imagem do filósofo escolhida: Carl Sagan.png
+2021-04-18 07:31:16,761 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 07:31:16,761 - HASHTAG --> Nome do filósofo tratado: - Carl Sagan
+2021-04-18 07:31:16,761 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 07:31:16,761 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 07:31:16,761 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 07:31:16,795 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 07:31:16,795 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 07:31:16,795 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 07:31:16,795 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 07:31:16,812 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 07:31:16,812 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 07:31:16,812 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 07:31:18,740 - HASHTAG --> img_saved - Salvo com sucesso
+2021-04-18 07:31:18,740 - HASHTAG --> Retornando img_saved
+2021-04-18 07:31:21,032 - HASHTAG --> Estatos postado
+2021-04-18 07:31:21,032 - HASHTAG --> update -> IMAGEM ENVIADA!
+2021-04-18 07:31:21,032 - HASHTAG --> update -> Finalizado, ID tratado: 1383729793275817988
+2021-04-18 07:31:21,032 - HASHTAG --> update -> Itens restantes: 0
+2021-04-18 07:31:21,032 - HASHTAG --> update -> TWEET TRATADO COM SUCESSO
+2021-04-18 07:31:24,052 - HASHTAG --> ----------------------------------------
+2021-04-18 07:31:24,052 - HASHTAG --> clear_user_list -> Limpeza de lista realizada com sucesso!
+2021-04-18 07:31:24,052 - HASHTAG --> time_to_rest -> Esperando 20 segundos...
+2021-04-18 07:34:53,480 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:34:53,480 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:34:53,480 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:34:53,599 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 07:35:07,525 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 07:35:07,525 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 07:35:07,525 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 07:35:07,525 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 07:35:07,525 - HASHTAG --> Tweet ID: 1383730786117906435
+2021-04-18 07:35:07,525 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 07:35:07,525 - HASHTAG --> Adicionado na fila
+2021-04-18 07:35:07,525 - HASHTAG --> =======================================================
+
+2021-04-18 07:35:12,547 - HASHTAG --> ----------------------------------------
+2021-04-18 07:35:12,547 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 07:35:12,547 - HASHTAG --> ----------------------------------------
+2021-04-18 07:35:12,547 - HASHTAG --> LAST ID:1383730786117906435
+2021-04-18 07:35:13,398 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 07D541E9B14882DB5DC87B10
+2021-04-18 07:35:13,464 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 07:35:13,464 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 07:35:13,464 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 07:35:13,464 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 07:35:13,464 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 07:35:13,464 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 07:35:13,464 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 07:35:13,464 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 07:35:13,464 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 07:35:13,464 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 07:35:13,464 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 07:35:13,464 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 07:35:13,464 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 07D541E9B14882DB5DC87B10
+2021-04-18 07:35:13,464 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 07:35:13,481 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 07:35:13,481 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 07:35:13,481 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 07:35:13,481 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 07:35:13,481 - HASHTAG --> Imagem do filósofo escolhida: William Shakespeare.png
+2021-04-18 07:35:13,481 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 07:35:13,481 - HASHTAG --> Nome do filósofo tratado: - William Shakespeare
+2021-04-18 07:35:13,481 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 07:35:13,481 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 07:35:13,481 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 07:35:13,481 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 07:35:13,481 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 07:35:13,481 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 07:35:13,481 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 07:35:13,497 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 07:35:13,497 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 07:35:13,497 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 07:35:15,325 - HASHTAG --> img_saved - Salvo com sucesso
+2021-04-18 07:35:15,325 - HASHTAG --> Retornando img_saved
+2021-04-18 07:35:17,498 - HASHTAG --> Estatos postado
+2021-04-18 07:35:17,498 - HASHTAG --> update -> IMAGEM ENVIADA!
+2021-04-18 07:35:17,498 - HASHTAG --> update -> Finalizado, ID tratado: 1383730786117906435
+2021-04-18 07:35:17,498 - HASHTAG --> update -> Itens restantes: 0
+2021-04-18 07:35:17,498 - HASHTAG --> update -> TWEET TRATADO COM SUCESSO
+2021-04-18 07:35:20,504 - HASHTAG --> ----------------------------------------
+2021-04-18 07:35:20,504 - HASHTAG --> clear_user_list -> Limpeza de lista realizada com sucesso!
+2021-04-18 07:35:20,504 - HASHTAG --> time_to_rest -> Esperando 20 segundos...
+2021-04-18 07:37:31,904 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:37:31,904 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:37:31,904 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:37:31,952 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 07:37:45,892 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 07:37:45,892 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 07:37:45,892 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 07:37:45,892 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 07:37:45,892 - HASHTAG --> Tweet ID: 1383731450365628417
+2021-04-18 07:37:45,892 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 07:37:45,892 - HASHTAG --> Adicionado na fila
+2021-04-18 07:37:45,892 - HASHTAG --> =======================================================
+
+2021-04-18 07:37:50,905 - HASHTAG --> ----------------------------------------
+2021-04-18 07:37:50,905 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 07:37:50,906 - HASHTAG --> ----------------------------------------
+2021-04-18 07:37:50,906 - HASHTAG --> LAST ID:1383731450365628417
+2021-04-18 07:37:51,780 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo "8F644EA9B403D0E80A4913DF"
+2021-04-18 07:37:51,780 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 07:37:51,796 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 07:37:51,796 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 07:37:51,796 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 07:37:51,796 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 07:37:51,796 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 07:37:51,796 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 07:37:51,796 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 07:37:51,796 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 07:37:51,796 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 07:37:51,796 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 07:37:51,796 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 07:37:51,796 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo "8F644EA9B403D0E80A4913DF"
+2021-04-18 07:37:51,796 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 07:37:51,796 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 07:37:51,796 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 07:37:51,796 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 07:37:51,796 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 07:37:51,796 - HASHTAG --> Imagem do filósofo escolhida: Mikhail Bakunin.png
+2021-04-18 07:37:51,796 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 07:37:51,796 - HASHTAG --> Nome do filósofo tratado: - Mikhail Bakunin
+2021-04-18 07:37:51,796 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 07:37:51,796 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 07:37:51,796 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 07:37:51,856 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 07:37:51,856 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 07:37:51,856 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 07:37:51,856 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 07:37:51,872 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 07:37:51,872 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 07:37:51,872 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 07:37:53,702 - HASHTAG --> img_saved - Salvo com sucesso
+2021-04-18 07:37:53,702 - HASHTAG --> Retornando img_saved
+2021-04-18 07:37:55,877 - HASHTAG --> Estatos postado
+2021-04-18 07:37:55,877 - HASHTAG --> update -> IMAGEM ENVIADA!
+2021-04-18 07:37:55,877 - HASHTAG --> update -> Finalizado, ID tratado: 1383731450365628417
+2021-04-18 07:37:55,877 - HASHTAG --> update -> Itens restantes: 0
+2021-04-18 07:37:55,877 - HASHTAG --> update -> TWEET TRATADO COM SUCESSO
+2021-04-18 07:37:58,896 - HASHTAG --> ----------------------------------------
+2021-04-18 07:37:58,896 - HASHTAG --> clear_user_list -> Limpeza de lista realizada com sucesso!
+2021-04-18 07:37:58,896 - HASHTAG --> time_to_rest -> Esperando 20 segundos...
+2021-04-18 07:43:12,142 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:43:12,142 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:43:12,142 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:43:12,196 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 07:43:26,140 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 07:43:26,140 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 07:43:26,140 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 07:43:26,140 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 07:43:26,140 - HASHTAG --> Tweet ID: 1383732877506977803
+2021-04-18 07:43:26,140 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 07:43:26,140 - HASHTAG --> Adicionado na fila
+2021-04-18 07:43:26,140 - HASHTAG --> =======================================================
+
+2021-04-18 07:43:31,161 - HASHTAG --> ----------------------------------------
+2021-04-18 07:43:31,161 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 07:43:31,161 - HASHTAG --> ----------------------------------------
+2021-04-18 07:43:31,161 - HASHTAG --> LAST ID:1383732877506977803
+2021-04-18 07:43:31,999 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo "E89444F5937303CB49D4F8F0"
+2021-04-18 07:43:31,999 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 07:43:31,999 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 07:43:31,999 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 07:43:31,999 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 07:43:31,999 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 07:43:31,999 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 07:43:32,015 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 07:43:32,015 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 07:43:32,015 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 07:43:32,015 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 07:43:32,015 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 07:43:32,015 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 07:43:32,015 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo "E89444F5937303CB49D4F8F0"
+2021-04-18 07:43:32,015 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 07:43:32,015 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 07:43:32,015 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 07:43:32,015 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 07:43:32,015 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 07:43:32,015 - HASHTAG --> Imagem do filósofo escolhida: Sócrates.png
+2021-04-18 07:43:32,015 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 07:43:32,015 - HASHTAG --> Nome do filósofo tratado: - Sócrates
+2021-04-18 07:43:32,015 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 07:43:32,015 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 07:43:32,015 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 07:43:32,032 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 07:43:32,047 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 07:43:32,047 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 07:43:32,047 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 07:43:32,047 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 07:43:32,047 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 07:43:32,047 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 07:43:33,890 - HASHTAG --> img_saved - Salvo com sucesso
+2021-04-18 07:43:33,890 - HASHTAG --> Retornando img_saved
+2021-04-18 07:43:36,200 - HASHTAG --> Estatos postado
+2021-04-18 07:43:36,200 - HASHTAG --> update -> IMAGEM ENVIADA!
+2021-04-18 07:43:36,200 - HASHTAG --> update -> Finalizado, ID tratado: 1383732877506977803
+2021-04-18 07:43:36,200 - HASHTAG --> update -> Itens restantes: 0
+2021-04-18 07:43:36,200 - HASHTAG --> update -> TWEET TRATADO COM SUCESSO
+2021-04-18 07:43:39,218 - HASHTAG --> ----------------------------------------
+2021-04-18 07:43:39,218 - HASHTAG --> clear_user_list -> Limpeza de lista realizada com sucesso!
+2021-04-18 07:43:39,218 - HASHTAG --> time_to_rest -> Esperando 20 segundos...
+2021-04-18 07:43:58,267 - HASHTAG --> time_to_rest -> >AGUARDANDO NOVOS TWEETS...<
+2021-04-18 07:59:56,229 - HASHTAG --> Bem-vindo!
+
+2021-04-18 07:59:56,229 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 07:59:56,229 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 07:59:56,282 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:00:10,242 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 08:00:10,242 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 08:00:10,242 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 08:00:10,242 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 08:00:10,242 - HASHTAG --> Tweet ID: 1383737089049587715
+2021-04-18 08:00:10,242 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 08:00:10,242 - HASHTAG --> Adicionado na fila
+2021-04-18 08:00:10,242 - HASHTAG --> =======================================================
+
+2021-04-18 08:00:15,264 - HASHTAG --> ----------------------------------------
+2021-04-18 08:00:15,264 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 08:00:15,264 - HASHTAG --> ----------------------------------------
+2021-04-18 08:00:15,264 - HASHTAG --> LAST ID:1383737089049587715
+2021-04-18 08:00:16,098 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 42D64C78AADD6FB79DB4228D
+2021-04-18 08:00:16,115 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 08:00:16,115 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 08:00:16,115 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 08:00:16,115 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 08:00:16,115 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 08:00:16,115 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 08:00:16,115 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 08:00:16,115 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 08:00:16,115 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 08:00:16,115 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 08:00:16,115 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 08:00:16,115 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 08:00:16,115 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 42D64C78AADD6FB79DB4228D
+2021-04-18 08:00:16,115 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 08:00:16,131 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 08:00:16,131 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 08:00:16,131 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 08:00:16,131 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:00:16,131 - HASHTAG --> Imagem do filósofo escolhida: Abraham Lincoln.png
+2021-04-18 08:00:16,131 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:00:16,131 - HASHTAG --> Nome do filósofo tratado: - Abraham Lincoln
+2021-04-18 08:00:16,131 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:00:16,131 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 08:00:16,131 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 08:00:16,182 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 08:00:16,182 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 08:00:16,182 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 08:00:16,182 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 08:00:16,199 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 08:00:16,199 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 08:00:16,199 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 08:00:16,199 - HASHTAG --> Colocando nome do philosofer
+2021-04-18 08:00:16,199 - HASHTAG --> put name of philosopher
+2021-04-18 08:01:26,985 - HASHTAG --> Bem-vindo!
+
+2021-04-18 08:01:26,985 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 08:01:26,985 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 08:01:27,037 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:01:40,942 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 08:01:40,942 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 08:01:40,942 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 08:01:40,942 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 08:01:40,942 - HASHTAG --> Tweet ID: 1383737469405863939
+2021-04-18 08:01:40,942 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 08:01:40,942 - HASHTAG --> Adicionado na fila
+2021-04-18 08:01:40,942 - HASHTAG --> =======================================================
+
+2021-04-18 08:01:45,955 - HASHTAG --> ----------------------------------------
+2021-04-18 08:01:45,955 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 08:01:45,955 - HASHTAG --> ----------------------------------------
+2021-04-18 08:01:45,955 - HASHTAG --> LAST ID:1383737469405863939
+2021-04-18 08:01:46,826 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo FB7549A7B4AC9C8349743B77
+2021-04-18 08:01:46,842 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 08:01:46,842 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 08:01:46,842 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 08:01:46,842 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 08:01:46,842 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 08:01:46,842 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 08:01:46,842 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 08:01:46,842 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 08:01:46,842 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 08:01:46,842 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 08:01:46,842 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 08:01:46,842 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 08:01:46,842 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo FB7549A7B4AC9C8349743B77
+2021-04-18 08:01:46,842 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 08:01:46,858 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 08:01:46,858 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 08:01:46,858 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 08:01:46,858 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:01:46,858 - HASHTAG --> Imagem do filósofo escolhida: Neantherthal.png
+2021-04-18 08:01:46,858 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:01:46,858 - HASHTAG --> Nome do filósofo tratado: - Neantherthal
+2021-04-18 08:01:46,858 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:01:46,858 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 08:01:46,858 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 08:01:46,858 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 08:01:46,873 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 08:01:46,873 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 08:01:46,873 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 08:01:46,873 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 08:01:46,873 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 08:01:46,873 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 08:01:46,873 - HASHTAG --> Colocando nome do philosofer
+2021-04-18 08:01:46,873 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:01:46,873 - HASHTAG --> Imagem do filósofo escolhida: Neantherthal.png
+2021-04-18 08:01:46,873 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:01:46,873 - HASHTAG --> Nome do filósofo tratado: - Neantherthal
+2021-04-18 08:01:46,873 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:01:46,873 - HASHTAG --> put name of philosopher
+2021-04-18 08:01:51,512 - HASHTAG --> Bem-vindo!
+
+2021-04-18 08:01:51,512 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 08:01:51,512 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 08:01:51,558 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:02:05,508 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 08:02:05,508 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 08:02:05,508 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 08:02:05,508 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 08:02:05,508 - HASHTAG --> Tweet ID: 1383737572468264961
+2021-04-18 08:02:05,508 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 08:02:05,508 - HASHTAG --> Adicionado na fila
+2021-04-18 08:02:05,508 - HASHTAG --> =======================================================
+
+2021-04-18 08:02:10,529 - HASHTAG --> ----------------------------------------
+2021-04-18 08:02:10,529 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 08:02:10,529 - HASHTAG --> ----------------------------------------
+2021-04-18 08:02:10,529 - HASHTAG --> LAST ID:1383737572468264961
+2021-04-18 08:02:11,364 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo F8C342AFB2BC1F44EDD95E3F
+2021-04-18 08:02:11,380 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 08:02:11,380 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 08:02:11,380 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 08:02:11,380 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 08:02:11,380 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 08:02:11,380 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 08:02:11,380 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 08:02:11,380 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 08:02:11,380 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 08:02:11,380 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 08:02:11,380 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 08:02:11,380 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 08:02:11,380 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo F8C342AFB2BC1F44EDD95E3F
+2021-04-18 08:02:11,380 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 08:02:11,396 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 08:02:11,396 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 08:02:11,396 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 08:02:11,396 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:02:11,396 - HASHTAG --> Imagem do filósofo escolhida: Sigmund Freud.png
+2021-04-18 08:02:11,396 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:02:11,396 - HASHTAG --> Nome do filósofo tratado: - Sigmund Freud
+2021-04-18 08:02:11,396 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:02:11,396 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 08:02:11,396 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 08:02:11,396 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 08:02:11,396 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 08:02:11,396 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 08:02:11,396 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 08:02:11,413 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 08:02:11,413 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 08:02:11,413 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 08:02:11,413 - HASHTAG --> Colocando nome do philosofer
+2021-04-18 08:02:11,413 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:02:11,413 - HASHTAG --> Imagem do filósofo escolhida: Sigmund Freud.png
+2021-04-18 08:02:11,413 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:02:11,413 - HASHTAG --> Nome do filósofo tratado: - Sigmund Freud
+2021-04-18 08:02:11,413 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:02:11,413 - HASHTAG --> put name of philosopher
+2021-04-18 08:07:32,184 - HASHTAG --> Bem-vindo!
+
+2021-04-18 08:07:32,184 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 08:07:32,184 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 08:07:32,309 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:07:46,197 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 08:07:46,197 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 08:07:46,197 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 08:07:46,197 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 08:07:46,197 - HASHTAG --> Tweet ID: 1383739001450885124
+2021-04-18 08:07:46,197 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 08:07:46,197 - HASHTAG --> Adicionado na fila
+2021-04-18 08:07:46,197 - HASHTAG --> =======================================================
+
+2021-04-18 08:07:51,218 - HASHTAG --> ----------------------------------------
+2021-04-18 08:07:51,218 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 08:07:51,218 - HASHTAG --> ----------------------------------------
+2021-04-18 08:07:51,218 - HASHTAG --> LAST ID:1383739001450885124
+2021-04-18 08:07:52,070 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo A3CB4F7DB8B14C61648EEF4E
+2021-04-18 08:07:52,086 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 08:07:52,086 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 08:07:52,086 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 08:07:52,086 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 08:07:52,087 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 08:07:52,087 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 08:07:52,087 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 08:07:52,087 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 08:07:52,087 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 08:07:52,087 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 08:07:52,087 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 08:07:52,087 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 08:07:52,087 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo A3CB4F7DB8B14C61648EEF4E
+2021-04-18 08:07:52,087 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 08:07:52,087 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 08:07:52,087 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 08:07:52,087 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 08:07:52,087 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:07:52,087 - HASHTAG --> Imagem do filósofo escolhida: Paulo Freire.png
+2021-04-18 08:07:52,087 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:07:52,087 - HASHTAG --> Nome do filósofo tratado: - Paulo Freire
+2021-04-18 08:07:52,087 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:07:52,087 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 08:07:52,087 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 08:07:52,137 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 08:07:52,153 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 08:07:52,153 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 08:07:52,153 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 08:07:52,169 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 08:07:52,169 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 08:07:52,169 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 08:07:52,169 - HASHTAG --> Colocando nome do philosofer
+2021-04-18 08:07:52,169 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:07:52,169 - HASHTAG --> Imagem do filósofo escolhida: Paulo Freire.png
+2021-04-18 08:07:52,169 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:07:52,169 - HASHTAG --> Nome do filósofo tratado: - Paulo Freire
+2021-04-18 08:07:52,169 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:07:52,169 - HASHTAG --> put name of philosopher
+2021-04-18 08:07:56,844 - HASHTAG --> Bem-vindo!
+
+2021-04-18 08:07:56,844 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 08:07:56,844 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 08:07:56,876 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:08:10,807 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 08:08:10,807 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 08:08:10,807 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 08:08:10,807 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 08:08:10,807 - HASHTAG --> Tweet ID: 1383739104643350531
+2021-04-18 08:08:10,807 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 08:08:10,807 - HASHTAG --> Adicionado na fila
+2021-04-18 08:08:10,807 - HASHTAG --> =======================================================
+
+2021-04-18 08:08:15,811 - HASHTAG --> ----------------------------------------
+2021-04-18 08:08:15,811 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 08:08:15,811 - HASHTAG --> ----------------------------------------
+2021-04-18 08:08:15,811 - HASHTAG --> LAST ID:1383739104643350531
+2021-04-18 08:08:16,661 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 4B8A4CC1825E9B4E7C9E2A5C
+2021-04-18 08:08:16,683 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 08:08:16,683 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 08:08:16,683 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 08:08:16,683 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 08:08:16,683 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 08:08:16,683 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 08:08:16,683 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 08:08:16,683 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 08:08:16,683 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 08:08:16,683 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 08:08:16,683 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 08:08:16,683 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 08:08:16,683 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 4B8A4CC1825E9B4E7C9E2A5C
+2021-04-18 08:08:16,683 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 08:08:16,683 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 08:08:16,683 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 08:08:16,683 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 08:08:16,683 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:08:16,683 - HASHTAG --> Imagem do filósofo escolhida: João Amoêdo.png
+2021-04-18 08:08:16,683 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:08:16,683 - HASHTAG --> Nome do filósofo tratado: - João Amoêdo
+2021-04-18 08:08:16,683 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:08:16,683 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 08:08:16,683 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 08:08:16,716 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 08:08:16,732 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 08:08:16,732 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 08:08:16,732 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 08:08:16,732 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 08:08:16,732 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 08:08:16,732 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 08:08:16,732 - HASHTAG --> Colocando nome do philosofer
+2021-04-18 08:08:16,732 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:08:16,732 - HASHTAG --> Imagem do filósofo escolhida: João Amoêdo.png
+2021-04-18 08:08:16,732 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:08:16,732 - HASHTAG --> Nome do filósofo tratado: - João Amoêdo
+2021-04-18 08:08:16,732 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:08:16,732 - HASHTAG --> put name of philosopher
+2021-04-18 08:14:45,549 - HASHTAG --> Bem-vindo!
+
+2021-04-18 08:14:45,550 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 08:14:45,550 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 08:14:45,591 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:15:01,624 - HASHTAG --> Bem-vindo!
+
+2021-04-18 08:15:01,624 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 08:15:01,624 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 08:15:01,673 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:15:15,618 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 08:15:15,618 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 08:15:15,618 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 08:15:15,618 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 08:15:15,618 - HASHTAG --> Tweet ID: 1383740886404583428
+2021-04-18 08:15:15,618 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 08:15:15,618 - HASHTAG --> Adicionado na fila
+2021-04-18 08:15:15,618 - HASHTAG --> =======================================================
+
+2021-04-18 08:15:20,634 - HASHTAG --> ----------------------------------------
+2021-04-18 08:15:20,634 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 08:15:20,634 - HASHTAG --> ----------------------------------------
+2021-04-18 08:15:20,634 - HASHTAG --> LAST ID:1383740886404583428
+2021-04-18 08:15:21,504 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 584D47E5A97ADED1A2BC4B66
+2021-04-18 08:15:21,521 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 08:15:21,521 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 08:15:21,521 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 08:15:21,521 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 08:15:21,521 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 08:15:21,521 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 08:15:21,521 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 08:15:21,521 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 08:15:21,521 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 08:15:21,521 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 08:15:21,521 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 08:15:21,521 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 08:15:21,521 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 584D47E5A97ADED1A2BC4B66
+2021-04-18 08:15:21,521 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 08:15:21,521 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 08:15:21,521 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 08:15:21,521 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 08:15:21,521 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:15:21,521 - HASHTAG --> Imagem do filósofo escolhida: Carlos Marighella.png
+2021-04-18 08:15:21,521 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:15:21,521 - HASHTAG --> Nome do filósofo tratado: - Carlos Marighella
+2021-04-18 08:15:21,521 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:15:21,521 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 08:15:21,521 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 08:15:21,587 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 08:15:21,591 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 08:15:21,591 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 08:15:21,591 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 08:15:21,607 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 08:15:21,607 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 08:15:21,607 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 08:15:21,607 - HASHTAG --> Colocando nome do philosopher
+2021-04-18 08:15:21,607 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:15:21,607 - HASHTAG --> Imagem do filósofo escolhida: Carlos Marighella.png
+2021-04-18 08:15:21,607 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:15:21,607 - HASHTAG --> Nome do filósofo tratado: - Carlos Marighella
+2021-04-18 08:15:21,607 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:15:21,607 - HASHTAG --> put name of philosopher
+2021-04-18 08:21:38,382 - HASHTAG --> Bem-vindo!
+
+2021-04-18 08:21:38,382 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 08:21:38,382 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 08:21:38,430 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:21:52,360 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 08:21:52,360 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 08:21:52,360 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 08:21:52,360 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 08:21:52,360 - HASHTAG --> Tweet ID: 1383742550519926788
+2021-04-18 08:21:52,360 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 08:21:52,360 - HASHTAG --> Adicionado na fila
+2021-04-18 08:21:52,360 - HASHTAG --> =======================================================
+
+2021-04-18 08:21:57,378 - HASHTAG --> ----------------------------------------
+2021-04-18 08:21:57,378 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 08:21:57,378 - HASHTAG --> ----------------------------------------
+2021-04-18 08:21:57,378 - HASHTAG --> LAST ID:1383742550519926788
+2021-04-18 08:21:58,216 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 678C49CAA7A9FCCFCC474D73
+2021-04-18 08:21:58,232 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 08:21:58,232 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 08:21:58,232 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 08:21:58,232 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 08:21:58,232 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 08:21:58,232 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 08:21:58,232 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 08:21:58,232 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 08:21:58,232 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 08:21:58,232 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 08:21:58,232 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 08:21:58,232 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 08:21:58,232 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 678C49CAA7A9FCCFCC474D73
+2021-04-18 08:21:58,232 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 08:21:58,232 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 08:21:58,232 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 08:21:58,232 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 08:21:58,232 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:21:58,232 - HASHTAG --> Imagem do filósofo escolhida: Martin Luther King.png
+2021-04-18 08:21:58,232 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:21:58,232 - HASHTAG --> Nome do filósofo tratado: - Martin Luther King
+2021-04-18 08:21:58,232 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:21:58,232 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 08:21:58,232 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 08:21:58,316 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 08:21:58,332 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 08:21:58,332 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 08:21:58,333 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 08:21:58,333 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 08:21:58,333 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 08:21:58,333 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 08:21:58,333 - HASHTAG --> Colocando nome do philosopher
+2021-04-18 08:21:58,333 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:21:58,333 - HASHTAG --> Imagem do filósofo escolhida: Martin Luther King.png
+2021-04-18 08:21:58,333 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:21:58,333 - HASHTAG --> Nome do filósofo tratado: - Martin Luther King
+2021-04-18 08:21:58,333 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:21:58,333 - HASHTAG --> put name of philosopher
+2021-04-18 08:25:21,092 - HASHTAG --> Bem-vindo!
+
+2021-04-18 08:25:21,093 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 08:25:21,093 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 08:25:21,137 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:25:35,082 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 08:25:35,082 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 08:25:35,082 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 08:25:35,082 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 08:25:35,082 - HASHTAG --> Tweet ID: 1383743484687835139
+2021-04-18 08:25:35,082 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 08:25:35,082 - HASHTAG --> Adicionado na fila
+2021-04-18 08:25:35,082 - HASHTAG --> =======================================================
+
+2021-04-18 08:25:40,104 - HASHTAG --> ----------------------------------------
+2021-04-18 08:25:40,104 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 08:25:40,104 - HASHTAG --> ----------------------------------------
+2021-04-18 08:25:40,104 - HASHTAG --> LAST ID:1383743484687835139
+2021-04-18 08:25:40,990 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 714742E497B8CBFD59211B1F
+2021-04-18 08:25:40,992 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 08:25:40,992 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 08:25:40,992 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 08:25:40,992 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 08:25:40,992 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 08:25:40,992 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 08:25:41,006 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 08:25:41,006 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 08:25:41,006 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 08:25:41,006 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 08:25:41,006 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 08:25:41,006 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 08:25:41,006 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 714742E497B8CBFD59211B1F
+2021-04-18 08:25:41,007 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 08:25:41,007 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 08:25:41,007 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 08:25:41,007 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 08:25:41,007 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:25:41,007 - HASHTAG --> Imagem do filósofo escolhida: Carlos Marighella.png
+2021-04-18 08:25:41,007 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:25:41,007 - HASHTAG --> Nome do filósofo tratado: - Carlos Marighella
+2021-04-18 08:25:41,007 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:25:41,007 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 08:25:41,007 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 08:25:41,007 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 08:25:41,022 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 08:25:41,022 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 08:25:41,022 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 08:25:41,041 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 08:25:41,041 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 08:25:41,042 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 08:25:41,043 - HASHTAG --> Colocando nome do philosopher
+2021-04-18 08:26:35,058 - HASHTAG --> Bem-vindo!
+
+2021-04-18 08:26:35,058 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 08:26:35,058 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 08:26:35,093 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:26:49,076 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 08:26:49,076 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 08:26:49,076 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 08:26:49,076 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 08:26:49,076 - HASHTAG --> Tweet ID: 1383743794810548228
+2021-04-18 08:26:49,076 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 08:26:49,076 - HASHTAG --> Adicionado na fila
+2021-04-18 08:26:49,076 - HASHTAG --> =======================================================
+
+2021-04-18 08:26:54,095 - HASHTAG --> ----------------------------------------
+2021-04-18 08:26:54,095 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 08:26:54,095 - HASHTAG --> ----------------------------------------
+2021-04-18 08:26:54,095 - HASHTAG --> LAST ID:1383743794810548228
+2021-04-18 08:26:54,951 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo E2BE49D588D50CFD7DD3320A
+2021-04-18 08:26:54,963 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 08:26:54,963 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 08:26:54,963 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 08:26:54,963 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 08:26:54,963 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 08:26:54,963 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 08:26:54,963 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 08:26:54,963 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 08:26:54,963 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 08:26:54,963 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 08:26:54,963 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 08:26:54,963 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 08:26:54,963 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo E2BE49D588D50CFD7DD3320A
+2021-04-18 08:26:54,963 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 08:26:54,980 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 08:26:54,980 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 08:26:54,980 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 08:26:54,980 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:26:54,980 - HASHTAG --> Imagem do filósofo escolhida: Judas Iscariotes.png
+2021-04-18 08:26:54,980 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:26:54,980 - HASHTAG --> Nome do filósofo tratado: - Judas Iscariotes
+2021-04-18 08:26:54,980 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:26:54,980 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 08:26:54,980 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 08:26:55,035 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 08:26:55,048 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 08:26:55,048 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 08:26:55,048 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 08:26:55,063 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 08:26:55,063 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 08:26:55,063 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 08:26:55,063 - HASHTAG --> Colocando nome do philosopher
+2021-04-18 08:26:55,063 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:26:55,063 - HASHTAG --> Imagem do filósofo escolhida: Judas Iscariotes.png
+2021-04-18 08:26:55,063 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:26:55,063 - HASHTAG --> Nome do filósofo tratado: - Judas Iscariotes
+2021-04-18 08:26:55,063 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:28:46,024 - HASHTAG --> Bem-vindo!
+
+2021-04-18 08:28:46,024 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 08:28:46,024 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 08:28:46,078 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:28:59,973 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 08:28:59,973 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 08:28:59,973 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 08:28:59,973 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 08:28:59,973 - HASHTAG --> Tweet ID: 1383744344092332036
+2021-04-18 08:28:59,973 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 08:28:59,973 - HASHTAG --> Adicionado na fila
+2021-04-18 08:28:59,973 - HASHTAG --> =======================================================
+
+2021-04-18 08:29:04,993 - HASHTAG --> ----------------------------------------
+2021-04-18 08:29:04,993 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 08:29:04,993 - HASHTAG --> ----------------------------------------
+2021-04-18 08:29:04,993 - HASHTAG --> LAST ID:1383744344092332036
+2021-04-18 08:29:05,827 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 16574B30A20BAF3E2B278DCF
+2021-04-18 08:29:05,832 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 08:29:05,832 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 08:29:05,832 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 08:29:05,832 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 08:29:05,832 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 08:29:05,832 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 08:29:05,843 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 08:29:05,843 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 08:29:05,843 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 08:29:05,843 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 08:29:05,843 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 08:29:05,843 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 08:29:05,843 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 16574B30A20BAF3E2B278DCF
+2021-04-18 08:29:05,843 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 08:29:05,843 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 08:29:05,843 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 08:29:05,843 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 08:29:05,843 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 08:29:05,843 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 08:29:05,910 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 08:29:05,914 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 08:29:05,925 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 08:29:05,925 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 08:29:05,936 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 08:29:05,936 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 08:29:05,936 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 08:29:05,936 - HASHTAG --> Colocando nome do philosopher
+2021-04-18 08:29:05,936 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:29:05,936 - HASHTAG --> Imagem do filósofo escolhida: Kim Jong-il.png
+2021-04-18 08:29:05,936 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:29:05,936 - HASHTAG --> Nome do filósofo tratado: - Kim Jong-il
+2021-04-18 08:29:05,936 - HASHTAG --> ajust_philosopher_name -> Saindo
+2021-04-18 08:31:10,819 - HASHTAG --> Bem-vindo!
+
+2021-04-18 08:31:10,820 - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-04-18 08:31:10,820 - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-04-18 08:31:10,874 - HASHTAG --> HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT
+2021-04-18 08:31:24,833 - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-04-18 08:31:24,833 - HASHTAG --> [LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]
+2021-04-18 08:31:24,833 - HASHTAG --> ITENS NA LISTA:
+2021-04-18 08:31:24,833 - HASHTAG --> ['TestePhiloBot']
+2021-04-18 08:31:24,834 - HASHTAG --> Tweet ID: 1383744951456997385
+2021-04-18 08:31:24,834 - HASHTAG --> Tweet USERNAME: TestePhiloBot
+2021-04-18 08:31:24,834 - HASHTAG --> Adicionado na fila
+2021-04-18 08:31:24,834 - HASHTAG --> =======================================================
+
+2021-04-18 08:31:29,837 - HASHTAG --> ----------------------------------------
+2021-04-18 08:31:29,837 - HASHTAG --> > STARTING PHILOBOT < '
+2021-04-18 08:31:29,837 - HASHTAG --> ----------------------------------------
+2021-04-18 08:31:29,837 - HASHTAG --> LAST ID:1383744951456997385
+2021-04-18 08:31:30,710 - HASHTAG --> [ETAPA 1] Status coletado: #TestePhilo 3A614105B0522B93D5F5D7E7
+2021-04-18 08:31:30,728 - HASHTAG --> DEFAULT_TEMPLATE -> Iniciando
+2021-04-18 08:31:30,728 - HASHTAG --> DEFAULT_TEMPLATE -> Pass myriad
+2021-04-18 08:31:30,728 - HASHTAG --> DEFAULT_TEMPLATE -> Pass times
+2021-04-18 08:31:30,728 - HASHTAG --> DEFAULT_TEMPLATE -> Pass TXT
+2021-04-18 08:31:30,728 - HASHTAG --> DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK
+2021-04-18 08:31:30,728 - HASHTAG --> DEFAULT_TEMPLATE -> Pass font size
+2021-04-18 08:31:30,728 - HASHTAG --> DEFAULT_TEMPLATE -> Pass QUOTE FONTE
+2021-04-18 08:31:30,728 - HASHTAG --> DEFAULT_TEMPLATE -> Primeira forma do status pega
+2021-04-18 08:31:30,728 - HASHTAG --> DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT
+2021-04-18 08:31:30,728 - HASHTAG --> BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment
+2021-04-18 08:31:30,728 - HASHTAG --> BASIC TEXT TREATMENT -> Passou de self.remove_user
+2021-04-18 08:31:30,728 - HASHTAG --> BASIC TEXT TREATMENT -> marcações retiradas: 
+2021-04-18 08:31:30,728 - HASHTAG --> BASIC TEXT TREATMENT -> #TestePhilo 3A614105B0522B93D5F5D7E7
+2021-04-18 08:31:30,728 - HASHTAG --> BASIC TEXT TREATMENT -> Passou do LOG
+2021-04-18 08:31:30,739 - HASHTAG --> DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST
+2021-04-18 08:31:30,754 - HASHTAG --> CHOOSE PHILOSPHER ->Pass randmom choose philo
+2021-04-18 08:31:30,754 - HASHTAG --> Entrando no ajust_philosopher_name
+2021-04-18 08:31:30,754 - HASHTAG --> img_paste -> Indo entrar
+2021-04-18 08:31:30,754 - HASHTAG --> 1 img_paste -> Entrou
+2021-04-18 08:31:30,804 - HASHTAG --> 2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)
+2021-04-18 08:31:30,822 - HASHTAG --> 3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+2021-04-18 08:31:30,822 - HASHTAG --> 4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+2021-04-18 08:31:30,822 - HASHTAG --> 5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))
+2021-04-18 08:31:30,839 - HASHTAG --> 6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+2021-04-18 08:31:30,839 - HASHTAG --> 7 img_paste -> Saiu
+2021-04-18 08:31:30,839 - HASHTAG --> img_paste -> SAIU ESTANDO NO TEMPLATE
+2021-04-18 08:31:30,839 - HASHTAG --> Colocando nome do philosopher
+2021-04-18 08:31:30,839 - HASHTAG --> ajust_philosopher_name -> Entrou
+2021-04-18 08:31:30,839 - HASHTAG --> Imagem do filósofo escolhida: Thomas Shelby.png
+2021-04-18 08:31:30,839 - HASHTAG --> Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-04-18 08:31:30,839 - HASHTAG --> Nome do filósofo tratado: - Thomas Shelby
+2021-04-18 08:31:30,839 - HASHTAG --> ajust_philosopher_name -> Saindo
