@@ -10,7 +10,7 @@ from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
 dotenv.load_dotenv(dotenv.find_dotenv())
 
 
-class Font(object):
+class Font():
 
     # // Lembre-se de definir valores pra posições x y default/sem aspas e com aspas
 
@@ -171,24 +171,24 @@ class Font(object):
                               fill=(255, 255, 255),
                               font=ImageFont.truetype(font_philosopher_text, size_tweet_text))
 
-    def ajust_philosopher_name(self, LOG, choose_philosopher_param):
-        # choose philosopher
-        LOG.info("ajust_philosopher_name -> Entrou")
-        remove_path_filename = os.path.basename(choose_philosopher_param)
-        LOG.info(f"Imagem do filósofo escolhida: {remove_path_filename}")
-        remove_extension_filename = remove_path_filename.replace('.png', '')
-
-        if f'({int})' in remove_extension_filename:
-            LOG.info("Removendo lixo no nome da imagem do filosofo...")
-            remove_number_in_name = remove_extension_filename.replace(f'({int})', '')
-            self.finish_name_philosopher = f'- {remove_number_in_name}'
-            LOG.info(f'Nome do filósofo tratado: {self.finish_name_philosopher}')
-        else:
-            self.finish_name_philosopher = f'- {remove_extension_filename}'
-            LOG.info("Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...")
-            LOG.info(f'Nome do filósofo tratado: {self.finish_name_philosopher}')
-        LOG.info("ajust_philosopher_name -> Saindo")
-        return self.finish_name_philosopher
+    # def ajust_philosopher_name(self, LOG, choose_philosopher_param):
+    #     # choose philosopher
+    #     LOG.info("ajust_philosopher_name -> Entrou")
+    #     remove_path_filename = os.path.basename(choose_philosopher_param)
+    #     LOG.info(f"Imagem do filósofo escolhida: {remove_path_filename}")
+    #     remove_extension_filename = remove_path_filename.replace('.png', '')
+    #
+    #     if f'({int})' in remove_extension_filename:
+    #         LOG.info("Removendo lixo no nome da imagem do filosofo...")
+    #         remove_number_in_name = remove_extension_filename.replace(f'({int})', '')
+    #         self.finish_name_philosopher = f'- {remove_number_in_name}'
+    #         LOG.info(f'Nome do filósofo tratado: {self.finish_name_philosopher}')
+    #     else:
+    #         self.finish_name_philosopher = f'- {remove_extension_filename}'
+    #         LOG.info("Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...")
+    #         LOG.info(f'Nome do filósofo tratado: {self.finish_name_philosopher}')
+    #     LOG.info("ajust_philosopher_name -> Saindo")
+    #     return self.finish_name_philosopher
 
     def adjust_tweet_font_size(self, font_philo_txt, blank_layer, font_size_param, quote_font):
         while (quote_font.getsize(font_philo_txt)[0] < blank_layer.size[0]) and (

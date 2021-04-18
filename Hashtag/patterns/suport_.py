@@ -7,7 +7,7 @@ from Lists.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
 from Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
 
 
-class Suport(object):
+class Suport():
 
     def check_emptystring(self, LAST_ID, LOG, first_status_param, clear_users_param, philobot_hashtag,
                           philomaker_hashtag, remove_user_from_list):
@@ -50,28 +50,28 @@ class Suport(object):
             LOG.info('CHECK EMPTYSTRING -> >AGUARDANDO NOVOS TWEETS...<')
             return HashtagClass
 
-    def basic_text_treatment(self, get_status_param, image_param, sub_list_param, LOG, clear_users_param):
-
-        try:
-            LOG.info("BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment")
-            self.remove_user = re.sub('@[^\s]+', '', get_status_param)
-            LOG.info("BASIC TEXT TREATMENT -> Passou de self.remove_user")
-            LOG.info('BASIC TEXT TREATMENT -> marcações retiradas: ')
-            LOG.info("BASIC TEXT TREATMENT -> " + self.remove_user)
-            LOG.info("BASIC TEXT TREATMENT -> Passou do LOG")
-            self.treating_status = re.sub(r'https://.*[\r\n]*', '', self.remove_user)
-            self.drawing = ImageDraw.Draw(image_param)
-
-            sub_list_config = dict((re.escape(k), v) for k, v in sub_list_param.items())
-            pattern = re.compile("|".join(sub_list_config.keys()))
-            self.get_treated_status = pattern.sub(lambda m: sub_list_config[re.escape(m.group(0))],
-                                                  self.treating_status).strip()
-
-            return self.get_treated_status
-        except tweepy.error.TweepError as e:
-            LOG.error(e)
-            LOG.info("BASIC TEXT TREATMENT -> TRATAMENTO DE TEXTO CANCELADO - TWEET DELETADO")
-            clear_users_param.clear()
+    # def basic_text_treatment(self, get_status_param, image_param, sub_list_param, LOG, clear_users_param):
+    #
+    #     try:
+    #         LOG.info("BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment")
+    #         self.remove_user = re.sub('@[^\s]+', '', get_status_param)
+    #         LOG.info("BASIC TEXT TREATMENT -> Passou de self.remove_user")
+    #         LOG.info('BASIC TEXT TREATMENT -> marcações retiradas: ')
+    #         LOG.info("BASIC TEXT TREATMENT -> " + self.remove_user)
+    #         LOG.info("BASIC TEXT TREATMENT -> Passou do LOG")
+    #         self.treating_status = re.sub(r'https://.*[\r\n]*', '', self.remove_user)
+    #         self.drawing = ImageDraw.Draw(image_param)
+    #
+    #         sub_list_config = dict((re.escape(k), v) for k, v in sub_list_param.items())
+    #         pattern = re.compile("|".join(sub_list_config.keys()))
+    #         self.get_treated_status = pattern.sub(lambda m: sub_list_config[re.escape(m.group(0))],
+    #                                               self.treating_status).strip()
+    #
+    #         return self.get_treated_status
+    #     except tweepy.error.TweepError as e:
+    #         LOG.error(e)
+    #         LOG.info("BASIC TEXT TREATMENT -> TRATAMENTO DE TEXTO CANCELADO - TWEET DELETADO")
+    #         clear_users_param.clear()
 
     def check_rt(self, LOG, q_tweet_info, q_username_pop):
 

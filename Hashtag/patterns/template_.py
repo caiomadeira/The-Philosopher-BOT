@@ -10,6 +10,8 @@ nomes de funções são MINUSCULAS e usando UNDERSCORE
 
 import random
 import re
+
+import tweepy
 from PIL import Image, ImageDraw, ImageFont
 from Lists.img_list import PHILOSOPHERS_LIST
 from Hashtag.patterns.font_ import Font
@@ -24,15 +26,13 @@ from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH, TEMPLATES_P
 # O ideal é que o env não seja carregado aqui, pois pode haver mais de um
 dotenv.load_dotenv(dotenv.find_dotenv())
 
+
 # BASE_TEMPLATE_LAYER = Image.open(os.getenv('template_layer_1'))
 # myriad = os.getenv('myriad_font')
 # times = os.getenv('times_font')
 # TXT = random.choices(myriad, times)
 # second_font = random.choices(myriad, times)
 # BLANK = Image.new('RGB', (269, 194))
-
-BASE_TEMPLATE_LAYER = Image.open(TEMPLATES_PATH)
-TEMPLATE_LAYER_3 = Image.open(TEMPLATES_PATH_LAYER_3)
 
 
 class Template(Font, Suport):
@@ -43,27 +43,43 @@ class Template(Font, Suport):
     # BASE_TEMPLATE_LAYER = Image.open(os.getenv('template_layer_1'))
 
     def default_template(self, status_text, LOG, clear_users_param):
+        BASE_TEMPLATE_LAYER = Image.open(TEMPLATES_PATH)
+        TEMPLATE_LAYER_3 = Image.open(TEMPLATES_PATH_LAYER_3)
         # BASE_TEMPLATE_LAYER = Image.open(os.getenv('template_layer_1'))
         LOG.info("DEFAULT_TEMPLATE -> Iniciando")
         LOG.info("DEFAULT_TEMPLATE -> Pass myriad")
         LOG.info("DEFAULT_TEMPLATE -> Pass times")
         TXT = 'Font/myriad.otf'
         LOG.info("DEFAULT_TEMPLATE -> Pass TXT")
-        second_font = 'Font/myriad.otf'
         BLANK = Image.new('RGB', (269, 194))
         LOG.info("DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK")
         font_size = 1
         LOG.info("DEFAULT_TEMPLATE -> Pass font size")
-        # quote_font = ImageFont.truetype('Font/myriad.otf', font_size)
+        # font = ImageFont.truetype('Font/myriad.otf', font_size)
         LOG.info("DEFAULT_TEMPLATE -> Pass QUOTE FONTE")
         LOG.info("DEFAULT_TEMPLATE -> Primeira forma do status pega")
         LOG.info("DEFAULT_TEMPLATE -> ENTRANDO NA BASIC TREATATMENT")
 
-        self.basic_text_treatment(get_status_param=status_text,
-                                  image_param=BASE_TEMPLATE_LAYER,
-                                  sub_list_param=sub_list_philobot,
-                                  LOG=LOG,
-                                  clear_users_param=clear_users_param)
+
+        try:
+            LOG.info("BASIC TEXT TREATMENT -> Entrou na função basic_text_treatment")
+            remove_user = re.sub('@[^\s]+', '', status_text)
+            LOG.info("BASIC TEXT TREATMENT -> Passou de self.remove_user")
+            LOG.info('BASIC TEXT TREATMENT -> marcações retiradas: ')
+            LOG.info("BASIC TEXT TREATMENT -> " + remove_user)
+            LOG.info("BASIC TEXT TREATMENT -> Passou do LOG")
+            treating_status = re.sub(r'https://.*[\r\n]*', '', remove_user)
+            drawing = ImageDraw.Draw(BASE_TEMPLATE_LAYER)
+
+            sub_list_config = dict((re.escape(k), v) for k, v in sub_list_philobot.items())
+            pattern = re.compile("|".join(sub_list_config.keys()))
+            get_treated_status = pattern.sub(lambda m: sub_list_config[re.escape(m.group(0))],
+                                                  treating_status).strip()
+
+        except tweepy.error.TweepError as e:
+            LOG.error(e)
+            LOG.info("BASIC TEXT TREATMENT -> TRATAMENTO DE TEXTO CANCELADO - TWEET DELETADO")
+            clear_users_param.clear()
 
         LOG.info("DEFAULT_TEMPLATE ->ENTRANDO NA FONT SUIZE AJDUST")
         # self.adjust_tweet_font_size(font_philo_txt=TXT,
@@ -74,9 +90,37 @@ class Template(Font, Suport):
         choose_philosopher = random.choice(PHILOSOPHERS_LIST)
         LOG.info("CHOOSE PHILOSPHER ->Pass randmom choose philo")
         LOG.info("Entrando no ajust_philosopher_name")
-        self.ajust_philosopher_name(choose_philosopher_param=choose_philosopher, LOG=LOG)
+
+        # choose philosopher
+        LOG.info("ajust_philosopher_name -> Entrou")
+        remove_path_filename = os.path.basename(choose_philosopher)
+        LOG.info(f"Imagem do filósofo escolhida: {remove_path_filename}")
+        remove_extension_filename = remove_path_filename.replace('.png', '')
+
+        if f'({int})' in remove_extension_filename:
+            LOG.info("Removendo lixo no nome da imagem do filosofo...")
+            remove_number_in_name = remove_extension_filename.replace(f'({int})', '')
+            self.finish_name_philosopher = f'- {remove_number_in_name}'
+            LOG.info(f'Nome do filósofo tratado: {self.finish_name_philosopher}')
+        else:
+            self.finish_name_philosopher = f'- {remove_extension_filename}'
+            LOG.info("Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...")
+            LOG.info(f'Nome do filósofo tratado: {self.finish_name_philosopher}')
+        LOG.info("ajust_philosopher_name -> Saindo")
+
         LOG.info("img_paste -> Indo entrar")
-        self.img_paste(LOG=LOG, choose_philo_param=choose_philosopher, template_layer_3=TEMPLATE_LAYER_3)
+
+        LOG.info("1 img_paste -> Entrou")
+        philosopher_str_to_obj = Image.open(choose_philosopher)
+        LOG.info("2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)")
+        TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
+        LOG.info("3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))")
+        BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
+        LOG.info("4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))")
+        LOG.info("5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))")
+        BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
+        LOG.info("6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)")
+        LOG.info("7 img_paste -> Saiu")
         LOG.info("img_paste -> SAIU ESTANDO NO TEMPLATE")
         # DEFAULT VALUE
         # tweet_default_PosX = 38
@@ -101,44 +145,19 @@ class Template(Font, Suport):
         #                    tweet_posY=tweet_posY(105),
         #                    textwraped_value=textwraped_value(25),
         #                    philosopher_name=self.finish_name_philosopher,
-        #                    font_philo_text=TXT,
-        #                    font_philo_name=second_font,
+        #                    font_philo_text=ImageFont.truetype('Font/myriad.otf', font_size),
+        #                    font_philo_name=ImageFont.truetype('Font/myriad.otf', font_size),
         #                    author_posX=author_posX(43),
         #                    author_posY=author_posY(512),
         #                    LOG=LOG)
-        '''
-        O CODIGO PARA AQUI SEM OS RECURSOS QUE ESTAO COMENTADOS
-        '''
-        LOG.info("O CODIGO PARA AQUI SEM OS RECURSOS QUE ESTAO COMENTADOS")
-        # BASE_TEMPLATE_LAYER.save("Hashtag/save_img/hashtag.png")
-        LOG.info("Salvo com sucesso")
+
+        BASE_TEMPLATE_LAYER.save("Hashtag.png")
+        BASE_TEMPLATE_LAYER.show()
+        self.img_saved = "Hashtag.png"
+        LOG.info("img_saved - Salvo com sucesso")
 
         from Hashtag.hashtag import HashtagClass
-        LOG.info("Retornando á classe")
-        return HashtagClass
+        LOG.info("Retornando img_saved")
 
-    def adjust_tweet_font_size(self, font_philo_txt, LOG, blank_layer, font_size_param):
+        return self.img_saved
 
-        quote_font = ImageFont.truetype('Font/myriad.otf', font_size_param)
-        while (quote_font.getsize(font_philo_txt)[0] < blank_layer.size[0]) and (
-                quote_font.getsize(font_philo_txt)[1] < blank_layer.size[1]):
-            font_size_param += 1  # AUMENTANDO o valor do tamanho da fonte de acordo com o texto
-            quote_font = ImageFont.truetype(font_philo_txt, font_size_param)
-        LOG.info('Configurando imagem...')
-        font_size_param -= 1  # DIMINUINDO o valor do tamanho da fonte de acordo com o texto
-        quote_font = ImageFont.truetype(font_philo_txt, font_size_param)
-        self.drawing.textsize(font_philo_txt, font=quote_font)
-
-    def img_paste(self, LOG, choose_philo_param, template_layer_3):
-        LOG.info("1 img_paste -> Entrou")
-        philosopher_str_to_obj = Image.open(choose_philo_param)
-        LOG.info("2 img_paste -> Passou de philosopher_str_to_obj = Image.open(choose_philo_param)")
-        TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))
-        LOG.info("3 img_paste -> Passou de TEMPLATE_LAYER_2_PHILOSOPHER = philosopher_str_to_obj.resize((449, 584))")
-        BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))
-        LOG.info("4 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_2_PHILOSOPHER, (629, 0))")
-        TEMPLATE_LAYER_3 = template_layer_3
-        LOG.info("5 img_paste -> Passou de TEMPLATE_LAYER_3 = Image.open(os.getenv('template_layer_3'))")
-        BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)
-        LOG.info("6 img_paste -> Passou de BASE_TEMPLATE_LAYER.paste(TEMPLATE_LAYER_3, (0, 0), TEMPLATE_LAYER_3)")
-        LOG.info("7 img_paste -> Saiu")

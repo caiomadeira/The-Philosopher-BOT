@@ -94,18 +94,4 @@ class HashtagClass(tweepy.StreamListener, PhiloBot):
     #         time.sleep(2)
     #         return HashtagClass
 
-    def update(self, post, status, post_username):
-        number = 1
-        try:
-            tweepy.Cursor(self.api.user_timeline).items(number)
-            self.api.update_with_media(post, status="@" + post_username + " ", auto_populate_reply_metadata=True,
-                                       in_reply_to_status_id=status)
-            self.log.info('update -> IMAGEM ENVIADA!')
-            self.log.info('update -> Finalizado, ID tratado: ' + status)
-            self.log.info('update -> Itens restantes: ' + str(len(self.q)))
-            self.log.info('update -> TWEET TRATADO COM SUCESSO')
-            time.sleep(3)
-        except tweepy.TweepError as e:
-            self.log.info(e.reason)
-            self.log.info("update -> ERRO! Não foi possivel realizar a ação para o usuário.")
-            self.log.info("\n==========================")
+
