@@ -55,7 +55,6 @@ class Template(Font, Suport):
         BLANK = Image.new('RGB', (269, 194))
         LOG.info("DEFAULT_TEMPLATE -> Pass SECOND FONT AND BLANK")
         font_size = 1
-        LOG.info("DEFAULT_TEMPLATE -> Pass font size")
         font = ImageFont.truetype('../Font/myriad.otf', font_size)
         LOG.info("DEFAULT_TEMPLATE -> Pass QUOTE FONTE")
         LOG.info("DEFAULT_TEMPLATE -> Primeira forma do status pega")
