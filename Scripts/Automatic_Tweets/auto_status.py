@@ -1,7 +1,6 @@
-from Tests.Credentials.twitter_credentials_test import API_TEST as API
+from Tests.Test_twitter.twitter_credentials_test import API_TEST as API
 import time
 import uuid
-import random
 
 api = API
 

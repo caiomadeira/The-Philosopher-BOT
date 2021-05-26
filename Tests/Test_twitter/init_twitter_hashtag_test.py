@@ -32,7 +32,7 @@ class StartHashtag:
 
         self.log.info('HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT')
 
-        from Tests.Credentials.twitter_credentials_test import API_TEST as API
+        from Tests.Test_twitter.twitter_credentials_test import API_TEST as API
         from Scripts.Automatic_Tweets.auto_status import post_status_only_text
 
         try:

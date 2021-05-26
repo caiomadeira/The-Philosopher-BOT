@@ -3,4 +3,6 @@
 /workspace.xml
 .idea
 desktop.ini
+.env
+/Tests/
 

@@ -10,7 +10,7 @@ from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
 api = API_MAIN_TEST
 
 status = '#testemaker cu'
-img = Image.open('New_Img_Manipulation/layer_1.png')
+img = Image.open('Assets/layer_1.png')
 # blank = Image.new('RGB', (269, 194))
 fontsize = 28
 font = ImageFont.truetype("myriad.otf", fontsize)
@@ -41,7 +41,7 @@ philosopher_str_to_obj = Image.open(choice_philosopher)  # abre a imagem como lo
 
 filo2 = philosopher_str_to_obj.resize((449, 584))
 img.paste(filo2, (629, 0))
-smooth_template = Image.open('New_Img_Manipulation/layer_3.png')
+smooth_template = Image.open('Assets/layer_3.png')
 img.paste(smooth_template, (0, 0), smooth_template)
 
 open_quote = Image.open('open_quote.png')
