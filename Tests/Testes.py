@@ -1,45 +1,24 @@
-import time
-import tweepy
-from TDD.LOG_TESTE.logger_hashtag_teste import *
+# def f(x):
+#     return {'tposX': (80 - 38 ), 'tposY': 105, 'wrap_value': 25, }[x]
+#
+#
+# v = f('tposX')
+#
+# print(v)
+def f(x, tweet_txt):
+    if len(tweet_txt) > 240:
+        return {'tposX': 38, 'tposY': 105, 'wrap_value': 25, }[x]
+
+    elif len(tweet_txt) <= 25:
+        return {'tposX': 38 - 80, 'tposY': 80 - 150, 'wrap_value': 25 - 20, }[x]
 
 
-class MyStreamListener(tweepy.StreamListener):
-    def on_status(self, status):
-        log.info("=============== NOVO TWEET ENCONTRADO ================")
-        tweetid = str(status.id)
+def f_q(x_q, tweet_txt):
+    if len(tweet_txt) > 240:
+        return {'tposX': 32, 'tposY': 10, 'wrap_value': 0, }[x_q]
 
-        log.info('TRATANDO TWEET...')
-
-        update(use_pegando_status='TOMA ESSA MERDA', use_tweetid=tweetid)
+    elif len(tweet_txt) <= 25:
+        return {'tposX': 42, 'tposY': 23, 'wrap_value': 5, }[x_q]
 
 
-def update(use_pegando_status, use_tweetid):
-    log.info('Twittando...')
-    try:
-        api.update_status(use_pegando_status, in_reply_to_status_id=use_tweetid, auto_populate_reply_metadata=True)
-        log.info('TWEET ENVIADO C COM SUCESSO!')
-
-    except Exception:
-        log.exception('DEU BOSTA')
-
-    log.info('Twittado!')
-    log.info('Aguardando proximo tweet...')
-    time.sleep(5)
-
-
-if __name__ == '__main__':
-
-    from Credentials.Twitter.Test import api_test
-
-    api = api_test
-    HASHTAG_CONFIG = '#Testephilo'
-
-    try:
-        MyStreamListener()
-        the_api = api
-        myStream_PhiloBot = tweepy.Stream(auth=the_api.auth, listener=MyStreamListener(), include_rts=False)
-        myStream_PhiloBot.filter(track=[HASHTAG_CONFIG], is_async=True)
-        log.info('PhiloTESTE iniciado.. aguardando script de teste')
-    except Exception as e_main:
-        log.info('ERRO')
-        log.info(e_main)
+p = f('posX')

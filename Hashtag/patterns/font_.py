@@ -12,12 +12,15 @@ dotenv.load_dotenv(dotenv.find_dotenv())
 
 class Font():
 
-    # // Lembre-se de definir valores pra posições x y default/sem aspas e com aspas
 
+        # // Lembre-se de definir valores pra posições x y default/sem aspas e com aspas
     def with_quotes(self, LOG, status_text, tweet_posX, tweet_posY, textwraped_value, font_philo_text, drawing_p):
-        LOG.info('[ETAPA 5] Verificando aspas...')
-        # Caso ASPAS sejam VERDADEIRAS
-        LOG.info("Entrou no if has quotes  =yttrue")
+        BASE_TEMPLATE_LAYER = Image.open(TEMPLATES_PATH)
+        open_quote = Image.open(os.getenv('open_quotes'))
+        close_quote = Image.open(os.getenv('close_quotes'))
+        open_quote_resized = open_quote.resize((60, 60))
+        close_quote_resized = close_quote.resize((60, 60))
+
         # Maior ou IGUAL que 240 caracteres
         if len(status_text) > 240:
             LOG.info("Tweet MAIOR que 240 caracteres, ajustando texto...")
@@ -27,15 +30,17 @@ class Font():
             # X -> 38 - 70 = - 32
             # Y -> 105 - 115 = -10
             # textwrap -> 25 - 25 = 0
+            size_tweet_text = 50
+            drawing_p.text(xy=(tweet_posX - 70, tweet_posY - 115),
+                                         text=textwrap.fill(str(status_text), textwraped_value - 25),
+                                         fill=(255, 255, 255),
+                                         font=ImageFont.truetype(font_philo_text, size_tweet_text))
 
-            self.put_tweet_in_img(status_text=status_text,
-                                  tweet_posX=abs(tweet_posX - 70),
-                                  tweet_posY=abs(tweet_posY - 115),
-                                  textwraped_value=textwraped_value - 25,
-                                  font_philosopher_text=font_philo_text,
-                                  has_quotes=True, drawing_p=drawing_p)
+            BASE_TEMPLATE_LAYER.paste(open_quote_resized, (50, 30), open_quote_resized)
+            BASE_TEMPLATE_LAYER.paste(close_quote_resized, (500, 400), close_quote_resized)
             LOG.info("Passou de put tweet in img")
 
+            return BASE_TEMPLATE_LAYER
             # from Hashtag.patterns.template_ import Template
             # return Template
         # MENOR ou IGUAL que 25 caracteres
@@ -49,13 +54,18 @@ class Font():
             # Y -> 105 - 128 = -23
             # textwrap -> 25 - 20 = 5
 
-            self.put_tweet_in_img(status_text=status_text,
-                                  tweet_posX=abs(tweet_posX - 80),
-                                  tweet_posY=abs(tweet_posY - 128),
-                                  textwraped_value=(textwraped_value - 20),
-                                  font_philosopher_text=font_philo_text,
-                                  has_quotes=True, drawing_p=drawing_p)
+            size_tweet_text = 50
+            drawing_p.text(xy=(tweet_posX - 80, tweet_posY - 128),
+                           text=textwrap.fill(str(status_text), textwraped_value - 20),
+                           fill=(255, 255, 255),
+                           font=ImageFont.truetype(font_philo_text, size_tweet_text))
+
+            BASE_TEMPLATE_LAYER.paste(open_quote_resized, (50, 30), open_quote_resized)
+            BASE_TEMPLATE_LAYER.paste(close_quote_resized, (500, 400), close_quote_resized)
             LOG.info("Passou de put tweet in img")
+            return BASE_TEMPLATE_LAYER
+
+
 
         # from Hashtag.patterns.template_ import Template
         # return Template
@@ -70,14 +80,13 @@ class Font():
             # X =  38
             # Y = 105
             # textwrap = 25
+            size_tweet_text = 50
+            drawing_p.text(xy=(tweet_posX, tweet_posY),
+                           text=textwrap.fill(str(status_text), textwraped_value),
+                           fill=(255, 255, 255),
+                           font=ImageFont.truetype(font_philo_text, size_tweet_text))
 
-            return self.put_tweet_in_img(status_text=status_text,
-                                         tweet_posX=tweet_posX,
-                                         tweet_posY=tweet_posY,
-                                         textwraped_value=textwraped_value,
-                                         font_philosopher_text=font_philo_text,
-                                         has_quotes=False, drawing_p=drawing_p)
-
+            return drawing_p
 
         # MENOR ou IGUAL que 25 caracteres
         elif len(status_text) <= 25:
@@ -87,13 +96,15 @@ class Font():
             # INT = DEFAULT // INT = SPECIFIC
             # X -> 38 - 80 =
             # Y -> 105 - 150 =
-            # textwrap -> 25 - 20 =
-            return self.put_tweet_in_img(status_text=status_text,
-                                         tweet_posX=abs(tweet_posX - 42),
-                                         tweet_posY=abs(tweet_posY - 45),
-                                         textwraped_value=(textwraped_value - 5),
-                                         font_philosopher_text=font_philo_text,
-                                         has_quotes=False, drawing_p=drawing_p)
+            # textwrap -> 25 - 20 = 5
+            size_tweet_text = 50
+            drawing_p.text(xy=(tweet_posX - 42, tweet_posY - 45),
+                           text=textwrap.fill(str(status_text), textwraped_value - 5),
+                           fill=(255, 255, 255),
+                           font=ImageFont.truetype(font_philo_text, size_tweet_text))
+
+            return drawing_p
+
 
     def put_name_of_philosopher(self, LOG, philosopher_name, font_philosopher_name, author_posX, author_posY,
                                 drawing_p):
@@ -107,38 +118,37 @@ class Font():
                               fill=(255, 255, 255),
                               font=ImageFont.truetype(font_philosopher_name, size_philosopher_name))
 
-        return drawing_p
+        return drawing_p, philosopher_name, font_philosopher_name, author_posX, author_posY
 
-    def put_tweet_in_img(self, status_text, tweet_posX, tweet_posY, textwraped_value, font_philosopher_text,
-                         drawing_p, has_quotes=None):
-        BASE_TEMPLATE_LAYER = Image.open(TEMPLATES_PATH)
-        open_quote = Image.open(os.getenv('open_quotes'))
-        close_quote = Image.open(os.getenv('close_quotes'))
-        open_quote_resized = open_quote.resize((60, 60))
-        close_quote_resized = close_quote.resize((60, 60))
-
-        if has_quotes:
-            # Citação -- texto do tweet
-            size_tweet_text = 50
-            self.draw_t = drawing_p.text(xy=(tweet_posX, tweet_posY),
-                                         text=textwrap.fill(str(status_text), textwraped_value),
-                                         fill=(255, 255, 255),
-                                         font=ImageFont.truetype(font_philosopher_text, size_tweet_text))
-
-            self.quote_1_paste = BASE_TEMPLATE_LAYER.paste(open_quote_resized, (50, 30), open_quote_resized)
-            self.quote_2_paste = BASE_TEMPLATE_LAYER.paste(close_quote_resized, (500, 400), close_quote_resized)
-
-            return self.draw_t, self.quote_1_paste, self.quote_2_paste, has_quotes
-
-        # Caso ASPAS sejam FALSAS
-        else:
-            size_tweet_text = 50
-            self.draw_t = drawing_p.text(xy=(tweet_posX, tweet_posY),
-                                         text=textwrap.fill(str(status_text), textwraped_value),
-                                         fill=(255, 255, 255),
-                                         font=ImageFont.truetype(font_philosopher_text, size_tweet_text))
-
-            return self.draw_t, has_quotes
+    # def put_tweet_in_img(self, status_text, tweet_posX, tweet_posY, textwraped_value, font_philosopher_text,
+    #                      drawing_p, has_quotes=None):
+    #     BASE_TEMPLATE_LAYER = Image.open(TEMPLATES_PATH)
+    #     open_quote = Image.open(os.getenv('open_quotes'))
+    #     close_quote = Image.open(os.getenv('close_quotes'))
+    #     open_quote_resized = open_quote.resize((60, 60))
+    #     close_quote_resized = close_quote.resize((60, 60))
+    #
+    #     if has_quotes:
+    #         # Citação -- texto do tweet
+    #         size_tweet_text = 50
+    #         self.draw_t = drawing_p.text(xy=(tweet_posX, tweet_posY),
+    #                                      text=textwrap.fill(str(status_text), textwraped_value),
+    #                                      fill=(255, 255, 255),
+    #                                      font=ImageFont.truetype(font_philosopher_text, size_tweet_text))
+    #
+    #         self.quote_1_paste = BASE_TEMPLATE_LAYER.paste(open_quote_resized, (50, 30), open_quote_resized)
+    #         self.quote_2_paste = BASE_TEMPLATE_LAYER.paste(close_quote_resized, (500, 400), close_quote_resized)
+    #
+    #
+    #     # Caso ASPAS sejam FALSAS
+    #     else:
+    #         size_tweet_text = 50
+    #         self.draw_t = drawing_p.text(xy=(tweet_posX, tweet_posY),
+    #                                      text=textwrap.fill(str(status_text), textwraped_value),
+    #                                      fill=(255, 255, 255),
+    #                                      font=ImageFont.truetype(font_philosopher_text, size_tweet_text))
+    #
+    #         return self.draw_t, has_quotes
 
     def ajust_philosopher_name(self, LOG, choose_philosopher_param):
         # choose philosopher
@@ -150,16 +160,16 @@ class Font():
         if f'({int})' in remove_extension_filename:
             LOG.info("Removendo lixo no nome da imagem do filosofo...")
             remove_number_in_name = remove_extension_filename.replace(f'({int})', '')
-            self.finish_name_philosopher = f'- {remove_number_in_name}'
-            LOG.info(f'Nome do filósofo tratado: {self.finish_name_philosopher}')
+            finish_name_philosopher = f'- {remove_number_in_name}'
+            LOG.info(f'Nome do filósofo tratado: {finish_name_philosopher}')
 
-            return self.finish_name_philosopher
+            return finish_name_philosopher
         else:
-            self.finish_name_philosopher = f'- {remove_extension_filename}'
+            finish_name_philosopher = f'- {remove_extension_filename}'
             LOG.info("Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...")
-            LOG.info(f'Nome do filósofo tratado: {self.finish_name_philosopher}')
+            LOG.info(f'Nome do filósofo tratado: {finish_name_philosopher}')
         LOG.info("ajust_philosopher_name -> Saindo")
-        return self.finish_name_philosopher
+        return finish_name_philosopher
 
     def adjust_tweet_font_size(self, font_philo_txt, blank_layer, font_size_param, quote_font):
         while (quote_font.getsize(font_philo_txt)[0] < blank_layer.size[0]) and (
