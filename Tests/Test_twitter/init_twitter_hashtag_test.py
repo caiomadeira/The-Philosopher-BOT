@@ -9,9 +9,12 @@ Twitter: @bot_philospher
 Avaliable on Discord too!
 
 """
-import tweepy
+import tweepy, time
 from Logs.Twitter.logger_hashtag import log_hashtag
 from Lists.sub_list import sub_list_philobot
+from Tests.Test_twitter.Test_Hashtag_modules.hashtag import HashtagClass
+from Tests.Test_twitter.twitter_credentials_test import API_TEST as API
+from Scripts.Automatic_Tweets.auto_status import post_status_only_text
 
 
 class StartHashtag:
@@ -28,12 +31,7 @@ class StartHashtag:
         self.log.info("Philosopher BOT por Caio Madeira e Rodrigo Carmo\n")
         self.log.info(">INICIANDO HASHTAG - EXTENSION<")
 
-        from Hashtag.hashtag import HashtagClass
-
         self.log.info('HASHTAG Test ESCOLHIDA, INICIANDO #PHILOBOT')
-
-        from Tests.Test_twitter.twitter_credentials_test import API_TEST as API
-        from Scripts.Automatic_Tweets.auto_status import post_status_only_text
 
         try:
             # TESTEPHILO
@@ -41,7 +39,7 @@ class StartHashtag:
                                             listener=HashtagClass(self.__sub_list, API),
                                             include_rts=False)
             Philobot_Stream.filter(track=['#TestePhilo'], is_async=True)
-            import time
+
             time.sleep(3)
             post_status_only_text()
             return Philobot_Stream

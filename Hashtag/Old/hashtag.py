@@ -11,7 +11,7 @@ Avaliable on Discord too!
 """
 import time
 import tweepy
-from Hashtag.philobot_engine import PhiloBot
+from Hashtag.Old.philobot_engine import PhiloBot
 from Logs.Twitter.logger_hashtag import log_hashtag
 
 

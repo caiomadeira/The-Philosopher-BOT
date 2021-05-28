@@ -4,7 +4,6 @@ from PIL import Image, ImageFont
 import dotenv, os
 
 # O ideal é que o env não seja carregado aqui, pois pode haver mais de um
-import Hashtag.patterns.template_
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
 
 dotenv.load_dotenv(dotenv.find_dotenv())

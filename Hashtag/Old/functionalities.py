@@ -23,7 +23,7 @@ class Functionalities(Config):
                     self.send_error_empty_string(LAST_ID=last_id, LOG=LOG, PHILOMAKER=PHILOMAKER)
                     return True
         except Exception:
-            from Hashtag.hashtag import HashtagClass
+            from Hashtag.Old.hashtag import HashtagClass
             LOG.error('ERRO: FALHA AO CHECAR SE A STRING É VAZIA')
             self.q_username.clear()
 
@@ -119,7 +119,7 @@ class Functionalities(Config):
                               fill=(255, 255, 255),
                               font=font)
         except Exception:
-            from Hashtag.hashtag import HashtagClass
+            from Hashtag.Old.hashtag import HashtagClass
             LOG.info('PASSANDO PELO ERRO QUE A GENTE NAO QUERIA VER')
             return HashtagClass
 
@@ -162,10 +162,10 @@ class Functionalities(Config):
                               fill=(255, 255, 255),
                               font=font)
         except Exception:
-            from Hashtag.hashtag import HashtagClass
+            from Hashtag.Old.hashtag import HashtagClass
             LOG.info('PASSANDO PELO ERRO QUE A GENTE NAO QUERIA VER')
             return HashtagClass
-            
+
         self.img.save('Hashtag/hashtag.png')
         img_update_no_quotes = 'Hashtag/hashtag.png'
 

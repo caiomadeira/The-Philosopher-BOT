@@ -39,7 +39,7 @@ class StartHashtagExtension:
         self.log.info("Philosopher BOT por Caio Madeira e Rodrigo Carmo\n")
         self.log.info(">INICIANDO HASHTAG - EXTENSION<")
 
-        from Hashtag.hashtag import HashtagClass
+        from Hashtag.Old.hashtag import HashtagClass
 
 
         self.log.info('HASHTAG EXTENSION ESCOLHIDA, INICIANDO #PHILOBOT E #PHILOMAKER...')
