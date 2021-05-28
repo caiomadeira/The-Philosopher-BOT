@@ -16,7 +16,7 @@ from termcolor import colored
 import schedule
 from config import *
 from Logs.Twitter.logger_hashtag import log_general
-from Twitter.Posting.posting import PostingClass
+from posting.Posting.posting import PostingClass
 
 class HashtagOrPosting:
 
@@ -49,7 +49,7 @@ class HashtagOrPosting:
         self.log.info("Escolha qual script função rodar: HASHTAG OU POSTING\n")
         question = input("Digite 'HASHTAG' para executar a Hashtag\nDigite 'POSTING' para executar o Posting\n")
 
-        from Twitter.Hashtag.hashtag import HashtagClass
+        from posting.Hashtag.hashtag import HashtagClass
         if question.upper() == 'HASHTAG':
             try:
                 self.log.info('Qual HASHTAG voce deseja iniciar?')
@@ -116,7 +116,7 @@ class HashtagOrPosting:
                         f'HASHTAG TESTE ESCOLHIDA, INICIANDO {self.TESTEPHILO_HASHTAG} e {self.TESTEMAKER_HASHTAG}...\n')
 
                     from Credentials.Twitter.Test import API_MAIN_TEST as api_test
-                    from Twitter.Hashtag import HashtagClass
+                    from posting.Hashtag import HashtagClass
 
 
                     # TESTEPHILO

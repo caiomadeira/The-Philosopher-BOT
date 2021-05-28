@@ -14,7 +14,7 @@ import tweepy, textwrap, random, time, re, schedule, os, dotenv
 from PIL import Image, ImageDraw, ImageFont
 from Lists.accounts import accounts_list
 from Lists.img_list import PHILOSOPHERS_LIST
-from Twitter.Hashtag.functionalities import Functionalities
+from posting.Hashtag.functionalities import Functionalities
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
 from Logs.Twitter.logger_hashtag import log_posting
 

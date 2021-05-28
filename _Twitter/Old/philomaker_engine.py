@@ -8,7 +8,7 @@ from Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
 from Logs.Twitter.logger_hashtag  import log_philomaker
 import os
-from Hashtag.Old.functionalities import Functionalities
+from _Twitter.Old.functionalities import Functionalities
 
 
 class PhiloMaker(Functionalities):
@@ -18,7 +18,7 @@ class PhiloMaker(Functionalities):
         self.log = log_philomaker(__name__)
 
         hashtag_list = get_hashtag_list
-        from Hashtag.Old.hashtag import HashtagClass
+        from _Twitter.Old.hashtag import HashtagClass
         self.log.info('----------------------------------------')
         self.log.info('       > STARTING PHILOMAKER < ')
         self.log.info('----------------------------------------')
@@ -183,7 +183,7 @@ class PhiloMaker(Functionalities):
             return True
 
     def get_media(self):
-        from Hashtag.Old.hashtag import HashtagClass
+        from _Twitter.Old.hashtag import HashtagClass
         try:
 
             search_img_extended = str(self.get_metadata)

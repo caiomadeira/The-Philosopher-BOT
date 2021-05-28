@@ -1,6 +1,6 @@
 import time
 import uuid
-from Tests.Test_twitter.Test_Hashtag_modules.Authentication.authentication import Authentication
+from _Twitter.Authentication.authentication import Authentication
 import tweepy as t
 
 auth = Authentication()

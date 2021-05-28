@@ -2,7 +2,7 @@ import random
 import time
 import tweepy
 from PIL import Image, ImageFont
-from Hashtag.Old.functionalities import Functionalities
+from _Twitter.Old.functionalities import Functionalities
 from Lists.img_list import PHILOSOPHERS_LIST
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
 from Logs.Twitter.logger_hashtag import log_philobot
@@ -14,7 +14,7 @@ class PhiloBot(Functionalities):
 
         self.log = log_philobot(__name__)
 
-        from Hashtag.Old.hashtag import HashtagClass
+        from _Twitter.Old.hashtag import HashtagClass
         hashtag_list = get_hashtag_list
         self.log.info('----------------------------------------')
         self.log.info('         > STARTING PHILOBOT < ')

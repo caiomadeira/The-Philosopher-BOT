@@ -11,7 +11,7 @@ Avaliable on Discord too!
 """
 import time
 import tweepy
-from Hashtag.Old.philobot_engine import PhiloBot
+from _Twitter.Old.philobot_engine import PhiloBot
 from Logs.Twitter.logger_hashtag import log_hashtag
 
 
@@ -19,12 +19,12 @@ class HashtagClass(tweepy.StreamListener, PhiloBot):
     def __init__(self, hashtag_list, get_hash_api):
         super().__init__()
         self.q = []
-        self.q_username = []
-        self.q_tweet_info = []
-        self.api = get_hash_api
+        # self.q_username = []
+        # self.q_tweet_info = []
+        # self.api = get_hash_api
         self.QUEUE = 1
-        self.hashtag_list = hashtag_list
-        self.log = log_hashtag(__name__)
+        # self.hashtag_list = hashtag_list
+        # self.log = log_hashtag(__name__)
         time.sleep(5)
 
     def on_status(self, status):
@@ -51,6 +51,9 @@ class HashtagClass(tweepy.StreamListener, PhiloBot):
             self.log.info('=======================================================\n')
             time.sleep(5)
 
+            # maybe while here(?) thinking about it
+            # nesse caso os itens na lista sellf.q sempre vai ser 1 e queue sempre vai ser 1, logo
+            # seria mais facil setar logo os valores
             if len(self.q) >= self.QUEUE:
                 for i in range(1):
                     self.philobot_engine()
