@@ -1,0 +1,60 @@
+####################################################
+# ERROR 1 ##########################################
+####################################################
+Traceback (most recent call last):
+  File "C:\Users\caiom\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 555, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+  File "C:\Users\caiom\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 522, in _read_next_chunk_size
+    return int(line, 16)
+ValueError: invalid literal for int() with base 16: b''
+
+
+# EXPLAIN
+####################################################
+Isso agora deve ser tratado na versão de desenvolvimento do Tweepy no branch master,
+ tentando se reconectar automaticamente. O erro de conexão subjacente é provavelmente
+ devido a atrasos no fluxo durante o processamento de Tweets. Por enquanto, você pode
+ tentar reduzir o processamento dentro de on_status, lidar com o erro reiniciando o fluxo,
+ esperar pelo Tweepy v4.0 ou usar a versão de desenvolvimento do Tweepy.
+
+####################################################
+# ERROR 2 ##########################################
+####################################################
+Traceback (most recent call last):
+  File "C:\Users\caiom\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 587, in _readinto_chunked
+    chunk_left = self._get_chunk_left()
+  File "C:\Users\caiom\AppData\Local\Programs\Python\Python38\lib\http\client.py", line 557, in _get_chunk_left
+    raise IncompleteRead(b'')
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+####################################################
+# ERROR 3 ##########################################
+####################################################
+Traceback (most recent call last):
+  File "C:/Users/caiom/Documents/GitHub/The-Philosopher-BOT/_Twitter/init.py", line 13, in <module>
+    from _Twitter.Streaming.start_stream import StartStream
+  File "C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\_Twitter\Streaming\start_stream.py", line 7, in <module>
+    class StartStream:
+  File "C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\_Twitter\Streaming\start_stream.py", line 18, in StartStream
+    myStream.filter(track=hashtags)
+  File "C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\venv\lib\site-packages\tweepy\streaming.py", line 474, in filter
+    self._start(is_async)
+  File "C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\venv\lib\site-packages\tweepy\streaming.py", line 389, in _start
+    self._run()
+  File "C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\venv\lib\site-packages\tweepy\streaming.py", line 320, in _run
+    six.reraise(*exc_info)
+  File "C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\venv\lib\site-packages\six.py", line 703, in reraise
+    raise value
+  File "C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\venv\lib\site-packages\tweepy\streaming.py", line 289, in _run
+    self._read_loop(resp)
+  File "C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\venv\lib\site-packages\tweepy\streaming.py", line 339, in _read_loop
+    line = buf.read_line()
+  File "C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\venv\lib\site-packages\tweepy\streaming.py", line 200, in read_line
+    self._buffer += self._stream.read(self._chunk_size)
+  File "C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\venv\lib\site-packages\urllib3\response.py", line 541, in read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+  File "C:\Users\caiom\AppData\Local\Programs\Python\Python38\lib\contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\venv\lib\site-packages\urllib3\response.py", line 455, in _error_catcher
+    raise ProtocolError("Connection broken: %r" % e, e)
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(28 bytes read)', IncompleteRead(28 bytes read))

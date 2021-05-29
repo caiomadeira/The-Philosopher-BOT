@@ -11,15 +11,17 @@ Avaliable on Discord too!
 """
 
 # Connect to Twitter keys
-from tweepy import StreamListener, Stream  # OAuth é o manipulador de autenticacao
+from tweepy import StreamListener, Stream  # OAuth is the o manipulator of authentication
 import json
 
 # Imports suport class
 from _Twitter.Streaming.suport_streaming import SuportStreaming
+from _Twitter.Streaming.template_manager import Template_Manager
+from _Twitter.Streaming.DataObtainer.data_obtainer import DataObtainer
 
 
 # listener herance of Stream Listener
-class Listener(StreamListener, SuportStreaming):
+class Listener(StreamListener, SuportStreaming, DataObtainer):
     def __init__(self):
         super().__init__()
 
@@ -27,65 +29,33 @@ class Listener(StreamListener, SuportStreaming):
         self.queue = 1
 
     # get All data about status, user, etc with means for HEAVY ANALYSIS
-    # on_data() handles: replies to statuses,deletes ,events,direct messages,friends,limits, disconnects and warnings
+    # on_data() handles: replies to status, deletes, events, direct messages, friends, limits, disconnects and warnings
 
     def on_data(self, raw_data):
         data = json.loads(raw_data)
 
+        """ This callback is for analysis """
         data_to_str = str(data)
         self.save_data_on_txt(data=data_to_str)
 
-        # User information
-        get_screen_name = data['user']['screen_name']
-        get_user_id = data['user']['id']
-        get_user_id_str = data['user']['id_str']
-        is_truncated = data['truncated']
+        # Send data to Class DataObteriner
+        self.data_userinfo_organized(data=data)
+        self.data_statusinfo_organized(data=data)
+        self.data_statussituation_organized(data=data)
 
-        # Status Information
-        get_status_text = data['text']
-        get_hashtag_from_status = data['entities']['hashtags']  # the hashtag format (lower, upper, etc) writes by user
-        get_status_id = data['id']  # type is int
-        get_status_id_str = data['id_str']
+        # Check hashtag type (Philobot or PhiloMaker)
+        # instance of method which_hashtag which means that the method is no a class method and and has no inheritance
+        print('Check hashtag type (Philobot or PhiloMaker)')
+        manager = Template_Manager(data=data)
+        manager.which_hashtag()
 
-        # Status situation
-        get_status_language = data['lang']
-        is_status_retweeted = data['retweeted']
-        reply_to_status_id = data['in_reply_to_status_id']
-        reply_to_status_id_str = data['in_reply_to_status_id_str']
-        reply_to_user_id = data['in_reply_to_user_id']
-        in_reply_to_user_id_str = data['in_reply_to_user_id_str']
-        in_reply_to_screen_name = data['in_reply_to_screen_name']
-
-        # Append in respectives dictionarys
-        user_information = {"User Name": get_screen_name,
-                            "User ID": get_user_id,
-                            "User ID Str": get_user_id_str,
-                            "Is Truncated": is_truncated}
-
-        status_information = {"Status Text": get_status_text,
-                              "Status ID": get_status_id,
-                              "Status ID Str": get_status_id_str,
-                              "Status Hashtag Typed": get_hashtag_from_status}
-
-        status_situation = {"Status Language": get_status_language,
-                            "Is retweeted": is_status_retweeted,
-                            "Reply Status ID": reply_to_status_id,
-                            "Reply Status ID Str": reply_to_status_id_str,
-                            "Reply User ID": reply_to_user_id,
-                            "Reply User ID Str": in_reply_to_user_id_str,
-                            "Reply Screen Name": in_reply_to_screen_name, }
-
-        print("User Information: ", user_information)
-        print("Status Information: ", status_information)
-        print("Status Situation: ", status_situation)
-
-        # exec random template
-        # exec_func = self.verify_queue(list=self.status_information, do_func='Executando Philobot')
         return True
 
     # on_status() just handles statuses. Use for basic analysis
     def on_status(self, status):
-        pass
+        # handle connection exceptions temporally
+        if isinstance(ValueError, ConnectionError) is True:
+            return Listener()
 
     def on_error(self, status):
         if status == 200:
