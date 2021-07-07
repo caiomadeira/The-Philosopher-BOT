@@ -73,8 +73,8 @@ class Functionalities(Config):
         remove_quotes_in_text = self.get_treated_status.replace('"', '')
         LOG.info(f"[ETAPA 5.3] Removendo aspas do texto: {remove_quotes_in_text}")
 
-        open_quote = Image.open('Templates/open_quote.png')
-        close_quote = Image.open('Templates/close_quote.png')
+        open_quote = Image.open('Assets/open_quote.png')
+        close_quote = Image.open('Assets/close_quote.png')
         open_quote_resized = open_quote.resize((60, 60))
         close_quote_resized = close_quote.resize((60, 60))
         time.sleep(0.5)

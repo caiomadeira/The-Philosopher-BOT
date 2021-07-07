@@ -456,7 +456,7 @@ def transform(
 
     # Functions that transform may return empty Series/DataFrame
     # when the dtype is not appropriate
-    if isinstance(result, (ABCSeries, ABCDataFrame)) and result.empty:
+    if isinstance(result, (ABCSeries, ABCDataFrame)) and result.empty and not obj.empty:
         raise ValueError("Transform function failed")
     if not isinstance(result, (ABCSeries, ABCDataFrame)) or not result.index.equals(
         obj.index
@@ -490,6 +490,22 @@ def transform_dict_like(
     if any(is_dict_like(v) for _, v in func.items()):
         # GH 15931 - deprecation of renaming keys
         raise SpecificationError("nested renamer is not supported")
+
+    is_aggregator = lambda x: isinstance(x, (list, tuple, dict))
+
+    # if we have a dict of any non-scalars
+    # eg. {'A' : ['mean']}, normalize all to
+    # be list-likes
+    # Cannot use func.values() because arg may be a Series
+    if any(is_aggregator(x) for _, x in func.items()):
+        new_func: AggFuncTypeDict = {}
+        for k, v in func.items():
+            if not is_aggregator(v):
+                # mypy can't realize v is not a list here
+                new_func[k] = [v]  # type:ignore[list-item]
+            else:
+                new_func[k] = v
+        func = new_func
 
     results: Dict[Label, FrameOrSeriesUnion] = {}
     for name, how in func.items():

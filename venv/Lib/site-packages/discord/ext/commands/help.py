@@ -3,7 +3,7 @@
 """
 The MIT License (MIT)
 
-Copyright (c) 2015-2020 Rapptz
+Copyright (c) 2015-present Rapptz
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -79,18 +79,22 @@ class Paginator:
         The suffix appended at the end of every page. e.g. three backticks.
     max_size: :class:`int`
         The maximum amount of codepoints allowed in a page.
+    linesep: :class:`str`
+        The character string inserted between lines. e.g. a newline character.
+            .. versionadded:: 1.7
     """
-    def __init__(self, prefix='```', suffix='```', max_size=2000):
+    def __init__(self, prefix='```', suffix='```', max_size=2000, linesep='\n'):
         self.prefix = prefix
         self.suffix = suffix
         self.max_size = max_size
+        self.linesep = linesep
         self.clear()
 
     def clear(self):
         """Clears the paginator to have no pages."""
         if self.prefix is not None:
             self._current_page = [self.prefix]
-            self._count = len(self.prefix) + 1 # prefix + newline
+            self._count = len(self.prefix) + self._linesep_len # prefix + newline
         else:
             self._current_page = []
             self._count = 0
@@ -103,6 +107,10 @@ class Paginator:
     @property
     def _suffix_len(self):
         return len(self.suffix) if self.suffix else 0
+
+    @property
+    def _linesep_len(self):
+        return len(self.linesep)
 
     def add_line(self, line='', *, empty=False):
         """Adds a line to the current page.
@@ -122,29 +130,29 @@ class Paginator:
         RuntimeError
             The line was too big for the current :attr:`max_size`.
         """
-        max_page_size = self.max_size - self._prefix_len - self._suffix_len - 2
+        max_page_size = self.max_size - self._prefix_len - self._suffix_len - 2 * self._linesep_len
         if len(line) > max_page_size:
             raise RuntimeError('Line exceeds maximum page size %s' % (max_page_size))
 
-        if self._count + len(line) + 1 > self.max_size - self._suffix_len:
+        if self._count + len(line) + self._linesep_len > self.max_size - self._suffix_len:
             self.close_page()
 
-        self._count += len(line) + 1
+        self._count += len(line) + self._linesep_len
         self._current_page.append(line)
 
         if empty:
             self._current_page.append('')
-            self._count += 1
+            self._count += self._linesep_len
 
     def close_page(self):
         """Prematurely terminate a page."""
         if self.suffix is not None:
             self._current_page.append(self.suffix)
-        self._pages.append('\n'.join(self._current_page))
+        self._pages.append(self.linesep.join(self._current_page))
 
         if self.prefix is not None:
             self._current_page = [self.prefix]
-            self._count = len(self.prefix) + 1 # prefix + newline
+            self._count = len(self.prefix) + self._linesep_len # prefix + linesep
         else:
             self._current_page = []
             self._count = 0
@@ -162,7 +170,7 @@ class Paginator:
         return self._pages
 
     def __repr__(self):
-        fmt = '<Paginator prefix: {0.prefix} suffix: {0.suffix} max_size: {0.max_size} count: {0._count}>'
+        fmt = '<Paginator prefix: {0.prefix!r} suffix: {0.suffix!r} linesep: {0.linesep!r} max_size: {0.max_size} count: {0._count}>'
         return fmt.format(self)
 
 def _not_overriden(f):
@@ -264,9 +272,13 @@ class HelpCommand:
     show_hidden: :class:`bool`
         Specifies if hidden commands should be shown in the output.
         Defaults to ``False``.
-    verify_checks: :class:`bool`
+    verify_checks: Optional[:class:`bool`]
         Specifies if commands should have their :attr:`.Command.checks` called
-        and verified. Defaults to ``True``.
+        and verified. If ``True``, always calls :attr:`.Commands.checks`.
+        If ``None``, only calls :attr:`.Commands.checks` in a guild setting.
+        If ``False``, never calls :attr:`.Commands.checks`. Defaults to ``True``.
+
+        .. versionchanged:: 1.7
     command_attrs: :class:`dict`
         A dictionary of options to pass in for the construction of the help command.
         This allows you to change the command behaviour without actually changing
@@ -309,7 +321,7 @@ class HelpCommand:
         attrs.setdefault('name', 'help')
         attrs.setdefault('help', 'Shows this message')
         self.context = None
-        self._command_impl = None
+        self._command_impl = _HelpCommandImpl(self, **self.command_attrs)
 
     def copy(self):
         obj = self.__class__(*self.__original_args__, **self.__original_kwargs__)
@@ -324,7 +336,6 @@ class HelpCommand:
     def _remove_from_bot(self, bot):
         bot.remove_command(self._command_impl.name)
         self._command_impl._eject_cog()
-        self._command_impl = None
 
     def add_check(self, func):
         """
@@ -338,13 +349,7 @@ class HelpCommand:
             The function that will be used as a check.
         """
 
-        if self._command_impl is not None:
-            self._command_impl.add_check(func)
-        else:
-            try:
-                self.command_attrs["checks"].append(func)
-            except KeyError:
-                self.command_attrs["checks"] = [func]
+        self._command_impl.add_check(func)
 
     def remove_check(self, func):
         """
@@ -361,13 +366,7 @@ class HelpCommand:
             The function to remove from the checks.
         """
 
-        if self._command_impl is not None:
-            self._command_impl.remove_check(func)
-        else:
-            try:
-                self.command_attrs["checks"].remove(func)
-            except (KeyError, ValueError):
-                pass
+        self._command_impl.remove_check(func)
 
     def get_bot_mapping(self):
         """Retrieves the bot mapping passed to :meth:`send_bot_help`."""
@@ -376,7 +375,7 @@ class HelpCommand:
             cog: cog.get_commands()
             for cog in bot.cogs.values()
         }
-        mapping[None] = [c for c in bot.all_commands.values() if c.cog is None]
+        mapping[None] = [c for c in bot.commands if c.cog is None]
         return mapping
 
     @property
@@ -425,15 +424,24 @@ class HelpCommand:
             The signature for the command.
         """
 
-        parent = command.full_parent_name
+        parent = command.parent
+        entries = []
+        while parent is not None:
+            if not parent.signature or parent.invoke_without_command:
+                entries.append(parent.name)
+            else:
+                entries.append(parent.name + ' ' + parent.signature)
+            parent = parent.parent
+        parent_sig = ' '.join(reversed(entries))
+
         if len(command.aliases) > 0:
             aliases = '|'.join(command.aliases)
             fmt = '[%s|%s]' % (command.name, aliases)
-            if parent:
-                fmt = parent + ' ' + fmt
+            if parent_sig:
+                fmt = parent_sig + ' ' + fmt
             alias = fmt
         else:
-            alias = command.name if not parent else parent + ' ' + command.name
+            alias = command.name if not parent_sig else parent_sig + ' ' + command.name
 
         return '%s%s %s' % (self.clean_prefix, alias, command.signature)
 
@@ -560,9 +568,13 @@ class HelpCommand:
 
         iterator = commands if self.show_hidden else filter(lambda c: not c.hidden, commands)
 
-        if not self.verify_checks:
+        if self.verify_checks is False:
             # if we do not need to verify the checks then we can just
             # run it straight through normally without using await.
+            return sorted(iterator, key=key) if sort else list(iterator)
+
+        if self.verify_checks is None and not self.context.guild:
+            # if verify_checks is None and we're in a DM, don't verify
             return sorted(iterator, key=key) if sort else list(iterator)
 
         # if we're here then we need to check every command if it can run

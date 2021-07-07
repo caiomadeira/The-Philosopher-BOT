@@ -4,7 +4,7 @@ import tweepy
 from PIL import Image, ImageFont
 from _Twitter.Old.functionalities import Functionalities
 from Lists.img_list import PHILOSOPHERS_LIST
-from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
+from Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
 from Logs.Twitter.logger_hashtag import log_philobot
 
 

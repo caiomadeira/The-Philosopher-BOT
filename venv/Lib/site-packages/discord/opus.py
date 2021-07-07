@@ -3,7 +3,7 @@
 """
 The MIT License (MIT)
 
-Copyright (c) 2015-2020 Rapptz
+Copyright (c) 2015-present Rapptz
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -276,17 +276,14 @@ class _OpusStruct:
 
     @staticmethod
     def get_opus_version() -> str:
-        if not is_loaded():
-            if not _load_default():
-                raise OpusNotLoaded()
+        if not is_loaded() and not _load_default():
+            raise OpusNotLoaded()
 
         return _lib.opus_get_version_string().decode('utf-8')
 
 class Encoder(_OpusStruct):
     def __init__(self, application=APPLICATION_AUDIO):
-        if not is_loaded():
-            if not _load_default():
-                raise OpusNotLoaded()
+        _OpusStruct.get_opus_version()
 
         self.application = application
         self._state = self._create_state()
@@ -342,9 +339,7 @@ class Encoder(_OpusStruct):
 
 class Decoder(_OpusStruct):
     def __init__(self):
-        if not is_loaded():
-            if not _load_default():
-                raise OpusNotLoaded()
+        _OpusStruct.get_opus_version()
 
         self._state = self._create_state()
 
@@ -374,7 +369,7 @@ class Decoder(_OpusStruct):
 
     def _set_gain(self, adjustment):
         """Configures decoder gain adjustment.
-        
+
         Scales the decoded output by a factor specified in Q8 dB units.
         This has a maximum range of -32768 to 32767 inclusive, and returns
         OPUS_BAD_ARG (-1) otherwise. The default is zero indicating no adjustment.

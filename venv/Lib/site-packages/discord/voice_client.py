@@ -3,7 +3,7 @@
 """
 The MIT License (MIT)
 
-Copyright (c) 2015-2020 Rapptz
+Copyright (c) 2015-present Rapptz
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -70,7 +70,7 @@ class VoiceProtocol:
 
     These classes are passed to :meth:`abc.Connectable.connect`.
 
-    .. _Lavalink: https://github.com/Frederikam/Lavalink
+    .. _Lavalink: https://github.com/freyacodes/Lavalink
 
     Parameters
     ------------

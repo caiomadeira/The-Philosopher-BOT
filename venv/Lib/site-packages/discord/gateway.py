@@ -3,7 +3,7 @@
 """
 The MIT License (MIT)
 
-Copyright (c) 2015-2020 Rapptz
+Copyright (c) 2015-present Rapptz
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -422,16 +422,11 @@ class DiscordWebSocket:
         if type(msg) is bytes:
             self._buffer.extend(msg)
 
-            if len(msg) >= 4:
-                if msg[-4:] == b'\x00\x00\xff\xff':
-                    msg = self._zlib.decompress(self._buffer)
-                    msg = msg.decode('utf-8')
-                    self._buffer = bytearray()
-                else:
-                    return
-            else:
+            if len(msg) < 4 or msg[-4:] != b'\x00\x00\xff\xff':
                 return
-
+            msg = self._zlib.decompress(self._buffer)
+            msg = msg.decode('utf-8')
+            self._buffer = bytearray()
         msg = json.loads(msg)
 
         log.debug('For Shard ID %s: WebSocket Event: %s', self.shard_id, msg)
@@ -876,7 +871,7 @@ class DiscordVoiceWebSocket:
     def average_latency(self):
         """:class:`list`: Average of last 20 HEARTBEAT latencies."""
         heartbeat = self._keep_alive
-        if heartbeat is None:
+        if heartbeat is None or not heartbeat.recent_ack_latencies:
             return float('inf')
 
         return sum(heartbeat.recent_ack_latencies) / len(heartbeat.recent_ack_latencies)

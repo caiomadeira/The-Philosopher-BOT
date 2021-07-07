@@ -3,7 +3,7 @@
 """
 The MIT License (MIT)
 
-Copyright (c) 2015-2020 Rapptz
+Copyright (c) 2015-present Rapptz
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -131,7 +131,7 @@ class HTTPClient:
 
         return await self.__session.ws_connect(url, **kwargs)
 
-    async def request(self, route, *, files=None, **kwargs):
+    async def request(self, route, *, files=None, form=None, **kwargs):
         bucket = route.bucket
         method = route.method
         url = route.url
@@ -181,6 +181,13 @@ class HTTPClient:
                 if files:
                     for f in files:
                         f.reset(seek=tries)
+
+                if form:
+                    form_data = aiohttp.FormData()
+                    for params in form:
+                        form_data.add_field(**params)
+                    kwargs['data'] = form_data
+
                 try:
                     async with self.__session.request(method, url, **kwargs) as r:
                         log.debug('%s %s with %s has returned %s', method, url, kwargs.get('data'), r.status)
@@ -371,7 +378,7 @@ class HTTPClient:
 
     def send_files(self, channel_id, *, files, content=None, tts=False, embed=None, nonce=None, allowed_mentions=None, message_reference=None):
         r = Route('POST', '/channels/{channel_id}/messages', channel_id=channel_id)
-        form = aiohttp.FormData()
+        form = []
 
         payload = {'tts': tts}
         if content:
@@ -385,15 +392,25 @@ class HTTPClient:
         if message_reference:
             payload['message_reference'] = message_reference
 
-        form.add_field('payload_json', utils.to_json(payload))
+        form.append({'name': 'payload_json', 'value': utils.to_json(payload)})
         if len(files) == 1:
             file = files[0]
-            form.add_field('file', file.fp, filename=file.filename, content_type='application/octet-stream')
+            form.append({
+                'name': 'file',
+                'value': file.fp,
+                'filename': file.filename,
+                'content_type': 'application/octet-stream'
+            })
         else:
             for index, file in enumerate(files):
-                form.add_field('file%s' % index, file.fp, filename=file.filename, content_type='application/octet-stream')
+                form.append({
+                    'name': 'file%s' % index,
+                    'value': file.fp,
+                    'filename': file.filename,
+                    'content_type': 'application/octet-stream'
+                })
 
-        return self.request(r, data=form, files=files)
+        return self.request(r, form=form, files=files)
 
     async def ack_message(self, channel_id, message_id):
         r = Route('POST', '/channels/{channel_id}/messages/{message_id}/ack', channel_id=channel_id, message_id=message_id)
@@ -557,6 +574,14 @@ class HTTPClient:
         }
         return self.request(r, json=payload, reason=reason)
 
+    def edit_my_voice_state(self, guild_id, payload):
+        r = Route('PATCH', '/guilds/{guild_id}/voice-states/@me', guild_id=guild_id)
+        return self.request(r, json=payload)
+
+    def edit_voice_state(self, guild_id, user_id, payload):
+        r = Route('PATCH', '/guilds/{guild_id}/voice-states/{user_id}', guild_id=guild_id, user_id=user_id)
+        return self.request(r, json=payload)
+
     def edit_member(self, guild_id, user_id, *, reason=None, **fields):
         r = Route('PATCH', '/guilds/{guild_id}/members/{user_id}', guild_id=guild_id, user_id=user_id)
         return self.request(r, json=fields, reason=reason)
@@ -567,11 +592,10 @@ class HTTPClient:
         r = Route('PATCH', '/channels/{channel_id}', channel_id=channel_id)
         valid_keys = ('name', 'parent_id', 'topic', 'bitrate', 'nsfw',
                       'user_limit', 'position', 'permission_overwrites', 'rate_limit_per_user',
-                      'type')
+                      'type', 'rtc_region')
         payload = {
             k: v for k, v in options.items() if k in valid_keys
         }
-
         return self.request(r, reason=reason, json=payload)
 
     def bulk_channel_update(self, guild_id, data, *, reason=None):
@@ -584,7 +608,8 @@ class HTTPClient:
         }
 
         valid_keys = ('name', 'parent_id', 'topic', 'bitrate', 'nsfw',
-                      'user_limit', 'position', 'permission_overwrites', 'rate_limit_per_user')
+                      'user_limit', 'position', 'permission_overwrites', 'rate_limit_per_user',
+                      'rtc_region')
         payload.update({
             k: v for k, v in options.items() if k in valid_keys and v is not None
         })
@@ -670,6 +695,28 @@ class HTTPClient:
     def get_template(self, code):
         return self.request(Route('GET', '/guilds/templates/{code}', code=code))
 
+    def guild_templates(self, guild_id):
+        return self.request(Route('GET', '/guilds/{guild_id}/templates', guild_id=guild_id))
+
+    def create_template(self, guild_id, payload):
+        return self.request(Route('POST', '/guilds/{guild_id}/templates', guild_id=guild_id), json=payload)
+
+    def sync_template(self, guild_id, code):
+        return self.request(Route('PUT', '/guilds/{guild_id}/templates/{code}', guild_id=guild_id, code=code))
+
+    def edit_template(self, guild_id, code, payload):
+        valid_keys = (
+            'name',
+            'description',
+        )
+        payload = {
+            k: v for k, v in payload.items() if k in valid_keys
+        }
+        return self.request(Route('PATCH', '/guilds/{guild_id}/templates/{code}', guild_id=guild_id, code=code), json=payload)
+
+    def delete_template(self, guild_id, code):
+        return self.request(Route('DELETE', '/guilds/{guild_id}/templates/{code}', guild_id=guild_id, code=code))
+
     def create_from_template(self, code, name, region, icon):
         payload = {
             'name': name,
@@ -717,10 +764,13 @@ class HTTPClient:
 
         return self.request(Route('POST', '/guilds/{guild_id}/prune', guild_id=guild_id), json=payload, reason=reason)
 
-    def estimate_pruned_members(self, guild_id, days):
+    def estimate_pruned_members(self, guild_id, days, roles):
         params = {
             'days': days
         }
+        if roles:
+            params['include_roles'] = ', '.join(roles)
+
         return self.request(Route('GET', '/guilds/{guild_id}/prune', guild_id=guild_id), params=params)
 
     def get_all_custom_emojis(self, guild_id):

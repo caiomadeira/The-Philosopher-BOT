@@ -1,5 +1,5 @@
-from Templates.Error_Philobot.reference import PHILOBOT_ERROR_IMG_PATH
-from Templates.Error_Philomaker.reference import PHILOMAKER_ERROR_IMG_PATH
+from Assets.Error_Philobot.reference import PHILOBOT_ERROR_IMG_PATH
+from Assets.Error_Philomaker.reference import PHILOMAKER_ERROR_IMG_PATH
 import glob
 
 

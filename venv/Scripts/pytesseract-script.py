@@ -1,4 +1,4 @@
-#!C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\philobot\venv\Scripts\python.exe
+#!C:\Users\caiom\Documents\GitHub\The-Philosopher-BOT\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'pytesseract==0.3.7','console_scripts','pytesseract'
 import re
 import sys

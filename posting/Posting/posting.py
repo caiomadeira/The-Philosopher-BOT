@@ -15,7 +15,7 @@ from PIL import Image, ImageDraw, ImageFont
 from Lists.accounts import accounts_list
 from Lists.img_list import PHILOSOPHERS_LIST
 from posting.Hashtag.functionalities import Functionalities
-from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
+from Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
 from Logs.Twitter.logger_hashtag import log_posting
 
 dotenv.load_dotenv(dotenv.find_dotenv())

@@ -3,7 +3,7 @@
 """
 The MIT License (MIT)
 
-Copyright (c) 2015-2020 Rapptz
+Copyright (c) 2015-present Rapptz
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -32,7 +32,7 @@ from base64 import b64encode
 from bisect import bisect_left
 import datetime
 import functools
-from inspect import isawaitable as _isawaitable
+from inspect import isawaitable as _isawaitable, signature as _signature
 from operator import attrgetter
 import json
 import re
@@ -110,6 +110,13 @@ def parse_time(timestamp):
         return datetime.datetime(*map(int, re.split(r'[^\d]', timestamp.replace('+00:00', ''))))
     return None
 
+def copy_doc(original):
+    def decorator(overriden):
+        overriden.__doc__ = original.__doc__
+        overriden.__signature__ = _signature(original)
+        return overriden
+    return decorator
+
 def deprecated(instead=None):
     def actual_decorator(func):
         @functools.wraps(func)
@@ -126,7 +133,7 @@ def deprecated(instead=None):
         return decorated
     return actual_decorator
 
-def oauth_url(client_id, permissions=None, guild=None, redirect_uri=None):
+def oauth_url(client_id, permissions=None, guild=None, redirect_uri=None, scopes=None):
     """A helper function that returns the OAuth2 URL for inviting the bot
     into guilds.
 
@@ -141,13 +148,18 @@ def oauth_url(client_id, permissions=None, guild=None, redirect_uri=None):
         The guild to pre-select in the authorization screen, if available.
     redirect_uri: :class:`str`
         An optional valid redirect URI.
+    scopes: Iterable[:class:`str`]
+        An optional valid list of scopes. Defaults to ``('bot',)``.
+
+        .. versionadded:: 1.7
 
     Returns
     --------
     :class:`str`
         The OAuth2 URL for inviting the bot into guilds.
     """
-    url = 'https://discord.com/oauth2/authorize?client_id={}&scope=bot'.format(client_id)
+    url = 'https://discord.com/oauth2/authorize?client_id={}'.format(client_id)
+    url = url + '&scope=' + '+'.join(scopes or ('bot',))
     if permissions is not None:
         url = url + '&permissions=' + str(permissions.value)
     if guild is not None:
@@ -419,11 +431,8 @@ def _string_width(string, *, _IS_ASCII=_IS_ASCII):
         return match.endpos
 
     UNICODE_WIDE_CHAR_TYPE = 'WFA'
-    width = 0
     func = unicodedata.east_asian_width
-    for char in string:
-        width += 2 if func(char) in UNICODE_WIDE_CHAR_TYPE else 1
-    return width
+    return sum(2 if func(char) in UNICODE_WIDE_CHAR_TYPE else 1 for char in string)
 
 def resolve_invite(invite):
     """
@@ -482,6 +491,43 @@ _MARKDOWN_ESCAPE_COMMON = r'^>(?:>>)?\s|\[.+\]\(.+\)'
 
 _MARKDOWN_ESCAPE_REGEX = re.compile(r'(?P<markdown>%s|%s)' % (_MARKDOWN_ESCAPE_SUBREGEX, _MARKDOWN_ESCAPE_COMMON), re.MULTILINE)
 
+_URL_REGEX = r'(?P<url><[^: >]+:\/[^ >]+>|(?:https?|steam):\/\/[^\s<]+[^<.,:;\"\'\]\s])'
+
+_MARKDOWN_STOCK_REGEX = r'(?P<markdown>[_\\~|\*`]|%s)' % _MARKDOWN_ESCAPE_COMMON
+
+def remove_markdown(text, *, ignore_links=True):
+    """A helper function that removes markdown characters.
+
+    .. versionadded:: 1.7
+    
+    .. note::
+            This function is not markdown aware and may remove meaning from the original text. For example,
+            if the input contains ``10 * 5`` then it will be converted into ``10  5``.
+    
+    Parameters
+    -----------
+    text: :class:`str`
+        The text to remove markdown from.
+    ignore_links: :class:`bool`
+        Whether to leave links alone when removing markdown. For example,
+        if a URL in the text contains characters such as ``_`` then it will
+        be left alone. Defaults to ``True``.
+
+    Returns
+    --------
+    :class:`str`
+        The text with the markdown special characters removed.
+    """
+
+    def replacement(match):
+        groupdict = match.groupdict()
+        return groupdict.get('url', '')
+
+    regex = _MARKDOWN_STOCK_REGEX
+    if ignore_links:
+        regex = '(?:%s|%s)' % (_URL_REGEX, regex)
+    return re.sub(regex, replacement, text, 0, re.MULTILINE)
+
 def escape_markdown(text, *, as_needed=False, ignore_links=True):
     r"""A helper function that escapes Discord's markdown.
 
@@ -508,7 +554,6 @@ def escape_markdown(text, *, as_needed=False, ignore_links=True):
     """
 
     if not as_needed:
-        url_regex = r'(?P<url><[^: >]+:\/[^ >]+>|(?:https?|steam):\/\/[^\s<]+[^<.,:;\"\'\]\s])'
         def replacement(match):
             groupdict = match.groupdict()
             is_url = groupdict.get('url')
@@ -516,9 +561,9 @@ def escape_markdown(text, *, as_needed=False, ignore_links=True):
                 return is_url
             return '\\' + groupdict['markdown']
 
-        regex = r'(?P<markdown>[_\\~|\*`]|%s)' % _MARKDOWN_ESCAPE_COMMON
+        regex = _MARKDOWN_STOCK_REGEX
         if ignore_links:
-            regex = '(?:%s|%s)' % (url_regex, regex)
+            regex = '(?:%s|%s)' % (_URL_REGEX, regex)
         return re.sub(regex, replacement, text, 0, re.MULTILINE)
     else:
         text = re.sub(r'\\', r'\\\\', text)
@@ -547,4 +592,4 @@ def escape_mentions(text):
     :class:`str`
         The text with the mentions removed.
     """
-    return re.sub(r'@(everyone|here|[!&]?[0-9]{17,21})', '@\u200b\\1', text)
+    return re.sub(r'@(everyone|here|[!&]?[0-9]{17,20})', '@\u200b\\1', text)

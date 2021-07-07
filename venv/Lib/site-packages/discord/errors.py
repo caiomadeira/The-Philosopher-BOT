@@ -3,7 +3,7 @@
 """
 The MIT License (MIT)
 
-Copyright (c) 2015-2020 Rapptz
+Copyright (c) 2015-present Rapptz
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -104,7 +104,7 @@ class HTTPException(DiscordException):
 
         fmt = '{0.status} {0.reason} (error code: {1})'
         if len(self.text):
-            fmt = fmt + ': {2}'
+            fmt += ': {2}'
 
         super().__init__(fmt.format(self.response, self.code, self.text))
 

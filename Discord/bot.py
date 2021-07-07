@@ -17,7 +17,7 @@ import random
 import textwrap
 import os
 from Lists.img_list import PHILOSOPHERS_LIST
-from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
+from Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
 
 # loads .env
 dotenv.load_dotenv(dotenv.find_dotenv())

@@ -3,7 +3,7 @@
 """
 The MIT License (MIT)
 
-Copyright (c) 2015-2020 Rapptz
+Copyright (c) 2015-present Rapptz
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -81,6 +81,8 @@ class Embed:
     type: :class:`str`
         The type of embed. Usually "rich".
         This can be set during initialisation.
+        Possible strings for embed types can be found on discord's
+        `api docs <https://discord.com/developers/docs/resources/channel#embed-object-embed-types>`_
     description: :class:`str`
         The description of the embed.
         This can be set during initialisation.
@@ -116,6 +118,15 @@ class Embed:
         self.url = kwargs.get('url', EmptyEmbed)
         self.description = kwargs.get('description', EmptyEmbed)
 
+        if self.title is not EmptyEmbed:
+            self.title = str(self.title)
+
+        if self.description is not EmptyEmbed:
+            self.description = str(self.description)
+
+        if self.url is not EmptyEmbed:
+            self.url = str(self.url)
+
         try:
             timestamp = kwargs['timestamp']
         except KeyError:
@@ -148,6 +159,15 @@ class Embed:
         self.type = data.get('type', EmptyEmbed)
         self.description = data.get('description', EmptyEmbed)
         self.url = data.get('url', EmptyEmbed)
+
+        if self.title is not EmptyEmbed:
+            self.title = str(self.title)
+
+        if self.description is not EmptyEmbed:
+            self.description = str(self.description)
+
+        if self.url is not EmptyEmbed:
+            self.url = str(self.url)
 
         # try to fill in the more rich fields
 
@@ -418,7 +438,7 @@ class Embed:
 
     @property
     def fields(self):
-        """Union[List[:class:`EmbedProxy`], :attr:`Empty`]: Returns a :class:`list` of ``EmbedProxy`` denoting the field contents.
+        """List[Union[``EmbedProxy``, :attr:`Empty`]]: Returns a :class:`list` of ``EmbedProxy`` denoting the field contents.
 
         See :meth:`add_field` for possible values you can access.
 

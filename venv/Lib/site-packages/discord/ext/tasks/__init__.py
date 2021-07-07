@@ -3,7 +3,7 @@
 """
 The MIT License (MIT)
 
-Copyright (c) 2015-2020 Rapptz
+Copyright (c) 2015-present Rapptz
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -103,19 +103,19 @@ class Loop:
                     now = datetime.datetime.now(datetime.timezone.utc)
                     if now > self._next_iteration:
                         self._next_iteration = now
-                except self._valid_exception as exc:
+                except self._valid_exception:
                     self._last_iteration_failed = True
                     if not self.reconnect:
                         raise
                     await asyncio.sleep(backoff.delay())
                 else:
+                    await sleep_until(self._next_iteration)
+                    
                     if self._stop_next_iteration:
                         return
                     self._current_loop += 1
                     if self._current_loop == self.count:
                         break
-
-                    await sleep_until(self._next_iteration)
         except asyncio.CancelledError:
             self._is_being_cancelled = True
             raise
@@ -154,14 +154,14 @@ class Loop:
 
         .. versionadded:: 1.3
         """
-        if self._task is None and self._sleep:
+        if self._task is None:
             return None
         elif self._task and self._task.done() or self._stop_next_iteration:
             return None
         return self._next_iteration
 
     async def __call__(self, *args, **kwargs):
-        """|coro|
+        r"""|coro|
 
         Calls the internal callback that the task holds.
 

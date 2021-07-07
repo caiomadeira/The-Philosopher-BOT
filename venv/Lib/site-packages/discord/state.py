@@ -3,7 +3,7 @@
 """
 The MIT License (MIT)
 
-Copyright (c) 2015-2020 Rapptz
+Copyright (c) 2015-present Rapptz
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
@@ -827,6 +827,9 @@ class ConnectionState:
 
         return self._add_guild_from_data(data)
 
+    def is_guild_evicted(self, guild) -> bool:
+        return guild.id not in self._guilds
+
     async def chunk_guild(self, guild, *, wait=True, cache=None):
         cache = cache or self.member_cache_flags.joined
         request = self._chunk_requests.get(guild.id)
@@ -896,7 +899,7 @@ class ConnectionState:
             log.debug('GUILD_DELETE referencing an unknown guild ID: %s. Discarding.', data['id'])
             return
 
-        if data.get('unavailable', False) and guild is not None:
+        if data.get('unavailable', False):
             # GUILD_DELETE with unavailable being True means that the
             # guild that was available is now currently unavailable
             guild.unavailable = True
@@ -928,10 +931,9 @@ class ConnectionState:
 
     def parse_guild_ban_remove(self, data):
         guild = self._get_guild(int(data['guild_id']))
-        if guild is not None:
-            if 'user' in data:
-                user = self.store_user(data['user'])
-                self.dispatch('member_unban', guild, user)
+        if guild is not None and 'user' in data:
+            user = self.store_user(data['user'])
+            self.dispatch('member_unban', guild, user)
 
     def parse_guild_role_create(self, data):
         guild = self._get_guild(int(data['guild_id']))
@@ -1053,6 +1055,11 @@ class ConnectionState:
                 member = channel.recipient
             elif isinstance(channel, TextChannel) and guild is not None:
                 member = guild.get_member(user_id)
+                if member is None:
+                    member_data = data.get('member')
+                    if member_data:
+                        member = Member(data=member_data, state=self, guild=guild)
+
             elif isinstance(channel, GroupChannel):
                 member = utils.find(lambda x: x.id == user_id, channel.recipients)
 
