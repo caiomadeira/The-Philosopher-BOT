@@ -136,10 +136,6 @@ class PhiloBot(Functionalities):
         time.sleep(20)
         self.log.info('>AGUARDANDO NOVOS TWEETS...<')
 
-        self.log.info('[LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]')
-        self.log.info('ITENS NA LISTA:')
-        self.log.info(self.q_username)
-
         return HashtagClass
 
     def img_adjust(self):

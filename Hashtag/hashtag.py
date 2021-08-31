@@ -48,10 +48,6 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
             self.q_username.append(self.username)
             self.q_tweet_info.append(self.tweet_info)
 
-            self.log.info('[LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]')
-            self.log.info('ITENS NA LISTA:')
-            self.log.info(self.q_username)
-
             self.log.info('Tweet ID: ' + self.tweetid)
             self.log.info('Tweet USERNAME: ' + self.username)
             self.log.info('Adicionado na fila')
