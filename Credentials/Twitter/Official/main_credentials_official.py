@@ -20,8 +20,6 @@ BEARER_TOKEN
 import tweepy.api
 import os
 
-
-
 CONSUMER_KEY = os.environ.get('CONSUMER_KEY', None)
 
 CONSUMER_SECRET_KEY = os.environ.get('CONSUMER_SECRET_KEY', None)
@@ -33,10 +31,8 @@ API_SECRET_TOKEN = os.environ.get('API_SECRET_TOKEN', None)
 BEARER_TOKEN = os.environ.get('BEARER_TOKEN', None)
 
 
-
 AUTH_MAIN_OFFICIAL = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET_KEY)
 AUTH_MAIN_OFFICIAL.set_access_token(API_KEY, API_SECRET_TOKEN)
-
 
 try:
     API_MAIN_OFFICIAL = tweepy.API(AUTH_MAIN_OFFICIAL, wait_on_rate_limit=False, wait_on_rate_limit_notify=True)

@@ -16,7 +16,7 @@ import tweepy
 from Hashtag.philobot_engine import PhiloBot
 from Hashtag.philomaker_engine import PhiloMaker
 from config import *
-from Logs.Twitter.logger_hashtag  import log_hashtag
+from Logs.Twitter.logger_engine  import log_hashtag
 from config import Config
 
 

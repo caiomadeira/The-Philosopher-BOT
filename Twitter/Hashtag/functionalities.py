@@ -25,7 +25,7 @@ class Functionalities(Config):
                     return True
         except Exception:
             from Twitter.Hashtag import HashtagClass
-            LOG.error('ERRO: FALHA AO CHECAR SE A STRING É VAZIA')
+            LOG.error('[X] - ERRO: FALHA AO CHECAR SE A STRING É VAZIA')
             self.q_username.clear()
 
             LOG.info('----------------------------------------\n')
@@ -46,8 +46,10 @@ class Functionalities(Config):
             self.update(post=choice_error_img, status=LAST_ID, post_username=user)
 
         except Exception as e:
-            LOG.exception('ERRO AO ENVIAR IMAGEM DE ERRO PARA O USUARIO!')
+            from Twitter.Hashtag import HashtagClass
+            LOG.exception('[X] - ERRO AO ENVIAR IMAGEM DE ERRO PARA O USUARIO!')
             LOG.exception(e)
+            return HashtagClass
 
     def text_treatment(self, PEG_STATUS, IMG, SUB_LIST, LOG):
 
@@ -62,10 +64,11 @@ class Functionalities(Config):
             self.get_treated_status = pattern.sub(lambda m: sub_list_config[re.escape(m.group(0))],
                                                   self.treating_status).strip()
         except tweepy.error.TweepError as e:
+            from Twitter.Hashtag import HashtagClass
+            LOG.error('[X] - TRATAMENTO DE TEXTO CANCELADO - TWEET DELETADO')
             LOG.error(e)
-            LOG.error('TRATAMENTO DE TEXTO CANCELADO - TWEET DELETADO')
             self.q_username.clear()
-
+            return HashtagClass
 
     def img_with_quotes(self, PHILO_NAME, LOG):
 
@@ -91,9 +94,10 @@ class Functionalities(Config):
             LOG.info(close_quote_resized)
 
         except Exception as close_quote_e:
-            LOG.info(close_quote_e)
-
-        LOG.info('TESTE 1')
+            from Twitter.Hashtag import HashtagClass
+            LOG.error("[X] - PROBLEMA AO TRATAR ASPAS")
+            LOG.error(close_quote_e)
+            return HashtagClass
 
         try:
 
@@ -184,16 +188,16 @@ class Functionalities(Config):
                               text=textwrap.fill(str(PHILO_NAME)),
                               fill=(255, 255, 255),
                               font=font)
-        except Exception:
+        except Exception as e_text_adjust:
             from Twitter.Hashtag import HashtagClass
-            LOG.info('PASSANDO PELO ERRO QUE A GENTE NAO QUERIA VER')
+            LOG.error('[X] - ERRO AO ENCAIXAR TEXTO NA IMAGEM!')
+            LOG.error(e_text_adjust)
             return HashtagClass
 
         self.img.save('Hashtag/hashtag.png')
         img_update_no_quotes = 'Hashtag/hashtag.png'
 
         return img_update_no_quotes
-
 
     def check_rt(self, LOG):
         LOG.info("[ETAPA 3] Checando se é RT...")

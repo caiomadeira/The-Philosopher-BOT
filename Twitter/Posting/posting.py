@@ -16,7 +16,7 @@ from Lists.accounts import accounts_list
 from Lists.img_list import PHILOSOPHERS_LIST
 from Twitter.Hashtag.functionalities import Functionalities
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
-from Logs.Twitter.logger_hashtag import log_posting
+from Logs.Twitter.logger_engine import log_posting
 
 dotenv.load_dotenv(dotenv.find_dotenv())
 

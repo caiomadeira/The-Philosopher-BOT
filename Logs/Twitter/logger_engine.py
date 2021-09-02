@@ -34,11 +34,11 @@ def log_philobot(name):
         file_name = datetime.date.today()
 
         file_handler_error = logging.FileHandler(rf'{PATH_LOG_HASHTAG_ERROR}\HASHTAG_ERROR - {file_name}.log')
-        file_handler_error.setLevel(logging.ERROR)
+        file_handler_error.setLevel(logging.WARNING)
         file_handler_error.setFormatter(formatter_bot)
 
         file_handler_info = logging.FileHandler(rf'{PATH_LOG_HASHTAG_INFO}\HASHTAG_INFO - {file_name}.log')
-        file_handler_info.setLevel(logging.INFO)
+        file_handler_info.setLevel(logging.DEBUG)
         file_handler_info.setFormatter(formatter_bot)
 
         stream_handler_bot = logging.StreamHandler()
@@ -68,11 +68,11 @@ def log_philomaker(name):
         file_name = datetime.date.today()
 
         file_handler_error = logging.FileHandler(rf'{PATH_LOG_HASHTAG_ERROR}\HASHTAG_ERROR - {file_name}.log')
-        file_handler_error.setLevel(logging.ERROR)
+        file_handler_error.setLevel(logging.WARNING)
         file_handler_error.setFormatter(formatter_maker)
 
         file_handler_info = logging.FileHandler(rf'{PATH_LOG_HASHTAG_INFO}\HASHTAG_INFO - {file_name}.log')
-        file_handler_info.setLevel(logging.INFO)
+        file_handler_info.setLevel(logging.DEBUG)
         file_handler_info.setFormatter(formatter_maker)
 
         stream_handler_maker = logging.StreamHandler()
@@ -130,11 +130,11 @@ def log_hashtag(name):
         file_name = datetime.date.today()
 
         file_handler_error = logging.FileHandler(rf'{PATH_LOG_HASHTAG_ERROR}\HASHTAG_ERROR - {file_name}.log')
-        file_handler_error.setLevel(logging.ERROR)
+        file_handler_error.setLevel(logging.WARNING)
         file_handler_error.setFormatter(formatter_hash)
 
         file_handler_info = logging.FileHandler(rf'{PATH_LOG_HASHTAG_INFO}\HASHTAG_INFO - {file_name}.log')
-        file_handler_info.setLevel(logging.INFO)
+        file_handler_info.setLevel(logging.DEBUG)
         file_handler_info.setFormatter(formatter_hash)
 
         stream_handler_hash = logging.StreamHandler()
@@ -164,11 +164,11 @@ def log_posting(name):
         file_name = datetime.date.today()
 
         file_handler_error = logging.FileHandler(rf'{PATH_LOG_POST_ERROR}\HASHTAG_ERROR - {file_name}.log')
-        file_handler_error.setLevel(logging.ERROR)
+        file_handler_error.setLevel(logging.WARNING)
         file_handler_error.setFormatter(formatter_hash)
 
         file_handler_info = logging.FileHandler(rf'{PATH_LOG_POST_INFO}\HASHTAG_INFO - {file_name}.log')
-        file_handler_info.setLevel(logging.INFO)
+        file_handler_info.setLevel(logging.DEBUG)
         file_handler_info.setFormatter(formatter_hash)
 
         stream_handler_hash = logging.StreamHandler()

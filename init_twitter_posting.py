@@ -11,7 +11,7 @@ Avaliable on Discord too!
 """
 from config import Config
 from Twitter.Posting.posting import PostingClass
-from Logs.Twitter.logger_hashtag import log_posting
+from Logs.Twitter.logger_engine import log_posting
 
 
 class PostingOfficial:

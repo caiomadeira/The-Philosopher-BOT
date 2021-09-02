@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 from Hashtag.functionalities import Functionalities
 from Lists.img_list import PHILOSOPHERS_LIST
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
-from Logs.Twitter.logger_hashtag  import log_philobot
+from Logs.Twitter.logger_engine  import log_philobot
 
 
 class PhiloBot(Functionalities):

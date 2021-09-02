@@ -11,7 +11,7 @@ Avaliable on Discord too!
 """
 import tweepy
 from config import Config
-from Logs.Twitter.logger_hashtag import log_hashtag
+from Logs.Twitter.logger_engine import log_hashtag
 
 
 class StartHashtagExtension:

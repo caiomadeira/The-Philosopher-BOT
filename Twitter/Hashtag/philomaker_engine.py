@@ -8,7 +8,7 @@ from urllib import request
 from PIL import Image, ImageDraw, ImageFont
 from Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
-from Logs.Twitter.logger_hashtag import log_philomaker
+from Logs.Twitter.logger_engine import log_philomaker
 import os
 from Twitter.Hashtag.functionalities import Functionalities
 
