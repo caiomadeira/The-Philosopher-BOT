@@ -120,7 +120,6 @@ class HashtagOrPosting:
                     from Credentials.Twitter.Test.test_credentials import API_TEST
                     from Twitter.Hashtag.hashtag import HashtagClass
 
-
                     # TESTEPHILO
                     try:
                         Philobot_Stream = tweepy.Stream(auth=API_TEST.auth,

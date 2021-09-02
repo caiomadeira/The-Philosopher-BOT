@@ -5,3 +5,5 @@
 NoneType: None
 2021-09-02 00:50:07,488 - HASHTAG --> AAA
 NoneType: None
+2021-09-02 12:43:04,763 - PHILOBOT --> [X] - ERRO: FALHA NA PEGA DO ID - TWEET DELETADO
+2021-09-02 12:43:04,764 - PHILOBOT --> [{'code': 144, 'message': 'No status found with that ID.'}]
