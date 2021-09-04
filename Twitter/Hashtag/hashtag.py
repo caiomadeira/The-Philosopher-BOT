@@ -16,6 +16,7 @@ from Twitter.Hashtag.philomaker_engine import PhiloMaker
 from config import *
 from Logs.Twitter.logger_engine import log_hashtag
 from config import Config
+import tempfile
 
 
 class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
@@ -30,6 +31,7 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
         self.QUEUE = 1
         self.hashtag_list = hashtag_list
         self.log = log_hashtag(__name__)
+
         time.sleep(5)
 
     def on_status(self, status):

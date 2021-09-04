@@ -114,6 +114,12 @@ class HashtagOrPosting:
                     '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
                 elif get_hash == '3':
+
+                    import tempfile
+
+                    watch = tempfile.NamedTemporaryFile()
+                    self.log.info("Diretório de arquivo temporário: " + watch.name)
+
                     self.log.info(
                         f'HASHTAG TESTE ESCOLHIDA, INICIANDO {self.TESTEPHILO_HASHTAG} e {self.TESTEMAKER_HASHTAG}...\n')
 
