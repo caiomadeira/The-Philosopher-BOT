@@ -19,7 +19,12 @@ BEARER_TOKEN
 """
 import tweepy.api
 import os
+from Logs.Twitter.logger_engine import log_general
 
+"""=========== SET LOG ==========="""
+log = log_general(__name__)
+
+"""=========== GET KEYs FROM S.O ENV ==========="""
 ACCESS_TOKEN_EXT = os.getenv('ACCESS_TOKEN_EXT')
 
 ACCESS_SECRET_TOKEN_EXT = os.getenv('ACCESS_SECRET_TOKEN_EXT')
@@ -38,6 +43,6 @@ AUTH_HASHTAG_EXTENSION.set_access_token(ACCESS_TOKEN_EXT, ACCESS_SECRET_TOKEN_EX
 try:
     API_HASHTAG_EXTENSION = tweepy.API(AUTH_HASHTAG_EXTENSION, wait_on_rate_limit=False, wait_on_rate_limit_notify=True)
 
-except tweepy.TweepError:
-    print('Error_Philobot! Falha ao pegar o Token de acesso!')
-
+except tweepy.TweepError as auth_ext:
+    log.error('[X] - Erro ao se autenticar com as credenciais do extension!')
+    log.error(auth_ext)

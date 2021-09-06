@@ -23,6 +23,7 @@ class Functionalities(Config):
                 else:
                     self.send_error_empty_string(LAST_ID=last_id, LOG=LOG, PHILOMAKER=PHILOMAKER)
                     return True
+
         except Exception:
             from Twitter.Hashtag import HashtagClass
             LOG.error('[X] - ERRO: FALHA AO CHECAR SE A STRING É VAZIA')
@@ -71,7 +72,8 @@ class Functionalities(Config):
             return HashtagClass
 
     def img_with_quotes(self, PHILO_NAME, LOG):
-
+        from dotenv import load_dotenv
+        load_dotenv()
         LOG.info("[ETAPA 5.1] ASPAS IDENTIFICADAS")
 
         LOG.info("[ETAPA 5.2] Iniciando manipulação de aspas especiais...")
@@ -85,7 +87,6 @@ class Functionalities(Config):
 
             close_quote = Image.open(f'{TDD_PATH}\close_quote.png')
             LOG.info(close_quote)
-
 
             open_quote_resized = open_quote.resize((60, 60))
             LOG.info(open_quote_resized)
@@ -150,8 +151,8 @@ class Functionalities(Config):
             LOG.info('PASSANDO PELO ERRO QUE A GENTE NAO QUERIA VER')
             return HashtagClass
 
-        self.img.save('Hashtag/hashtag.png')
-        img_update_quotes = 'Hashtag/hashtag.png'
+        self.img.save(f"{os.getenv('img_save_path')}/hashtag.png")
+        img_update_quotes = f"{os.getenv('img_save_path')}/hashtag.png"
 
         return img_update_quotes
 
@@ -194,8 +195,8 @@ class Functionalities(Config):
             LOG.error(e_text_adjust)
             return HashtagClass
 
-        self.img.save('Hashtag/hashtag.png')
-        img_update_no_quotes = 'Hashtag/hashtag.png'
+        self.img.save(f"{os.getenv('img_save_path')}/hashtag.png")
+        img_update_no_quotes = f"{os.getenv('img_save_path')}/hashtag.png"
 
         return img_update_no_quotes
 

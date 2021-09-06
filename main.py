@@ -17,6 +17,8 @@ import schedule
 from config import *
 from Logs.Twitter.logger_engine import log_general
 from Twitter.Posting.posting import PostingClass
+from urllib3.exceptions import ProtocolError
+
 
 class HashtagOrPosting:
 
@@ -47,8 +49,7 @@ class HashtagOrPosting:
         self.log.info("Philosopher BOT por Caio Madeira e Rodrigo Carmo\n")
         self.log.info(colored("Para acessar o PhiloBot Manager digite [1]\n", "green"))
         self.log.info("Escolha qual script função rodar: HASHTAG OU POSTING\n")
-        # question = input("Digite 'HASHTAG' para executar a Hashtag\nDigite 'POSTING' para executar o Posting\n")
-        question = "HASHTAG"
+        question = input("Digite 'HASHTAG' para executar a Hashtag\nDigite 'POSTING' para executar o Posting\n")
 
         from Twitter.Hashtag.hashtag import HashtagClass
         if question.upper() == 'HASHTAG':
@@ -58,8 +59,7 @@ class HashtagOrPosting:
                 self.log.info('[ 2 ] - HASHTAG EXTENSION')
                 self.log.info('[ 3 ] - HASHTAG DE TESTE')
 
-                # get_hash = input('Digite o numero da sua escolha:\n')
-                get_hash = '3'
+                get_hash = input('Digite o numero da sua escolha:\n')
 
                 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
@@ -73,17 +73,16 @@ class HashtagOrPosting:
                     from Credentials.Twitter.Official import API_HASHTAG_OFFICIAL as api_oficial
 
                     # TESTEPHILO
-                    Philobot_Stream = tweepy.Stream(auth=api_oficial.auth,
-                                                    listener=HashtagClass(self.TESTEPHILO__SUBLIST, api_oficial),
-                                                    include_rts=False)
-                    Philobot_Stream.filter(track=[self.TESTEPHILO_HASHTAG], is_async=True)
-
-                    # TESTEMAKER
-                    Philobot_Stream = tweepy.Stream(auth=api_oficial.auth,
-                                                    listener=HashtagClass(self.TESTMAKER_SUBLIST, api_oficial),
-                                                    include_rts=False)
-                    Philobot_Stream.filter(track=[self.TESTEMAKER_HASHTAG], is_async=True)
-
+                    while True:
+                        try:
+                            Philobot_Stream = tweepy.Stream(auth=api_oficial.auth,
+                                                            listener=HashtagClass(self.TESTEPHILO__SUBLIST, api_oficial),
+                                                            include_rts=False)
+                            Philobot_Stream.filter(track=[self.PHILOBOT_HASHTAG], is_async=True)
+                        except (Exception, ProtocolError, AttributeError) as call_official:
+                            self.log.error("[X] - ERRO AO INICIAR STREAM OFICIAL")
+                            self.log.error(call_official)
+                            continue
                     '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
                                                 E X T E N S I O N - HASHTAG
@@ -96,16 +95,17 @@ class HashtagOrPosting:
                     from Credentials.Twitter.Extension.hashtag_credentials_extension import API_HASHTAG_EXTENSION as api_reserva
 
                     # TESTEPHILO
-                    Philobot_Stream = tweepy.Stream(auth=api_reserva.auth,
-                                                    listener=HashtagClass(self.TESTEPHILO__SUBLIST, api_reserva),
-                                                    include_rts=False)
-                    Philobot_Stream.filter(track=[self.TESTEPHILO_HASHTAG], is_async=True)
+                    while True:
+                        try:
+                            Philobot_Stream = tweepy.Stream(auth=api_reserva.auth,
+                                                            listener=HashtagClass(self.TESTEPHILO__SUBLIST, api_reserva),
+                                                            include_rts=False)
+                            Philobot_Stream.filter(track=[self.PHILOBOT_HASHTAG], is_async=True)
 
-                    # TESTEMAKER
-                    Philobot_Stream = tweepy.Stream(auth=api_reserva.auth,
-                                                    listener=HashtagClass(self.TESTMAKER_SUBLIST, api_reserva),
-                                                    include_rts=False)
-                    Philobot_Stream.filter(track=[self.TESTEMAKER_HASHTAG], is_async=True)
+                        except (Exception, ProtocolError, AttributeError) as call_ext:
+                            self.log.info("[X] - ERRO AO INICIAR STREAM EXTENSION")
+                            self.log.info(call_ext)
+                            continue
 
                     '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
                                                         
@@ -114,12 +114,6 @@ class HashtagOrPosting:
                     '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
                 elif get_hash == '3':
-
-                    import tempfile
-
-                    watch = tempfile.NamedTemporaryFile()
-                    self.log.info("Diretório de arquivo temporário: " + watch.name)
-
                     self.log.info(
                         f'HASHTAG TESTE ESCOLHIDA, INICIANDO {self.TESTEPHILO_HASHTAG} e {self.TESTEMAKER_HASHTAG}...\n')
 
@@ -127,26 +121,17 @@ class HashtagOrPosting:
                     from Twitter.Hashtag.hashtag import HashtagClass
 
                     # TESTEPHILO
-                    try:
-                        Philobot_Stream = tweepy.Stream(auth=API_TEST.auth,
-                                                        listener=HashtagClass(hashtag_list=self.TESTEPHILO__SUBLIST, get_hash_api=API_TEST),
-                                                        include_rts=False)
-                        # Philobot_Stream.filter(track=[self.TESTEPHILO_HASHTAG], is_async=True)
-                        Philobot_Stream.filter(track=["#Testephilo"], is_async=True)
-                    except Exception as call_test:
-                        self.log.info("ERRO ON CALL")
-                        self.log.info(call_test)
+                    while True:
+                        try:
+                            Philobot_Stream = tweepy.Stream(auth=API_TEST.auth,
+                                                            listener=HashtagClass(hashtag_list=self.TESTEPHILO__SUBLIST, get_hash_api=API_TEST),
+                                                            include_rts=False)
+                            Philobot_Stream.filter(track=[self.TESTEPHILO_HASHTAG], is_async=True)
 
-                    # TESTEMAKER
-                    """Philobot_Stream = tweepy.Stream(auth=API_TEST,
-                                                    listener=HashtagClass(self.TESTMAKER_SUBLIST, API_TEST),
-                                                    include_rts=False)
-                    Philobot_Stream.filter(track=[self.TESTEMAKER_HASHTAG], is_async=True)"""
-
-                    """time.sleep(1)
-                    from EnvironmentUtil.Automatic_Tweets.auto_status import choose_auto_tweet
-                    choose_auto_tweet()"""
-
+                        except (Exception, ProtocolError, AttributeError) as call_test:
+                            self.log.error("[X] - ERRO AO INICIAR STREAM DE TESTE")
+                            self.log.error(call_test)
+                            continue
 
                 else:
                     self.log.info('OPÇÃO INVÁLIDA')

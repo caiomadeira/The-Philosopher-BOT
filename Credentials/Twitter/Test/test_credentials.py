@@ -19,8 +19,12 @@ BEARER_TOKEN
 """
 import tweepy
 import os
+from Logs.Twitter.logger_engine import log_general
 
+"""=========== SET LOG ==========="""
+log = log_general(__name__)
 
+"""=========== GET KEYs FROM S.O ENV ==========="""
 ACCESS_TOKEN_TEST = os.getenv('ACCESS_TOKEN_TEST')
 
 ACCESS_SECRET_TOKEN_TEST = os.getenv('ACCESS_SECRET_TOKEN_TEST')
@@ -39,6 +43,6 @@ API_TEST.set_access_token(ACCESS_TOKEN_TEST, ACCESS_SECRET_TOKEN_TEST)
 try:
     API_TEST = tweepy.API(auth_handler=API_TEST)
 
-except tweepy.TweepError as t:
-    print(f"Erro: >>>{t}<<<")
-    print('Error_Philobot! Falha ao pegar o Token de acesso!')
+except tweepy.TweepError as auth_test:
+    log.error('[X] - Erro ao se autenticar com as credenciais de teste!')
+    log.error(auth_test)
