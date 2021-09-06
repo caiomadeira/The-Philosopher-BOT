@@ -1,14 +1,12 @@
 import random
-import re
-import textwrap
 import time
 import tweepy
 import urllib
 from urllib import request
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageFont
 from Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
-from Logs.Twitter.logger_engine import log_philomaker
+from Logs.Twitter.logger_engine import log_philobot
 import os
 from Twitter.Hashtag.functionalities import Functionalities
 
@@ -17,7 +15,7 @@ class PhiloMaker(Functionalities):
 
     def philomaker_engine(self, get_hashtag_list):
 
-        self.log = log_philomaker(__name__)
+        self.log = log_philobot(__name__)
 
         hashtag_list = get_hashtag_list
         from Twitter.Hashtag.hashtag import HashtagClass

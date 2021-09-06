@@ -11,7 +11,7 @@ Avaliable on Discord too!
 """
 import tweepy
 from config import Config
-from Logs.Twitter.logger_engine import log_hashtag
+from Logs.Twitter.logger_engine import log_philobot
 from urllib3.exceptions import ProtocolError
 
 
@@ -32,7 +32,7 @@ class StartHashtagExtension:
         self.TESTMAKER_SUBLIST = get_config.TESTMAKER__SUBLIST
 
         """=========== SET LOG ==========="""
-        self.log = log_hashtag(__name__)
+        self.log = log_philobot(__name__)
         self.start_hashtag_extension()
 
     def start_hashtag_extension(self):
@@ -43,17 +43,15 @@ class StartHashtagExtension:
         from Twitter.Hashtag.hashtag import HashtagClass
         from Credentials.Twitter.Extension.hashtag_credentials_extension import API_HASHTAG_EXTENSION as api_reserva
 
-        while True:
-            try:
-                Philobot_Stream = tweepy.Stream(auth=api_reserva.auth,
-                                                listener=HashtagClass(self.PHILOBOT__SUBLIST, api_reserva),
-                                                include_rts=False)
-                Philobot_Stream.filter(track=[self.PHILOBOT_HASHTAG], is_async=True)
+        try:
+            Philobot_Stream = tweepy.Stream(auth=api_reserva.auth,
+                                            listener=HashtagClass(self.PHILOBOT__SUBLIST, api_reserva),
+                                            include_rts=False)
+            Philobot_Stream.filter(track=[self.PHILOBOT_HASHTAG], is_async=True)
 
-            except (Exception, ProtocolError, AttributeError) as stream:
-                self.log.error('[X] - ERRO AO INICIAR O STREAM COM A API DO TWITTER')
-                self.log.error(stream)
-                continue
+        except (Exception, ProtocolError, AttributeError) as stream:
+            self.log.error('[X] - ERRO AO INICIAR O STREAM COM A API DO TWITTER')
+            self.log.error(stream)
 
 
 if __name__ == '__main__':

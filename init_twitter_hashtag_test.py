@@ -11,8 +11,9 @@ Avaliable on Discord too!
 """
 import tweepy
 from config import Config
-from Logs.Twitter.logger_engine import log_hashtag
+from Logs.Twitter.logger_engine import log_philobot
 from urllib3.exceptions import ProtocolError
+
 
 class StartHashtagExtension:
 
@@ -32,7 +33,7 @@ class StartHashtagExtension:
         self.TESTMAKER_SUBLIST = get_config.TESTMAKER__SUBLIST
 
         """=========== SET LOG ==========="""
-        self.log = log_hashtag(__name__)
+        self.log = log_philobot(__name__)
         self.start_hashtag_extension()
 
     def start_hashtag_extension(self):
