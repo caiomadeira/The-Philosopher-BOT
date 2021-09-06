@@ -9,6 +9,7 @@ from PIL import Image, ImageDraw, ImageFont
 from Lists.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
 from Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
 from Templates.templates_path_reference import TDD_PATH
+from dotenv import load_dotenv
 
 
 class Functionalities(Config):
@@ -72,7 +73,6 @@ class Functionalities(Config):
             return HashtagClass
 
     def img_with_quotes(self, PHILO_NAME, LOG):
-        from dotenv import load_dotenv
         load_dotenv()
         LOG.info("[ETAPA 5.1] ASPAS IDENTIFICADAS")
 
@@ -157,22 +157,32 @@ class Functionalities(Config):
         return img_update_quotes
 
     def img_without_quotes(self, PHILO_NAME, LOG):
+        load_dotenv()
 
         if len(self.get_treated_status) > 240:
             LOG.info("[ETAPA 6] Tweet MAIOR que 240 caracteres, ajustando texto...\n")
-            fontsize = 35
-            font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
-            self.positions['tweet_default_PosX'] = 38
-            self.positions['tweet_default_PosY'] = 105
-            self.positions['textwraped_value'] = 25
+            try:
+                fontsize = 35
+                font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
+                self.positions['tweet_default_PosX'] = 38
+                self.positions['tweet_default_PosY'] = 105
+                self.positions['textwraped_value'] = 25
+            except Exception as get_more_than_240_info_error:
+                LOG.error("[X] - Erro ao coletar informações para ajustar texto sem as aspas com mais de 240 caracteres:")
+                LOG.error(get_more_than_240_info_error)
 
         elif len(self.get_treated_status) <= 25:
             LOG.info("[ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...")
-            fontsize = 50
-            font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
-            self.positions['tweet_default_PosX'] = 80
-            self.positions['tweet_default_PosY'] = 150
-            self.positions['textwraped_value'] = 20
+            try:
+                fontsize = 50
+                font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
+                self.positions['tweet_default_PosX'] = 80
+                self.positions['tweet_default_PosY'] = 150
+                self.positions['textwraped_value'] = 20
+            except Exception as get_less_than_25_info_error:
+                LOG.error("[X] - Erro ao coletar informações para ajustar texto sem as aspas com menos de 25 caracteres:")
+                LOG.error(get_less_than_25_info_error)
+
         else:
             pass
 
@@ -195,8 +205,15 @@ class Functionalities(Config):
             LOG.error(e_text_adjust)
             return HashtagClass
 
-        self.img.save(f"{os.getenv('img_save_path')}/hashtag.png")
-        img_update_no_quotes = f"{os.getenv('img_save_path')}/hashtag.png"
+        # self.img.save(f"{os.getenv('img_save_path')}/hashtag.png")
+        # img_update_no_quotes = f"{os.getenv('img_save_path')}/hashtag.png"
+
+        try:
+            self.img.save("Twitter/Hashtag/hashtag.png")
+            img_update_no_quotes = "Twitter/Hashtag/hashtag.png"
+        except Exception as save_img_error:
+            LOG.error("[X] - Erro ao salvar imagem criada para postagem.")
+            LOG.error(save_img_error)
 
         return img_update_no_quotes
 

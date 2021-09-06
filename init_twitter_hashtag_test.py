@@ -47,7 +47,7 @@ class StartHashtagExtension:
         try:
             # TESTEPHILO
             Philobot_Stream = tweepy.Stream(auth=API_TEST.auth,
-                                            listener=HashtagClass(self.PHILOBOT__SUBLIST, API_TEST),
+                                            listener=HashtagClass(hashtag_list=self.TESTEPHILO__SUBLIST, get_hash_api=API_TEST),
                                             include_rts=False)
             Philobot_Stream.filter(track=[self.TESTEPHILO_HASHTAG], is_async=True)
 

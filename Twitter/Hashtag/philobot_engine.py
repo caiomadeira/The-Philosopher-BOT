@@ -1,6 +1,4 @@
-import os
 import random
-import textwrap
 import time
 import tweepy
 from PIL import Image, ImageFont
@@ -35,7 +33,7 @@ class PhiloBot(Functionalities):
                     'full_text']
                 self.log.info('[ETAPA 1] Status coletado: ' + self.get_status)
             except tweepy.error.TweepError as e:
-                self.log.error('[X] - ERRO: FALHA NA PEGA DO ID - TWEET DELETADO')
+                self.log.error('[X] - ERRO: FALHA NA COLETA DO ID - TWEET DELETADO')
                 self.log.error(e)
                 self.log.info('----------------------------------------\n')
                 self.log.info('>AGUARDANDO NOVOS TWEETS...<')

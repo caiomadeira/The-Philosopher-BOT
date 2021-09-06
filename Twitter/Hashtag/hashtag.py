@@ -16,7 +16,6 @@ from Twitter.Hashtag.philomaker_engine import PhiloMaker
 from config import *
 from Logs.Twitter.logger_engine import log_hashtag
 from config import Config
-import tempfile
 
 
 class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
@@ -61,6 +60,7 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
                 for i in range(1):
                     self.philobot_engine(self.hashtag_list)
                     break
+
         except Exception as e_onsts:
             self.log.error("[X] - ERRO AO COLETAR INFORMAÇÕES DO TWEET")
             self.log.error(e_onsts)
