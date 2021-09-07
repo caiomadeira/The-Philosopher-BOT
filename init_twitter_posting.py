@@ -24,15 +24,15 @@ class PostingOfficial:
         self.OFFICIAL_POST_TIME = get_post_config.OFFICIAL_TIME_POST
 
     def start_posting_official(self):
-        # from Credentials.Twitter.Official.main_credentials_official import API_MAIN_OFFICIAL as API
-        from Credentials.Twitter.Test.test_credentials import API_TEST
+        from Credentials.Twitter.Official.main_credentials_official import API_MAIN_OFFICIAL as API
+        # from Credentials.Twitter.Test.test_credentials import API_TEST
 
         self.log.info(f"POSTS DEFINIDOS PARA A CADA {self.OFFICIAL_POST_TIME} HORAS EM 'config.py'\n")
 
-        start_posting = PostingClass(API_TEST)
+        start_posting = PostingClass(API)
 
-        # PostingClass.timer(start_posting, USE_TEST_POST=self.OFFICIAL_POST_TIME)  # 2 HORAS
-        PostingClass.timer_TEST(start_posting, USE_TEST_POST=self.OFFICIAL_POST_TIME) # 2 SEGUNDOS
+        PostingClass.timer(start_posting, USE_TEST_POST=self.OFFICIAL_POST_TIME)  # 2 HORAS
+        # PostingClass.timer_TEST(start_posting, USE_TEST_POST=self.OFFICIAL_POST_TIME) # 2 SEGUNDOS
 
 
 if __name__ == '__main__':
