@@ -1,0 +1,1024 @@
+2021-09-07 01:36:29,488 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 01:36:29,488 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 01:36:29,488 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 01:36:29,489 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 01:36:31,522 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 01:36:31,522 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:36:58,337 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 01:36:58,339 - INFO - HASHTAG --> Tweet ID: 1435099730279809027
+2021-09-07 01:36:58,339 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 01:36:58,339 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 01:36:58,339 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 01:37:03,353 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 01:37:03,353 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 01:37:03,353 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 01:37:03,353 - INFO - HASHTAG --> ID Coletado: 1435099730279809027
+2021-09-07 01:37:03,909 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo asjiajaisj
+2021-09-07 01:37:03,909 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 01:37:03,909 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo asjiajaisj
+2021-09-07 01:37:05,943 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 01:37:07,990 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 01:37:07,991 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Felipe Neto.png
+2021-09-07 01:37:07,991 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 01:37:07,991 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Felipe Neto
+2021-09-07 01:37:08,009 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 01:37:08,010 - INFO - HASHTAG --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-09-07 01:37:09,550 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 01:37:12,561 - INFO - HASHTAG --> Finalizado, ID tratado: 1435099730279809027
+2021-09-07 01:37:12,561 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 01:37:12,561 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 01:37:12,561 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 01:37:12,561 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 01:37:12,561 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 01:37:12,561 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 01:37:52,573 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:51:00,289 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 01:51:00,289 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 01:51:00,289 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 01:51:00,289 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 01:51:02,320 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 01:51:02,320 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:51:32,189 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 01:51:32,189 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 01:51:32,189 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 01:51:32,189 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 01:51:34,222 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 01:51:34,222 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:51:59,015 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 01:51:59,015 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 01:51:59,015 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 01:51:59,015 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 01:52:01,047 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 01:52:01,047 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:52:57,515 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 01:52:57,515 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 01:52:57,515 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 01:52:57,515 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 01:52:59,552 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 01:52:59,552 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:53:40,327 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 01:53:40,327 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 01:53:40,328 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 01:53:40,328 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 01:53:42,363 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 01:53:42,363 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:55:06,109 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 01:55:06,109 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 01:55:06,109 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 01:55:06,109 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 01:55:08,142 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 01:55:08,142 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:55:19,526 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 01:55:19,526 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 01:55:19,526 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 01:55:19,526 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 01:55:39,164 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 01:55:39,164 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 01:55:39,165 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 01:55:39,165 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 01:55:41,195 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 01:55:41,195 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:57:01,019 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 01:57:01,020 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 01:57:01,020 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 01:57:01,021 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 01:57:03,057 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 01:57:03,057 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:57:15,619 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 01:57:15,620 - INFO - HASHTAG --> Tweet ID: 1435104836106821632
+2021-09-07 01:57:15,620 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 01:57:15,621 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 01:57:15,621 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 01:57:20,630 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 01:57:20,630 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 01:57:20,631 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 01:57:20,631 - INFO - HASHTAG --> ID Coletado: 1435104836106821632
+2021-09-07 01:57:21,195 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo ebdc08e0b8aa6973d9b563f6680cb785
+2021-09-07 01:57:21,195 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 01:57:21,196 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo ebdc08e0b8aa6973d9b563f6680cb785
+2021-09-07 01:57:23,233 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 01:57:25,277 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 01:57:25,278 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Jesus Cristo(2).png
+2021-09-07 01:57:25,278 - INFO - HASHTAG --> [ETAPA 4.2] Removendo lixo no nome da imagem do filosofo...
+2021-09-07 01:57:25,279 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Jesus Cristo
+2021-09-07 01:57:25,297 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 01:57:26,975 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 01:57:29,981 - INFO - HASHTAG --> Finalizado, ID tratado: 1435104836106821632
+2021-09-07 01:57:29,981 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 01:57:29,982 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 01:57:29,982 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 01:57:29,983 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 01:57:29,983 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 01:57:29,983 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 01:58:09,992 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:58:16,226 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 01:58:16,226 - INFO - HASHTAG --> Tweet ID: 1435105090231316481
+2021-09-07 01:58:16,227 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 01:58:16,227 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 01:58:16,228 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 01:58:21,236 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 01:58:21,236 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 01:58:21,237 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 01:58:21,238 - INFO - HASHTAG --> ID Coletado: 1435105090231316481
+2021-09-07 01:58:21,786 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo a0bf4a8ae476a1bd12c83231d5959b46
+2021-09-07 01:58:21,786 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 01:58:21,787 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo a0bf4a8ae476a1bd12c83231d5959b46
+2021-09-07 01:58:23,797 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 01:58:25,842 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 01:58:25,842 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Kogos, O Bárbaro.png
+2021-09-07 01:58:25,842 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 01:58:25,843 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Kogos, O Bárbaro
+2021-09-07 01:58:25,860 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 01:58:27,541 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 01:58:30,550 - INFO - HASHTAG --> Finalizado, ID tratado: 1435105090231316481
+2021-09-07 01:58:30,550 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 01:58:30,551 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 01:58:30,551 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 01:58:30,551 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 01:58:30,552 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 01:58:30,552 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 01:59:10,567 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 01:59:16,842 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 01:59:16,842 - INFO - HASHTAG --> Tweet ID: 1435105344452239362
+2021-09-07 01:59:16,842 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 01:59:16,843 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 01:59:16,843 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 01:59:21,854 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 01:59:21,854 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 01:59:21,855 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 01:59:21,855 - INFO - HASHTAG --> ID Coletado: 1435105344452239362
+2021-09-07 01:59:22,415 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo 3c80e6ae1efe9f36d2727050af02e813
+2021-09-07 01:59:22,415 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 01:59:22,416 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo 3c80e6ae1efe9f36d2727050af02e813
+2021-09-07 01:59:24,425 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 01:59:26,469 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 01:59:26,470 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Blaise Pascal.png
+2021-09-07 01:59:26,470 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 01:59:26,471 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Blaise Pascal
+2021-09-07 01:59:26,488 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 01:59:28,104 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 01:59:31,115 - INFO - HASHTAG --> Finalizado, ID tratado: 1435105344452239362
+2021-09-07 01:59:31,115 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 01:59:31,116 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 01:59:31,116 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 01:59:31,116 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 01:59:31,117 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 01:59:31,117 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:00:11,127 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:00:17,440 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 02:00:17,440 - INFO - HASHTAG --> Tweet ID: 1435105598652174338
+2021-09-07 02:00:17,441 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 02:00:17,441 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 02:00:17,442 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 02:00:22,454 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:00:22,454 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 02:00:22,455 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:00:22,455 - INFO - HASHTAG --> ID Coletado: 1435105598652174338
+2021-09-07 02:00:23,019 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo 073ea71ac04b25ab23e5ab036837c22b
+2021-09-07 02:00:23,020 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 02:00:23,020 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo 073ea71ac04b25ab23e5ab036837c22b
+2021-09-07 02:00:25,032 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 02:00:27,076 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 02:00:27,077 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Jair Bolsonaro(2).png
+2021-09-07 02:00:27,077 - INFO - HASHTAG --> [ETAPA 4.2] Removendo lixo no nome da imagem do filosofo...
+2021-09-07 02:00:27,077 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Jair Bolsonaro
+2021-09-07 02:00:27,094 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 02:00:28,686 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 02:00:31,696 - INFO - HASHTAG --> Finalizado, ID tratado: 1435105598652174338
+2021-09-07 02:00:31,696 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 02:00:31,697 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 02:00:31,698 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 02:00:31,699 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 02:00:31,700 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 02:00:31,701 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:01:11,706 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:01:18,057 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 02:01:18,057 - INFO - HASHTAG --> Tweet ID: 1435105852856360962
+2021-09-07 02:01:18,057 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 02:01:18,058 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 02:01:18,058 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 02:01:23,062 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:01:23,062 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 02:01:23,064 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:01:23,066 - INFO - HASHTAG --> ID Coletado: 1435105852856360962
+2021-09-07 02:01:23,615 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo 6793bf9d65fe1d759888e9b5a58cdbb2
+2021-09-07 02:01:23,615 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 02:01:23,616 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo 6793bf9d65fe1d759888e9b5a58cdbb2
+2021-09-07 02:01:25,627 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 02:01:27,682 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 02:01:27,683 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Deus.png
+2021-09-07 02:01:27,683 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 02:01:27,683 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Deus
+2021-09-07 02:01:27,705 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 02:01:29,346 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 02:01:32,349 - INFO - HASHTAG --> Finalizado, ID tratado: 1435105852856360962
+2021-09-07 02:01:32,349 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 02:01:32,350 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 02:01:32,350 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 02:01:32,350 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 02:01:32,351 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 02:01:32,351 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:02:12,358 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:02:18,623 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 02:02:18,623 - INFO - HASHTAG --> Tweet ID: 1435106106955730946
+2021-09-07 02:02:18,624 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 02:02:18,624 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 02:02:18,624 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 02:02:23,632 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:02:23,632 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 02:02:23,633 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:02:23,633 - INFO - HASHTAG --> ID Coletado: 1435106106955730946
+2021-09-07 02:02:24,194 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo 6066027745a409611e8bcf46dcf272c9
+2021-09-07 02:02:24,194 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 02:02:24,195 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo 6066027745a409611e8bcf46dcf272c9
+2021-09-07 02:02:26,216 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 02:02:28,262 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 02:02:28,263 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Deus.png
+2021-09-07 02:02:28,263 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 02:02:28,264 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Deus
+2021-09-07 02:02:28,284 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 02:02:29,980 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 02:02:32,994 - INFO - HASHTAG --> Finalizado, ID tratado: 1435106106955730946
+2021-09-07 02:02:32,994 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 02:02:32,995 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 02:02:32,996 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 02:02:32,996 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 02:02:32,997 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 02:02:32,997 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:03:13,006 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:03:19,207 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 02:03:19,207 - INFO - HASHTAG --> Tweet ID: 1435106361029939201
+2021-09-07 02:03:19,208 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 02:03:19,208 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 02:03:19,208 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 02:03:24,219 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:03:24,219 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 02:03:24,220 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:03:24,220 - INFO - HASHTAG --> ID Coletado: 1435106361029939201
+2021-09-07 02:03:24,787 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo c9c388122dc4084f96145c9e44b7cb91
+2021-09-07 02:03:24,788 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 02:03:24,789 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo c9c388122dc4084f96145c9e44b7cb91
+2021-09-07 02:03:26,801 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 02:03:28,854 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 02:03:28,855 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Dwight Schrute.png
+2021-09-07 02:03:28,855 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 02:03:28,855 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Dwight Schrute
+2021-09-07 02:03:28,877 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 02:03:30,494 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 02:03:33,497 - INFO - HASHTAG --> Finalizado, ID tratado: 1435106361029939201
+2021-09-07 02:03:33,497 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 02:03:33,498 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 02:03:33,498 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 02:03:33,498 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 02:03:33,499 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 02:03:33,499 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:04:13,500 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:04:19,817 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 02:04:19,817 - INFO - HASHTAG --> Tweet ID: 1435106615187943425
+2021-09-07 02:04:19,822 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 02:04:19,822 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 02:04:19,823 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 02:04:24,824 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:04:24,824 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 02:04:24,825 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:04:24,827 - INFO - HASHTAG --> ID Coletado: 1435106615187943425
+2021-09-07 02:04:25,389 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo 260f4f048db9a5961492fea3df2e6a04
+2021-09-07 02:04:25,389 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 02:04:25,390 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo 260f4f048db9a5961492fea3df2e6a04
+2021-09-07 02:04:27,408 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 02:04:29,454 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 02:04:29,455 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Marie Curie(2).png
+2021-09-07 02:04:29,455 - INFO - HASHTAG --> [ETAPA 4.2] Removendo lixo no nome da imagem do filosofo...
+2021-09-07 02:04:29,456 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Marie Curie
+2021-09-07 02:04:29,472 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 02:04:31,169 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 02:04:34,174 - INFO - HASHTAG --> Finalizado, ID tratado: 1435106615187943425
+2021-09-07 02:04:34,174 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 02:04:34,175 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 02:04:34,175 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 02:04:34,175 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 02:04:34,176 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 02:04:34,176 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:05:14,180 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:05:20,448 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 02:05:20,448 - INFO - HASHTAG --> Tweet ID: 1435106869488537600
+2021-09-07 02:05:20,449 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 02:05:20,449 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 02:05:20,449 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 02:05:25,455 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:05:25,455 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 02:05:25,456 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:05:25,456 - INFO - HASHTAG --> ID Coletado: 1435106869488537600
+2021-09-07 02:05:26,038 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo 90ea15046440ced8df478f77fbc87e2e
+2021-09-07 02:05:26,038 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 02:05:26,039 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo 90ea15046440ced8df478f77fbc87e2e
+2021-09-07 02:05:28,056 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 02:05:30,103 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 02:05:30,104 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Malcolm X.png
+2021-09-07 02:05:30,104 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 02:05:30,105 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Malcolm X
+2021-09-07 02:05:30,119 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 02:05:31,586 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 02:05:34,592 - INFO - HASHTAG --> Finalizado, ID tratado: 1435106869488537600
+2021-09-07 02:05:34,592 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 02:05:34,593 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 02:05:34,593 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 02:05:34,593 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 02:05:34,594 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 02:05:34,594 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:06:14,595 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:06:15,597 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 02:06:15,597 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 02:06:15,598 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 02:06:15,598 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 02:06:17,627 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 02:06:17,627 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:06:21,035 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 02:06:21,036 - INFO - HASHTAG --> Tweet ID: 1435107123634049031
+2021-09-07 02:06:21,038 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 02:06:21,038 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 02:06:21,039 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 02:06:26,050 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:06:26,050 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 02:06:26,051 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:06:26,052 - INFO - HASHTAG --> ID Coletado: 1435107123634049031
+2021-09-07 02:06:26,480 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo c13210e5e87405a382f0f9c2be459908
+2021-09-07 02:06:26,480 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 02:06:26,481 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo c13210e5e87405a382f0f9c2be459908
+2021-09-07 02:06:28,502 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 02:06:30,556 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 02:06:30,557 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Carl Sagan.png
+2021-09-07 02:06:30,557 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 02:06:30,558 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Carl Sagan
+2021-09-07 02:06:30,574 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 02:06:32,254 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 02:06:35,265 - INFO - HASHTAG --> Finalizado, ID tratado: 1435107123634049031
+2021-09-07 02:06:35,265 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 02:06:35,266 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 02:06:35,266 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 02:06:35,266 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 02:06:35,267 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 02:06:35,267 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:07:15,281 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:07:21,639 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 02:07:21,639 - INFO - HASHTAG --> Tweet ID: 1435107377800491008
+2021-09-07 02:07:21,640 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 02:07:21,641 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 02:07:21,641 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 02:07:26,645 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:07:26,645 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 02:07:26,646 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:07:26,646 - INFO - HASHTAG --> ID Coletado: 1435107377800491008
+2021-09-07 02:07:27,220 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo ffbc760c2971c2b43ba4c602408a6c4d
+2021-09-07 02:07:27,220 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 02:07:27,221 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo ffbc760c2971c2b43ba4c602408a6c4d
+2021-09-07 02:07:29,230 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 02:07:31,272 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 02:07:31,273 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Antoine Lavoisier.png
+2021-09-07 02:07:31,273 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 02:07:31,273 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Antoine Lavoisier
+2021-09-07 02:07:31,288 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 02:07:32,943 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 02:07:35,949 - INFO - HASHTAG --> Finalizado, ID tratado: 1435107377800491008
+2021-09-07 02:07:35,949 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 02:07:35,950 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 02:07:35,950 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 02:07:35,950 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 02:07:35,951 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 02:07:35,951 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:08:15,957 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:08:22,238 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 02:08:22,238 - INFO - HASHTAG --> Tweet ID: 1435107631933296644
+2021-09-07 02:08:22,239 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 02:08:22,239 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 02:08:22,239 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 02:08:27,242 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:08:27,242 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 02:08:27,243 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:08:27,243 - INFO - HASHTAG --> ID Coletado: 1435107631933296644
+2021-09-07 02:08:27,787 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo a3c742cdf0bed7519d6c77560337d5f3
+2021-09-07 02:08:27,788 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 02:08:27,789 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo a3c742cdf0bed7519d6c77560337d5f3
+2021-09-07 02:08:29,799 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 02:08:31,840 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 02:08:31,841 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Rato Petista.png
+2021-09-07 02:08:31,841 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 02:08:31,842 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Rato Petista
+2021-09-07 02:08:31,858 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 02:08:33,444 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 02:08:36,447 - INFO - HASHTAG --> Finalizado, ID tratado: 1435107631933296644
+2021-09-07 02:08:36,447 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 02:08:36,448 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 02:08:36,448 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 02:08:36,448 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 02:08:36,449 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 02:08:36,449 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:09:16,457 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:09:22,807 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 02:09:22,807 - INFO - HASHTAG --> Tweet ID: 1435107886078758913
+2021-09-07 02:09:22,808 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 02:09:22,808 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 02:09:22,808 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 02:09:27,814 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:09:27,814 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 02:09:27,815 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:09:27,815 - INFO - HASHTAG --> ID Coletado: 1435107886078758913
+2021-09-07 02:09:28,368 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo 81d15ad6bfb921544d122e52830bb57c
+2021-09-07 02:09:28,369 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 02:09:28,369 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo 81d15ad6bfb921544d122e52830bb57c
+2021-09-07 02:09:30,382 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 02:09:32,432 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 02:09:32,433 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Jean-Jacques Rousseau.png
+2021-09-07 02:09:32,433 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 02:09:32,433 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Jean-Jacques Rousseau
+2021-09-07 02:09:32,450 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 02:09:34,235 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 02:09:37,248 - INFO - HASHTAG --> Finalizado, ID tratado: 1435107886078758913
+2021-09-07 02:09:37,248 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 02:09:37,249 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 02:09:37,249 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 02:09:37,249 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 02:09:37,250 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 02:09:37,250 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:10:17,266 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 02:10:23,399 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 02:10:23,400 - INFO - HASHTAG --> Tweet ID: 1435108140194873346
+2021-09-07 02:10:23,401 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 02:10:23,401 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 02:10:23,401 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 02:10:28,408 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:10:28,408 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 02:10:28,409 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 02:10:28,409 - INFO - HASHTAG --> ID Coletado: 1435108140194873346
+2021-09-07 02:10:28,961 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo e43a3b23539c9efb62ea7435b3d09921
+2021-09-07 02:10:28,962 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 02:10:28,962 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo e43a3b23539c9efb62ea7435b3d09921
+2021-09-07 02:10:30,971 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 02:10:33,024 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 02:10:33,025 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Martinho Lutero.png
+2021-09-07 02:10:33,025 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 02:10:33,025 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Martinho Lutero
+2021-09-07 02:10:33,044 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 02:10:34,794 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 02:10:37,801 - INFO - HASHTAG --> Finalizado, ID tratado: 1435108140194873346
+2021-09-07 02:10:37,801 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 02:10:37,802 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 02:10:37,802 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 02:10:37,802 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 02:10:37,803 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 02:10:37,803 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 02:11:17,816 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 12:12:49,123 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 12:12:49,123 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 12:12:49,123 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 12:12:49,123 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 12:12:51,170 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 12:12:51,170 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 12:13:36,819 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 12:13:36,820 - INFO - HASHTAG --> Tweet ID: 1435259947986694147
+2021-09-07 12:13:36,820 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 12:13:36,820 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 12:13:36,820 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 12:13:41,825 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 12:13:41,825 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 12:13:41,825 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 12:13:41,825 - INFO - HASHTAG --> ID Coletado: 1435259947986694147
+2021-09-07 12:13:42,269 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo HEARTBEAT38cc8351e4f3dc4f806505bbe52d2f5c
+2021-09-07 12:13:42,269 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 12:13:42,269 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo HEARTBEAT38cc8351e4f3dc4f806505bbe52d2f5c
+2021-09-07 12:13:44,299 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 12:13:46,353 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 12:13:46,354 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Vladimir Lenin.png
+2021-09-07 12:13:46,354 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 12:13:46,354 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Vladimir Lenin
+2021-09-07 12:13:46,370 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 12:13:48,163 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 12:13:51,166 - INFO - HASHTAG --> Finalizado, ID tratado: 1435259947986694147
+2021-09-07 12:13:51,166 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 12:13:51,166 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 12:13:51,166 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 12:13:51,166 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 12:13:51,166 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 12:13:51,166 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 12:14:31,177 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 12:14:49,076 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 12:14:49,076 - INFO - HASHTAG --> Tweet ID: 1435260251050287111
+2021-09-07 12:14:49,076 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 12:14:49,076 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 12:14:49,076 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 12:14:54,089 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 12:14:54,089 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 12:14:54,089 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 12:14:54,089 - INFO - HASHTAG --> ID Coletado: 1435260251050287111
+2021-09-07 12:14:54,662 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo HEARTBEATc759aa38a54a18361d2855e5b79cec87
+2021-09-07 12:14:54,662 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 12:14:54,662 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo HEARTBEATc759aa38a54a18361d2855e5b79cec87
+2021-09-07 12:14:56,674 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 12:14:58,726 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 12:14:58,727 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Rogerinho do Ingá.png
+2021-09-07 12:14:58,727 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 12:14:58,727 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Rogerinho do Ingá
+2021-09-07 12:14:58,744 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 12:15:00,165 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 12:15:03,174 - INFO - HASHTAG --> Finalizado, ID tratado: 1435260251050287111
+2021-09-07 12:15:03,174 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 12:15:03,174 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 12:15:03,174 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 12:15:03,174 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 12:15:03,174 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 12:15:03,174 - INFO - HASHTAG --> Esperando 40 segundos...
+
+2021-09-07 12:15:43,183 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 12:15:44,343 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 12:15:44,343 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 12:15:44,343 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 12:15:44,343 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 12:15:46,383 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 12:15:46,383 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 12:16:38,722 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 12:16:38,722 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 12:16:38,722 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 12:16:38,722 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 12:16:40,755 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 12:16:40,755 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 12:16:50,087 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 12:16:50,088 - INFO - HASHTAG --> Tweet ID: 1435260758674321414
+2021-09-07 12:16:50,088 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 12:16:50,088 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 12:16:50,088 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 12:16:55,094 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 12:16:55,094 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 12:16:55,094 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 12:16:55,094 - INFO - HASHTAG --> ID Coletado: 1435260758674321414
+2021-09-07 12:16:55,658 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo HEARTBEAT2217528b059273b4b691ef08b9a3094d
+2021-09-07 12:16:55,658 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 12:16:55,658 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo HEARTBEAT2217528b059273b4b691ef08b9a3094d
+2021-09-07 12:16:57,690 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 12:16:59,731 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 12:16:59,732 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Kim Jong-un.png
+2021-09-07 12:16:59,732 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 12:16:59,732 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Kim Jong-un
+2021-09-07 12:16:59,749 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 12:17:01,646 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 12:17:04,659 - INFO - HASHTAG --> Finalizado, ID tratado: 1435260758674321414
+2021-09-07 12:17:04,659 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 12:17:04,659 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 12:17:04,659 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 12:17:04,659 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 12:17:04,659 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 12:17:04,659 - INFO - HASHTAG --> Esperando 20 segundos...
+
+2021-09-07 12:17:24,664 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 14:03:05,012 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 14:03:05,012 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 14:03:05,012 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 14:03:05,012 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 14:03:07,053 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 14:03:07,053 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 14:20:07,035 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 14:20:07,036 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 14:20:07,036 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 14:20:07,036 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 14:20:09,068 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 14:20:09,068 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 14:21:03,524 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 14:21:03,525 - INFO - HASHTAG --> Tweet ID: 1435292020692725774
+2021-09-07 14:21:03,525 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 14:21:03,525 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 14:21:03,525 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 14:21:08,540 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 14:21:08,540 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 14:21:08,540 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 14:21:08,540 - INFO - HASHTAG --> ID Coletado: 1435292020692725774
+2021-09-07 14:21:08,555 - ERROR - HASHTAG --> [X] - ERRO AO COLETAR INFORMAÇÕES DO TWEET
+2021-09-07 14:21:08,555 - ERROR - HASHTAG --> cannot open resource
+2021-09-07 14:21:08,555 - ERROR - HASHTAG --> [-] - Ignorando e continuando os tweets
+2021-09-07 14:22:45,893 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 14:22:45,894 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 14:22:45,894 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 14:22:45,894 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 14:22:47,934 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 14:22:47,934 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 14:22:59,672 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 14:22:59,672 - INFO - HASHTAG --> Tweet ID: 1435292507877879814
+2021-09-07 14:22:59,672 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 14:22:59,672 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 14:22:59,673 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 14:23:04,685 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 14:23:04,685 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 14:23:04,685 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 14:23:04,686 - INFO - HASHTAG --> ID Coletado: 1435292507877879814
+2021-09-07 14:23:04,697 - ERROR - HASHTAG --> [X] - ERRO AO COLETAR INFORMAÇÕES DO TWEET
+2021-09-07 14:23:04,697 - ERROR - HASHTAG --> cannot open resource
+2021-09-07 14:23:04,698 - ERROR - HASHTAG --> [-] - Ignorando e continuando os tweets
+
+2021-09-07 14:23:31,308 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 14:23:31,308 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 14:23:31,308 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 14:23:31,308 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 14:23:33,353 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 14:23:33,353 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 14:23:50,296 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 14:23:50,296 - INFO - HASHTAG --> Tweet ID: 1435292720164184070
+2021-09-07 14:23:50,296 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 14:23:50,296 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 14:23:50,296 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 14:23:55,310 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 14:23:55,310 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 14:23:55,310 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 14:23:55,310 - INFO - HASHTAG --> ID Coletado: 1435292720164184070
+2021-09-07 14:23:55,798 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo teste teste teste
+2021-09-07 14:23:55,798 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 14:23:55,798 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo teste teste teste
+2021-09-07 14:23:57,823 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 14:23:59,872 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 14:23:59,872 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Alexandre, o Grande.png
+2021-09-07 14:23:59,873 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 14:23:59,873 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Alexandre, o Grande
+2021-09-07 14:23:59,889 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 14:23:59,889 - INFO - HASHTAG --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-09-07 14:24:02,502 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 14:24:05,508 - INFO - HASHTAG --> Finalizado, ID tratado: 1435292720164184070
+2021-09-07 14:24:05,508 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 14:24:05,508 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 14:24:05,508 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 14:24:05,508 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 14:24:05,508 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 14:24:05,508 - INFO - HASHTAG --> Esperando 20 segundos...
+
+2021-09-07 14:24:25,511 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 14:24:32,374 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 14:24:32,374 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 14:24:32,374 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 14:24:32,374 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 14:24:34,408 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 14:24:34,408 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 14:24:52,049 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 14:24:52,049 - INFO - HASHTAG --> Tweet ID: 1435292979174969345
+2021-09-07 14:24:52,049 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 14:24:52,049 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 14:24:52,050 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 14:24:57,056 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 14:24:57,056 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 14:24:57,056 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 14:24:57,057 - INFO - HASHTAG --> ID Coletado: 1435292979174969345
+2021-09-07 14:24:57,504 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo HBHGJBHGJBHGJBHGJBHGJB
+2021-09-07 14:24:57,504 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 14:24:57,504 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo HBHGJBHGJBHGJBHGJBHGJB
+2021-09-07 14:24:59,540 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 14:25:01,580 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 14:25:01,581 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Rato Petista.png
+2021-09-07 14:25:01,581 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 14:25:01,581 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Rato Petista
+2021-09-07 14:25:01,597 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 14:25:01,598 - INFO - HASHTAG --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-09-07 14:25:03,579 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 14:30:14,457 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 14:30:14,458 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 14:30:14,458 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 14:30:14,458 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 14:30:16,496 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 14:30:16,496 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 14:30:45,005 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 14:30:45,006 - INFO - HASHTAG --> Tweet ID: 1435294459659436032
+2021-09-07 14:30:45,006 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 14:30:45,006 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 14:30:45,006 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 14:30:50,014 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 14:30:50,014 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 14:30:50,014 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 14:30:50,014 - INFO - HASHTAG --> ID Coletado: 1435294459659436032
+2021-09-07 14:30:50,025 - ERROR - HASHTAG --> [X] - ERRO AO COLETAR INFORMAÇÕES DO TWEET
+2021-09-07 14:30:50,026 - ERROR - HASHTAG --> cannot open resource
+2021-09-07 14:30:50,026 - ERROR - HASHTAG --> [-] - Ignorando e continuando os tweets
+2021-09-07 14:44:01,692 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 14:44:01,692 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 14:44:01,692 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 14:44:01,692 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 14:44:03,726 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 14:44:03,726 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 15:33:41,457 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 15:33:41,457 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 15:33:41,457 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 15:33:41,457 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 15:33:43,498 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 15:33:43,498 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 15:33:44,224 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 15:33:44,224 - INFO - HASHTAG --> Tweet ID: 1435310311008051209
+2021-09-07 15:33:44,224 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 15:33:44,224 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 15:33:44,225 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 15:33:49,226 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 15:33:49,226 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 15:33:49,226 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 15:33:49,227 - INFO - HASHTAG --> ID Coletado: 1435310311008051209
+2021-09-07 15:33:49,672 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo HEARTBEAT759f51bcf4bf794f94b2b9a2c6273413
+2021-09-07 15:33:49,672 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 15:33:49,672 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo HEARTBEAT759f51bcf4bf794f94b2b9a2c6273413
+2021-09-07 15:33:51,707 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 15:33:53,760 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 15:33:53,761 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Elvis Presley.png
+2021-09-07 15:33:53,761 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 15:33:53,761 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Elvis Presley
+2021-09-07 15:33:53,777 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 15:33:55,352 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 15:33:58,367 - INFO - HASHTAG --> Finalizado, ID tratado: 1435310311008051209
+2021-09-07 15:33:58,367 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 15:33:58,368 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 15:33:58,368 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 15:33:58,368 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 15:33:58,369 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 15:33:58,369 - INFO - HASHTAG --> Esperando 20 segundos...
+
+2021-09-07 15:34:18,378 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 15:38:54,817 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 15:38:54,817 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 15:38:54,817 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 15:38:54,817 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 15:38:56,854 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 15:38:56,854 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 15:38:57,618 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 15:38:57,618 - INFO - HASHTAG --> Tweet ID: 1435311625402265601
+2021-09-07 15:38:57,618 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 15:38:57,618 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 15:38:57,618 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 15:39:02,625 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 15:39:02,625 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 15:39:02,625 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 15:39:02,626 - INFO - HASHTAG --> ID Coletado: 1435311625402265601
+2021-09-07 15:39:03,073 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo HEARTBEAT37a1ab99f99898a65781671110a02786
+2021-09-07 15:39:03,073 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 15:39:03,073 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo HEARTBEAT37a1ab99f99898a65781671110a02786
+2021-09-07 15:39:05,096 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 15:39:07,144 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 15:39:07,145 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Getúlio Vargas.png
+2021-09-07 15:39:07,145 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 15:39:07,145 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Getúlio Vargas
+2021-09-07 15:39:07,164 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 15:39:08,705 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 15:39:11,710 - INFO - HASHTAG --> Finalizado, ID tratado: 1435311625402265601
+2021-09-07 15:39:11,710 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 15:39:11,711 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 15:39:11,711 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 15:39:11,711 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 15:39:11,712 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 15:39:11,712 - INFO - HASHTAG --> Esperando 20 segundos...
+2021-09-07 15:39:56,412 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 15:39:56,413 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 15:39:56,413 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 15:39:56,413 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 15:39:58,441 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 15:39:58,441 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 15:39:59,172 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 15:39:59,173 - INFO - HASHTAG --> Tweet ID: 1435311883511336967
+2021-09-07 15:39:59,173 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 15:39:59,173 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 15:39:59,173 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 15:40:04,177 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 15:40:04,177 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 15:40:04,177 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 15:40:04,178 - INFO - HASHTAG --> ID Coletado: 1435311883511336967
+2021-09-07 15:40:04,625 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo HEARTBEAT03ef2072c0bb66a7be0c35becb2bf1e7
+2021-09-07 15:40:04,625 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 15:40:04,626 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo HEARTBEAT03ef2072c0bb66a7be0c35becb2bf1e7
+2021-09-07 15:40:06,658 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 15:40:08,698 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 15:40:08,699 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Fidel Castro.png
+2021-09-07 15:40:08,699 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 15:40:08,700 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Fidel Castro
+2021-09-07 15:40:08,716 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 15:40:10,397 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 15:40:13,411 - INFO - HASHTAG --> Finalizado, ID tratado: 1435311883511336967
+2021-09-07 15:40:13,411 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 15:40:13,411 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 15:40:13,412 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 15:40:13,412 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 15:40:13,412 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 15:40:13,413 - INFO - HASHTAG --> Esperando 20 segundos...
+
+2021-09-07 15:40:33,427 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 15:42:34,145 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 15:42:34,145 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 15:42:34,145 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 15:42:34,145 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 15:42:36,174 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 15:42:36,174 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 15:42:36,915 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 15:42:36,916 - INFO - HASHTAG --> Tweet ID: 1435312544953114624
+2021-09-07 15:42:36,916 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 15:42:36,916 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 15:42:36,916 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 15:42:41,924 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 15:42:41,924 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 15:42:41,924 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 15:42:41,925 - INFO - HASHTAG --> ID Coletado: 1435312544953114624
+2021-09-07 15:42:42,368 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo HEARTBEAT6ad2952cf998a29987cf2373bf50f157
+2021-09-07 15:42:42,369 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 15:42:42,369 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo HEARTBEAT6ad2952cf998a29987cf2373bf50f157
+2021-09-07 15:42:44,408 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 15:42:46,455 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 15:42:46,456 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Alexandre, o Grande.png
+2021-09-07 15:42:46,456 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 15:42:46,456 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Alexandre, o Grande
+2021-09-07 15:42:46,471 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 15:42:48,059 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 15:42:51,065 - INFO - HASHTAG --> Finalizado, ID tratado: 1435312544953114624
+2021-09-07 15:42:51,065 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 15:42:51,066 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 15:42:51,066 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 15:42:51,066 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 15:42:51,067 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 15:42:51,067 - INFO - HASHTAG --> Esperando 20 segundos...
+2021-09-07 15:50:36,790 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 15:50:36,790 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 15:50:36,790 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 15:50:36,790 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 15:50:38,829 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 15:50:38,829 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 15:50:39,562 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 15:50:39,562 - INFO - HASHTAG --> Tweet ID: 1435314569635840002
+2021-09-07 15:50:39,562 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 15:50:39,563 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 15:50:39,563 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 15:50:44,572 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 15:50:44,572 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 15:50:44,572 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 15:50:44,573 - INFO - HASHTAG --> ID Coletado: 1435314569635840002
+2021-09-07 15:50:45,028 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo HEARTBEAT1f5ee974f97f461e7f04752f2a467e8d
+2021-09-07 15:50:45,028 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 15:50:45,028 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo HEARTBEAT1f5ee974f97f461e7f04752f2a467e8d
+2021-09-07 15:50:47,059 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 15:50:49,109 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 15:50:49,110 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Werner Heisenberg.png
+2021-09-07 15:50:49,110 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 15:50:49,110 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Werner Heisenberg
+2021-09-07 15:50:49,126 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 15:50:50,991 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 15:50:54,005 - INFO - HASHTAG --> Finalizado, ID tratado: 1435314569635840002
+2021-09-07 15:50:54,005 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 15:50:54,005 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 15:50:54,006 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 15:50:54,006 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 15:50:54,006 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 15:50:54,007 - INFO - HASHTAG --> Esperando 20 segundos...
+
+2021-09-07 15:51:14,021 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 16:34:01,698 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-07 16:34:01,699 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-07 16:34:01,699 - INFO - HASHTAG --> >INICIANDO HASHTAG - TESTE<
+2021-09-07 16:34:01,699 - INFO - HASHTAG --> HASHTAG EXTENSION ESCOLHIDA, INICIANDO #TESTEPHILO...
+2021-09-07 16:34:03,739 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-07 16:34:03,739 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-07 16:35:11,183 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-07 16:35:11,183 - INFO - HASHTAG --> Tweet ID: 1435325774807044109
+2021-09-07 16:35:11,184 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-07 16:35:11,184 - INFO - HASHTAG --> Adicionado na fila
+2021-09-07 16:35:11,184 - INFO - HASHTAG --> =======================================================
+
+2021-09-07 16:35:16,186 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 16:35:16,186 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-07 16:35:16,186 - INFO - HASHTAG --> ----------------------------------------
+2021-09-07 16:35:16,187 - INFO - HASHTAG --> ID Coletado: 1435325774807044109
+2021-09-07 16:35:16,633 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo AAA AA
+2021-09-07 16:35:16,633 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-07 16:35:16,634 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo AAA AA
+2021-09-07 16:35:18,664 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-07 16:35:20,720 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-07 16:35:20,721 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Eduardo cunha.png
+2021-09-07 16:35:20,721 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-07 16:35:20,721 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Eduardo cunha
+2021-09-07 16:35:20,738 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-07 16:35:20,739 - INFO - HASHTAG --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-09-07 16:35:22,179 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-07 16:35:25,181 - INFO - HASHTAG --> Finalizado, ID tratado: 1435325774807044109
+2021-09-07 16:35:25,181 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-07 16:35:25,182 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-07 16:35:25,182 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-07 16:35:25,182 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-07 16:35:25,182 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-07 16:35:25,183 - INFO - HASHTAG --> Esperando 20 segundos...
+
+2021-09-07 16:35:45,194 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<

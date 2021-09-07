@@ -47,7 +47,6 @@ class HashtagOrPosting:
     def hash_or_posting(self):
         self.log.info("Bem-vindo!\n")
         self.log.info("Philosopher BOT por Caio Madeira e Rodrigo Carmo\n")
-        self.log.info(colored("Para acessar o PhiloBot Manager digite [1]\n", "green"))
         self.log.info("Escolha qual script função rodar: HASHTAG OU POSTING\n")
         question = input("Digite 'HASHTAG' para executar a Hashtag\nDigite 'POSTING' para executar o Posting\n")
 
@@ -111,7 +110,7 @@ class HashtagOrPosting:
 
                 elif get_hash == '3':
                     self.log.info(
-                        f'HASHTAG TESTE ESCOLHIDA, INICIANDO {self.TESTEPHILO_HASHTAG} e {self.TESTEMAKER_HASHTAG}...\n')
+                        f'HASHTAG TESTE ESCOLHIDA, INICIANDO {self.TESTEPHILO_HASHTAG}...\n')
 
                     from Credentials.Twitter.Test.test_credentials import API_TEST
                     from Twitter.Hashtag.hashtag import HashtagClass

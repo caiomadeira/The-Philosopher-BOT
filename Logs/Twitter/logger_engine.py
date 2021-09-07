@@ -10,6 +10,7 @@ Avaliable on Discord too!
 """
 import logging
 import datetime
+from logging.handlers import TimedRotatingFileHandler
 from Logs.Twitter.logs_hashtag.INFO.path_log_hashtag_info import PATH_LOG_HASHTAG_INFO
 from Logs.Twitter.logs_posting.INFO.path_log_posting_info import PATH_LOG_POST_INFO
 
@@ -30,7 +31,8 @@ def log_philobot(name):
 
         file_name = datetime.date.today()
 
-        file_handler_info = logging.FileHandler(rf'{PATH_LOG_HASHTAG_INFO}\HASHTAG - {file_name}.log')
+        # file_handler_info = logging.FileHandler(rf'{PATH_LOG_HASHTAG_INFO}\HASHTAG - {file_name}.log')
+        file_handler_info = TimedRotatingFileHandler(rf'{PATH_LOG_HASHTAG_INFO}\HASHTAG - {file_name}.log', when="midnight", interval=1)
         file_handler_info.setLevel(logging.DEBUG)
         file_handler_info.setFormatter(formatter_bot)
 
@@ -59,7 +61,8 @@ def log_posting(name):
 
         file_name = datetime.date.today()
 
-        file_handler_info = logging.FileHandler(rf'{PATH_LOG_POST_INFO}\POSTING - {file_name}.log')
+        # file_handler_info = logging.FileHandler(rf'{PATH_LOG_POST_INFO}\POSTING - {file_name}.log')
+        file_handler_info = TimedRotatingFileHandler(rf'{PATH_LOG_POST_INFO}\POSTING - {file_name}.log', when="midnight", interval=1)
         file_handler_info.setLevel(logging.DEBUG)
         file_handler_info.setFormatter(formatter_hash)
 

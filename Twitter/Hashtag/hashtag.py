@@ -30,9 +30,10 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
         self.hashtag_list = hashtag_list
         self.log = log_philobot(__name__)
 
-        time.sleep(5)
+        time.sleep(2)
         self.log.info(">HASHTAG TESTE INICIADA<")
         self.log.info(">AGUARDANDO NOVOS TWEETS...<")
+
 
     def on_status(self, status):
 
