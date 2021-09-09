@@ -1,0 +1,11 @@
+2021-09-08 21:47:45,688 - INFO - HASHTAG --> POSTS DEFINIDOS PARA A CADA 2 HORAS EM 'config.py'
+
+2021-09-08 21:47:47,730 - INFO - HASHTAG --> Running job Every 2 seconds do posting() (last run: [never], next run: 2021-09-08 21:47:47)
+2021-09-08 21:47:47,741 - INFO - HASHTAG --> --------------------------------------
+2021-09-08 21:47:47,742 - INFO - HASHTAG --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2021-09-08 21:47:47,742 - INFO - HASHTAG --> [+] Versão: 3.1.5 - (30/09/2021)
+2021-09-08 21:47:49,758 - INFO - HASHTAG --> --------------------------------------
+
+2021-09-08 21:47:54,239 - INFO - HASHTAG --> [+] - TWEET SELECIONADO:
+2021-09-08 21:47:54,239 - INFO - HASHTAG --> ['“O brasileiro não gosta mais do Neymar”  O brasileiro: ']
+2021-09-08 21:47:54,241 - INFO - HASHTAG --> [+] - Analisando Texto...

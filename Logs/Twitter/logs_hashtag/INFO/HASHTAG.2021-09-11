@@ -1,0 +1,14 @@
+2021-09-11 21:50:58,196 - INFO - HASHTAG --> Twitter error response: status code = 401
+2021-09-11 21:51:00,211 - INFO - HASHTAG --> Running job Every 2 seconds do posting() (last run: 2021-09-11 21:50:58, next run: 2021-09-11 21:51:00)
+2021-09-11 21:51:00,212 - INFO - HASHTAG --> --------------------------------------
+2021-09-11 21:51:00,212 - INFO - HASHTAG --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2021-09-11 21:51:00,212 - INFO - HASHTAG --> [+] Versão: 3.1.5 - (30/09/2021)
+2021-09-11 21:51:02,215 - INFO - HASHTAG --> --------------------------------------
+
+2021-09-11 21:51:04,635 - INFO - HASHTAG --> [{'code': 135, 'message': 'Timestamp out of bounds.'}]
+2021-09-11 21:51:04,635 - INFO - HASHTAG --> [X] - Erro - Não autorizado
+[x] Ignorando...
+2021-09-11 21:51:04,635 - INFO - HASHTAG --> [+] - TWEET SELECIONADO:
+2021-09-11 21:51:04,635 - INFO - HASHTAG --> ['aos patriotas: o que tanto agradecem ao mito? o que Bolsonaro tem feito de tão bom pra tanto agradecimento?  não pode: falar da venezuela ou cuba e nem do PT, só falem do mito']
+2021-09-11 21:51:04,635 - INFO - HASHTAG --> [+] - Analisando Texto...
+2021-09-11 21:51:07,036 - INFO - HASHTAG --> Twitter error response: status code = 401

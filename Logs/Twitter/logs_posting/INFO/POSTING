@@ -1,0 +1,13 @@
+2021-09-13 21:51:14,693  - INFO - POSTING --> [{'code': 135, 'message': 'Timestamp out of bounds.'}]
+2021-09-13 21:51:14,696  - INFO - POSTING --> [X] - Erro - Não autorizado
+[x] Ignorando...
+2021-09-13 21:51:14,696  - INFO - POSTING --> [+] - TWEET SELECIONADO:
+2021-09-13 21:51:14,697  - INFO - POSTING --> ['aos patriotas: o que tanto agradecem ao mito? o que Bolsonaro tem feito de tão bom pra tanto agradecimento?  não pode: falar da venezuela ou cuba e nem do PT, só falem do mito']
+2021-09-13 21:51:14,697  - INFO - POSTING --> [+] - Analisando Texto...
+2021-09-08 21:51:30,755  - INFO - POSTING --> Twitter error response: status code = 401
+2021-09-08 21:51:32,782  - INFO - POSTING --> Running job Every 2 seconds do posting() (last run: 2021-09-08 21:51:30, next run: 2021-09-08 21:51:32)
+2021-09-08 21:51:32,783  - INFO - POSTING --> --------------------------------------
+2021-09-08 21:51:32,783  - INFO - POSTING --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2021-09-08 21:51:32,783  - INFO - POSTING --> [+] Versão: 3.1.5 - (30/09/2021)
+2021-09-08 21:51:34,783  - INFO - POSTING --> --------------------------------------
+

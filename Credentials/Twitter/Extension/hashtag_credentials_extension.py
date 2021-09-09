@@ -19,10 +19,10 @@ BEARER_TOKEN
 """
 import tweepy.api
 import os
-from Logs.Twitter.logger_engine import log_philobot
+from Logs.Twitter.logger_hashtag import log_bot
 
 """=========== SET LOG ==========="""
-log = log_philobot(__name__)
+log = log_bot
 
 """=========== GET KEYs FROM S.O ENV ==========="""
 ACCESS_TOKEN_EXT = os.getenv('ACCESS_TOKEN_EXT')

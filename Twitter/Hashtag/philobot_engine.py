@@ -5,14 +5,14 @@ from PIL import Image, ImageFont
 from Twitter.Hashtag.functionalities import Functionalities
 from Lists.img_list import PHILOSOPHERS_LIST
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
-from Logs.Twitter.logger_engine import log_philobot
+from Logs.Twitter.logger_hashtag import log_bot
 
 
 class PhiloBot(Functionalities):
 
     def philobot_engine(self, get_hashtag_list):
 
-        self.log = log_philobot(__name__)
+        self.log = log_bot
 
         from Twitter.Hashtag.hashtag import HashtagClass
         hashtag_list = get_hashtag_list

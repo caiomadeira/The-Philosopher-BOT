@@ -13,7 +13,7 @@ import time
 import tweepy
 from Twitter.Hashtag.philobot_engine import PhiloBot
 from Twitter.Hashtag.philomaker_engine import PhiloMaker
-from Logs.Twitter.logger_engine import log_philobot
+from Logs.Twitter.logger_hashtag import log_bot
 from config import Config
 
 
@@ -28,12 +28,11 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
         self.api = get_hash_api
         self.QUEUE = 1
         self.hashtag_list = hashtag_list
-        self.log = log_philobot(__name__)
+        self.log = log_bot
 
         time.sleep(2)
         self.log.info(">HASHTAG TESTE INICIADA<")
         self.log.info(">AGUARDANDO NOVOS TWEETS...<")
-
 
     def on_status(self, status):
 

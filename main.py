@@ -15,7 +15,7 @@ import tweepy
 from termcolor import colored
 import schedule
 from config import *
-from Logs.Twitter.logger_engine import log_philobot
+from Logs.Twitter.logger_hashtag import log_bot
 from Twitter.Posting.posting import PostingClass
 from urllib3.exceptions import ProtocolError
 
@@ -42,7 +42,7 @@ class HashtagOrPosting:
         self.TESTMAKER_SUBLIST = get_config.TESTMAKER__SUBLIST
 
         """=========== SET LOG ==========="""
-        self.log = log_philobot(__name__)
+        self.log = log_bot
 
     def hash_or_posting(self):
         self.log.info("Bem-vindo!\n")
