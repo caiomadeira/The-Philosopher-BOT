@@ -13,6 +13,7 @@ def send_alert(use_subject):
     receiver_email = os.getenv('receiver_email')
     password = os.getenv('sender_email_pwd')
 
+
     message = MIMEMultipart("alternative")
     message["Subject"] = use_subject
     message["From"] = sender_email

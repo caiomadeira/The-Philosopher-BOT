@@ -6,7 +6,7 @@ def heartbeat():
     hb_key = "#Testephilo HEARTBEAT " + secrets.token_hex(16)
 
     try:
-        from Credentials.Twitter.Test.test_credentials import API_TEST
+        from Credentials.Twitter.PhiloWATCH.philowatch_credentials import API_TEST
         API_TEST.update_status(hb_key)
         log.info("[+] - HEARTBEAT enviado com sucesso!")
         log.info("------------------------------------------\n")

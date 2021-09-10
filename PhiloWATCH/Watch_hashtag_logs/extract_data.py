@@ -12,7 +12,7 @@ def open_file(attempts):
 
     log.info(log_file_path)
 
-    list_of_files = glob.glob(log_file_path + r"\*.log")
+    list_of_files = glob.glob(log_file_path + r"\*")
 
     latest_file = max(list_of_files, key=os.path.getctime)
 
