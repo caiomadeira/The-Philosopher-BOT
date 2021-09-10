@@ -1,0 +1,45 @@
+2021-09-10 00:58:36,194 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-10 00:58:36,195 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-10 00:58:36,195 - INFO - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-09-10 00:58:38,238 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-10 00:58:38,238 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-10 01:00:13,959 - INFO - HASHTAG --> Bem-vindo!
+
+2021-09-10 01:00:13,959 - INFO - HASHTAG --> Philosopher BOT por Caio Madeira e Rodrigo Carmo
+
+2021-09-10 01:00:13,959 - INFO - HASHTAG --> >INICIANDO HASHTAG - EXTENSION<
+2021-09-10 01:00:15,991 - INFO - HASHTAG --> >HASHTAG TESTE INICIADA<
+2021-09-10 01:00:15,991 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<
+2021-09-10 01:00:38,149 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-10 01:00:38,149 - INFO - HASHTAG --> Tweet ID: 1436177749861965824
+2021-09-10 01:00:38,149 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-10 01:00:38,149 - INFO - HASHTAG --> Adicionado na fila
+2021-09-10 01:00:38,149 - INFO - HASHTAG --> =======================================================
+
+2021-09-10 01:00:43,153 - INFO - HASHTAG --> ----------------------------------------
+2021-09-10 01:00:43,153 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-10 01:00:43,153 - INFO - HASHTAG --> ----------------------------------------
+2021-09-10 01:00:43,153 - INFO - HASHTAG --> ID Coletado: 1436177749861965824
+2021-09-10 01:00:43,617 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Philobot sdkaodakdds
+2021-09-10 01:00:43,617 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-10 01:00:43,617 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Philobot sdkaodakdds
+2021-09-10 01:00:45,640 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-10 01:00:47,693 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-10 01:00:47,694 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Lucifer.png
+2021-09-10 01:00:47,694 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-10 01:00:47,694 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Lucifer
+2021-09-10 01:00:47,714 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-10 01:00:47,716 - INFO - HASHTAG --> [ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...
+2021-09-10 01:00:49,186 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-10 01:00:52,193 - INFO - HASHTAG --> Finalizado, ID tratado: 1436177749861965824
+2021-09-10 01:00:52,193 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-10 01:00:52,193 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-10 01:00:52,193 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-10 01:00:52,193 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-10 01:00:52,193 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-10 01:00:52,193 - INFO - HASHTAG --> Esperando 20 segundos...
+
+2021-09-10 01:01:12,201 - INFO - HASHTAG --> >AGUARDANDO NOVOS TWEETS...<

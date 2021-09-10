@@ -1,20 +1,18 @@
-import os
 import random
-import textwrap
 import time
 import tweepy
 from PIL import Image, ImageFont
 from Twitter.Hashtag.functionalities import Functionalities
 from Lists.img_list import PHILOSOPHERS_LIST
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
-from Logs.Twitter.logger_hashtag import log_philobot
+from Logs.Twitter.logger_hashtag import log_bot
 
 
 class PhiloBot(Functionalities):
 
     def philobot_engine(self, get_hashtag_list):
 
-        self.log = log_philobot(__name__)
+        self.log = log_bot
 
         from Twitter.Hashtag.hashtag import HashtagClass
         hashtag_list = get_hashtag_list
@@ -35,8 +33,8 @@ class PhiloBot(Functionalities):
                     'full_text']
                 self.log.info('[ETAPA 1] Status coletado: ' + self.get_status)
             except tweepy.error.TweepError as e:
-                self.log.info(e)
-                self.log.info('ERRO: FALHA NA PEGA DO ID - TWEET DELETADO')
+                self.log.error('[X] - ERRO: FALHA NA COLETA DO ID - TWEET DELETADO')
+                self.log.error(e)
                 self.log.info('----------------------------------------\n')
                 self.log.info('>AGUARDANDO NOVOS TWEETS...<')
 
@@ -55,8 +53,8 @@ class PhiloBot(Functionalities):
                     pass
 
             except Exception as e_check_rt:
-                self.log.info('ERRO: FALHA AO VERIFICAR SE É RETWEET')
-                self.log.info(e_check_rt)
+                self.log.error('[X] - ERRO: FALHA AO VERIFICAR SE É RETWEET')
+                self.log.error(e_check_rt)
                 return HashtagClass
 
             """""""""""""""""""""""""""""""""
@@ -93,8 +91,9 @@ class PhiloBot(Functionalities):
                 self.text_adjust(choice_philosopher=self.choice_philosopher, LOG=self.log)
 
             except Exception as e:
-                self.log.error('ERRO: FALHA AO REALIZAR AJUSTE DE TEXTO')
+                self.log.error('[X] - ERRO: FALHA AO REALIZAR AJUSTE DE TEXTO')
                 self.log.error(e)
+                return HashtagClass
 
             """
             [+] AJUSTANDO IMAGEM
@@ -102,8 +101,9 @@ class PhiloBot(Functionalities):
             try:
                 self.img_adjust()
             except Exception as e:
-                self.log.error('ERRO: FALHA AO REALIZAR AJUSTE DE IMAGEM')
+                self.log.error('[X] - ERRO: FALHA AO REALIZAR AJUSTE DE IMAGEM')
                 self.log.error(e)
+                return HashtagClass
 
             " ========================================================================================= "
 
@@ -131,16 +131,13 @@ class PhiloBot(Functionalities):
             self.q_username.clear()
             self.log.info('Limpeza realizada com sucesso!')
         except Exception as e_garbage:
-            self.log.error('ERRO: FALHA AO REALIZAR LIMPEZA')
+            self.log.error('[X] - ERRO: FALHA AO REALIZAR LIMPEZA')
             self.log.error(e_garbage)
+            return HashtagClass
 
-        self.log.info("Esperando 20 segundos...")
+        self.log.info("Esperando 20 segundos...\n")
         time.sleep(20)
         self.log.info('>AGUARDANDO NOVOS TWEETS...<')
-
-        self.log.info('[LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]')
-        self.log.info('ITENS NA LISTA:')
-        self.log.info(self.q_username)
 
         return HashtagClass
 

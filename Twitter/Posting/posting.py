@@ -14,14 +14,13 @@ import tweepy, textwrap, random, time, re, schedule, os, dotenv
 from PIL import Image, ImageDraw, ImageFont
 from Lists.accounts import accounts_list
 from Lists.img_list import PHILOSOPHERS_LIST
-from Twitter.Hashtag.functionalities import Functionalities
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
-from Logs.Twitter.logger_hashtag import log_posting
+from Logs.Twitter.logger_posting import log_post
 
 dotenv.load_dotenv(dotenv.find_dotenv())
 
 
-class PostingClass(tweepy.StreamListener, Functionalities):
+class PostingClass(tweepy.StreamListener):
     def __init__(self, get_post_api):
         super().__init__()
 
@@ -32,7 +31,7 @@ class PostingClass(tweepy.StreamListener, Functionalities):
         self.ACCOUNT = os.getenv('posting_account')
         self.QUEUE = 1
         self.VERSION = os.getenv('version')
-        self.log = log_posting(__name__)
+        self.log = log_post
 
     def obter_tweets(self, api, USERNAME_ACCOUNT):
 
@@ -73,7 +72,7 @@ class PostingClass(tweepy.StreamListener, Functionalities):
 
             try:
 
-                self.log.info("------------------------")
+                self.log.info("--------------------------------------\n")
                 time.sleep(2)
                 random_account = random.choice(accounts_list)
                 try:
@@ -81,10 +80,10 @@ class PostingClass(tweepy.StreamListener, Functionalities):
 
                 except tweepy.error.TweepError as t:
                     self.log.info(t)
-                    self.log.info('[x] Erro - Não autorizado\n[x] Ignorando...')
+                    self.log.info('[X] - Erro - Não autorizado\n[x] Ignorando...')
                     pass
 
-                self.log.info("[+] TWEET SELECIONADO:")
+                self.log.info("[+] - TWEET SELECIONADO:")
 
                 try:
                     self.log.info(self.tweet_account)
@@ -93,7 +92,7 @@ class PostingClass(tweepy.StreamListener, Functionalities):
                     self.log.info('[x] Erro - UNICODE não pode ser codificado.\nIgnorando...')
                     self.log.info(u)
 
-                self.log.info("[+] Analisando Texto...")
+                self.log.info("[+] - Analisando Texto...")
                 time.sleep(2)
             except tweepy.error.TweepError as build_image_error:
                 self.log.exception(build_image_error)
@@ -103,10 +102,11 @@ class PostingClass(tweepy.StreamListener, Functionalities):
                 try:
                     self.get_treated_status = ("\n".join(self.tweets))
                     if self.get_treated_status == '':
-                        self.log.info('[!] String vazia detectada!')
-                        self.log.info('[+] Retornando aos tweets novamente...')
-                        self.log.info('----------------------')
-                        return self.tweets
+                        self.log.info('[!] - String vazia detectada!')
+                        self.log.info('[+] - Retornando aos tweets novamente...')
+                        self.log.info('--------------------------------------\n')
+                        return self.obter_tweets(self.api, random_account)
+
                 except AttributeError as e:
                     self.log.info(e)
                     self.log.info('[x] Erro de Atributo.\nIgnorando...')

@@ -9,6 +9,7 @@ from PIL import Image, ImageDraw, ImageFont
 from Lists.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
 from Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
 from Templates.templates_path_reference import TDD_PATH
+from dotenv import load_dotenv
 
 
 class Functionalities(Config):
@@ -23,9 +24,10 @@ class Functionalities(Config):
                 else:
                     self.send_error_empty_string(LAST_ID=last_id, LOG=LOG, PHILOMAKER=PHILOMAKER)
                     return True
+
         except Exception:
             from Twitter.Hashtag import HashtagClass
-            LOG.error('ERRO: FALHA AO CHECAR SE A STRING É VAZIA')
+            LOG.error('[X] - ERRO: FALHA AO CHECAR SE A STRING É VAZIA')
             self.q_username.clear()
 
             LOG.info('----------------------------------------\n')
@@ -46,8 +48,10 @@ class Functionalities(Config):
             self.update(post=choice_error_img, status=LAST_ID, post_username=user)
 
         except Exception as e:
-            LOG.exception('ERRO AO ENVIAR IMAGEM DE ERRO PARA O USUARIO!')
+            from Twitter.Hashtag import HashtagClass
+            LOG.exception('[X] - ERRO AO ENVIAR IMAGEM DE ERRO PARA O USUARIO!')
             LOG.exception(e)
+            return HashtagClass
 
     def text_treatment(self, PEG_STATUS, IMG, SUB_LIST, LOG):
 
@@ -62,13 +66,14 @@ class Functionalities(Config):
             self.get_treated_status = pattern.sub(lambda m: sub_list_config[re.escape(m.group(0))],
                                                   self.treating_status).strip()
         except tweepy.error.TweepError as e:
+            from Twitter.Hashtag import HashtagClass
+            LOG.error('[X] - TRATAMENTO DE TEXTO CANCELADO - TWEET DELETADO')
             LOG.error(e)
-            LOG.error('TRATAMENTO DE TEXTO CANCELADO - TWEET DELETADO')
             self.q_username.clear()
-
+            return HashtagClass
 
     def img_with_quotes(self, PHILO_NAME, LOG):
-
+        load_dotenv()
         LOG.info("[ETAPA 5.1] ASPAS IDENTIFICADAS")
 
         LOG.info("[ETAPA 5.2] Iniciando manipulação de aspas especiais...")
@@ -83,7 +88,6 @@ class Functionalities(Config):
             close_quote = Image.open(f'{TDD_PATH}\close_quote.png')
             LOG.info(close_quote)
 
-
             open_quote_resized = open_quote.resize((60, 60))
             LOG.info(open_quote_resized)
 
@@ -91,9 +95,10 @@ class Functionalities(Config):
             LOG.info(close_quote_resized)
 
         except Exception as close_quote_e:
-            LOG.info(close_quote_e)
-
-        LOG.info('TESTE 1')
+            from Twitter.Hashtag import HashtagClass
+            LOG.error("[X] - PROBLEMA AO TRATAR ASPAS")
+            LOG.error(close_quote_e)
+            return HashtagClass
 
         try:
 
@@ -146,28 +151,38 @@ class Functionalities(Config):
             LOG.info('PASSANDO PELO ERRO QUE A GENTE NAO QUERIA VER')
             return HashtagClass
 
-        self.img.save('Hashtag/hashtag.png')
-        img_update_quotes = 'Hashtag/hashtag.png'
+        self.img.save(f"{os.getenv('img_save_path')}/hashtag.png")
+        img_update_quotes = f"{os.getenv('img_save_path')}/hashtag.png"
 
         return img_update_quotes
 
     def img_without_quotes(self, PHILO_NAME, LOG):
+        load_dotenv()
 
         if len(self.get_treated_status) > 240:
             LOG.info("[ETAPA 6] Tweet MAIOR que 240 caracteres, ajustando texto...\n")
-            fontsize = 35
-            font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
-            self.positions['tweet_default_PosX'] = 38
-            self.positions['tweet_default_PosY'] = 105
-            self.positions['textwraped_value'] = 25
+            try:
+                fontsize = 35
+                font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
+                self.positions['tweet_default_PosX'] = 38
+                self.positions['tweet_default_PosY'] = 105
+                self.positions['textwraped_value'] = 25
+            except Exception as get_more_than_240_info_error:
+                LOG.error("[X] - Erro ao coletar informações para ajustar texto sem as aspas com mais de 240 caracteres:")
+                LOG.error(get_more_than_240_info_error)
 
         elif len(self.get_treated_status) <= 25:
             LOG.info("[ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...")
-            fontsize = 50
-            font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
-            self.positions['tweet_default_PosX'] = 80
-            self.positions['tweet_default_PosY'] = 150
-            self.positions['textwraped_value'] = 20
+            try:
+                fontsize = 50
+                font = ImageFont.truetype(os.getenv('myriad_font'), fontsize)
+                self.positions['tweet_default_PosX'] = 80
+                self.positions['tweet_default_PosY'] = 150
+                self.positions['textwraped_value'] = 20
+            except Exception as get_less_than_25_info_error:
+                LOG.error("[X] - Erro ao coletar informações para ajustar texto sem as aspas com menos de 25 caracteres:")
+                LOG.error(get_less_than_25_info_error)
+
         else:
             pass
 
@@ -184,16 +199,23 @@ class Functionalities(Config):
                               text=textwrap.fill(str(PHILO_NAME)),
                               fill=(255, 255, 255),
                               font=font)
-        except Exception:
+        except Exception as e_text_adjust:
             from Twitter.Hashtag import HashtagClass
-            LOG.info('PASSANDO PELO ERRO QUE A GENTE NAO QUERIA VER')
+            LOG.error('[X] - ERRO AO ENCAIXAR TEXTO NA IMAGEM!')
+            LOG.error(e_text_adjust)
             return HashtagClass
 
-        self.img.save('Hashtag/hashtag.png')
-        img_update_no_quotes = 'Hashtag/hashtag.png'
+        # self.img.save(f"{os.getenv('img_save_path')}/hashtag.png")
+        # img_update_no_quotes = f"{os.getenv('img_save_path')}/hashtag.png"
+
+        try:
+            self.img.save("Twitter/Hashtag/hashtag.png")
+            img_update_no_quotes = "Twitter/Hashtag/hashtag.png"
+        except Exception as save_img_error:
+            LOG.error("[X] - Erro ao salvar imagem criada para postagem.")
+            LOG.error(save_img_error)
 
         return img_update_no_quotes
-
 
     def check_rt(self, LOG):
         LOG.info("[ETAPA 3] Checando se é RT...")

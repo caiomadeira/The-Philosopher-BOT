@@ -13,8 +13,7 @@ import time
 import tweepy
 from Twitter.Hashtag.philobot_engine import PhiloBot
 from Twitter.Hashtag.philomaker_engine import PhiloMaker
-from config import *
-from Logs.Twitter.logger_hashtag import log_hashtag
+from Logs.Twitter.logger_hashtag import log_bot
 from config import Config
 
 
@@ -29,10 +28,14 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
         self.api = get_hash_api
         self.QUEUE = 1
         self.hashtag_list = hashtag_list
-        self.log = log_hashtag(__name__)
-        time.sleep(5)
+        self.log = log_bot
+
+        time.sleep(2)
+        self.log.info(">HASHTAG TESTE INICIADA<")
+        self.log.info(">AGUARDANDO NOVOS TWEETS...<")
 
     def on_status(self, status):
+
         try:
             self.log.info("=============== NOVO TWEET ENCONTRADO ================")
 
@@ -46,10 +49,6 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
             self.q_username.append(self.username)
             self.q_tweet_info.append(self.tweet_info)
 
-            self.log.info('[LOG PARA DEBUG - PROBLEMA MARCAÇÃO ERRADA - TEMPORARIO]')
-            self.log.info('ITENS NA LISTA:')
-            self.log.info(self.q_username)
-
             self.log.info('Tweet ID: ' + self.tweetid)
             self.log.info('Tweet USERNAME: ' + self.username)
             self.log.info('Adicionado na fila')
@@ -60,30 +59,12 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
                 for i in range(1):
                     self.philobot_engine(self.hashtag_list)
                     break
-        except Exception:
-            pass
-            '''
-            for hash_maker in sub_list_philomaker:
-                if hash_maker in self.tweet_info:
-                    for i in range(1):
-                        if len(self.q) >= self.QUEUE:
-                            time.sleep(20)
-                            log.info("Esperando 20 segundos...")
-                            self.philomaker_engine(self.hashtag_list)
-                        break
 
-            for hash_philo in sub_list_philobot:
-                if hash_philo in self.tweet_info:
-                    for i in range(1):
-                        if len(self.q) >= self.QUEUE:
-                            time.sleep(20)
-                            log.info("Esperando 20 segundos...")
-                            self.philobot_engine(self.hashtag_list)
-                        break
-
-            except Exception:
+        except Exception as e_onsts:
+            self.log.error("[X] - ERRO AO COLETAR INFORMAÇÕES DO TWEET")
+            self.log.error(e_onsts)
+            self.log.error("[-] - Ignorando e continuando os tweets\n")
             pass
-            '''
 
     def update(self, post, status, post_username):
         number = 1
@@ -91,9 +72,9 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
             tweepy.Cursor(self.api.user_timeline).items(number)
             self.api.update_with_media(post, status="@" + post_username + " ", auto_populate_reply_metadata=True,
                                        in_reply_to_status_id=status)
-            self.log.info('IMAGEM ENVIADA!')
+            self.log.info('[+] - IMAGEM ENVIADA!')
             time.sleep(3)
         except tweepy.TweepError as e:
-            self.log.info(e.reason)
-            self.log.info("ERRO! Não foi possivel realizar a ação para o usuário.")
+            self.log.error("[X] - ERRO! Não foi possível enviar a imagem.")
+            self.log.error(e.reason)
             self.log.info("\n==========================")

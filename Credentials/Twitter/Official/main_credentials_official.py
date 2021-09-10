@@ -19,29 +19,30 @@ BEARER_TOKEN
 """
 import tweepy.api
 import os
+from Logs.Twitter.logger_hashtag import log_bot
+
+"""=========== SET LOG ==========="""
+log = log_bot
+
+"""=========== GET KEYs FROM S.O ENV ==========="""
+ACCESS_TOKEN_OFFICIAL = os.getenv('ACCESS_TOKEN_OFFICIAL')
+
+ACCESS_SECRET_TOKEN_OFFICIAL = os.getenv('ACCESS_SECRET_TOKEN_OFFICIAL')
+
+API_KEY_OFFICIAL = os.getenv('API_KEY_OFFICIAL')
+
+API_SECRET_KEY_OFFICIAL = os.getenv('API_SECRET_KEY_OFFICIAL')
+
+BEARER_TOKEN_OFFICIAL = os.getenv('BEARER_TOKEN_OFFICIAL')
 
 
-
-CONSUMER_KEY = os.environ.get('CONSUMER_KEY', None)
-
-CONSUMER_SECRET_KEY = os.environ.get('CONSUMER_SECRET_KEY', None)
-
-API_KEY = os.environ.get('API_KEY', None)
-
-API_SECRET_TOKEN = os.environ.get('API_SECRET_TOKEN', None)
-
-BEARER_TOKEN = os.environ.get('BEARER_TOKEN', None)
-
-
-
-AUTH_MAIN_OFFICIAL = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET_KEY)
-AUTH_MAIN_OFFICIAL.set_access_token(API_KEY, API_SECRET_TOKEN)
+AUTH_MAIN_OFFICIAL = tweepy.OAuthHandler(API_KEY_OFFICIAL, API_SECRET_KEY_OFFICIAL)
+AUTH_MAIN_OFFICIAL.set_access_token(ACCESS_TOKEN_OFFICIAL, ACCESS_SECRET_TOKEN_OFFICIAL)
 
 
 try:
     API_MAIN_OFFICIAL = tweepy.API(AUTH_MAIN_OFFICIAL, wait_on_rate_limit=False, wait_on_rate_limit_notify=True)
 
-except tweepy.TweepError as t:
-    print(f"Erro: >>>{t}<<<")
-    print('Error_Philobot! Falha ao pegar o Token de acesso!')
-
+except tweepy.TweepError as auth_official:
+    log.error('[X] - Erro ao se autenticar com as credenciais do oficial!')
+    log.error(auth_official)
