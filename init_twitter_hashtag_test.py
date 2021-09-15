@@ -10,8 +10,10 @@ Avaliable on Discord too!
 
 """
 import tweepy
+import datetime
 from config import Config
-from Logs.Twitter.logger_hashtag import log_bot
+# from Logs.Twitter.logger_hashtag import log_hashtag
+from Logs.Twitter.log_engine import LogEngine
 from urllib3.exceptions import ProtocolError
 
 
@@ -33,7 +35,7 @@ class StartHashtagExtension:
         self.TESTMAKER_SUBLIST = get_config.TESTMAKER__SUBLIST
 
         """=========== SET LOG ==========="""
-        self.log = log_bot
+        self.log = LogEngine(__name__, datetime.date.today()).log_hashtag()
         self.start_hashtag_extension()
 
     def start_hashtag_extension(self):

@@ -17,12 +17,13 @@ API SECRET KEY | ACESS TOKEN SECRET
 BEARER_TOKEN
 
 """
-import tweepy
 import os
-from Logs.Twitter.logger_hashtag import log_bot
+import tweepy
+import datetime
+from Logs.Twitter.log_engine import LogEngine
 
 """=========== SET LOG ==========="""
-log_credential = log_bot
+log_credential = LogEngine(__name__, datetime.date.today()).log_hashtag()
 
 """=========== GET KEYs FROM S.O ENV ==========="""
 ACCESS_TOKEN_TEST = os.getenv('ACCESS_TOKEN_TEST')

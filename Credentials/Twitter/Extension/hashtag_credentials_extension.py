@@ -19,10 +19,10 @@ BEARER_TOKEN
 """
 import tweepy.api
 import os
-from Logs.Twitter.logger_hashtag import log_bot
+from Logs.Twitter.logger_hashtag import log_hashtag
 
 """=========== SET LOG ==========="""
-log_credential = log_bot
+log_credential = log_hashtag(__name__)
 
 """=========== GET KEYs FROM S.O ENV ==========="""
 ACCESS_TOKEN_EXT = os.getenv('ACCESS_TOKEN_EXT')
