@@ -15,13 +15,12 @@ from PIL import Image, ImageDraw, ImageFont
 from Lists.accounts import accounts_list
 from Lists.img_list import PHILOSOPHERS_LIST
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
-from Logs.Twitter.logger_posting import log_post
 
 dotenv.load_dotenv(dotenv.find_dotenv())
 
 
 class PostingClass(tweepy.StreamListener):
-    def __init__(self, get_post_api):
+    def __init__(self, get_post_api, LOG):
         super().__init__()
 
         self.q = []
@@ -31,7 +30,7 @@ class PostingClass(tweepy.StreamListener):
         self.ACCOUNT = os.getenv('posting_account')
         self.QUEUE = 1
         self.VERSION = os.getenv('version')
-        self.log = log_post
+        self.log = LOG
 
     def obter_tweets(self, api, USERNAME_ACCOUNT):
 

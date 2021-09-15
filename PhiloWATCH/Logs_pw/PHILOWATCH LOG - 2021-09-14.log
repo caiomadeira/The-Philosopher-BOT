@@ -1,0 +1,111 @@
+2021-09-14 22:37:33,087 - PHILOWATCH --> [!] - Iniciando análise de logs...
+2021-09-14 22:37:33,088 - PHILOWATCH --> [!] - Chamando funções...
+
+2021-09-14 22:37:33,089 - PHILOWATCH --> C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO
+2021-09-14 22:37:33,089 - PHILOWATCH --> [!] - Arquivo de log coletado: C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO\HASHTAG.log
+
+2021-09-14 22:37:33,094 - PHILOWATCH --> ---------------------------------------------
+2021-09-14 22:37:33,094 - PHILOWATCH --> [!] - Horário coletado no log para análise:
+2021-09-14 22:37:33,094 - PHILOWATCH --> 2021-09-14 22:37:00.849000
+2021-09-14 22:37:33,094 - PHILOWATCH --> ---------------------------------------------
+
+2021-09-14 22:37:33,094 - PHILOWATCH --> ---------------------------------------------
+2021-09-14 22:37:33,094 - PHILOWATCH --> [!] - Horário atual:
+2021-09-14 22:37:33,094 - PHILOWATCH --> 2021-09-14 22:37:33.094672
+2021-09-14 22:37:33,094 - PHILOWATCH --> ---------------------------------------------
+
+2021-09-14 22:37:33,095 - PHILOWATCH --> ---------------------------------------------
+2021-09-14 22:37:33,095 - PHILOWATCH --> [!] - Quanto o tempo o bot ficou sem postar: 
+2021-09-14 22:37:33,095 - PHILOWATCH --> 0:00:32.245672
+2021-09-14 22:37:33,095 - PHILOWATCH --> ---------------------------------------------
+
+2021-09-14 22:37:33,096 - PHILOWATCH --> [!] - Logs estão normais, foram atualizados em menos de 30 minutos.
+2021-09-14 22:37:33,096 - PHILOWATCH --> [+] - Hashtag em funcionamento. Nenhuma ação foi tomada
+
+2021-09-14 22:38:43,670 - PHILOWATCH --> [!] - Iniciando análise de logs...
+2021-09-14 22:38:43,670 - PHILOWATCH --> [!] - Chamando funções...
+
+2021-09-14 22:38:43,671 - PHILOWATCH --> C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO
+2021-09-14 22:38:43,672 - PHILOWATCH --> [!] - Arquivo de log coletado: C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO\HASHTAG.log
+
+2021-09-14 22:38:43,676 - PHILOWATCH --> [X] - Linha vazia detectada!
+2021-09-14 22:38:43,676 - PHILOWATCH --> [!] - Tentativa 1 de 5
+2021-09-14 22:38:43,676 - PHILOWATCH --> [!] - Aguardando 10 segundos e tentando novamente...
+2021-09-14 22:38:53,689 - PHILOWATCH --> C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO
+2021-09-14 22:38:53,689 - PHILOWATCH --> [!] - Arquivo de log coletado: C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO\HASHTAG.log
+
+2021-09-14 22:38:53,694 - PHILOWATCH --> ---------------------------------------------
+2021-09-14 22:38:53,694 - PHILOWATCH --> [!] - Horário coletado no log para análise:
+2021-09-14 22:38:53,694 - PHILOWATCH --> 2021-09-14 22:38:52.385000
+2021-09-14 22:38:53,694 - PHILOWATCH --> ---------------------------------------------
+
+2021-09-14 22:38:53,694 - PHILOWATCH --> ---------------------------------------------
+2021-09-14 22:38:53,694 - PHILOWATCH --> [!] - Horário atual:
+2021-09-14 22:38:53,695 - PHILOWATCH --> 2021-09-14 22:38:53.694829
+2021-09-14 22:38:53,695 - PHILOWATCH --> ---------------------------------------------
+
+2021-09-14 22:38:53,695 - PHILOWATCH --> ---------------------------------------------
+2021-09-14 22:38:53,695 - PHILOWATCH --> [!] - Quanto o tempo o bot ficou sem postar: 
+2021-09-14 22:38:53,695 - PHILOWATCH --> 0:00:01.309829
+2021-09-14 22:38:53,695 - PHILOWATCH --> ---------------------------------------------
+
+2021-09-14 22:38:53,696 - PHILOWATCH --> [!] - Função HASHTAG completou 30 minutos sem utilização
+2021-09-14 22:38:53,696 - PHILOWATCH --> [!] - Enviando tweet de HEARTBEAT para verificar sinais vitais do bot...
+2021-09-14 22:38:53,797 - PHILOWATCH --> PARAMS: {'status': b'#Testephilo HEARTBEAT 19887608e834309db96fc5d77424e1c7'}
+2021-09-14 22:38:53,798 - PHILOWATCH --> Signing request <PreparedRequest [POST]> using client <Client client_key=nHR1KTNmZjZtjw7SZGNqZV7wc, client_secret=****, resource_owner_key=1350818728649367552-Ma3M9Avmgfn6RCJeR4wqAzCLoZR1Eq, resource_owner_secret=****, signature_method=HMAC-SHA1, signature_type=AUTH_HEADER, callback_uri=None, rsa_key=None, verifier=None, realm=None, encoding=utf-8, decoding=None, nonce=None, timestamp=None>
+2021-09-14 22:38:53,798 - PHILOWATCH --> Including body in call to sign: False
+2021-09-14 22:38:53,799 - PHILOWATCH --> Collected params: [('status', '#Testephilo HEARTBEAT 19887608e834309db96fc5d77424e1c7'), ('oauth_nonce', '39940543079473085101631669933'), ('oauth_timestamp', '1631669933'), ('oauth_version', '1.0'), ('oauth_signature_method', 'HMAC-SHA1'), ('oauth_consumer_key', 'nHR1KTNmZjZtjw7SZGNqZV7wc'), ('oauth_token', '1350818728649367552-Ma3M9Avmgfn6RCJeR4wqAzCLoZR1Eq')]
+2021-09-14 22:38:53,799 - PHILOWATCH --> Normalized params: oauth_consumer_key=nHR1KTNmZjZtjw7SZGNqZV7wc&oauth_nonce=39940543079473085101631669933&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1631669933&oauth_token=1350818728649367552-Ma3M9Avmgfn6RCJeR4wqAzCLoZR1Eq&oauth_version=1.0&status=%23Testephilo%20HEARTBEAT%2019887608e834309db96fc5d77424e1c7
+2021-09-14 22:38:53,799 - PHILOWATCH --> Normalized URI: https://api.twitter.com/1.1/statuses/update.json
+2021-09-14 22:38:53,799 - PHILOWATCH --> Signing: signature base string: POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&oauth_consumer_key%3DnHR1KTNmZjZtjw7SZGNqZV7wc%26oauth_nonce%3D39940543079473085101631669933%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1631669933%26oauth_token%3D1350818728649367552-Ma3M9Avmgfn6RCJeR4wqAzCLoZR1Eq%26oauth_version%3D1.0%26status%3D%2523Testephilo%2520HEARTBEAT%252019887608e834309db96fc5d77424e1c7
+2021-09-14 22:38:53,799 - PHILOWATCH --> Signature: CuudwX/a6fmgq54I+u7aNNOK1KM=
+2021-09-14 22:38:53,799 - PHILOWATCH --> Updated url: https://api.twitter.com/1.1/statuses/update.json?status=%23Testephilo+HEARTBEAT+19887608e834309db96fc5d77424e1c7
+2021-09-14 22:38:53,799 - PHILOWATCH --> Updated headers: {'Host': 'api.twitter.com', 'Content-Length': '0', 'Authorization': 'OAuth oauth_nonce="39940543079473085101631669933", oauth_timestamp="1631669933", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="nHR1KTNmZjZtjw7SZGNqZV7wc", oauth_token="1350818728649367552-Ma3M9Avmgfn6RCJeR4wqAzCLoZR1Eq", oauth_signature="CuudwX%2Fa6fmgq54I%2Bu7aNNOK1KM%3D"'}
+2021-09-14 22:38:53,799 - PHILOWATCH --> Updated body: None
+2021-09-14 22:38:53,800 - PHILOWATCH --> Starting new HTTPS connection (1): api.twitter.com:443
+2021-09-14 22:38:54,285 - PHILOWATCH --> https://api.twitter.com:443 "POST /1.1/statuses/update.json?status=%23Testephilo+HEARTBEAT+19887608e834309db96fc5d77424e1c7 HTTP/1.1" 200 2171
+2021-09-14 22:38:54,286 - PHILOWATCH --> [+] - HEARTBEAT enviado com sucesso!
+2021-09-14 22:38:54,286 - PHILOWATCH --> ------------------------------------------
+
+2021-09-14 22:38:54,286 - PHILOWATCH --> [!] - Aguardando tempo de tratativa do bot
+2021-09-14 22:39:04,300 - PHILOWATCH --> [!] - Verificando se o bot está vivo...
+2021-09-14 22:39:04,301 - PHILOWATCH --> C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO
+2021-09-14 22:39:04,301 - PHILOWATCH --> [!] - Arquivo de log coletado: C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO\HASHTAG.log
+
+2021-09-14 22:39:04,306 - PHILOWATCH --> [X] - Linha vazia detectada!
+2021-09-14 22:39:04,306 - PHILOWATCH --> [!] - Tentativa 1 de 5
+2021-09-14 22:39:04,306 - PHILOWATCH --> [!] - Aguardando 10 segundos e tentando novamente...
+2021-09-14 22:39:14,315 - PHILOWATCH --> C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO
+2021-09-14 22:39:14,315 - PHILOWATCH --> [!] - Arquivo de log coletado: C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO\HASHTAG.log
+
+2021-09-14 22:39:14,316 - PHILOWATCH --> [X] - Linha vazia detectada!
+2021-09-14 22:39:14,316 - PHILOWATCH --> [!] - Tentativa 2 de 5
+2021-09-14 22:39:14,316 - PHILOWATCH --> [!] - Aguardando 10 segundos e tentando novamente...
+2021-09-14 22:39:24,322 - PHILOWATCH --> C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO
+2021-09-14 22:39:24,322 - PHILOWATCH --> [!] - Arquivo de log coletado: C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT\Logs\Twitter\logs_hashtag\INFO\HASHTAG.log
+
+2021-09-14 22:39:24,327 - PHILOWATCH --> ---------------------------------------------
+2021-09-14 22:39:24,327 - PHILOWATCH --> [!] - Horário coletado no log para análise:
+2021-09-14 22:39:24,327 - PHILOWATCH --> 2021-09-14 22:39:22.375000
+2021-09-14 22:39:24,327 - PHILOWATCH --> ---------------------------------------------
+
+2021-09-14 22:39:24,327 - PHILOWATCH --> ---------------------------------------------
+2021-09-14 22:39:24,327 - PHILOWATCH --> [!] - Horário atual:
+2021-09-14 22:39:24,327 - PHILOWATCH --> 2021-09-14 22:39:24.327388
+2021-09-14 22:39:24,327 - PHILOWATCH --> ---------------------------------------------
+
+2021-09-14 22:39:24,327 - PHILOWATCH --> ---------------------------------------------
+2021-09-14 22:39:24,327 - PHILOWATCH --> [!] - Quanto o tempo o bot ficou sem postar: 
+2021-09-14 22:39:24,327 - PHILOWATCH --> 0:00:01.952388
+2021-09-14 22:39:24,327 - PHILOWATCH --> ---------------------------------------------
+
+2021-09-14 22:39:24,328 - PHILOWATCH --> [!] - Função HASHTAG completou 30 minutos sem utilização
+2021-09-14 22:39:24,328 - PHILOWATCH --> [!] - Reiniciando script para renovar conexão...
+
+2021-09-14 22:39:24,328 - PHILOWATCH --> "C:\Users\rodri\Documents\GitHub\The-Philosopher-BOT"
+2021-09-14 22:39:24,337 - PHILOWATCH --> [+] - Script reiniciado com sucesso!
+2021-09-14 22:39:24,337 - PHILOWATCH --> [!] - Enviando e-mail de informação...
+2021-09-14 22:39:31,433 - PHILOWATCH --> [X] - Falha no envio de e-mail.
+2021-09-14 22:39:31,433 - PHILOWATCH --> (535, b'5.7.139 Authentication unsuccessful, account locked. Contact your administrator. [RO1P152CA0066.LAMP152.PROD.OUTLOOK.COM]')
+2021-09-14 22:39:31,433 - PHILOWATCH --> --------------------------------------------------
+
