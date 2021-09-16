@@ -28,7 +28,7 @@ def analyse_data(use_data, signal):
 
     load_dotenv()
     try:
-        if count > datetime.timedelta(seconds=int(os.getenv('tolerance_time'))):
+        if count > datetime.timedelta(minutes=int(os.getenv('tolerance_time'))):
             log.info(f"[!] - Função HASHTAG completou {os.getenv('tolerance_time')} minutos sem utilização")
 
             if signal:
