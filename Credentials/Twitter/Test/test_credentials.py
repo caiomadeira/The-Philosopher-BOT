@@ -17,12 +17,13 @@ API SECRET KEY | ACESS TOKEN SECRET
 BEARER_TOKEN
 
 """
-import tweepy
 import os
-from Logs.Twitter.logger_hashtag import log_bot
+import tweepy
+# import datetime
+# from Logs.Twitter.log_engine import log_hashtag
 
 """=========== SET LOG ==========="""
-log_credential = log_bot
+# log_credential = log_hashtag(__name__)
 
 """=========== GET KEYs FROM S.O ENV ==========="""
 ACCESS_TOKEN_TEST = os.getenv('ACCESS_TOKEN_TEST')
@@ -44,5 +45,6 @@ try:
     API_TEST = tweepy.API(auth_handler=AUTH_API)
 
 except tweepy.TweepError as auth_test:
-    log_credential.error('[X] - Erro ao se autenticar com as credenciais de teste!')
-    log_credential.error(auth_test)
+    # log_credential.error('[X] - Erro ao se autenticar com as credenciais de teste!')
+    # log_credential.error(auth_test)
+    print('Error')

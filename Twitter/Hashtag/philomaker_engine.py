@@ -6,7 +6,7 @@ from urllib import request
 from PIL import Image, ImageFont
 from Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
 from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
-from Logs.Twitter.logger_hashtag import log_bot
+from Logs.Twitter.logger_hashtag import log_hashtag
 import os
 from Twitter.Hashtag.functionalities import Functionalities
 
@@ -15,7 +15,7 @@ class PhiloMaker(Functionalities):
 
     def philomaker_engine(self, get_hashtag_list):
 
-        self.log = log_bot
+        self.log = log_hashtag(__name__)
 
         hashtag_list = get_hashtag_list
         from Twitter.Hashtag.hashtag import HashtagClass

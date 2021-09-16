@@ -10,15 +10,16 @@ Avaliable on Discord too!
 
 """
 import time
+import datetime
 import tweepy
 from Twitter.Hashtag.philobot_engine import PhiloBot
 from Twitter.Hashtag.philomaker_engine import PhiloMaker
-from Logs.Twitter.logger_hashtag import log_bot
+# from Logs.Twitter.log_engine import log_hashtag
 from config import Config
 
 
 class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
-    def __init__(self, hashtag_list, get_hash_api):
+    def __init__(self, hashtag_list, get_hash_api, LOG):
         super().__init__()
         instance = Config()
         self.positions = instance.positions
@@ -28,10 +29,10 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
         self.api = get_hash_api
         self.QUEUE = 1
         self.hashtag_list = hashtag_list
-        self.log = log_bot
+        self.log = LOG
 
-        time.sleep(2)
-        self.log.info(">HASHTAG TESTE INICIADA<")
+        # time.sleep(5)
+        self.log.info(">HASHTAG INICIADA<")
         self.log.info(">AGUARDANDO NOVOS TWEETS...<")
 
     def on_status(self, status):
@@ -57,7 +58,7 @@ class HashtagClass(tweepy.StreamListener, PhiloBot, PhiloMaker, Config):
 
             if len(self.q) >= self.QUEUE:
                 for i in range(1):
-                    self.philobot_engine(self.hashtag_list)
+                    self.philobot_engine(self.hashtag_list, LOG=self.log)
                     break
 
         except Exception as e_onsts:

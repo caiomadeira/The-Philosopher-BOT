@@ -3,7 +3,7 @@ from PhiloWATCH.Logs_pw.logger import log
 
 
 def heartbeat():
-    hb_key = "#Testephilo HEARTBEAT " + secrets.token_hex(16)
+    hb_key = "#Philobot HEARTBEAT " + secrets.token_hex(16)
 
     try:
         from Credentials.Twitter.PhiloWATCH.philowatch_credentials import API_TEST

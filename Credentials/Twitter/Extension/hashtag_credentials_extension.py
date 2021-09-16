@@ -19,10 +19,6 @@ BEARER_TOKEN
 """
 import tweepy.api
 import os
-from Logs.Twitter.logger_hashtag import log_bot
-
-"""=========== SET LOG ==========="""
-log_credential = log_bot
 
 """=========== GET KEYs FROM S.O ENV ==========="""
 ACCESS_TOKEN_EXT = os.getenv('ACCESS_TOKEN_EXT')
@@ -44,5 +40,5 @@ try:
     API_HASHTAG_EXTENSION = tweepy.API(AUTH_HASHTAG_EXTENSION, wait_on_rate_limit=False, wait_on_rate_limit_notify=True)
 
 except tweepy.TweepError as auth_ext:
-    log_credential.error('[X] - Erro ao se autenticar com as credenciais do extension!')
-    log_credential.error(auth_ext)
+    print('[X] - Erro ao se autenticar com as credenciais do extension!')
+    print(auth_ext)
