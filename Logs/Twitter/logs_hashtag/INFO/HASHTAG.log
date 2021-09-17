@@ -1,0 +1,29 @@
+2021-09-17 01:02:36,685 - INFO - HASHTAG --> =============== NOVO TWEET ENCONTRADO ================
+2021-09-17 01:02:36,686 - INFO - HASHTAG --> Tweet ID: 1438352587598831626
+2021-09-17 01:02:36,686 - INFO - HASHTAG --> Tweet USERNAME: SysCat_13
+2021-09-17 01:02:36,686 - INFO - HASHTAG --> Adicionado na fila
+2021-09-17 01:02:36,686 - INFO - HASHTAG --> =======================================================
+
+2021-09-17 01:02:41,687 - INFO - HASHTAG --> ----------------------------------------
+2021-09-17 01:02:41,687 - INFO - HASHTAG -->          > STARTING PHILOBOT < 
+2021-09-17 01:02:41,687 - INFO - HASHTAG --> ----------------------------------------
+2021-09-17 01:02:41,687 - INFO - HASHTAG --> ID Coletado: 1438352587598831626
+2021-09-17 01:02:42,152 - INFO - HASHTAG --> [ETAPA 1] Status coletado: #Testephilo fccc0b8fce7b7b8e6982718d34f5b21a
+2021-09-17 01:02:42,152 - INFO - HASHTAG --> [ETAPA 3] Checando se é RT...
+2021-09-17 01:02:42,153 - INFO - HASHTAG --> [ETAPA 2] Status - marcações retiradas: #Testephilo fccc0b8fce7b7b8e6982718d34f5b21a
+2021-09-17 01:02:44,199 - INFO - HASHTAG --> [ETAPA 4] Checando string vazia...
+2021-09-17 01:02:46,256 - INFO - HASHTAG --> [ETAPA 4] Configurando imagem...
+2021-09-17 01:02:46,257 - INFO - HASHTAG --> [ETAPA 4.1] Imagem do filósofo escolhida: Pitágoras.png
+2021-09-17 01:02:46,257 - INFO - HASHTAG --> [ETAPA 4.2] Nenhum lixo no nome da imagem encontrado. Prosseguindo normalmente...
+2021-09-17 01:02:46,257 - INFO - HASHTAG --> [ETAPA 4.3] Nome do filósofo tratado: - Pitágoras
+2021-09-17 01:02:46,274 - INFO - HASHTAG --> [ETAPA 5] Verificando aspas...
+2021-09-17 01:02:47,854 - INFO - HASHTAG --> [+] - IMAGEM ENVIADA!
+2021-09-17 01:02:50,861 - INFO - HASHTAG --> Finalizado, ID tratado: 1438352587598831626
+2021-09-17 01:02:50,861 - INFO - HASHTAG --> Itens restantes: 0
+2021-09-17 01:02:50,861 - INFO - HASHTAG --> TWEET TRATADO COM SUCESSO
+2021-09-17 01:02:50,861 - INFO - HASHTAG --> ----------------------------------------
+
+2021-09-17 01:02:50,861 - INFO - HASHTAG --> [LIMPANDO LISTAS E MEMÓRIAS...]
+2021-09-17 01:02:50,861 - INFO - HASHTAG --> Limpeza realizada com sucesso!
+2021-09-17 01:02:50,861 - INFO - HASHTAG --> Esperando 20 segundos...
+
