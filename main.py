@@ -15,8 +15,8 @@ import tweepy
 from termcolor import colored
 import schedule
 from config import *
-from Logs.Twitter.logger_hashtag import log_general
-from posting.Posting.posting import PostingClass
+from Analytics.Logs.Twitter import log_general
+from Views.posting.Posting.posting import PostingClass
 
 class HashtagOrPosting:
 

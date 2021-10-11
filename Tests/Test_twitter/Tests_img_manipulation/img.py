@@ -1,11 +1,11 @@
 import textwrap
 import random
-from Lists.img_list import PHILOSOPHERS_LIST, PHILOSOPHERS_NAME
+from Models.Lists.img_list import PHILOSOPHERS_LIST, PHILOSOPHERS_NAME
 from PIL import Image, ImageDraw, ImageFont
 import tweepy
 import os
 from Credentials.Twitter.Test import API_MAIN_TEST
-from Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
+from Resources.Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
 
 api = API_MAIN_TEST
 
@@ -63,7 +63,7 @@ img.paste(close_quote_resized, (500, 400), close_quote_resized)
 
 # nome do filosofo
 fontsize = 15
-font = ImageFont.truetype("Font/times.ttf", fontsize)
+font = ImageFont.truetype("Fonts/times.ttf", fontsize)
 drawing.text(xy=(43, 514), text=textwrap.fill(str(finish_name_of_philosopher), 30), fill=(255, 255, 255), font=font)
 
 img.save('test_hashtag.png')

@@ -11,7 +11,7 @@ Avaliable on Discord too!
 """
 import tweepy
 from config import Config
-from Logs.Twitter.logger_hashtag import log_hashtag
+from Analytics.Logs.Twitter import log_hashtag
 
 
 class StartHashtagExtension:
@@ -39,14 +39,14 @@ class StartHashtagExtension:
         self.log.info("Philosopher BOT por Caio Madeira e Rodrigo Carmo\n")
         self.log.info(">INICIANDO HASHTAG - EXTENSION<")
 
-        from _Twitter.Old.hashtag import HashtagClass
+        from Views.Old.hashtag import HashtagClass
 
 
         self.log.info('HASHTAG EXTENSION ESCOLHIDA, INICIANDO #PHILOBOT E #PHILOMAKER...')
 
         # from Credentials.Extension.main_credentials_extension import API_MAIN_EXTENSION as api_reserva
         # from Credentials.Extension.main_credentials_extension import API_MAIN_EXTENSION as api_reserva
-        from Credentials.Twitter.credentials import API_HASHTAG_EXTENSION as api_reserva
+        from Services.Credentials.Twitter.credentials import API_HASHTAG_EXTENSION as api_reserva
         # from Credentials.Official.posting_credentials_official import API_POSTING_OFFICIAL as api_reserva
 
         try:

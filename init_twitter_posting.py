@@ -10,8 +10,8 @@ Avaliable on Discord too!
 
 """
 from config import Config
-from posting.Posting.posting import PostingClass
-from Logs.Twitter.logger_hashtag import log_posting
+from Views.posting.Posting.posting import PostingClass
+from Analytics.Logs.Twitter import log_posting
 
 
 class PostingOfficial:

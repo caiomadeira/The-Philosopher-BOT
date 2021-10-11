@@ -10,8 +10,8 @@ Avaliable on Discord too!
 
 """
 import tweepy, time
-from Logs.Twitter.logger_hashtag import log_hashtag
-from Lists.sub_list import sub_list_philobot
+from Analytics.Logs.Twitter import log_hashtag
+from Models.Lists.sub_list import sub_list_philobot
 from Tests.Test_twitter.Test_Hashtag_modules.hashtag import HashtagClass
 from Tests.Test_twitter.twitter_credentials_test import API_TEST as API
 from Scripts.Automatic_Tweets.auto_status import post_status_only_text
