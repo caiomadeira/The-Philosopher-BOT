@@ -79,11 +79,11 @@ def status_service_post():
         service = input("Digite o status da aplicação para ser postado:")
         if service == "1":
             status_post = oficial_account.update_status(status_on)
-            print("Status Services atualizado:")
+            print("Status services atualizado:")
             print(status_post.text)
         if service == "2":
             status_post = oficial_account.update_status(status_off)
-            print("Status Services atualizado:")
+            print("Status services atualizado:")
             print(status_post.text)
 
     if question == "2":
@@ -94,11 +94,11 @@ def status_service_post():
         service = input("Digite o status da aplicação para ser postado:")
         if service == "1":
             status_post = extension_account.update_status(status_on)
-            print("Status Services atualizado:")
+            print("Status services atualizado:")
             print(status_post.text)
         if service == "2":
             status_post = extension_account.update_status(status_off)
-            print("Status Services atualizado:")
+            print("Status services atualizado:")
             print(status_post.text)
 
     if question == "3":
@@ -109,11 +109,11 @@ def status_service_post():
         service = input("Digite o status da aplicação para ser postado:")
         if service == "1":
             status_post = test_account.update_status(status_on)
-            print("Status Services atualizado:")
+            print("Status services atualizado:")
             print(status_post.text)
         if service == "2":
             status_post = test_account.update_status(status_off)
-            print("Status Services atualizado:")
+            print("Status services atualizado:")
             print(status_post.text)
     retornar_question()
 

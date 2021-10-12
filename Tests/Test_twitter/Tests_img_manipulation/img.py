@@ -1,11 +1,11 @@
 import textwrap
 import random
-from Models.Lists.img_list import PHILOSOPHERS_LIST, PHILOSOPHERS_NAME
+from models.Lists.img_list import PHILOSOPHERS_LIST, PHILOSOPHERS_NAME
 from PIL import Image, ImageDraw, ImageFont
 import tweepy
 import os
 from Credentials.Twitter.Test import API_MAIN_TEST
-from Resources.Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
+from resources.Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
 
 api = API_MAIN_TEST
 

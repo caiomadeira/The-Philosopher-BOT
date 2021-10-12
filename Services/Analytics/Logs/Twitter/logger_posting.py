@@ -11,8 +11,8 @@ Avaliable on Discord too!
 """
 import logging
 import datetime
-from Services.Analytics.Logs.Twitter.logs_posting.ERROR.path_log_posting_error import PATH_LOG_POST_ERROR
-from Services.Analytics.Logs.Twitter.logs_posting.INFO.path_log_posting_info import PATH_LOG_POST_INFO
+from services.analytics.Logs.Twitter.logs_posting.ERROR.path_log_posting_error import PATH_LOG_POST_ERROR
+from services.analytics.Logs.Twitter.logs_posting.INFO.path_log_posting_info import PATH_LOG_POST_INFO
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)

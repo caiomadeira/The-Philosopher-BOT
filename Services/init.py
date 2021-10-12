@@ -5,13 +5,11 @@ Philosopher Bot, 2021
 Created by Caio Madeira
 Co-worker: Rodrigo Carmo
 
-instagram: @sudomadeira
 Twitter: @bot_philospher
 Avaliable on Discord too!
 """
 
-from Services.Streaming.start_stream import StartStream
-from Utils.suport_twitter import SuportTwitter
+from services.start_stream import StartStream
 
 # Instance Suporting Class
 

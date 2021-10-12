@@ -1,7 +1,7 @@
-from Services.Streaming.DataObtainer.data_obtainer import DataObtainer
-from Services.Streaming.send_image import SendImage
+from adapters.twitter_adapter import DataObtainer
+from services.twitter_post import SendImage
 from PIL import Image, ImageDraw, ImageFont
-from Views.Templates.random_philosopher import RandomPhilsopher
+from views.Templates.random_philosopher import RandomPhilsopher
 
 """
 1 - get data

@@ -9,7 +9,7 @@ Twitter: @bot_philospher
 Avaliable on Discord too!
 
 """
-from Resources.Assets.Images.reference import IMG_PATH
+from resources.Assets.Images.reference import IMG_PATH
 from PIL import Image
 import glob
 

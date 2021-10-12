@@ -1,6 +1,6 @@
 import time
 import uuid
-from Services.Authentication.authentication import Authentication
+from services.Authentication.authentication import Authentication
 import tweepy as t
 
 auth = Authentication()

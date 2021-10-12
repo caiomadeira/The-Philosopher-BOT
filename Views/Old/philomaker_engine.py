@@ -4,11 +4,11 @@ import tweepy
 import urllib
 from urllib import request
 from PIL import Image, ImageFont
-from Models.Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
-from Resources.Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
+from models.Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
+from resources.Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
 from Analytics.Logs.Twitter import log_philomaker
 import os
-from Views.Old.functionalities import Functionalities
+from views.Old.functionalities import Functionalities
 
 
 class PhiloMaker(Functionalities):
@@ -18,7 +18,7 @@ class PhiloMaker(Functionalities):
         self.log = log_philomaker(__name__)
 
         hashtag_list = get_hashtag_list
-        from Views.Old.hashtag import HashtagClass
+        from views.Old.hashtag import HashtagClass
         self.log.info('----------------------------------------')
         self.log.info('       > STARTING PHILOMAKER < ')
         self.log.info('----------------------------------------')
@@ -183,7 +183,7 @@ class PhiloMaker(Functionalities):
             return True
 
     def get_media(self):
-        from Views.Old.hashtag import HashtagClass
+        from views.Old.hashtag import HashtagClass
         try:
 
             search_img_extended = str(self.get_metadata)

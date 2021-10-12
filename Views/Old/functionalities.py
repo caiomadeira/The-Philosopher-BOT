@@ -6,8 +6,8 @@ import textwrap
 import os
 from config import Config
 from PIL import Image, ImageDraw, ImageFont
-from Models.Lists.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
-from Models.Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
+from models.Lists.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
+from models.Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
 
 
 class Functionalities(Config):
@@ -23,7 +23,7 @@ class Functionalities(Config):
                     self.send_error_empty_string(LAST_ID=last_id, LOG=LOG, PHILOMAKER=PHILOMAKER)
                     return True
         except Exception:
-            from Views.Old.hashtag import HashtagClass
+            from views.Old.hashtag import HashtagClass
             LOG.error('ERRO: FALHA AO CHECAR SE A STRING É VAZIA')
             self.q_username.clear()
 
@@ -119,7 +119,7 @@ class Functionalities(Config):
                               fill=(255, 255, 255),
                               font=font)
         except Exception:
-            from Views.Old.hashtag import HashtagClass
+            from views.Old.hashtag import HashtagClass
             LOG.info('PASSANDO PELO ERRO QUE A GENTE NAO QUERIA VER')
             return HashtagClass
 
@@ -162,7 +162,7 @@ class Functionalities(Config):
                               fill=(255, 255, 255),
                               font=font)
         except Exception:
-            from Views.Old.hashtag import HashtagClass
+            from views.Old.hashtag import HashtagClass
             LOG.info('PASSANDO PELO ERRO QUE A GENTE NAO QUERIA VER')
             return HashtagClass
 

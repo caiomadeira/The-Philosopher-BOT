@@ -10,11 +10,11 @@ Avaliable on Discord too!
 """
 import logging
 import datetime
-from Services.Analytics.Logs.Twitter.logs_hashtag.ERROR.path_log_hashtag_error import PATH_LOG_HASHTAG_ERROR
-from Services.Analytics.Logs.Twitter.logs_hashtag.INFO.path_log_hashtag_info import PATH_LOG_HASHTAG_INFO
-from Services.Analytics.Logs.Twitter.logs_posting.ERROR.path_log_posting_error import PATH_LOG_POST_ERROR
-from Services.Analytics.Logs.Twitter.logs_posting.INFO.path_log_posting_info import PATH_LOG_POST_INFO
-from Services.Analytics.Logs.Twitter.logs_general.path_log_general import PATH_LOG_GENERAL
+from services.analytics.Logs.Twitter.logs_hashtag.ERROR.path_log_hashtag_error import PATH_LOG_HASHTAG_ERROR
+from services.analytics.Logs.Twitter.logs_hashtag.INFO.path_log_hashtag_info import PATH_LOG_HASHTAG_INFO
+from services.analytics.Logs.Twitter.logs_posting.ERROR.path_log_posting_error import PATH_LOG_POST_ERROR
+from services.analytics.Logs.Twitter.logs_posting.INFO.path_log_posting_info import PATH_LOG_POST_INFO
+from services.analytics.Logs.Twitter.logs_general.path_log_general import PATH_LOG_GENERAL
 
 loggers = {}
 

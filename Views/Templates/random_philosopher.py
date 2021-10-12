@@ -1,6 +1,6 @@
 import os
 import random
-from Models.Lists.img_list import PHILOSOPHERS_LIST
+from models.Lists.img_list import PHILOSOPHERS_LIST
 
 
 class RandomPhilsopher:

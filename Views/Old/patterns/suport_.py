@@ -1,7 +1,7 @@
 import random
 import time
-from Models.Lists.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
-from Models.Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
+from models.Lists.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
+from models.Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
 
 
 class Suport():
@@ -21,7 +21,7 @@ class Suport():
 
                     LOG.info('CHECK EMPTYSTRING ->----------------------------------------\n')
                     LOG.info('CHECK EMPTYSTRING -> >AGUARDANDO NOVOS TWEETS...<')
-                    from Views.Old.hashtag import HashtagClass
+                    from views.Old.hashtag import HashtagClass
                     return HashtagClass
 
                 elif first_status_param == philomaker_hashtag:
@@ -34,12 +34,12 @@ class Suport():
 
                     LOG.info('CHECK EMPTYSTRING ->----------------------------------------\n')
                     LOG.info('CHECK EMPTYSTRING -> >AGUARDANDO NOVOS TWEETS...<')
-                    from Views.Old.hashtag import HashtagClass
+                    from views.Old.hashtag import HashtagClass
                     return HashtagClass
                 else:
                     LOG.info('CHECK EMPTYSTRING -> Imagem não enviada.')
         except Exception:
-            from Views.Old.hashtag import HashtagClass
+            from views.Old.hashtag import HashtagClass
             LOG.info('CHECK EMPTYSTRING -> ERRO: FALHA AO CHECAR SE A STRING É VAZIA')
             self.clear_user_list(LOG=LOG, clear_users_param=clear_users_param)
 
@@ -88,7 +88,7 @@ class Suport():
             if check_rt_func:
                 LOG.info('check_rt_SAFE -> ----------------------------------------\n')
                 LOG.info('check_rt_SAFE -> >AGUARDANDO NOVOS TWEETS...<')
-                from Views.Old.hashtag import HashtagClass
+                from views.Old.hashtag import HashtagClass
                 return HashtagClass
             else:
                 LOG.info("check_rt_SAFE -> Saindo da CHECK RT SAFE")
@@ -97,7 +97,7 @@ class Suport():
         except Exception as e_check_rt:
             LOG.info('check_rt_SAFE -> ERRO: FALHA AO VERIFICAR SE É RETWEET')
             LOG.info(e_check_rt)
-            from Views.Old.hashtag import HashtagClass
+            from views.Old.hashtag import HashtagClass
             return HashtagClass
 
     def clear_user_list(self, LOG, clear_users_param):
@@ -107,7 +107,7 @@ class Suport():
         except Exception as e_garbage:
             LOG.error('clear_user_list -> ERRO: FALHA AO REALIZAR LIMPEZA')
             LOG.error(e_garbage)
-            from Views.Old.hashtag import HashtagClass
+            from views.Old.hashtag import HashtagClass
             return HashtagClass
 
     @staticmethod  # "Out" of class

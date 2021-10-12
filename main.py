@@ -16,7 +16,7 @@ from termcolor import colored
 import schedule
 from config import *
 from Analytics.Logs.Twitter import log_general
-from Views.posting.Posting.posting import PostingClass
+from views.posting.Posting.posting import PostingClass
 
 class HashtagOrPosting:
 
