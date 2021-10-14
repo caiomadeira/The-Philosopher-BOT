@@ -10,18 +10,18 @@ Avaliable on Discord too!
 """
 
 # Connect to Twitter keys
-from tweepy import StreamListener  # OAuth is the o manipulator of authentication
+from tweepy import StreamListener
 import json
 import time
 
 # Imports suport class
-from services.analytics.suport_streaming import SuportStreaming
-from views.Templates.template_manager import Template_Manager
-from adapters.twitter_adapter import DataObtainer
+from services.analytics.analytics_basic import SuportStreaming
+from views.Templates.manager.manager import Manager
+from adapters.twitter_adapter import TwitterAdapter
 
 
 # listener herance of Stream Listener
-class Listener(StreamListener, SuportStreaming, DataObtainer):
+class Listener(StreamListener, SuportStreaming, TwitterAdapter):
     def __init__(self):
         super().__init__()
 
@@ -46,7 +46,7 @@ class Listener(StreamListener, SuportStreaming, DataObtainer):
         # Check hashtag type (Philobot or PhiloMaker)
         # instance of method which_hashtag which means that the method is no a class method and and has no inheritance
         print('Check hashtag type (Philobot or PhiloMaker)')
-        manager = Template_Manager(data=data)
+        manager = Manager(data=data)
         manager.which_hashtag()
 
         return True
@@ -59,10 +59,10 @@ class Listener(StreamListener, SuportStreaming, DataObtainer):
 
     def on_error(self, status):
         if status == 200:
-            print(status + "Sucesso")
+            print(str(status) + "Sucesso")
             return True
         elif status == 420:
-            print(status + "Falha")
+            print(str(status) + "Falha")
             return False
         else:
             print(status)

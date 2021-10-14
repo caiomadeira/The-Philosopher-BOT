@@ -1,7 +1,7 @@
 import random
 import time
-from models.Lists.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
-from models.Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
+from adapters.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
+from adapters.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
 
 
 class Suport():

@@ -4,8 +4,8 @@ import tweepy
 import urllib
 from urllib import request
 from PIL import Image, ImageFont
-from models.Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
-from resources.Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
+from adapters.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
+from resources.assets.New_Img_Manipulation.reference import TEMPLATES_PATH
 from Analytics.Logs.Twitter import log_philomaker
 import os
 from views.Old.functionalities import Functionalities
@@ -26,11 +26,11 @@ class PhiloMaker(Functionalities):
 
             self.last_id = self.q.pop(0)
             self.log.info('ID Coletado: ' + self.last_id)
-            txt = "Fonts/myriad.otf"
+            txt = "fonts/myriad.otf"
             fontsize = 1
             blank = Image.new('RGB', (269, 194))
-            font = ImageFont.truetype("Fonts/myriad.otf", fontsize)
-            font2 = ImageFont.truetype("Fonts/times.ttf")
+            font = ImageFont.truetype("fonts/myriad.otf", fontsize)
+            font2 = ImageFont.truetype("fonts/times.ttf")
             self.img = Image.open(f'{TEMPLATES_PATH}/layer_1.png')
 
             " GET TWEET TEXT ========================================================================= "
@@ -82,11 +82,11 @@ class PhiloMaker(Functionalities):
             self.log.info("[ETAPA 5] Ajustando tamanho do texto para imagem...")
             while (font.getsize(txt)[0] < blank.size[0]) and (font.getsize(txt)[1] < blank.size[1]):
                 fontsize += 1
-                font = ImageFont.truetype("Fonts/myriad.otf", fontsize)
+                font = ImageFont.truetype("fonts/myriad.otf", fontsize)
 
             fontsize -= 1
 
-            font = ImageFont.truetype("Fonts/myriad.otf", fontsize)
+            font = ImageFont.truetype("fonts/myriad.otf", fontsize)
 
             " GET USER MENTIONS =============================================================================== "
             check_user_mention = self.user_mentions()

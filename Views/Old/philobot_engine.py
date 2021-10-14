@@ -3,8 +3,8 @@ import time
 import tweepy
 from PIL import Image, ImageFont
 from views.Old.functionalities import Functionalities
-from models.Lists.img_list import PHILOSOPHERS_LIST
-from resources.Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
+from adapters.search_img import PHILOSOPHERS_LIST
+from resources.assets.New_Img_Manipulation.reference import TEMPLATES_PATH
 from services.analytics.Logs.Twitter.logger_hashtag import log_philobot
 
 
@@ -24,10 +24,10 @@ class PhiloBot(Functionalities):
             last_id = self.q.pop(0)
             self.log.info('ID Coletado: ' + last_id)
             self.img = Image.open(f'{TEMPLATES_PATH}/layer_1.png')
-            txt = "Fonts/myriad.otf"
+            txt = "fonts/myriad.otf"
             self.fontsize = 1
             blank = Image.new('RGB', (269, 194))
-            self.font = ImageFont.truetype("Fonts/myriad.otf", self.fontsize)
+            self.font = ImageFont.truetype("fonts/myriad.otf", self.fontsize)
             try:
                 self.get_status = self.api.get_status(last_id, tweet_mode='extended', include_entities=False)._json[
                     'full_text']
@@ -76,10 +76,10 @@ class PhiloBot(Functionalities):
 
             while (self.font.getsize(txt)[0] < blank.size[0]) and (self.font.getsize(txt)[1] < blank.size[1]):
                 self.fontsize += 1
-                self.font = ImageFont.truetype("Fonts/myriad.otf", self.fontsize)
+                self.font = ImageFont.truetype("fonts/myriad.otf", self.fontsize)
             self.log.info('[ETAPA 4] Configurando imagem...')
             self.fontsize -= 1
-            self.font = ImageFont.truetype("Fonts/myriad.otf", self.fontsize)
+            self.font = ImageFont.truetype("fonts/myriad.otf", self.fontsize)
             self.drawing.textsize(txt, font=self.font)
 
             self.choice_philosopher = random.choice(PHILOSOPHERS_LIST)

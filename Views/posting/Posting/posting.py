@@ -12,10 +12,10 @@ Avaliable on Discord too!
 # -*- coding: utf-8 -*-
 import tweepy, textwrap, random, time, re, schedule, os, dotenv
 from PIL import Image, ImageDraw, ImageFont
-from models.Lists.accounts import accounts_list
-from models.Lists.img_list import PHILOSOPHERS_LIST
+from adapters.search_account import accounts_list
+from adapters.search_img import PHILOSOPHERS_LIST
 from posting.Hashtag.functionalities import Functionalities
-from resources.Assets.New_Img_Manipulation.reference import TEMPLATES_PATH
+from resources.assets.New_Img_Manipulation.reference import TEMPLATES_PATH
 from Analytics.Logs.Twitter import log_posting
 
 dotenv.load_dotenv(dotenv.find_dotenv())

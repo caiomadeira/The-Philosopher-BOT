@@ -6,8 +6,8 @@ import textwrap
 import os
 from config import Config
 from PIL import Image, ImageDraw, ImageFont
-from models.Lists.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
-from models.Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
+from adapters.error_img_list import PHILOBOT_ERROR_IMAGE_COLLECTION
+from adapters.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
 
 
 class Functionalities(Config):
@@ -73,8 +73,8 @@ class Functionalities(Config):
         remove_quotes_in_text = self.get_treated_status.replace('"', '')
         LOG.info(f"[ETAPA 5.3] Removendo aspas do texto: {remove_quotes_in_text}")
 
-        open_quote = Image.open('Assets/open_quote.png')
-        close_quote = Image.open('Assets/close_quote.png')
+        open_quote = Image.open('assets/open_quote.png')
+        close_quote = Image.open('assets/close_quote.png')
         open_quote_resized = open_quote.resize((60, 60))
         close_quote_resized = close_quote.resize((60, 60))
         time.sleep(0.5)
@@ -82,7 +82,7 @@ class Functionalities(Config):
         if len(remove_quotes_in_text) > 240:
             LOG.info("[ETAPA 5.4] Tweet MAIOR que 240 caracteres, ajustando texto...")
             fontsize = 30
-            font = ImageFont.truetype("Fonts/myriad.otf", fontsize)
+            font = ImageFont.truetype("fonts/myriad.otf", fontsize)
             self.positions['tweet_with_quotes_PosX'] = 70
             self.positions['tweet_with_quotes_PosY'] = 115
             self.positions['textwraped_value'] = 25
@@ -90,7 +90,7 @@ class Functionalities(Config):
         elif len(remove_quotes_in_text) <= 25:
             LOG.info("[ETAPA 5.4] Tweet MENOR que 25 caracteres, ajustando texto...")
             fontsize = 50
-            font = ImageFont.truetype("Fonts/myriad.otf", fontsize)
+            font = ImageFont.truetype("fonts/myriad.otf", fontsize)
             self.positions['tweet_with_quotes_PosX'] = 80
             self.positions['tweet_with_quotes_PosY'] = 128
             self.positions['textwraped_value'] = 20
@@ -101,7 +101,7 @@ class Functionalities(Config):
         # texto do filosofo
         try:
             fontsize = 50
-            font = ImageFont.truetype("Fonts/myriad.otf", fontsize)
+            font = ImageFont.truetype("fonts/myriad.otf", fontsize)
             self.drawing.text(xy=(self.positions['tweet_with_quotes_PosX'], self.positions['tweet_with_quotes_PosY']),
                               text=textwrap.fill(str(remove_quotes_in_text), self.positions['textwraped_value']),
                               fill=(255, 255, 255),
@@ -113,7 +113,7 @@ class Functionalities(Config):
 
             # nome do filosofo
             fontsize = 30
-            font = ImageFont.truetype("Fonts/times.ttf", fontsize)
+            font = ImageFont.truetype("fonts/times.ttf", fontsize)
             self.drawing.text(xy=(self.positions['tweet_with_quotes_PosX'], self.positions['author_quote_posY']),
                               text=textwrap.fill(str(PHILO_NAME)),
                               fill=(255, 255, 255),
@@ -133,7 +133,7 @@ class Functionalities(Config):
         if len(self.get_treated_status) > 240:
             LOG.info("[ETAPA 6] Tweet MAIOR que 240 caracteres, ajustando texto...\n")
             fontsize = 35
-            font = ImageFont.truetype("Fonts/myriad.otf", fontsize)
+            font = ImageFont.truetype("fonts/myriad.otf", fontsize)
             self.positions['tweet_default_PosX'] = 38
             self.positions['tweet_default_PosY'] = 105
             self.positions['textwraped_value'] = 25
@@ -141,7 +141,7 @@ class Functionalities(Config):
         elif len(self.get_treated_status) <= 25:
             LOG.info("[ETAPA 6] Tweet MENOR que 25 caracteres, ajustando texto...")
             fontsize = 50
-            font = ImageFont.truetype("Fonts/myriad.otf", fontsize)
+            font = ImageFont.truetype("fonts/myriad.otf", fontsize)
             self.positions['tweet_default_PosX'] = 80
             self.positions['tweet_default_PosY'] = 150
             self.positions['textwraped_value'] = 20
@@ -150,13 +150,13 @@ class Functionalities(Config):
 
         try:
             fontsize = 50
-            font = ImageFont.truetype("Fonts/myriad.otf", fontsize)
+            font = ImageFont.truetype("fonts/myriad.otf", fontsize)
             self.drawing.text(xy=(self.positions['tweet_default_PosX'], self.positions['tweet_default_PosY']),
                               text=textwrap.fill(str(self.get_treated_status), self.positions['textwraped_value']),
                               fill=(255, 255, 255),
                               font=font)
             fontsize = 30
-            font = ImageFont.truetype("Fonts/times.ttf", fontsize)
+            font = ImageFont.truetype("fonts/times.ttf", fontsize)
             self.drawing.text(xy=(self.positions['author_quote_posX'], self.positions['author_quote_posY']),
                               text=textwrap.fill(str(PHILO_NAME)),
                               fill=(255, 255, 255),

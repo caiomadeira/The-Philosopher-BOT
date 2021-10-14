@@ -1,4 +1,4 @@
-class DataObtainer:
+class TwitterAdapter:
 
     def data_userinfo_organized(self, data):
         # User information
@@ -19,8 +19,10 @@ class DataObtainer:
 
     def data_statusinfo_organized(self, data):
         # Status Information
-        get_status_text = data['text']
-
+        try:
+            get_status_text = data['extended_tweet']['full_text']
+        except KeyError:
+            get_status_text = data['text']
         # exceptional case
         get_hashtag_from_status = data['entities']['hashtags']  # the hashtag format (lower, upper, etc) writes by user
         # =======
@@ -62,7 +64,6 @@ class DataObtainer:
 
     # This function returns a dictionary with a str in value
     def status_hashtag_typed(self, dict_or_list):
-
             index = dict_or_list[0]
             del index['indices']
             status_hashtag = index['text']
