@@ -23,7 +23,7 @@ class PostingClass(tweepy.StreamListener):
     def __init__(self, get_post_api, LOG):
         super().__init__()
 
-        self.q = []
+        self.q = []start
         self.q_username = []
         self.q_tweet_info = []
         self.api = get_post_api
@@ -31,10 +31,17 @@ class PostingClass(tweepy.StreamListener):
         self.QUEUE = 1
         self.VERSION = os.getenv('version')
         self.log = LOG
+        self.img = Image.open(f'{TEMPLATES_PATH}/layer_1.png')
+        self.TEMPLATE_PATH = os.getenv('template_posting')
+        self.FONT_PATH = os.getenv('myriad_font')
+        self.POSTING_FINISHED_PATH = 'posting.png'
+        self.random_account = None
+        self.results = None
+        self.tweets = []
 
-    def obter_tweets(self, api, USERNAME_ACCOUNT):
+    def obter_tweets(self):
 
-        self.results = api.user_timeline(screen_name=USERNAME_ACCOUNT,
+        self.results = self.api.user_timeline(screen_name=self.random_account,
                                          count=1,
                                          tweet_mode='extended',
                                          contributor_details=True,
@@ -42,24 +49,17 @@ class PostingClass(tweepy.StreamListener):
                                          include_rts=False,
                                          trim_user=True,
                                          exclude_replies=True)
-        self.tweets = []
 
         for self.r in self.results:
             tweet = re.sub(r'http\S+', '', self.r.full_text)
             self.tweets.append(tweet.replace('\n', ' '))
             time.sleep(2)
+
         return self.tweets
 
     def posting(self):
 
-        global random_account
-
         try:
-            self.img = Image.open(f'{TEMPLATES_PATH}/layer_1.png')
-            self.TEMPLATE_PATH = os.getenv('template_posting')
-            self.FONT_PATH = os.getenv('myriad_font')
-            self.POSTING_FINISHED_PATH = 'posting.png'
-            txt = self.FONT_PATH
             fontsize = 1
             blank = Image.new('RGB', (269, 194))
             fonte = ImageFont.truetype(self.FONT_PATH, fontsize)
@@ -73,9 +73,10 @@ class PostingClass(tweepy.StreamListener):
 
                 self.log.info("--------------------------------------\n")
                 time.sleep(2)
-                random_account = random.choice(accounts_list)
+                self.random_account = random.choice(accounts_list)
+
                 try:
-                    self.tweet_account = self.obter_tweets(self.api, random_account)
+                    self.tweet_account = self.obter_tweets()
 
                 except tweepy.error.TweepError as t:
                     self.log.info(t)
@@ -104,14 +105,15 @@ class PostingClass(tweepy.StreamListener):
                         self.log.info('[!] - String vazia detectada!')
                         self.log.info('[+] - Retornando aos tweets novamente...')
                         self.log.info('--------------------------------------\n')
-                        return self.obter_tweets(self.api, random_account)
+                        return self.obter_tweets()
 
                 except AttributeError as e:
                     self.log.info(e)
                     self.log.info('[x] Erro de Atributo.\nIgnorando...')
                     return self.posting
 
-                while (fonte.getsize(txt)[0] < blank.size[0]) and (fonte.getsize(txt)[1] < blank.size[1]):
+                while (fonte.getsize(self.FONT_PATH)[0] < blank.size[0]) and (
+                        fonte.getsize(self.FONT_PATH)[1] < blank.size[1]):
                     fontsize += 1
                     fonte = ImageFont.truetype(self.FONT_PATH, fontsize)
 
@@ -158,7 +160,7 @@ class PostingClass(tweepy.StreamListener):
                 self.img.save(self.POSTING_FINISHED_PATH)
                 post_img = self.api.update_with_media(self.POSTING_FINISHED_PATH)
                 tweet_author = self.api.update_status(
-                    f'Tweet Original: twitter.com/{random_account}/status/{self.r.id}',
+                    f'Tweet Original: twitter.com/{self.random_account}/status/{self.r.id}',
                     post_img.id,
                     include_entities=True)
 
@@ -170,7 +172,7 @@ class PostingClass(tweepy.StreamListener):
         except Exception as e:
             self.log.info(e)
 
-    def timer(self, USE_TEST_POST):
+    def start_timer_official(self, USE_TEST_POST):
 
         schedule.every(USE_TEST_POST).hours.do(self.posting)
 
@@ -178,10 +180,6 @@ class PostingClass(tweepy.StreamListener):
             schedule.run_pending()
             time.sleep(1)
 
-    def timer_TEST(self, USE_TEST_POST):
+    def start_timer_test(self, USE_TEST_POST):
 
         schedule.every(USE_TEST_POST).seconds.do(self.posting)
-
-        while True:
-            schedule.run_pending()
-            time.sleep(1)

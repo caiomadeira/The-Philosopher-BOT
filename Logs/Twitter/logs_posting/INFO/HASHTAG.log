@@ -1,0 +1,15 @@
+2022-01-09 20:12:41,866 - INFO - HASHTAG --> POSTS DEFINIDOS PARA A CADA 2 HORAS EM 'config.py'
+
+2022-01-09 20:12:44,027 - INFO - HASHTAG --> --------------------------------------
+2022-01-09 20:12:44,027 - INFO - HASHTAG --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2022-01-09 20:12:44,027 - INFO - HASHTAG --> [+] Versão: 3.1.5 - (30/09/2021)
+2022-01-09 20:12:46,036 - INFO - HASHTAG --> --------------------------------------
+
+2022-01-09 20:12:48,042 - INFO - HASHTAG --> Failed to send request: Only unicode objects are escapable. Got None of type <class 'NoneType'>.
+2022-01-09 20:12:48,042 - INFO - HASHTAG --> [X] - Erro - Não autorizado
+[x] Ignorando...
+2022-01-09 20:12:48,042 - INFO - HASHTAG --> [+] - TWEET SELECIONADO:
+2022-01-09 20:12:48,043 - INFO - HASHTAG --> 'PostingClass' object has no attribute 'tweet_account'
+2022-01-09 20:12:50,061 - INFO - HASHTAG --> --------------------------------------
+2022-01-09 20:12:50,061 - INFO - HASHTAG --> [+] INICIANDO POSTAGEM NA CONTA Oficial
+2022-01-09 20:12:50,061 - INFO - HASHTAG --> [+] Versão: 3.1.5 - (30/09/2021)
