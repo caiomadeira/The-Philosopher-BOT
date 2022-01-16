@@ -1,0 +1,1 @@
+C:\Users\PhilosopherBOT\AppData\Local\Programs\Python\Python39\python.exe init_twitter_posting.py
