@@ -55,7 +55,6 @@ class PostingOfficial:
             self.log.info(last_tweet)
             self.log.info('[OK] - Success!\n')
 
-
             self.log.info(f'[!] - Checking if the last post happened more than {self.POST_TIME} hours ago...')
             the_moment = datetime.datetime.now()
             tweet_time = last_tweet.created_at.replace(tzinfo=datetime.timezone.utc).astimezone(tz=None).replace(
