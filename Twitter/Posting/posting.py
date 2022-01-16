@@ -14,7 +14,7 @@ import tweepy, textwrap, random, time, re, schedule, os, dotenv
 from PIL import Image, ImageDraw, ImageFont
 from Lists.accounts import accounts_list
 from Lists.img_list import PHILOSOPHERS_LIST
-from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
+from Templates.New_Img_Manipulation.path_reference import TEMPLATES_PATH
 
 dotenv.load_dotenv(dotenv.find_dotenv())
 

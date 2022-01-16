@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 import tweepy
 import os
 from Credentials.Twitter.Test import API_MAIN_TEST
-from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
+from Templates.New_Img_Manipulation.path_reference import TEMPLATES_PATH
 
 api = API_MAIN_TEST
 
