@@ -4,7 +4,7 @@ import tweepy
 from PIL import Image, ImageFont
 from Twitter.Hashtag.functionalities import Functionalities
 from Lists.img_list import PHILOSOPHERS_LIST
-from Templates.New_Img_Manipulation.path_reference import TEMPLATES_PATH
+from Templates.New_Img_Manipulation.path_reference import template_folder_reference
 # from Logs.Twitter.log_engine import log_hashtag
 
 
@@ -23,7 +23,7 @@ class PhiloBot(Functionalities):
 
             last_id = self.q.pop(0)
             self.log.info('ID Coletado: ' + last_id)
-            self.img = Image.open(f'{TEMPLATES_PATH}/layer_1.png')
+            self.img = Image.open(f'{template_folder_reference}/background_image.png')
             txt = "Font/myriad.otf"
             self.fontsize = 1
             blank = Image.new('RGB', (269, 194))
@@ -145,6 +145,6 @@ class PhiloBot(Functionalities):
         philosopher_str_to_obj = Image.open(self.choice_philosopher)
         self.img_2 = philosopher_str_to_obj.resize((449, 584))
         self.img.paste(self.img_2, (629, 0))
-        smooth_template = Image.open(f'{TEMPLATES_PATH}/layer_3.png')
+        smooth_template = Image.open(f'{template_folder_reference}/smooth_background.png')
         self.img.paste(smooth_template, (0, 0), smooth_template)
 

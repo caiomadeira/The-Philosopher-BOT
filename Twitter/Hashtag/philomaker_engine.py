@@ -5,7 +5,7 @@ import urllib
 from urllib import request
 from PIL import Image, ImageFont
 from Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
-from Templates.New_Img_Manipulation.path_reference import TEMPLATES_PATH
+from Templates.New_Img_Manipulation.path_reference import template_folder_reference
 from Logs.Twitter.logger_hashtag import log_hashtag
 import os
 from Twitter.Hashtag.functionalities import Functionalities
@@ -31,7 +31,7 @@ class PhiloMaker(Functionalities):
             blank = Image.new('RGB', (269, 194))
             font = ImageFont.truetype("Font/myriad.otf", fontsize)
             font2 = ImageFont.truetype("Font/times.ttf")
-            self.img = Image.open(f'{TEMPLATES_PATH}/layer_1.png')
+            self.img = Image.open(f'{template_folder_reference}/layer_1.png')
 
             " GET TWEET TEXT ========================================================================= "
             try:
@@ -102,7 +102,7 @@ class PhiloMaker(Functionalities):
                 philosopher = Image.open('Hashtag/twitter_philo_img.png')
                 img_2 = philosopher.resize((449, 584))
                 self.img.paste(img_2, (629, 0))
-                smooth_template = Image.open(f'{TEMPLATES_PATH}/layer_3.png')
+                smooth_template = Image.open(f'{template_folder_reference}/layer_3.png')
                 self.img.paste(smooth_template, (0, 0), smooth_template)
 
                 " CHECK QUOTES ========================================================================= "
