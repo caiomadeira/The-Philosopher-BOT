@@ -5,7 +5,7 @@ import urllib
 from urllib import request
 from PIL import Image, ImageFont
 from Lists.error_img_list import PHILOMAKER_ERROR_IMAGE_COLLECTION
-from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
+from Templates.New_Img_Manipulation.path_reference import TEMPLATES_PATH
 from Logs.Twitter.logger_hashtag import log_hashtag
 import os
 from Twitter.Hashtag.functionalities import Functionalities

@@ -17,7 +17,7 @@ import random
 import textwrap
 import os
 from Lists.img_list import PHILOSOPHERS_LIST
-from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
+from Templates.New_Img_Manipulation.path_reference import TEMPLATES_PATH
 
 # loads .env
 dotenv.load_dotenv(dotenv.find_dotenv())
@@ -182,7 +182,7 @@ async def clear(ctx, numero):
 @client.command()  # função principal
 async def philobot(ctx, *, mensagem):
     try:
-        img = Image.open(f'{TEMPLATES_PATH}/layer_1.png')
+        img = Image.open(f'{TEMPLATES_PATH}/background_image.png')
         font = ImageFont.truetype(os.getenv('myriad_font'), 50)
         drawing = ImageDraw.Draw(img)
 

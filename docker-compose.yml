@@ -1,0 +1,46 @@
+version: "3.9"
+
+services:
+  hashtag:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: HASHTAG
+
+    environment:
+      - ACCESS_TOKEN_TEST=${ACCESS_TOKEN_TEST}
+
+      - ACCESS_SECRET_TOKEN_TEST=${ACCESS_SECRET_TOKEN_TEST}
+
+      - API_KEY_TEST=${API_KEY_TEST}
+
+      - API_SECRET_KEY_TEST=${API_SECRET_KEY_TEST}
+
+      - BEARER_TOKEN_TEST=${BEARER_TOKEN_TEST}
+
+    image: python:3.9
+
+    command: ["python", "init_twitter_hashtag_test.py"]
+
+  posting:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: POSTING
+
+    environment:
+      - ACCESS_TOKEN_TEST=${ACCESS_TOKEN_TEST}
+
+      - ACCESS_SECRET_TOKEN_TEST=${ACCESS_SECRET_TOKEN_TEST}
+
+      - API_KEY_TEST=${API_KEY_TEST}
+
+      - API_SECRET_KEY_TEST=${API_SECRET_KEY_TEST}
+
+      - BEARER_TOKEN_TEST=${BEARER_TOKEN_TEST}
+
+    image: python:3.9
+
+    command: [ "python", "init_twitter_posting.py" ]

@@ -1,187 +1,274 @@
-"""
-Philosopher Bot
----------------
-Created by Caio Madeira
-Co-worker: Rodrigo Carmo
-
-instagram: @sudomadeira
-Twitter: @bot_philospher
-Avaliable on Discord too!
-
-"""
-# -*- coding: utf-8 -*-
-import tweepy, textwrap, random, time, re, schedule, os, dotenv
-from PIL import Image, ImageDraw, ImageFont
+import os
+import re
+import time
+import random
+import datetime
+import textwrap
+from dotenv import load_dotenv
 from Lists.accounts import accounts_list
+from PIL import Image, ImageFont, ImageDraw
 from Lists.img_list import PHILOSOPHERS_LIST
-from Templates.New_Img_Manipulation.reference import TEMPLATES_PATH
+from Twitter.Posting.uploads.path_reference import upload_folder_reference
+from Templates.New_Img_Manipulation.path_reference import template_folder_reference
 
-dotenv.load_dotenv(dotenv.find_dotenv())
 
-
-class PostingClass(tweepy.StreamListener):
-    def __init__(self, get_post_api, LOG):
-        super().__init__()
-
-        self.q = []
-        self.q_username = []
-        self.q_tweet_info = []
-        self.api = get_post_api
-        self.ACCOUNT = os.getenv('posting_account')
-        self.QUEUE = 1
-        self.VERSION = os.getenv('version')
-        self.log = LOG
-
-    def obter_tweets(self, api, USERNAME_ACCOUNT):
-
-        self.results = api.user_timeline(screen_name=USERNAME_ACCOUNT,
-                                         count=1,
-                                         tweet_mode='extended',
-                                         contributor_details=True,
-                                         include_entities=True,
-                                         include_rts=False,
-                                         trim_user=True,
-                                         exclude_replies=True)
-        self.tweets = []
-
-        for self.r in self.results:
-            tweet = re.sub(r'http\S+', '', self.r.full_text)
-            self.tweets.append(tweet.replace('\n', ' '))
-            time.sleep(2)
-        return self.tweets
-
-    def posting(self):
-
-        global random_account
+class PostingClass:
+    def __init__(self, post_api, log):
+        load_dotenv()
 
         try:
-            self.img = Image.open(f'{TEMPLATES_PATH}/layer_1.png')
-            self.TEMPLATE_PATH = os.getenv('template_posting')
-            self.FONT_PATH = os.getenv('myriad_font')
-            self.POSTING_FINISHED_PATH = 'posting.png'
-            txt = self.FONT_PATH
-            fontsize = 1
-            blank = Image.new('RGB', (269, 194))
-            fonte = ImageFont.truetype(self.FONT_PATH, fontsize)
+            self.uploads_path = upload_folder_reference
 
-            self.log.info("--------------------------------------")
-            self.log.info(f"[+] INICIANDO POSTAGEM NA CONTA {self.ACCOUNT}")
-            self.log.info(f'[+] Versão: {self.VERSION}')
-            time.sleep(2)
+            self.date_today = datetime.datetime.now().strftime('%Y%m%d')
+            self.time_now = datetime.datetime.now().strftime('%H-%M-%S')
 
-            try:
+            self.posting_image_name = self.time_now + '_posting.png'
+            self.finish_image = fr"{self.uploads_path}\{self.date_today}\{self.posting_image_name}"
 
-                self.log.info("--------------------------------------\n")
+            self.philosopher_path = random.choice(PHILOSOPHERS_LIST)
+            self.philosopher_name_raw = os.path.basename(self.philosopher_path).replace('.png', '')
+            self.philosopher_name = self.clear_philosopher_name()
+
+            self.log = log
+
+            self.raw_image_draw = None
+            self.smooth_template = None
+            self.philosopher_image = None
+            self.raw_image = None
+            self.random_account = None
+            self.tweet_text = None
+            self.tweet_id = None
+            self.api = post_api
+            self.name_font_path = os.getenv("times_font")
+            self.text_font_path = os.getenv("opensansemoji")
+
+            self.log.info('[OK] - Variables initialized successfully!\n')
+
+        except Exception as init_posting_err:
+            self.log.info('[ERROR] - Error when tying to initialize variables!')
+            self.log.info(init_posting_err)
+
+    def start_posting(self):
+        self.log.info('[!] - Creating folder to save posting images...')
+        self.create_uploads_folder()
+
+        self.log.info('[!] - Setting tweet text to variable...')
+        self.tweet_text = self.select_tweet()
+
+        self.log.info('[!] - Calling image and text constructor functions...')
+        self.text_setting(raw_image=self.build_image())
+
+        self.log.info('[!] - Calling upload to twitter function...')
+        self.upload_image()
+
+    def create_uploads_folder(self):
+        try:
+            self.uploads_path = self.uploads_path + '/'
+            os.mkdir(self.uploads_path + self.date_today)
+            self.log.info('[OK] - Folder created successfully!\n')
+
+        except FileExistsError:
+            self.log.info('[OK] - Folder already exists!\n')
+
+        except Exception as create_uploads_folder_err:
+            self.log.info('[ERROR] - Error when trying to create folder!\n')
+            self.log.info(create_uploads_folder_err)
+
+    def get_tweet(self):
+        self.log.info('[!] - Starting search for tweet...')
+        try:
+            tweet_data = self.api.user_timeline(screen_name=self.random_account,
+                                                count=1,
+                                                tweet_mode='extended',
+                                                contributor_details=True,
+                                                include_entities=True,
+                                                include_rts=False,
+                                                trim_user=True,
+                                                exclude_replies=True)
+            self.log.info('[OK] - Tweet found successfully!\n')
+
+            for tweet in tweet_data:
+                self.tweet_text = re.sub(r'http\S+', '', tweet.full_text).replace('\n', ' ')
+                self.tweet_id = tweet.id
                 time.sleep(2)
-                random_account = random.choice(accounts_list)
-                try:
-                    self.tweet_account = self.obter_tweets(self.api, random_account)
 
-                except tweepy.error.TweepError as t:
-                    self.log.info(t)
-                    self.log.info('[X] - Erro - Não autorizado\n[x] Ignorando...')
-                    pass
+        except Exception as get_tweet_err:
+            self.log.info('[ERROR] - Error when trying to start api from twitter!')
+            self.log.info(get_tweet_err)
 
-                self.log.info("[+] - TWEET SELECIONADO:")
-
-                try:
-                    self.log.info(self.tweet_account)
-
-                except UnicodeEncodeError as u:
-                    self.log.info('[x] Erro - UNICODE não pode ser codificado.\nIgnorando...')
-                    self.log.info(u)
-
-                self.log.info("[+] - Analisando Texto...")
-                time.sleep(2)
-            except tweepy.error.TweepError as build_image_error:
-                self.log.exception(build_image_error)
-                pass
-
-            for _ in tweepy.Cursor(self.api.user_timeline).items(1):
-                try:
-                    self.get_treated_status = ("\n".join(self.tweets))
-                    if self.get_treated_status == '':
-                        self.log.info('[!] - String vazia detectada!')
-                        self.log.info('[+] - Retornando aos tweets novamente...')
-                        self.log.info('--------------------------------------\n')
-                        return self.obter_tweets(self.api, random_account)
-
-                except AttributeError as e:
-                    self.log.info(e)
-                    self.log.info('[x] Erro de Atributo.\nIgnorando...')
-                    return self.posting
-
-                while (fonte.getsize(txt)[0] < blank.size[0]) and (fonte.getsize(txt)[1] < blank.size[1]):
-                    fontsize += 1
-                    fonte = ImageFont.truetype(self.FONT_PATH, fontsize)
-
-                fontsize -= 1
-                self.drawing = ImageDraw.Draw(self.img)
-
-                choice_philosopher = random.choice(PHILOSOPHERS_LIST)  # separa a imagem e salva em string
-                self.log.info(choice_philosopher)
-
-                remove_path_of_filename = os.path.basename(choice_philosopher)  # remove o path do nome da imagem
-                self.log.info(remove_path_of_filename)
-
-                remove_extension_of_filename = remove_path_of_filename.replace('.png', '')  # remove a extensao .png
-                self.log.info(remove_extension_of_filename)
-
-                if '(2)' in remove_extension_of_filename:
-                    remove_number_in_name = remove_extension_of_filename.replace('(2)', '')
-                    self.log.info("Removendo (2) do nome da imagem do filosofo...")
-                    self.log.info(remove_number_in_name)
-                    finish_name_of_philosopher = f'- {remove_number_in_name}'  # finaliza o nome do filosofo
-                    self.log.info(finish_name_of_philosopher)
-                else:
-                    finish_name_of_philosopher = f'- {remove_extension_of_filename}'  # finaliza o nome do filosofo
-                    self.log.info("Nenhum (2) encontrado. Prosseguindo normal.")
-                    self.log.info(finish_name_of_philosopher)
-
-                philosopher_str_to_obj = Image.open(
-                    choice_philosopher)  # abre a imagem como local na memoria ao inves de string
-                IMG_2 = philosopher_str_to_obj.resize((449, 584))
-                self.img.paste(IMG_2, (629, 0))
-                smooth_template = Image.open(f'{TEMPLATES_PATH}/layer_3.png')
-                self.img.paste(smooth_template, (0, 0), smooth_template)
-
-                # texto do filosofo
-                self.drawing.text(xy=(68, 120), text=textwrap.fill(str(self.get_treated_status), 30),
-                                  fill=(255, 255, 255), font=fonte)
-
-                # nome do filosofo
-                fontsize = 30
-                font = ImageFont.truetype(os.getenv('times_font'), fontsize)
-                self.drawing.text(xy=(43, 514), text=textwrap.fill(str(finish_name_of_philosopher), 30),
-                                  fill=(255, 255, 255), font=font)
-
-                self.img.save(self.POSTING_FINISHED_PATH)
-                post_img = self.api.update_with_media(self.POSTING_FINISHED_PATH)
-                tweet_author = self.api.update_status(
-                    f'Tweet Original: twitter.com/{random_account}/status/{self.r.id}',
-                    post_img.id,
-                    include_entities=True)
-
-                self.log.info(f'[+]Tweet Original enviado: {tweet_author}')
-                self.log.info("[+] Post Diário enviado.")
-                self.log.info("-------------------------------------------")
-
-                return
-        except Exception as e:
-            self.log.info(e)
-
-    def timer(self, USE_TEST_POST):
-
-        schedule.every(USE_TEST_POST).hours.do(self.posting)
-
+    def select_tweet(self):
+        self.log.info('[!] - Initializing tweet collector...')
         while True:
-            schedule.run_pending()
-            time.sleep(1)
+            self.log.info('[!] - Randomly selecting account...')
+            self.select_account()
 
-    def timer_TEST(self, USE_TEST_POST):
+            self.log.info('[!] - Calling twitter function...')
+            self.get_tweet()
 
-        schedule.every(USE_TEST_POST).seconds.do(self.posting)
+            self.log.info('[!] - Checking if we have text from tweet...')
+            if self.tweet_text:
+                self.log.info(f'[OK] - Tweet text - {self.tweet_text}')
+                self.log.info(f'[OK] - Tweet id - {self.tweet_id}')
+                self.log.info('[OK] - Success!\n')
+                return self.tweet_text
 
-        while True:
-            schedule.run_pending()
-            time.sleep(1)
+            else:
+                self.log.info('[ERROR] - Text not found, trying another Twitter account...')
+                self.log.info('[ZZZ] - Sleeping for security reasons [10 seconds]...\n')
+                time.sleep(10)
+
+    def select_name_font(self):
+        self.log.info(f'[OK] - Philosopher selected - {self.philosopher_name}\n')
+        self.log.info('[!] - Defining the font size...')
+        if len(self.philosopher_name) <= 20:
+            self.log.info('[!] - Philosopher name is smaller than 20 characters!')
+            return ImageFont.truetype(self.name_font_path, size=35)
+
+        else:
+            self.log.info('[!] - Philosopher name is bigger than 20 characters!')
+            return ImageFont.truetype(self.name_font_path, size=30)
+
+    def select_text_font(self):
+        self.log.info('[!] - Checking text size...')
+        if len(self.tweet_text) <= 140:
+            self.log.info('[!] - Text smaller than 140 characters!')
+            self.log.info('[!] - Variables set: font size = 45, wrapper limit = 21, text height = 80')
+            self.log.info('[OK] - Success!\n')
+
+            text_height = 90
+            wrapper_limit = 21
+            return [ImageFont.truetype(self.text_font_path, size=45), wrapper_limit, text_height]
+
+        else:
+            self.log.info('[!] - Text bigger than 140 characters!')
+            self.log.info('[!] - Variables set: font size = 32, wrapper limit = 30, text height = 60')
+            self.log.info('[OK] - Success!\n')
+            text_height = 60
+            wrapper_limit = 30
+            return [ImageFont.truetype(self.text_font_path, size=32), wrapper_limit, text_height]
+
+    def text_setting(self, raw_image):
+        self.log.info('[!] - Calling font selector function...')
+        text_adjust = self.select_text_font()
+
+        self.log.info('[!] - Transforming image base into an object...')
+        try:
+            self.raw_image_draw = ImageDraw.Draw(raw_image)
+            self.log.info('[OK] - Success!\n')
+
+        except Exception as img_objct_err:
+            self.log.info('[ERROR] - Error when trying to transform image into an object!')
+            self.log.info(img_objct_err)
+
+        self.log.info('[!] - Writing the philosopher name...')
+        try:
+            self.raw_image_draw.text(xy=(43, 500), text=textwrap.fill(str('- ' + self.philosopher_name), 30),
+                                     fill=(255, 255, 255), font=self.select_name_font())
+            self.log.info('[OK] - Success!\n')
+
+        except Exception as write_name_err:
+            self.log.info('[ERROR] - Error when trying to write the philosopher name on the image!')
+            self.log.info(write_name_err)
+
+        self.log.info('[!] - Writing the tweet text...')
+        try:
+            self.raw_image_draw.text(xy=(68, text_adjust[2]), text=textwrap.fill(self.tweet_text, text_adjust[1]),
+                                     fill=(255, 255, 255),
+                                     font=text_adjust[0])
+            self.log.info('[OK] - Success!\n')
+
+        except Exception as write_text_err:
+            self.log.info('[ERROR] - Error when trying to write the tweet text on the image!')
+            self.log.info(write_text_err)
+
+        self.log.info('[!] - Saving posting image...')
+
+        try:
+            raw_image.save(self.finish_image)
+            self.log.info('[OK] - Success!\n')
+
+        except Exception as save_post_img:
+            self.log.info('[ERROR] - Error when trying to save image!')
+            self.log.info(save_post_img)
+
+    def clear_philosopher_name(self):
+        if '(2)' in self.philosopher_name_raw:
+            return self.philosopher_name_raw.replace('(2)', '')
+
+        else:
+            return self.philosopher_name_raw
+
+    def build_image(self):
+        self.log.info('[!] - Opening background image...')
+        try:
+            self.raw_image = Image.open(f'{template_folder_reference}/background_image.png')
+            self.log.info('[OK] - Success!\n')
+
+        except Exception as bg_img_err:
+            self.log.info('[ERROR] - Error when trying to open background image!')
+            self.log.info(bg_img_err)
+
+        self.log.info('[!] - Opening philosopher image...')
+        try:
+            self.philosopher_image = Image.open(self.philosopher_path).resize((449, 584))
+            self.log.info('[OK] - Success!\n')
+
+        except Exception as ph_img_err:
+            self.log.info('[ERROR] - Error when trying to open philosopher image!')
+            self.log.info(ph_img_err)
+
+        self.log.info('[!] - Pasting philosopher image into the background image...')
+        try:
+            self.raw_image.paste(self.philosopher_image, (629, 0))
+            self.log.info('[OK] - Success!\n')
+
+        except Exception as paste_img_err:
+            self.log.info('[ERROR] - Error when trying to paste image!')
+            self.log.info(paste_img_err)
+
+        self.log.info('[!] - Opening smooth template...')
+        try:
+            self.smooth_template = Image.open(f'{template_folder_reference}/smooth_background.png')
+            self.log.info('[OK] - Success!\n')
+
+        except Exception as smooth_img_err:
+            self.log.info('[ERROR] - Error when trying to open smooth template!')
+            self.log.info(smooth_img_err)
+
+        self.log.info('[!] - Pasting smooth template...')
+        try:
+            self.raw_image.paste(self.smooth_template, (0, 0), self.smooth_template)
+            self.log.info('[OK] - Success!\n')
+
+        except Exception as paste_smooth_err:
+            self.log.info('[ERROR] - Error when trying to paste image!')
+            self.log.info(paste_smooth_err)
+
+        return self.raw_image
+
+    def upload_image(self):
+        self.log.info('[!] - Uploading image...')
+        try:
+            upload_image = self.api.update_with_media(self.finish_image)
+
+            self.api.update_status(
+                f'Tweet original: twitter.com/{self.random_account}/status/{self.tweet_id}',
+                upload_image.id,
+                include_entities=True)
+
+            self.log.info('[OK] - Success!\n')
+            self.log.info(f'[OK] - Tweet sent! Tweet author: {self.random_account} | Philosopher: {self.philosopher_name}')
+            self.log.info(f'[OK] - Tweet text: {self.tweet_text}')
+
+        except Exception as upload_err:
+            self.log.info('[ERROR] - Error when trying to upload image!')
+            self.log.info(upload_err)
+
+    def select_account(self):
+        try:
+            self.random_account = random.choice(accounts_list)
+            self.log.info(f'[OK] - Account selected successfully! - {self.random_account}\n')
+
+        except Exception as select_random_account_err:
+            self.log.info('[ERROR] -  Error when trying to select an account!')
+            self.log.info(select_random_account_err)
