@@ -23,7 +23,7 @@ class LogEngine:
 
             formatter_bot = logging.Formatter('%(asctime)s - %(levelname)s - HASHTAG --> %(message)s')
 
-            file_handler_info = TimedRotatingFileHandler(rf'{PATH_LOG_HASHTAG_INFO}\HASHTAG.log', when='midnight', interval=1)
+            file_handler_info = TimedRotatingFileHandler(rf'{PATH_LOG_HASHTAG_INFO}\HASHTAG.log', when='midnight', interval=1, encoding='utf8')
             file_handler_info.setLevel(logging.DEBUG)
             file_handler_info.setFormatter(formatter_bot)
 
@@ -47,9 +47,9 @@ class LogEngine:
             log_post = logging.getLogger(self.name)
             log_post.setLevel(logging.INFO)
 
-            formatter_bot = logging.Formatter('%(asctime)s - %(levelname)s - HASHTAG --> %(message)s')
+            formatter_bot = logging.Formatter('%(asctime)s - %(levelname)s - POSTING --> %(message)s')
 
-            file_handler_info = TimedRotatingFileHandler(rf'{PATH_LOG_POST_INFO}\HASHTAG.log', when='d', interval=1)
+            file_handler_info = TimedRotatingFileHandler(rf'{PATH_LOG_POST_INFO}\POSTING.log', when='d', interval=1, encoding='utf8')
             file_handler_info.setLevel(logging.DEBUG)
             file_handler_info.setFormatter(formatter_bot)
 
