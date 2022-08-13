@@ -1,4 +1,6 @@
 /shelf/
-/.idea/
+**/.idea**
 desktop.ini
 **/_pycache_**
+**.bat**
+**.exe**

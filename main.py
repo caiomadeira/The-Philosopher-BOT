@@ -12,11 +12,10 @@ Avaliable on Discord too!
 # -*- coding: utf-8 -*-
 import time
 import tweepy
-from termcolor import colored
 import schedule
 from config import *
-from Logs.Twitter.logger_hashtag import log_bot
-from Twitter.Posting.posting import PostingClass
+#from Logs.Twitter.logger_hashtag import log_bot
+from classes.scenes.twitter.Posting.posting import PostingClass
 from urllib3.exceptions import ProtocolError
 
 
